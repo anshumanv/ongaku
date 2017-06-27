@@ -1,3 +1,3 @@
 # ongaku
    
-Play random anime opening / ending / OST
+A web-app to play random anime opening / ending / OST
