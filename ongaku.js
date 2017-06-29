@@ -5,6 +5,7 @@ window.addEventListener("load", function () {
 	const player = document.querySelector('#player');
 	const playButton = document.querySelector('#pButton');
 	const playHead = document.querySelector('#playhead');
+	const timeLine = document.querySelector('#timeline');
 
 
 	// Section for functions
@@ -25,7 +26,16 @@ window.addEventListener("load", function () {
 	
 	function handleProgress () {
 		const percent = (music.currentTime / music.duration ) * 100;
+		if (percent==100) {
+			updateButton();
+			percent = 0;
+		}
 		playHead.style.marginLeft = (percent / 100) * 364  + "px";
+	}
+
+	function scrub (e) {
+		const scrubTime = (e.offsetX / 362) * music.duration;
+		music.currentTime = scrubTime;
 	}
 
 
@@ -35,5 +45,9 @@ window.addEventListener("load", function () {
 
 	music.addEventListener('timeupdate', handleProgress);
 	
+	let mousedown = false;
+	timeline.addEventListener('mousedown', ()  => mousedown = true);
+	timeline.addEventListener('mouseup', () => mousedown =  false);
+	timeline.addEventListener('mousemove', (e) => mousedown && scrub(e));
 
 });
