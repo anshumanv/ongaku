@@ -41,7 +41,6 @@ window.addEventListener("load", function () {
 		music.currentTime = scrubTime;
 	}
 
-
 	// The de-facto unbiased shuffle algorithm is the Fisher-Yates (aka Knuth) Shuffle (based on SE answer).
 	function shuffle(array) {
 		var currentIndex = array.length, temporaryValue, randomIndex;
@@ -76,7 +75,7 @@ window.addEventListener("load", function () {
 	timeline.addEventListener('mousedown', ()  => mousedown = true);
 	timeline.addEventListener('mouseup', () => mousedown =  false);
 	timeline.addEventListener('mousemove', (e) => mousedown && scrub(e));
-
+	timeline.addEventListener('click', (e) => scrub(e));
 });
 
 
@@ -90,7 +89,7 @@ data = [
 			},
 
 			{
-				link : "https://r6---sn-gwpa-civs.googlevideo.com/videoplayback?dur=89.652&mv=m&mt=1498729062&ms=au&mn=sn-gwpa-civs&source=youtube&clen=6680565&ratebypass=yes&sparams=clen%2Cdur%2Cei%2Cgcr%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Crequiressl%2Csource%2Cexpire&id=o-AN0O-ErM-KU1UEcXYdGnbv-lTA5FNIiZXmjV3J3hDXNW&initcwndbps=410000&ip=47.247.15.86&ei=zMpUWbz_EZubogPbgLnoAw&pl=22&requiressl=yes&gcr=in&gir=yes&expire=1498750764&signature=C5FEC56BB067D773F22C8A220DDA4BD92E978C58.DF3408473318470BDEBCD0EA264C3FF9EEAB9FA5&lmt=1492910207161683&itag=18&key=yt6&mime=video%2Fmp4&mm=31&ipbits=0",
+				link : "https://r6---sn-gwpa-civs.googlevideo.com/videoplayback?gir=yes&ip=47.247.15.86&mn=sn-gwpa-civs&mm=31&source=youtube&pl=22&mv=m&mt=1498754946&ms=au&ei=3C9VWfHGL8b6ogO2k6m4Bg&id=o-AFwU9Al-SEWLIbgJCuW7oXQmO3I08EvCzlzkYmejIg0H&initcwndbps=325000&key=yt6&sparams=clen%2Cdur%2Cei%2Cgcr%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Crequiressl%2Csource%2Cexpire&lmt=1492364913034196&expire=1498776637&clen=2592338&ipbits=0&signature=93E03F8832C552284985BA8BE7EACD0AB58B6BF6.19F8031330816DC0D39F6F93B78BCC4DFD491652&mime=video%2F3gpp&gcr=in&dur=89.721&requiressl=yes&itag=36",
 				name : "Boku no Hero Academia S2 OP-1",
 				img : "http://greywolf-graphics.com/images/boku-no-hero-academia-wallpaper/boku-no-hero-academia-wallpaper-6.jpg"
 			},
