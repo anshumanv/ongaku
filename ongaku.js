@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 
-	// Grabbing elements from the page
+	// Grabbing elements from the page =====================================================================
 	const music = document.querySelector('#music');
 	const player = document.querySelector('#player');
 	const playButton = document.querySelector('#pButton');
