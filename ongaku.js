@@ -66,7 +66,7 @@ window.addEventListener("load", function () {
 	updateButton();
 	
 
-	// Section for handling events
+	// Section for handling events ===========================================================
 	playButton.addEventListener('click', togglePlay);
 	playButton.addEventListener('click', updateButton);
 
