@@ -10,9 +10,10 @@ body {
 	width: 480px;
 	height: 60px;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 50%;
 	background: rgba(77, 133, 222, 0.62);
 	border-radius: 15px;
+	
 }
 
 /* Play/Pause Button */
