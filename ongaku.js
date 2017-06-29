@@ -36,7 +36,7 @@ window.addEventListener("load", function () {
 		playHead.style.marginLeft = (percent / 100) * 364  + "px";	// Geez -_-
 	}
 
-	function scrub (e) {
+	function scrub (e) {	// function to enable track seek
 		const scrubTime = (e.offsetX / 362) * music.duration;
 		music.currentTime = scrubTime;
 	}
