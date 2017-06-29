@@ -5,6 +5,7 @@ body{
 	-o-background-size: cover;
 	margin: 0;
 	padding: 0;
+	background-color: black;
 }
 
 .play{background: url('img/play.png') ;}
