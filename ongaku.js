@@ -31,6 +31,7 @@ window.addEventListener("load", function () {
 			percent = 0;
 			order.push(order.shift());	// Take the completed one and place it at the end of playlist
 			music.src = order[0];	// Change the source of the audio element
+			music.play();
 			console.log(order);
 		}
 		playHead.style.marginLeft = (percent / 100) * 364  + "px";
