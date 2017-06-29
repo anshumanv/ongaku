@@ -13,7 +13,7 @@ window.addEventListener("load", function () {
 		music[music.paused ? 'play' : 'pause']();
 	}
 
-	function updateButton () {	
+	function updateButton () {	// Function to handle play/pause icon
 		if(!music.paused){
 			playButton.classList.remove('play');
 			playButton.classList.add('pause');
