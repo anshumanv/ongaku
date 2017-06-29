@@ -43,21 +43,3 @@ body {
 	margin-top: 1px;
 	background: black;
 }
-
-#gutter{
-	width: 400px;
-	height: 20px;
-	background: #4200f7;
-	margin-top: 20px;
-	float: left;
-	border-radius: 15px;
-}
-/*Grabable Handle*/
-#handle{
-	cursor: pointer;
-	width: 18px;
-	height: 18px;
-	border-radius: 50%;
-	margin-top: 1px;
-	background: rgba(0, 255, 196, 0.82);
-}
