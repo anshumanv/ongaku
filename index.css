@@ -1,4 +1,63 @@
 body {
-	background-color : black;
-	display : flex;
+	background : black;
+}
+
+.play{background: url('img/play.png') ;}
+.pause{background: url('img/pause.png') ;}
+
+
+#player{
+	width: 480px;
+	height: 60px;
+	margin: auto;
+	margin-top: 50px;
+	background: rgba(77, 133, 222, 0.62);
+	border-radius: 15px;
+}
+
+/* Play/Pause Button */
+#pButton{
+	height:60px;
+	width: 60px;
+	border: none;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	float:left;
+}
+
+#timeline{
+	width: 382px;
+	height: 20px;
+	background: rgba(0,0,0,.3);
+	margin-top: 20px;
+	float: left;
+	border-radius: 15px;
+}
+/*Grabable Playhead*/
+#playhead{
+	cursor: pointer;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	margin-top: 1px;
+	background: black;
+}
+
+#gutter{
+	width: 400px;
+	height: 20px;
+	background: #4200f7;
+	margin-top: 20px;
+	float: left;
+	border-radius: 15px;
+}
+/*Grabable Handle*/
+#handle{
+	cursor: pointer;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	margin-top: 1px;
+	background: rgba(0, 255, 196, 0.82);
 }
