@@ -29,9 +29,7 @@ window.addEventListener("load", function () {
 		if (percent==100) {
 			percent = 0;
 			order.push(order.shift());	// Take the completed one and place it at the end of playlist
-			music.src = order[0].link;	// Change the source of the audio element
-			music.play();
-			updateButton();
+			play();
 		}
 		playHead.style.marginLeft = (percent / 100) * 364  + "px";	// Geez -_-
 	}
@@ -60,10 +58,13 @@ window.addEventListener("load", function () {
 
 	// Entry Point ! ===========================================================
 	let order = shuffle(data);
-	music.src = order[0].link;
-	music.play();
-	updateButton();
-	
+	function play () {
+		music.src = order[0].link;
+		music.play();
+		updateButton();
+	}
+		
+	play();
 
 	// Section for handling events ===========================================================
 	playButton.addEventListener('click', togglePlay);
