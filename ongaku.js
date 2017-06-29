@@ -24,7 +24,7 @@ window.addEventListener("load", function () {
 		}
 	}
 	
-	function handleProgress () {
+	function handleProgress () {	// A  function to handle song duration bar
 		var percent = (music.currentTime / music.duration ) * 100;
 		if (percent==100) {
 			updateButton();
@@ -32,7 +32,6 @@ window.addEventListener("load", function () {
 			order.push(order.shift());	// Take the completed one and place it at the end of playlist
 			music.src = order[0];	// Change the source of the audio element
 			music.play();
-			console.log(order);
 		}
 		playHead.style.marginLeft = (percent / 100) * 364  + "px";
 	}
