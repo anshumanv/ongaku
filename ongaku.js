@@ -62,6 +62,7 @@ window.addEventListener("load", function () {
 	// Entry Point !
 	let order = shuffle(openings);
 	music.src = order[0];
+	music.play();
 	
 
 	// Section for handling events
