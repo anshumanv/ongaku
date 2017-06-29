@@ -1,4 +1,11 @@
-
+body{
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	margin: 0;
+	padding: 0;
+}
 
 .play{background: url('img/play.png') ;}
 .pause{background: url('img/pause.png') ;}
