@@ -8,7 +8,7 @@ window.addEventListener("load", function () {
 	const timeLine = document.querySelector('#timeline');
 
 
-	// Section for functions
+	// Section for functions =============================================================
 	function togglePlay () {	// function to toggle play/pause
 		music[music.paused ? 'play' : 'pause']();
 	}
