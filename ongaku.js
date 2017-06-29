@@ -42,7 +42,7 @@ window.addEventListener("load", function () {
 	}
 
 
-	// The de-facto unbiased shuffle algorithm is the Fisher-Yates (aka Knuth) Shuffle.
+	// The de-facto unbiased shuffle algorithm is the Fisher-Yates (aka Knuth) Shuffle (based on SE answer).
 	function shuffle(array) {
 		var currentIndex = array.length, temporaryValue, randomIndex;
 		// While there remain elements to shuffle...
