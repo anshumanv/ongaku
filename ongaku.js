@@ -62,6 +62,7 @@ window.addEventListener("load", function () {
 		music.src = order[0].link;
 		music.play();
 		updateButton();
+		document.body.background = order[0].img;
 	}
 		
 	play();
