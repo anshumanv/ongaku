@@ -1,5 +1,12 @@
-body {
-	background : black;
+body{
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	background-repeat: no-repeat;
 }
 
 .play{background: url('img/play.png') ;}
