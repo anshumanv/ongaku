@@ -86,30 +86,30 @@ data = [
 			{
 				link : "http://lyricmp3skull.org/s363640c/file/death-note-ls-theme/18366160.mp3",
 				name : "L's Theme",
-				img : ""
+				img : "http://www.imgbase.info/images/safe-wallpapers/anime/death_note/3579-anime_death_note_wallpaper.jpg"
 			},
 
 			{
 				link : "https://r6---sn-gwpa-civs.googlevideo.com/videoplayback?dur=89.652&mv=m&mt=1498729062&ms=au&mn=sn-gwpa-civs&source=youtube&clen=6680565&ratebypass=yes&sparams=clen%2Cdur%2Cei%2Cgcr%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Crequiressl%2Csource%2Cexpire&id=o-AN0O-ErM-KU1UEcXYdGnbv-lTA5FNIiZXmjV3J3hDXNW&initcwndbps=410000&ip=47.247.15.86&ei=zMpUWbz_EZubogPbgLnoAw&pl=22&requiressl=yes&gcr=in&gir=yes&expire=1498750764&signature=C5FEC56BB067D773F22C8A220DDA4BD92E978C58.DF3408473318470BDEBCD0EA264C3FF9EEAB9FA5&lmt=1492910207161683&itag=18&key=yt6&mime=video%2Fmp4&mm=31&ipbits=0",
 				name : "Boku no Hero Academia S2 OP-1",
-				img : ""
+				img : "http://greywolf-graphics.com/images/boku-no-hero-academia-wallpaper/boku-no-hero-academia-wallpaper-6.jpg"
 			},
 
 			{
 				link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-season-2-ed-1/317870688.mp3",
 				name : "Boku no Hero Academia S2 ED-1",
-				img : ""
+				img : "https://i.ytimg.com/vi/ldTgrPe6Y4E/maxresdefault.jpg"
 			},
 
 			{
 				link : "http://w20.youtubeinmp3.com/download/get/?id=Q0v3ajXh5S0&r=N31suCidRZYtTdO0vmb4ZMMTVc2pFJYc&t=Tokyo+Ghoul+Unravel+-+Lyrics",
 				name : "Tokyo Ghoul - Unravel",
-				img : ""
+				img : "https://wallpaperscraft.com/image/tokyo_ghoul_kaneki_ken_man_reflection_100594_1920x1080.jpg"
 			},
 
 			{
 				link : "http://w29.youtubeinmp3.com/download/get/?id=ddbtDaXAvbA&r=dzieK0ydsMjT4CRCdgHtBbNVSZFy1ocg&t=MagiThe+Kingdom+of+Magic+Ending+1+Lyrics+%28Vostfr%29",
 				name : "Magi S2 ED-1",
-				img : ""
+				img : "https://vignette4.wikia.nocookie.net/magi/images/d/d0/AlaAliMor_S2_ending.png/revision/latest?cb=20140330134404"
 			}
 ]
