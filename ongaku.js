@@ -71,7 +71,7 @@ window.addEventListener("load", function () {
 
 	music.addEventListener('timeupdate', handleProgress);
 	
-	let mousedown = false;
+	let mousedown = false;	// variable to keep track mousedown event
 	timeline.addEventListener('mousedown', ()  => mousedown = true);
 	timeline.addEventListener('mouseup', () => mousedown =  false);
 	timeline.addEventListener('mousemove', (e) => mousedown && scrub(e));
