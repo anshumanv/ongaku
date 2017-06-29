@@ -13,7 +13,7 @@ window.addEventListener("load", function () {
 		music[music.paused ? 'play' : 'pause']();
 	}
 
-	function updateButton () {
+	function updateButton () {	
 		if(!music.paused){
 			playButton.classList.remove('play');
 			playButton.classList.add('pause');
@@ -27,13 +27,13 @@ window.addEventListener("load", function () {
 	function handleProgress () {	// A  function to handle song duration bar
 		var percent = (music.currentTime / music.duration ) * 100;
 		if (percent==100) {
-			updateButton();
 			percent = 0;
 			order.push(order.shift());	// Take the completed one and place it at the end of playlist
 			music.src = order[0];	// Change the source of the audio element
 			music.play();
+			updateButton();
 		}
-		playHead.style.marginLeft = (percent / 100) * 364  + "px";
+		playHead.style.marginLeft = (percent / 100) * 364  + "px";	// Geez -_-
 	}
 
 	function scrub (e) {
@@ -63,6 +63,7 @@ window.addEventListener("load", function () {
 	let order = shuffle(openings);
 	music.src = order[0];
 	music.play();
+	updateButton();
 	
 
 	// Section for handling events
