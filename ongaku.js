@@ -123,6 +123,12 @@ data = [
 				img : "https://pbs.twimg.com/media/C-FAE86UQAAdckd.jpg"
 			},
 
+			{
+				link : "http://lyricmp3skull.org/s363640c/file/danganronpa-anime-op-tv-size/249496430.mp3",
+				name : Danganronpa The Animation OP,
+				img : "http://www.imgbase.info/images/safe-wallpapers/anime/dangan_ronpa/37988_dangan_ronpa.jpg"
+			},
+
 
 			// Store endings here for now
 			{
