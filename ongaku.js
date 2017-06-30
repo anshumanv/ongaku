@@ -163,8 +163,15 @@ data = [
 			},
 
 			{
-				link : "http://lyricmp3skull.org/s363640c/file/death-note-light-theme/59560598.mp3"
+				link : "http://lyricmp3skull.org/s363640c/file/death-note-light-theme/59560598.mp3",
 				name : "Death Note Light's Theme",
 				img : "https://www.walldevil.com/wallpapers/a91/death-note-yagami.jpg"
+			},
+
+			{
+				link : "http://youtubeinmp3.com/fetch/?video=http://www.youtube.com/watch?v=gAPGBBo6p_o",
+				name : "Death Note Main Theme",
+				img : "http://wallpoper.com/images/00/31/67/12/death-note_00316712.jpg"
 			}
+
 ]
