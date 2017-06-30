@@ -91,7 +91,7 @@ data = [
 			},
 
 			{
-				link : "https://r6---sn-gwpa-civs.googlevideo.com/videoplayback?gir=yes&ip=47.247.15.86&mn=sn-gwpa-civs&mm=31&source=youtube&pl=22&mv=m&mt=1498754946&ms=au&ei=3C9VWfHGL8b6ogO2k6m4Bg&id=o-AFwU9Al-SEWLIbgJCuW7oXQmO3I08EvCzlzkYmejIg0H&initcwndbps=325000&key=yt6&sparams=clen%2Cdur%2Cei%2Cgcr%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Crequiressl%2Csource%2Cexpire&lmt=1492364913034196&expire=1498776637&clen=2592338&ipbits=0&signature=93E03F8832C552284985BA8BE7EACD0AB58B6BF6.19F8031330816DC0D39F6F93B78BCC4DFD491652&mime=video%2F3gpp&gcr=in&dur=89.721&requiressl=yes&itag=36",
+				link : "http://ostanimemp3.wapka.mobi/music/down/54599472/4162987/YmU1YTJ3OC9QOW9FWXlMKzRqaXBDS3J1K285Y3oySmgxTTd3aTdPK0FicmxPT1g3cGc=/Kenshi+Yonezu-Peace+Sign.mp3",
 				name : "Boku no Hero Academia S2 OP-1",
 				img : "http://greywolf-graphics.com/images/boku-no-hero-academia-wallpaper/boku-no-hero-academia-wallpaper-6.jpg"
 			},
