@@ -107,25 +107,25 @@ data = [
 
 			{
 				link : "http://lyricmp3skull.org/s363640c/file/boku-dake-ga-inai-machi-erased-op-rip/256820788.mp3",
-				name : Boku dake ha Inai Machi OP,
+				name : "Boku dake ha Inai Machi OP",
 				img : "https://s-media-cache-ak0.pinimg.com/originals/94/2d/cd/942dcd797700a370636b5a90115a4026.jpg"
 			},
 
 			{
 				link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-op-1/261606779.mp3",
-				name : Boku no Hero Academia S1 OP-1,
+				name : "Boku no Hero Academia S1 OP-1",
 				img : "http://www.ricedigital.co.uk/wp-content/uploads/2017/03/003-1.jpg"
 			},
 
 			{
 				link : "http://lyricmp3skull.org/s363640c/file/op-3/294904496.mp3",
-				name : Bongou Stray Dogs 2 OP-1,
+				name : "Bongou Stray Dogs 2 OP-1",
 				img : "https://pbs.twimg.com/media/C-FAE86UQAAdckd.jpg"
 			},
 
 			{
 				link : "http://lyricmp3skull.org/s363640c/file/danganronpa-anime-op-tv-size/249496430.mp3",
-				name : Danganronpa The Animation OP,
+				name : "Danganronpa The Animation OP",
 				img : "http://www.imgbase.info/images/safe-wallpapers/anime/dangan_ronpa/37988_dangan_ronpa.jpg"
 			},
 
@@ -144,14 +144,14 @@ data = [
 			},
 
 			{
-				link : "http://lyricmp3skull.org/s363640c/file/rin-sore-wa-chiisana-hikari-no-youna-boku-dake-ga-inai-machi-erased-ending-tv-sized/285358460.mp3"
-				name : Boku dake ga Inai Machi ED
+				link : "http://lyricmp3skull.org/s363640c/file/rin-sore-wa-chiisana-hikari-no-youna-boku-dake-ga-inai-machi-erased-ending-tv-sized/285358460.mp3",
+				name : "Boku dake ga Inai Machi ED",
 				img : "https://s-media-cache-ak0.pinimg.com/originals/8b/9a/b0/8b9ab099322ef6e31bf291ceaa17a0a9--manga-art-kenya.jpg"
 			},
 
 			{
 				link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-ed-ending-heroes/257300066.mp3",
-				name : Boku no Hero Academia S1 ED,
+				name : "Boku no Hero Academia S1 ED",
 				img : "http://lostinanime.com/wp-content/uploads/2017/04/Boku-no-Hero-Academia-2-01-34-1280x720.jpg"
 			},
 
@@ -160,5 +160,11 @@ data = [
 				link : "http://lyricmp3skull.org/s363640c/file/death-note-ls-theme/18366160.mp3",
 				name : "L's Theme",
 				img : "http://www.imgbase.info/images/safe-wallpapers/anime/death_note/3579-anime_death_note_wallpaper.jpg"
+			},
+
+			{
+				link : "http://lyricmp3skull.org/s363640c/file/death-note-light-theme/59560598.mp3"
+				name : "Death Note Light's Theme",
+				img : "https://www.walldevil.com/wallpapers/a91/death-note-yagami.jpg"
 			}
 ]
