@@ -117,6 +117,13 @@ data = [
 				img : "http://www.ricedigital.co.uk/wp-content/uploads/2017/03/003-1.jpg"
 			},
 
+			{
+				link : "http://lyricmp3skull.org/s363640c/file/op-3/294904496.mp3",
+				name : Bongou Stray Dogs 2 OP-1,
+				img : "https://pbs.twimg.com/media/C-FAE86UQAAdckd.jpg"
+			},
+
+
 			// Store endings here for now
 			{
 				link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-season-2-ed-1/317870688.mp3",
@@ -140,7 +147,7 @@ data = [
 				link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-ed-ending-heroes/257300066.mp3",
 				name : Boku no Hero Academia S1 ED,
 				img : "http://lostinanime.com/wp-content/uploads/2017/04/Boku-no-Hero-Academia-2-01-34-1280x720.jpg"
-			}
+			},
 
 			//  Store OSTs here for now
 			{
