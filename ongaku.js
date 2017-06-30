@@ -84,22 +84,19 @@ window.addEventListener("load", function () {
 //===============================================================================================================================================
 
 data = [
+			/* Skeleton
 			{
-				link : "http://lyricmp3skull.org/s363640c/file/death-note-ls-theme/18366160.mp3",
-				name : "L's Theme",
-				img : "http://www.imgbase.info/images/safe-wallpapers/anime/death_note/3579-anime_death_note_wallpaper.jpg"
-			},
+				link : 
+				name : 
+				img : 
+			}
+			*/
 
+			// Store Opening here for now
 			{
 				link : "http://ostanimemp3.wapka.mobi/music/down/54599472/4162987/YmU1YTJ3OC9QOW9FWXlMKzRqaXBDS3J1K285Y3oySmgxTTd3aTdPK0FicmxPT1g3cGc=/Kenshi+Yonezu-Peace+Sign.mp3",
 				name : "Boku no Hero Academia S2 OP-1",
 				img : "http://greywolf-graphics.com/images/boku-no-hero-academia-wallpaper/boku-no-hero-academia-wallpaper-6.jpg"
-			},
-
-			{
-				link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-season-2-ed-1/317870688.mp3",
-				name : "Boku no Hero Academia S2 ED-1",
-				img : "https://i.ytimg.com/vi/ldTgrPe6Y4E/maxresdefault.jpg"
 			},
 
 			{
@@ -109,8 +106,72 @@ data = [
 			},
 
 			{
+				link : "http://lyricmp3skull.org/s363640c/file/boku-dake-ga-inai-machi-erased-op-rip/256820788.mp3",
+				name : "Boku dake ha Inai Machi OP",
+				img : "https://s-media-cache-ak0.pinimg.com/originals/94/2d/cd/942dcd797700a370636b5a90115a4026.jpg"
+			},
+
+			{
+				link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-op-1/261606779.mp3",
+				name : "Boku no Hero Academia S1 OP-1",
+				img : "http://www.ricedigital.co.uk/wp-content/uploads/2017/03/003-1.jpg"
+			},
+
+			{
+				link : "http://lyricmp3skull.org/s363640c/file/op-3/294904496.mp3",
+				name : "Bongou Stray Dogs 2 OP-1",
+				img : "https://pbs.twimg.com/media/C-FAE86UQAAdckd.jpg"
+			},
+
+			{
+				link : "http://lyricmp3skull.org/s363640c/file/danganronpa-anime-op-tv-size/249496430.mp3",
+				name : "Danganronpa The Animation OP",
+				img : "http://www.imgbase.info/images/safe-wallpapers/anime/dangan_ronpa/37988_dangan_ronpa.jpg"
+			},
+
+
+			// Store endings here for now
+			{
+				link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-season-2-ed-1/317870688.mp3",
+				name : "Boku no Hero Academia S2 ED-1",
+				img : "https://i.ytimg.com/vi/ldTgrPe6Y4E/maxresdefault.jpg"
+			},
+
+			{
 				link : "http://w29.youtubeinmp3.com/download/get/?id=ddbtDaXAvbA&r=dzieK0ydsMjT4CRCdgHtBbNVSZFy1ocg&t=MagiThe+Kingdom+of+Magic+Ending+1+Lyrics+%28Vostfr%29",
 				name : "Magi S2 ED-1",
 				img : "https://vignette4.wikia.nocookie.net/magi/images/d/d0/AlaAliMor_S2_ending.png/revision/latest?cb=20140330134404"
+			},
+
+			{
+				link : "http://lyricmp3skull.org/s363640c/file/rin-sore-wa-chiisana-hikari-no-youna-boku-dake-ga-inai-machi-erased-ending-tv-sized/285358460.mp3",
+				name : "Boku dake ga Inai Machi ED",
+				img : "https://s-media-cache-ak0.pinimg.com/originals/8b/9a/b0/8b9ab099322ef6e31bf291ceaa17a0a9--manga-art-kenya.jpg"
+			},
+
+			{
+				link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-ed-ending-heroes/257300066.mp3",
+				name : "Boku no Hero Academia S1 ED",
+				img : "http://lostinanime.com/wp-content/uploads/2017/04/Boku-no-Hero-Academia-2-01-34-1280x720.jpg"
+			},
+
+			//  Store OSTs here for now
+			{
+				link : "http://lyricmp3skull.org/s363640c/file/death-note-ls-theme/18366160.mp3",
+				name : "L's Theme",
+				img : "http://www.imgbase.info/images/safe-wallpapers/anime/death_note/3579-anime_death_note_wallpaper.jpg"
+			},
+
+			{
+				link : "http://lyricmp3skull.org/s363640c/file/death-note-light-theme/59560598.mp3",
+				name : "Death Note Light's Theme",
+				img : "https://www.walldevil.com/wallpapers/a91/death-note-yagami.jpg"
+			},
+
+			{
+				link : "http://youtubeinmp3.com/fetch/?video=http://www.youtube.com/watch?v=gAPGBBo6p_o",
+				name : "Death Note Main Theme",
+				img : "http://wallpoper.com/images/00/31/67/12/death-note_00316712.jpg"
 			}
+
 ]
