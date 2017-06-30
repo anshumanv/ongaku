@@ -109,13 +109,13 @@ data = [
 				link : "http://lyricmp3skull.org/s363640c/file/boku-dake-ga-inai-machi-erased-op-rip/256820788.mp3",
 				name : Boku dake ha Inai Machi OP,
 				img : "https://s-media-cache-ak0.pinimg.com/originals/94/2d/cd/942dcd797700a370636b5a90115a4026.jpg"
-			}
+			},
 
 			{
 				link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-op-1/261606779.mp3",
 				name : Boku no Hero Academia S1 OP-1,
 				img : "http://www.ricedigital.co.uk/wp-content/uploads/2017/03/003-1.jpg"
-			}
+			},
 
 			// Store endings here for now
 			{
@@ -134,7 +134,7 @@ data = [
 				link : "http://lyricmp3skull.org/s363640c/file/rin-sore-wa-chiisana-hikari-no-youna-boku-dake-ga-inai-machi-erased-ending-tv-sized/285358460.mp3"
 				name : Boku dake ga Inai Machi ED
 				img : "https://s-media-cache-ak0.pinimg.com/originals/8b/9a/b0/8b9ab099322ef6e31bf291ceaa17a0a9--manga-art-kenya.jpg"
-			}
+			},
 
 			//  Store OSTs here for now
 			{
