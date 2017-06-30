@@ -84,22 +84,19 @@ window.addEventListener("load", function () {
 //===============================================================================================================================================
 
 data = [
+			/* Skeleton
 			{
-				link : "http://lyricmp3skull.org/s363640c/file/death-note-ls-theme/18366160.mp3",
-				name : "L's Theme",
-				img : "http://www.imgbase.info/images/safe-wallpapers/anime/death_note/3579-anime_death_note_wallpaper.jpg"
-			},
+				link : 
+				name : 
+				img : 
+			}
+			*/
 
+			// Store Opening here for now
 			{
 				link : "http://ostanimemp3.wapka.mobi/music/down/54599472/4162987/YmU1YTJ3OC9QOW9FWXlMKzRqaXBDS3J1K285Y3oySmgxTTd3aTdPK0FicmxPT1g3cGc=/Kenshi+Yonezu-Peace+Sign.mp3",
 				name : "Boku no Hero Academia S2 OP-1",
 				img : "http://greywolf-graphics.com/images/boku-no-hero-academia-wallpaper/boku-no-hero-academia-wallpaper-6.jpg"
-			},
-
-			{
-				link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-season-2-ed-1/317870688.mp3",
-				name : "Boku no Hero Academia S2 ED-1",
-				img : "https://i.ytimg.com/vi/ldTgrPe6Y4E/maxresdefault.jpg"
 			},
 
 			{
@@ -109,8 +106,30 @@ data = [
 			},
 
 			{
+				link : "http://lyricmp3skull.org/s363640c/file/boku-dake-ga-inai-machi-erased-op-rip/256820788.mp3",
+				name : Boku dake ha Inai Machi OP
+				img : "https://s-media-cache-ak0.pinimg.com/originals/94/2d/cd/942dcd797700a370636b5a90115a4026.jpg"
+			}
+
+
+			// Store endings here for now
+			{
+				link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-season-2-ed-1/317870688.mp3",
+				name : "Boku no Hero Academia S2 ED-1",
+				img : "https://i.ytimg.com/vi/ldTgrPe6Y4E/maxresdefault.jpg"
+			},
+
+			{
 				link : "http://w29.youtubeinmp3.com/download/get/?id=ddbtDaXAvbA&r=dzieK0ydsMjT4CRCdgHtBbNVSZFy1ocg&t=MagiThe+Kingdom+of+Magic+Ending+1+Lyrics+%28Vostfr%29",
 				name : "Magi S2 ED-1",
 				img : "https://vignette4.wikia.nocookie.net/magi/images/d/d0/AlaAliMor_S2_ending.png/revision/latest?cb=20140330134404"
+			},
+
+
+			//  Store OSTs here for now
+			{
+				link : "http://lyricmp3skull.org/s363640c/file/death-note-ls-theme/18366160.mp3",
+				name : "L's Theme",
+				img : "http://www.imgbase.info/images/safe-wallpapers/anime/death_note/3579-anime_death_note_wallpaper.jpg"
 			}
 ]
