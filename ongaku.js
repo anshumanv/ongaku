@@ -136,6 +136,12 @@ data = [
 				img : "https://s-media-cache-ak0.pinimg.com/originals/8b/9a/b0/8b9ab099322ef6e31bf291ceaa17a0a9--manga-art-kenya.jpg"
 			},
 
+			{
+				link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-ed-ending-heroes/257300066.mp3",
+				name : Boku no Hero Academia S1 ED,
+				img : "http://lostinanime.com/wp-content/uploads/2017/04/Boku-no-Hero-Academia-2-01-34-1280x720.jpg"
+			}
+
 			//  Store OSTs here for now
 			{
 				link : "http://lyricmp3skull.org/s363640c/file/death-note-ls-theme/18366160.mp3",
