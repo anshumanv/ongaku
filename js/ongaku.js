@@ -129,6 +129,11 @@ data = [
 				img : "http://www.imgbase.info/images/safe-wallpapers/anime/dangan_ronpa/37988_dangan_ronpa.jpg"
 			},
 
+			{
+				link : "http://lyricmp3skull.org/s363640c/file/masayume-chasing-fairytail-season-2-op-1/148886932.mp3"
+				name : "Fairy Tail OP-15",
+				img : "https://s-media-cache-ak0.pinimg.com/originals/a5/25/67/a52567b58c01b41ef84f6ce6715a80a1.jpg"
+			},
 
 			// Store endings here for now
 			{
