@@ -138,7 +138,7 @@ data = [
 			},
 
 			{
-				link : "http://w29.youtubeinmp3.com/download/get/?id=ddbtDaXAvbA&r=dzieK0ydsMjT4CRCdgHtBbNVSZFy1ocg&t=MagiThe+Kingdom+of+Magic+Ending+1+Lyrics+%28Vostfr%29",
+				link : "https://www.youtubeinmp3.com/fetch/?video=https://www.youtube.com/watch?v=n-or12ftZB8",
 				name : "Magi S2 ED-1",
 				img : "https://vignette4.wikia.nocookie.net/magi/images/d/d0/AlaAliMor_S2_ending.png/revision/latest?cb=20140330134404"
 			},
