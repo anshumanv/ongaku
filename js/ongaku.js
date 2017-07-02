@@ -14,7 +14,7 @@ window.addEventListener("load", function () {
 	}
 
 	function updateButton () {	// Function to handle play/pause icon
-		if(!music.paused){
+		if (!music.paused) {
 			playButton.classList.remove('play');
 			playButton.classList.add('pause');
 		}
@@ -26,7 +26,7 @@ window.addEventListener("load", function () {
 	
 	function handleProgress () {	// A  function to handle song duration bar
 		var percent = (music.currentTime / music.duration ) * 100;
-		if (percent==100) {
+		if (percent == 100) {
 			percent = 0;
 			order.push(order.shift());	// Take the completed one and place it at the end of playlist
 			play();
@@ -40,7 +40,7 @@ window.addEventListener("load", function () {
 	}
 
 	// The de-facto unbiased shuffle algorithm is the Fisher-Yates (aka Knuth) Shuffle (based on SE answer).
-	function shuffle(array) {
+	function shuffle (array) {
 		var currentIndex = array.length, temporaryValue, randomIndex;
 		// While there remain elements to shuffle
 		while (0 !== currentIndex) {
