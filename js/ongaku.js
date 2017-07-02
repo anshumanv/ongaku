@@ -14,7 +14,7 @@ window.addEventListener("load", function () {
 	}
 
 	function updateButton () {	// Function to handle play/pause icon
-		if(!music.paused){
+		if (!music.paused) {
 			playButton.classList.remove('play');
 			playButton.classList.add('pause');
 		}
@@ -26,7 +26,7 @@ window.addEventListener("load", function () {
 	
 	function handleProgress () {	// A  function to handle song duration bar
 		var percent = (music.currentTime / music.duration ) * 100;
-		if (percent==100) {
+		if (percent == 100) {
 			percent = 0;
 			order.push(order.shift());	// Take the completed one and place it at the end of playlist
 			play();
@@ -40,7 +40,7 @@ window.addEventListener("load", function () {
 	}
 
 	// The de-facto unbiased shuffle algorithm is the Fisher-Yates (aka Knuth) Shuffle (based on SE answer).
-	function shuffle(array) {
+	function shuffle (array) {
 		var currentIndex = array.length, temporaryValue, randomIndex;
 		// While there remain elements to shuffle
 		while (0 !== currentIndex) {
@@ -112,7 +112,7 @@ data = [
 			},
 
 			{
-				link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-op-1/261606779.mp3",
+				link : "http://w33.youtubeinmp3.com/download/get/?id=5N3BViqaqZo&r=q5pSUDUqeC1tH2IDq6K0VnHiGYRs0uas&t=Boku+no+Hero+Academia+Season+2+opening+1+Full%E3%80%8EKenshi+Yonezu-+Peace+Sign%E3%80%8F&progressType=button",
 				name : "Boku no Hero Academia S1 OP-1",
 				img : "http://www.ricedigital.co.uk/wp-content/uploads/2017/03/003-1.jpg"
 			},
@@ -126,7 +126,7 @@ data = [
 			{
 				link : "http://lyricmp3skull.org/s363640c/file/danganronpa-anime-op-tv-size/249496430.mp3",
 				name : "Danganronpa The Animation OP",
-				img : "http://www.imgbase.info/images/safe-wallpapers/anime/dangan_ronpa/37988_dangan_ronpa.jpg"
+				img : "http://data.freehdw.com/danganronpa-2-goodbye-despair-ps-vita-characters.jpg"
 			},
 
 			{
