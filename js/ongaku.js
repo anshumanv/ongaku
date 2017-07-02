@@ -94,7 +94,7 @@ data = [
 
 			// Store Opening here for now
 			{
-				link : "http://ostanimemp3.wapka.mobi/music/down/54599472/4162987/YmU1YTJ3OC9QOW9FWXlMKzRqaXBDS3J1K285Y3oySmgxTTd3aTdPK0FicmxPT1g3cGc=/Kenshi+Yonezu-Peace+Sign.mp3",
+				link : "http://www.youtubeinmp3.com/download/get/?i=wIcqkYMcAAcbblTZ2WeKktyTu5nlffWi&e=49&progressType=button",
 				name : "Boku no Hero Academia S2 OP-1",
 				img : "http://greywolf-graphics.com/images/boku-no-hero-academia-wallpaper/boku-no-hero-academia-wallpaper-6.jpg"
 			},
@@ -112,7 +112,7 @@ data = [
 			},
 
 			{
-				link : "http://w33.youtubeinmp3.com/download/get/?id=5N3BViqaqZo&r=q5pSUDUqeC1tH2IDq6K0VnHiGYRs0uas&t=Boku+no+Hero+Academia+Season+2+opening+1+Full%E3%80%8EKenshi+Yonezu-+Peace+Sign%E3%80%8F&progressType=button",
+				link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-op-1/261606779.mp3",
 				name : "Boku no Hero Academia S1 OP-1",
 				img : "http://www.ricedigital.co.uk/wp-content/uploads/2017/03/003-1.jpg"
 			},
