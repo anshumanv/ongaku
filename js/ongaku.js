@@ -169,7 +169,7 @@ data = [
 			},
 
 			{
-				link : "http://lyricmp3skull.org/s363640c/file/death-note-light-theme/59560598.mp3",
+				link : "http://66.90.93.122/ost/death-note-original-soundtrack/ftrosjnhdv/03-light-s-theme.mp3",
 				name : "Light's Theme",
 				img : "https://www.walldevil.com/wallpapers/a91/death-note-yagami.jpg"
 			},
