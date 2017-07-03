@@ -164,7 +164,7 @@ data = [
 			//  Store OSTs here for now
 			{
 				link : "http://66.90.93.122/ost/death-note-original-soundtrack/fghgpcdtbm/04-l-s-theme.mp3",
-				name : "L's Theme",
+				name : "L's Theme A",
 				img : "http://www.imgbase.info/images/safe-wallpapers/anime/death_note/3579-anime_death_note_wallpaper.jpg"
 			},
 
