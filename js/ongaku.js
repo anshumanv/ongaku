@@ -178,6 +178,12 @@ data = [
 				link : "http://66.90.93.122/ost/death-note-original-soundtrack/drakbyuujm/19-death-note-theme.mp3",
 				name : "Death Note Main Theme",
 				img : "http://wallpoper.com/images/00/31/67/12/death-note_00316712.jpg"
+			},
+
+			{
+				link : "http://66.90.93.122/ost/death-note-original-soundtrack/cnpikmfqsu/11-l-s-theme-b.mp3",
+				name : "L's theme B",
+				img : "http://cdn.wallpapersafari.com/87/52/DSgHjT.jpg"
 			}
 
 ]
