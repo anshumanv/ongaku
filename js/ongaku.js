@@ -163,21 +163,27 @@ data = [
 
 			//  Store OSTs here for now
 			{
-				link : "http://lyricmp3skull.org/s363640c/file/death-note-ls-theme/18366160.mp3",
-				name : "L's Theme",
+				link : "http://66.90.93.122/ost/death-note-original-soundtrack/fghgpcdtbm/04-l-s-theme.mp3",
+				name : "L's Theme A",
 				img : "http://www.imgbase.info/images/safe-wallpapers/anime/death_note/3579-anime_death_note_wallpaper.jpg"
 			},
 
 			{
-				link : "http://lyricmp3skull.org/s363640c/file/death-note-light-theme/59560598.mp3",
-				name : "Death Note Light's Theme",
+				link : "http://66.90.93.122/ost/death-note-original-soundtrack/ftrosjnhdv/03-light-s-theme.mp3",
+				name : "Light's Theme",
 				img : "https://www.walldevil.com/wallpapers/a91/death-note-yagami.jpg"
 			},
 
 			{
-				link : "http://youtubeinmp3.com/fetch/?video=http://www.youtube.com/watch?v=gAPGBBo6p_o",
+				link : "http://66.90.93.122/ost/death-note-original-soundtrack/drakbyuujm/19-death-note-theme.mp3",
 				name : "Death Note Main Theme",
 				img : "http://wallpoper.com/images/00/31/67/12/death-note_00316712.jpg"
+			},
+
+			{
+				link : "http://66.90.93.122/ost/death-note-original-soundtrack/cnpikmfqsu/11-l-s-theme-b.mp3",
+				name : "L's theme B",
+				img : "http://cdn.wallpapersafari.com/87/52/DSgHjT.jpg"
 			}
 
 ]
