@@ -94,7 +94,7 @@ data = [
 
 			// Store Opening here for now
 			{
-				link : "http://www.youtubeinmp3.com/download/get/?i=wIcqkYMcAAcbblTZ2WeKktyTu5nlffWi&e=49&progressType=button",
+				link : "http://ostanimemp3.wapka.mobi/music/down/54599472/4162987/MzhkZU9EWGh0Z3YwSlcwSlBoYXRzV3BuUDIzMUQrblN1ZWJlYWtxVjBtQlp4N2pFM2c=/Kenshi+Yonezu-Peace+Sign.mp3",
 				name : "Boku no Hero Academia S2 OP-1",
 				img : "http://greywolf-graphics.com/images/boku-no-hero-academia-wallpaper/boku-no-hero-academia-wallpaper-6.jpg"
 			},
