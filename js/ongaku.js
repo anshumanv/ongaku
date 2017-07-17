@@ -148,6 +148,12 @@ data = [
 				img : "https://i.ytimg.com/vi/0P1YBu0TrNg/maxresdefault.jpg"
 			},
 
+			{
+				link : "http://67.159.62.2/anime_ost/magi-kingdom-of-magic-op-single-anniversary/kteguexycl/1.-anniversary.mp3",
+				name : "Magi - Kingdom of Magic : Anniversary",
+				img : "https://i.ytimg.com/vi/NVdDA6D_mlQ/maxresdefault.jpg"
+			},
+
 			// Store endings here for now
 			{
 				link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-season-2-ed-1/317870688.mp3",
