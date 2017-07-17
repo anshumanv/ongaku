@@ -20,7 +20,6 @@ body{
 .play{background: url('../img/play.png') ;}
 .pause{background: url('../img/pause.png') ;}
 
-
 #player{
 	width: 480px;
 	height: 60px;
@@ -49,6 +48,7 @@ body{
 	float: left;
 	border-radius: 15px;
 }
+
 /*Grabable Playhead*/
 #playhead{
 	cursor: pointer;
