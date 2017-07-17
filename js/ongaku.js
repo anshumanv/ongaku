@@ -136,6 +136,12 @@ data = [
 				img : "https://s-media-cache-ak0.pinimg.com/originals/a5/25/67/a52567b58c01b41ef84f6ce6715a80a1.jpg"
 			},
 
+			{
+				link : "https://anime.thehylia.com/soundtracks/album/no-game-no-life-op-single-this-game/01%2520-%2520This%2520game.mp3",
+				name : "No Game No Life : This Game",
+				img : "https://s-media-cache-ak0.pinimg.com/originals/30/99/80/30998042552e7c13ab63a7e2d4999ae4.jpg"
+			},
+
 
 			// Store endings here for now
 			{
