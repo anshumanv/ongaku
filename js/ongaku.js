@@ -137,7 +137,7 @@ data = [
 			},
 
 			{
-				link : "https://anime.thehylia.com/soundtracks/album/no-game-no-life-op-single-this-game/01%2520-%2520This%2520game.mp3",
+				link : "http://67.159.62.2/anime_ost/no-game-no-life-op-single-this-game/ilrmfboknr/01%20-%20This%20game.mp3",
 				name : "No Game No Life : This Game",
 				img : "https://s-media-cache-ak0.pinimg.com/originals/30/99/80/30998042552e7c13ab63a7e2d4999ae4.jpg"
 			},
