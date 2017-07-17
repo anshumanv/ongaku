@@ -87,9 +87,9 @@ window.addEventListener("load", function () {
 data = [
 			/* Skeleton
 			{
-				link : 
-				name : 
-				img : 
+				link :
+				name :
+				img :
 			}
 			*/
 
@@ -136,6 +136,23 @@ data = [
 				img : "https://s-media-cache-ak0.pinimg.com/originals/a5/25/67/a52567b58c01b41ef84f6ce6715a80a1.jpg"
 			},
 
+			{
+				link : "http://67.159.62.2/anime_ost/no-game-no-life-op-single-this-game/ilrmfboknr/01%20-%20This%20game.mp3",
+				name : "No Game No Life : This Game",
+				img : "https://s-media-cache-ak0.pinimg.com/originals/30/99/80/30998042552e7c13ab63a7e2d4999ae4.jpg"
+			},
+
+			{
+				link : "http://67.159.62.2/anime_ost/magi-op-single-v-i-p/rxpcfjtnec/01%20-%20V.I.P.mp3",
+				name : "Magi : V.I.P",
+				img : "https://i.ytimg.com/vi/0P1YBu0TrNg/maxresdefault.jpg"
+			},
+
+			{
+				link : "http://67.159.62.2/anime_ost/magi-kingdom-of-magic-op-single-anniversary/kteguexycl/1.-anniversary.mp3",
+				name : "Magi - Kingdom of Magic : Anniversary",
+				img : "https://i.ytimg.com/vi/NVdDA6D_mlQ/maxresdefault.jpg"
+			},
 
 			// Store endings here for now
 			{
