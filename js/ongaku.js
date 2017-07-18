@@ -87,7 +87,7 @@ window.addEventListener("load", function () {
 	timeline.addEventListener('mousemove', (e) => mousedown && scrub(e));
 	timeline.addEventListener('click', (e) => scrub(e));
 
-	nextButton.addEventListener('click', nextTrack);
+	nextButton.addEventListener('click', nextTrack);	// handling clicks on next button
 });
 
 
