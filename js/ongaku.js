@@ -58,6 +58,12 @@ window.addEventListener("load", function () {
 	}
 
 
+	function nextTrack() {
+		order.push(order.shift());
+		play();
+	}
+
+
 	// Entry Point ! ===========================================================
 	let order = shuffle(data);
 	function play () {
@@ -80,6 +86,8 @@ window.addEventListener("load", function () {
 	timeline.addEventListener('mouseup', () => mousedown =  false);
 	timeline.addEventListener('mousemove', (e) => mousedown && scrub(e));
 	timeline.addEventListener('click', (e) => scrub(e));
+
+	nextButton.addEventListener('click', nextTrack);
 });
 
 
