@@ -108,12 +108,6 @@ data = [
 
 			// Store Opening here for now
 			{
-				link : "http://ostanimemp3.wapka.mobi/music/down/54599472/4162987/MzhkZU9EWGh0Z3YwSlcwSlBoYXRzV3BuUDIzMUQrblN1ZWJlYWtxVjBtQlp4N2pFM2c=/Kenshi+Yonezu-Peace+Sign.mp3",
-				name : "Boku no Hero Academia S2 OP-1",
-				img : "http://greywolf-graphics.com/images/boku-no-hero-academia-wallpaper/boku-no-hero-academia-wallpaper-6.jpg"
-			},
-
-			{
 				link : "http://w20.youtubeinmp3.com/download/get/?id=Q0v3ajXh5S0&r=N31suCidRZYtTdO0vmb4ZMMTVc2pFJYc&t=Tokyo+Ghoul+Unravel+-+Lyrics",
 				name : "Tokyo Ghoul - Unravel",
 				img : "https://wallpaperscraft.com/image/tokyo_ghoul_kaneki_ken_man_reflection_100594_1920x1080.jpg"
@@ -167,6 +161,7 @@ data = [
 				img : "https://i.ytimg.com/vi/NVdDA6D_mlQ/maxresdefault.jpg"
 			},
 
+
 			// Store endings here for now
 			{
 				link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-season-2-ed-1/317870688.mp3",
@@ -191,6 +186,7 @@ data = [
 				name : "Boku no Hero Academia S1 ED",
 				img : "http://lostinanime.com/wp-content/uploads/2017/04/Boku-no-Hero-Academia-2-01-34-1280x720.jpg"
 			},
+
 
 			//  Store OSTs here for now
 			{
