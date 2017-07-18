@@ -7,7 +7,8 @@ window.addEventListener("load", function () {
 	const playButton = document.querySelector('#pButton');
 	const playHead = document.querySelector('#playhead');
 	const timeLine = document.querySelector('#timeline');
-
+	const nextButton = document.querySelector('#next');
+	const reButton = document.querySelector('#restart')
 
 	// Section for functions =============================================================
 	function togglePlay () {	// function to toggle play/pause
