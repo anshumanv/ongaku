@@ -63,6 +63,9 @@ window.addEventListener("load", function () {
 		play();
 	}
 
+	function playAgain() {
+		music.currentTime = 0;
+	}
 
 	// Entry Point ! ===========================================================
 	let order = shuffle(data);
@@ -88,7 +91,7 @@ window.addEventListener("load", function () {
 	timeline.addEventListener('click', (e) => scrub(e));
 
 	nextButton.addEventListener('click', nextTrack);	// handling clicks on next button
-	reButton.addEventListener('click', play);	// handling clicks on restart button
+	reButton.addEventListener('click', playAgain);	// handling clicks on restart button
 });
 
 
