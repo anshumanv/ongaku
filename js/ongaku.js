@@ -88,6 +88,7 @@ window.addEventListener("load", function () {
 	timeline.addEventListener('click', (e) => scrub(e));
 
 	nextButton.addEventListener('click', nextTrack);	// handling clicks on next button
+	reButton.addEventListener('click', play);
 });
 
 
