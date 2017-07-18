@@ -192,7 +192,7 @@ data = [
 			{
 				link : "http://66.90.93.122/ost/death-note-original-soundtrack/fghgpcdtbm/04-l-s-theme.mp3",
 				name : "L's Theme A",
-				img : "http://www.imgbase.info/images/safe-wallpapers/anime/death_note/3579-anime_death_note_wallpaper.jpg"
+				img : "https://s-media-cache-ak0.pinimg.com/originals/ea/90/c6/ea90c6d4e0245946a0119cf246de4324.jpg"
 			},
 
 			{
