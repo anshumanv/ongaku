@@ -68,9 +68,9 @@ window.addEventListener("load", function () {
 	}
 
 	function handleKeyPress(e) {
-		if(e.keyCode === 80){
-			updateButton();
+		if(e.keyCode === 80) {
 			togglePlay();
+			updateButton();
 		} else if(e.keyCode === 78) {
 			nextTrack();
 		} else if(e.keyCode === 82) {
@@ -185,7 +185,7 @@ data = [
 			{
 				link : "https://www.youtubeinmp3.com/fetch/?video=https://www.youtube.com/watch?v=n-or12ftZB8",
 				name : "Magi S2 ED-1",
-				img : "https://vignette4.wikia.nocookie.net/magi/images/d/d0/AlaAliMor_S2_ending.png/revision/latest?cb=20140330134404"
+				img : "http://s2.narvii.com/image/xza6vkrba26ae3xlwahgdo6d72piihue_hq.jpg"
 			},
 
 			{
