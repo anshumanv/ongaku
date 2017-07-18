@@ -67,6 +67,17 @@ window.addEventListener("load", function () {
 		music.currentTime = 0;
 	}
 
+	function handleKeyPress(e) {
+		if(e.keyCode === 80){
+			updateButton();
+			togglePlay();
+		} else if(e.keyCode === 78) {
+			nextTrack();
+		} else if(e.keyCode === 82) {
+			playAgain();
+		} else {return;}
+	}
+
 	// Entry Point ! ===========================================================
 	let order = shuffle(data);
 	function play () {
@@ -92,6 +103,8 @@ window.addEventListener("load", function () {
 
 	nextButton.addEventListener('click', nextTrack);	// handling clicks on next button
 	reButton.addEventListener('click', playAgain);	// handling clicks on restart button
+
+	window.addEventListener('keyup', (e) => handleKeyPress(e));	// handle key-press on window
 });
 
 
