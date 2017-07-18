@@ -68,9 +68,10 @@ window.addEventListener("load", function () {
 	}
 
 	function handleKeyPress(e) {
-		if(e.keyCode === 80){
-			updateButton();
+		if(e.keyCode === 80) {
 			togglePlay();
+			updateButton();
+
 		} else if(e.keyCode === 78) {
 			nextTrack();
 		} else if(e.keyCode === 82) {
