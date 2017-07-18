@@ -1,9 +1,10 @@
-body, html {
-	width : 100%;
-	height : 100%;
-	margin: 0;
-	padding: 0;
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
+
 
 body{
 	background-size: cover;
@@ -15,6 +16,12 @@ body{
 	background-repeat: no-repeat;
 	background-color: black;
 	background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
 }
 
 .play{background: url('../img/play.png') ;}
@@ -24,9 +31,22 @@ body{
 	width: 480px;
 	height: 60px;
 	background: rgba(77, 133, 222, 0.62);
-	margin : auto;
 	border-radius: 15px;
-	transform : translateY(91vh);
+  opacity: 0.5;
+  transition: all 0.5s;
+  transform: translateY(100%) translateY(-10px);
+}
+
+#wrapper{
+  display: flex;
+  height: 75px;
+  overflow: hidden;
+  transform: translateY(10px);
+}
+
+#player:hover {
+  opacity: 1;
+  transform: translateY(10px) ;
 }
 
 /* Play/Pause Button */
