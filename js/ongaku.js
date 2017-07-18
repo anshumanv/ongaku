@@ -7,7 +7,8 @@ window.addEventListener("load", function () {
 	const playButton = document.querySelector('#pButton');
 	const playHead = document.querySelector('#playhead');
 	const timeLine = document.querySelector('#timeline');
-
+	const nextButton = document.querySelector('#next');
+	const reButton = document.querySelector('#restart')
 
 	// Section for functions =============================================================
 	function togglePlay () {	// function to toggle play/pause
@@ -57,6 +58,15 @@ window.addEventListener("load", function () {
 	}
 
 
+	function nextTrack() {
+		order.push(order.shift());
+		play();
+	}
+
+	function playAgain() {
+		music.currentTime = 0;
+	}
+
 	// Entry Point ! ===========================================================
 	let order = shuffle(data);
 	function play () {
@@ -79,6 +89,9 @@ window.addEventListener("load", function () {
 	timeline.addEventListener('mouseup', () => mousedown =  false);
 	timeline.addEventListener('mousemove', (e) => mousedown && scrub(e));
 	timeline.addEventListener('click', (e) => scrub(e));
+
+	nextButton.addEventListener('click', nextTrack);	// handling clicks on next button
+	reButton.addEventListener('click', playAgain);	// handling clicks on restart button
 });
 
 
