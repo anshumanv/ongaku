@@ -7,6 +7,11 @@ A web-app to play random anime opening / ending / OST.
 * Displays a background relevant to the playing content.
 * Seekable custom audio player.
 
+| Key | Function |  
+|:--------------|:----------------:|
+| p | toggle pause / play |
+| n | play next track |
+| r | replay current track |
 
 ### Todo
 * Improve custom player UI.
