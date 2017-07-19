@@ -69,7 +69,6 @@ window.addEventListener("load", function () {
 	// function to replay the current track
 	function playAgain() {
 		music.currentTime = 0;
-		$('#track-name').stop();
 		$('#track-name').hide();
 		displayTrackName(true);
 	}
