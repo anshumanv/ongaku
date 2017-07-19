@@ -54,6 +54,37 @@ data = [
 		"img" : "https://i.ytimg.com/vi/NVdDA6D_mlQ/maxresdefault.jpg"
 	},
 
+	{
+		"link" : "http://67.159.62.2/anime_ost/haikyuu-op-imagination/lijkfqzsmd/01-imagination.mp3",
+		"name" : "Haikyuu!! OP - Imagination",
+		"img" : "https://s-media-cache-ak0.pinimg.com/originals/7b/16/04/7b160499eb132186ccfe44485cb54b7a.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/haikyuu-second-season-op2-fly-high-/zpoxjzmsne/01-fly-high-.mp3",
+		"name" : "Haikyuu!! Second Season OP2 - FLY HIGH!!",
+		"img" : "http://i.imgur.com/NvZsKdz.jpg"
+	},
+
+	{
+		"link" : "http://yt-files.com/yt-dd.php?id=IK6hHzAPhuI&hash=197a719a72e9649ea7f63c4b17abdabc&name=Haikyuu!! - Opening 2 (1080p)",
+		"name" : "Haikyuu!! First Season OP2",
+		"img" : "https://images8.alphacoders.com/692/thumb-1920-692745.png"
+	},
+
+	{
+		"link" : "http://yt-files.com/yt-dd.php?id=0m-JsMXxXsQ&hash=1163f36946da6ba620dc63dc93d86069&name=Haikyuu Season 2 Op 1 I'm a believer full",
+		"name" : "Haikyuu!! Second Season - I'm a believer",
+		"img" : "https://www.thebitbag.com/wp-content/uploads/2016/03/Karasuno2.png"
+	},
+
+	{
+		"link" : "http://yt-files.com/yt-dd.php?id=xP5_SnR75ZU&hash=81f36d506e80f82f1bf2eab97aab858a&name=Haikyuu!! 3rd Season Opening 1 “Hikari Are” (BURNOUT SYNDROMES)",
+		"name" : "Haikyuu!! Third Season - Hikari Are",
+		"img" : "http://i.imgur.com/qvGY6zf.png"
+	},
+
+
 
 	{
 		"link" : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-season-2-ed-1/317870688.mp3",
