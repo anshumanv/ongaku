@@ -1,3 +1,9 @@
+{
+	"link" : "",
+	"name" : "",
+	"img" : ""
+},
+
 data = [
 
 	{
@@ -54,6 +60,11 @@ data = [
 		"img" : "https://i.ytimg.com/vi/NVdDA6D_mlQ/maxresdefault.jpg"
 	},
 
+	{
+		"link" : "http://67.159.62.2/anime_ost/haikyuu-op-imagination/lijkfqzsmd/01-imagination.mp3",
+		"name" : "Haikyuu!! OP - Imagination",
+		"img" : "https://s-media-cache-ak0.pinimg.com/originals/7b/16/04/7b160499eb132186ccfe44485cb54b7a.jpg"
+	},
 
 	{
 		"link" : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-season-2-ed-1/317870688.mp3",
