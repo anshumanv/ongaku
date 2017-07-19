@@ -1,14 +1,5 @@
-/* Skeleton for new additions
-	{
-		"link" :
-		"name" :
-		"img" :
-	}
-*/
-
 data = [
 
-	// Store Opening here for now
 	{
 		"link" : "http://67.159.62.2/anime_ost/tokyo-ghoul-op-single-unravel/eepprhqwvp/01%20-%20unravel.mp3",
 		"name" : "Tokyo Ghoul - Unravel",
@@ -64,7 +55,6 @@ data = [
 	},
 
 
-	// Store endings here for now
 	{
 		"link" : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-season-2-ed-1/317870688.mp3",
 		"name" : "Boku no Hero Academia S2 ED-1",
@@ -90,7 +80,6 @@ data = [
 	},
 
 
-	//  Store OSTs here for now
 	{
 		"link" : "http://66.90.93.122/ost/death-note-original-soundtrack/fghgpcdtbm/04-l-s-theme.mp3",
 		"name" : "L's Theme A",
