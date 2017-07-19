@@ -1,0 +1,118 @@
+/* Skeleton for new additions
+	{
+		link :
+		name :
+		img :
+	}
+*/
+
+data = [
+
+	// Store Opening here for now
+	{
+		link : "http://67.159.62.2/anime_ost/tokyo-ghoul-op-single-unravel/eepprhqwvp/01%20-%20unravel.mp3",
+		name : "Tokyo Ghoul - Unravel",
+		img : "https://wallpaperscraft.com/image/tokyo_ghoul_kaneki_ken_man_reflection_100594_1920x1080.jpg"
+	},
+
+	{
+		link : "http://lyricmp3skull.org/s363640c/file/boku-dake-ga-inai-machi-erased-op-rip/256820788.mp3",
+		name : "Boku dake ha Inai Machi OP",
+		img : "https://s-media-cache-ak0.pinimg.com/originals/94/2d/cd/942dcd797700a370636b5a90115a4026.jpg"
+	},
+
+	{
+		link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-op-1/261606779.mp3",
+		name : "Boku no Hero Academia S1 OP-1",
+		img : "http://www.ricedigital.co.uk/wp-content/uploads/2017/03/003-1.jpg"
+	},
+
+	{
+		link : "http://lyricmp3skull.org/s363640c/file/op-3/294904496.mp3",
+		name : "Bongou Stray Dogs 2 OP-1",
+		img : "https://pbs.twimg.com/media/C-FAE86UQAAdckd.jpg"
+	},
+
+	{
+		link : "http://lyricmp3skull.org/s363640c/file/danganronpa-anime-op-tv-size/249496430.mp3",
+		name : "Danganronpa The Animation OP",
+		img : "http://data.freehdw.com/danganronpa-2-goodbye-despair-ps-vita-characters.jpg"
+	},
+
+	{
+		link : "http://lyricmp3skull.org/s363640c/file/masayume-chasing-fairytail-season-2-op-1/148886932.mp3",
+		name : "Fairy Tail OP-15",
+		img : "https://s-media-cache-ak0.pinimg.com/originals/a5/25/67/a52567b58c01b41ef84f6ce6715a80a1.jpg"
+	},
+
+	{
+		link : "http://67.159.62.2/anime_ost/no-game-no-life-op-single-this-game/ilrmfboknr/01%20-%20This%20game.mp3",
+		name : "No Game No Life : This Game",
+		img : "https://s-media-cache-ak0.pinimg.com/originals/30/99/80/30998042552e7c13ab63a7e2d4999ae4.jpg"
+	},
+
+	{
+		link : "http://67.159.62.2/anime_ost/magi-op-single-v-i-p/rxpcfjtnec/01%20-%20V.I.P.mp3",
+		name : "Magi : V.I.P",
+		img : "https://i.ytimg.com/vi/0P1YBu0TrNg/maxresdefault.jpg"
+	},
+
+	{
+		link : "http://67.159.62.2/anime_ost/magi-kingdom-of-magic-op-single-anniversary/kteguexycl/1.-anniversary.mp3",
+		name : "Magi - Kingdom of Magic : Anniversary",
+		img : "https://i.ytimg.com/vi/NVdDA6D_mlQ/maxresdefault.jpg"
+	},
+
+
+	// Store endings here for now
+	{
+		link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-season-2-ed-1/317870688.mp3",
+		name : "Boku no Hero Academia S2 ED-1",
+		img : "https://i.ytimg.com/vi/ldTgrPe6Y4E/maxresdefault.jpg"
+	},
+
+	{
+		link : "https://www.youtubeinmp3.com/fetch/?video=https://www.youtube.com/watch?v=n-or12ftZB8",
+		name : "Magi S2 ED-1",
+		img : "http://s2.narvii.com/image/xza6vkrba26ae3xlwahgdo6d72piihue_hq.jpg"
+	},
+
+	{
+		link : "http://lyricmp3skull.org/s363640c/file/rin-sore-wa-chiisana-hikari-no-youna-boku-dake-ga-inai-machi-erased-ending-tv-sized/285358460.mp3",
+		name : "Boku dake ga Inai Machi ED",
+		img : "https://s-media-cache-ak0.pinimg.com/originals/8b/9a/b0/8b9ab099322ef6e31bf291ceaa17a0a9--manga-art-kenya.jpg"
+	},
+
+	{
+		link : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-ed-ending-heroes/257300066.mp3",
+		name : "Boku no Hero Academia S1 ED",
+		img : "http://lostinanime.com/wp-content/uploads/2017/04/Boku-no-Hero-Academia-2-01-34-1280x720.jpg"
+	},
+
+
+	//  Store OSTs here for now
+	{
+		link : "http://66.90.93.122/ost/death-note-original-soundtrack/fghgpcdtbm/04-l-s-theme.mp3",
+		name : "L's Theme A",
+		img : "https://s-media-cache-ak0.pinimg.com/originals/ea/90/c6/ea90c6d4e0245946a0119cf246de4324.jpg"
+	},
+
+	{
+		link : "http://66.90.93.122/ost/death-note-original-soundtrack/ftrosjnhdv/03-light-s-theme.mp3",
+		name : "Light's Theme",
+		img : "https://www.walldevil.com/wallpapers/a91/death-note-yagami.jpg"
+	},
+
+	{
+		link : "http://66.90.93.122/ost/death-note-original-soundtrack/drakbyuujm/19-death-note-theme.mp3",
+		name : "Death Note Main Theme",
+		img : "http://wallpoper.com/images/00/31/67/12/death-note_00316712.jpg"
+	},
+
+	{
+		link : "http://66.90.93.122/ost/death-note-original-soundtrack/cnpikmfqsu/11-l-s-theme-b.mp3",
+		name : "L's theme B",
+		img : "http://cdn.wallpapersafari.com/87/52/DSgHjT.jpg"
+	}
+
+]
