@@ -1,9 +1,3 @@
-{
-	"link" : "",
-	"name" : "",
-	"img" : ""
-},
-
 data = [
 
 	{
@@ -83,6 +77,13 @@ data = [
 		"name" : "Haikyuu!! Second Season - I'm a believer",
 		"img" : "https://www.thebitbag.com/wp-content/uploads/2016/03/Karasuno2.png"
 	},
+
+	{
+		"link" : "http://yt-files.com/yt-dd.php?id=xP5_SnR75ZU&hash=81f36d506e80f82f1bf2eab97aab858a&name=Haikyuu!! 3rd Season Opening 1 “Hikari Are” (BURNOUT SYNDROMES)",
+		"name" : "Haikyuu!! Third Season - Hikari Are",
+		"img" : "http://i.imgur.com/qvGY6zf.png"
+	},
+
 
 
 	{
