@@ -67,6 +67,11 @@ data = [
 	},
 
 	{
+		"link" : "http://67.159.62.2/anime_ost/haikyuu-second-season-op2-fly-high-/zpoxjzmsne/01-fly-high-.mp3",
+		"name" : "Haikyuu!! Second Season OP2 - FLY HIGH!!",
+		"img" : "http://i.imgur.com/NvZsKdz.jpg"
+	},
+	{
 		"link" : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-season-2-ed-1/317870688.mp3",
 		"name" : "Boku no Hero Academia S2 ED-1",
 		"img" : "https://i.ytimg.com/vi/ldTgrPe6Y4E/maxresdefault.jpg"
