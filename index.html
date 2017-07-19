@@ -3,8 +3,10 @@
 <html>
 	<head>
 	<title>Ongaku : Anime Radio</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel = "stylesheet" href = "css/style.css">
 	<link href = "img/favicon-naruto.ico" rel="icon" type="image/x-icon">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src = "js/ongaku.js"></script>
 	<script type="text/javascript" src = "js/data.json"></script>
 	</head>
@@ -16,17 +18,22 @@
 	<div id="next" title="Play Next">
 		<img src="img/next-button.png">
 	</div>
+	<div>
+		<div class="content-wrapper">
+			<h2>
+				<div id="track-name">Track Name</div>
+			</h2>
+		</div>
 
-	<div id="wrapper">
-
-		<div id="player">
-			<button id="pButton" class="play" title="Toggle Play"></button>
-			<div id="timeline">
-				<div id="playhead"></div>
+		<div id="wrapper">
+			<div id="player">
+				<button id="pButton" class="play" title="Toggle Play"></button>
+				<div id="timeline">
+					<div id="playhead"></div>
+				</div>
 			</div>
 		</div>
 	</div>
-
 	<div id="restart" title="Play Again">
 		<img src="img/restart.png">
 	</div>
