@@ -8,7 +8,8 @@ window.addEventListener("load", function () {
 	const playHead = document.querySelector('#playhead');
 	const timeLine = document.querySelector('#timeline');
 	const nextButton = document.querySelector('#next');
-	const reButton = document.querySelector('#restart')
+	const reButton = document.querySelector('#restart');
+	const trackName = document.querySelector('#track-name');
 
 	// Function to toggle play / pause
 	function togglePlay () {	// function to toggle play/pause
@@ -68,6 +69,7 @@ window.addEventListener("load", function () {
 	// function to replay the current track
 	function playAgain() {
 		music.currentTime = 0;
+		displayTrackName();
 	}
 
 	// A function to handle key press on window
@@ -82,12 +84,22 @@ window.addEventListener("load", function () {
 		} else {return;}
 	}
 
+// Function to display track name
+	function displayTrackName() {
+		trackName.innerHTML = order[0].name;
+		$('#track-name').stop(true, true);
+		$('#track-name').show();
+		$('#track-name').fadeOut(10000);
+	}
+
+
 	// function to play tracks
 	let order = shuffle(data);
 	function play () {
 		music.src = order[0].link;
 		music.play();
 		updateButton();
+		displayTrackName();
 		document.body.style.backgroundImage = "url('" + order[0].img + "')";
 	}
 		
