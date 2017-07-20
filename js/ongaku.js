@@ -10,6 +10,7 @@ window.addEventListener("load", function () {
 	const nextButton = document.querySelector('#next');
 	const reButton = document.querySelector('#restart');
 	const trackName = document.querySelector('#track-name');
+	const bufferedBar = document.querySelector('#buffered-bar');
 
 	// Function to toggle play / pause
 	function togglePlay () {	// function to toggle play/pause
@@ -30,7 +31,7 @@ window.addEventListener("load", function () {
 	// A  function to handle song duration bar
 	function handleProgress () {
 		var percent = (music.currentTime / music.duration ) * 100;
-		if (percent == 100) {
+		if (percent >= 100) {
 			percent = 0;
 			order.push(order.shift());	// Take the completed one and place it at the end of playlist
 			play();
@@ -92,6 +93,11 @@ window.addEventListener("load", function () {
 		$('#track-name').fadeOut(10000);
 	}
 
+	function handleBuffer() {
+		console.log('(music.buffered.end(0) / music.duration) * 100 + "%"');
+		bufferedBar.style.flexBasis = (music.buffered.end(0) / music.duration) * 100 + "%";
+	}
+
 
 	// function to play tracks
 	let order = shuffle(data);
@@ -110,10 +116,12 @@ window.addEventListener("load", function () {
 	playButton.addEventListener('click', updateButton);
 
 	music.addEventListener('timeupdate', handleProgress);
-	
+	music.addEventListener('timeupdate', handleBuffer);
+
 	let mousedown = false;	// variable to keep track of mousedown event
 	timeline.addEventListener('mousedown', ()  => mousedown = true);
 	timeline.addEventListener('mouseup', () => mousedown =  false);
+	timeline.addEventListener('mouseout', () => mousedown =  false);
 	timeline.addEventListener('mousemove', (e) => mousedown && scrub(e));
 	timeline.addEventListener('click', (e) => scrub(e));
 

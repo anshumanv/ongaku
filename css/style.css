@@ -78,6 +78,7 @@ body{
 	margin-top: 20px;
 	float: left;
 	border-radius: 15px;
+	display: flex;
 }
 
 /*Grabable Playhead*/
@@ -102,4 +103,11 @@ img {
 img:hover {
 	transform: scale(1);
 	cursor: pointer;
+}
+
+#buffered-bar {
+	height: 20px;
+	flex-basis: 0%;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 15px;
 }
