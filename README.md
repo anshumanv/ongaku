@@ -16,6 +16,9 @@ A web-app to play random anime opening / ending / OST.
 
 ### Todo
 * Improve custom player UI.
+* Display list of tracks in sequence.
+* Fullscreen button.
+* Option to select from opening / ending / ost.
 
 
 ## Contributing
