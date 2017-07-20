@@ -87,6 +87,7 @@ window.addEventListener("load", function () {
 // Function to display track name
 	function displayTrackName() {
 		trackName.innerHTML = order[0].name;
+		$('#track-name').stop(true, true);
 		$('#track-name').show();
 		$('#track-name').fadeOut(10000);
 	}
