@@ -15,7 +15,6 @@ A web-app to play random anime opening / ending / OST.
 
 ### Todo
 * Improve custom player UI.
-* Display a piece of text denoting track name which fades away.
 * Display buffered bar in custom player.
 
 ## Contributing
