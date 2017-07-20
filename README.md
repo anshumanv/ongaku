@@ -1,5 +1,6 @@
 # ongaku
-   
+[![Contributors needed](https://img.shields.io/badge/contributors-needed-yellow.svg)](CONTRIBUTING.md)
+
 A web-app to play random anime opening / ending / OST.
 
 
