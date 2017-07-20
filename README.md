@@ -13,16 +13,16 @@ A web-app to play random anime opening / ending / OST.
 | n | play next track |
 | r | replay current track |
 
+
 ### Todo
 * Improve custom player UI.
-* Display a piece of text denoting track name which fades away.
 * Display buffered bar in custom player.
+
 
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
   
-Thanks to [The Hylia](https://anime.thehylia.com/) for providing direct mp3 links.
 
 ## License
 

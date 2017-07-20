@@ -114,6 +114,7 @@ window.addEventListener("load", function () {
 	let mousedown = false;	// variable to keep track of mousedown event
 	timeline.addEventListener('mousedown', ()  => mousedown = true);
 	timeline.addEventListener('mouseup', () => mousedown =  false);
+	timeline.addEventListener('mouseout', () => mousedown =  false);
 	timeline.addEventListener('mousemove', (e) => mousedown && scrub(e));
 	timeline.addEventListener('click', (e) => scrub(e));
 
