@@ -69,8 +69,7 @@ window.addEventListener("load", function () {
 	// function to replay the current track
 	function playAgain() {
 		music.currentTime = 0;
-		$('#track-name').hide();
-		displayTrackName(true);
+		displayTrackName();
 	}
 
 	// A function to handle key press on window
@@ -86,12 +85,9 @@ window.addEventListener("load", function () {
 	}
 
 // Function to display track name
-	function displayTrackName(replay=false) {
-		if (replay) {
-			$('#track-name').delay(100);
-			$('#track-name').show();
-		}
+	function displayTrackName() {
 		trackName.innerHTML = order[0].name;
+		$('#track-name').show();
 		$('#track-name').fadeOut(10000);
 	}
 
