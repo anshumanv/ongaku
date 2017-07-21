@@ -1,4 +1,6 @@
-# ongaku
+# ongaku  
+
+A web-app to play random anime opening / ending / OST.  
 [![Contributors needed](https://img.shields.io/badge/contributors-needed-yellow.svg)](CONTRIBUTING.md)
 [![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/Anshuman-Verma/ongaku/blob/master/LICENSE)
 
@@ -6,8 +8,6 @@
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)](http://forthebadge.com)
-
-A web-app to play random anime opening / ending / OST.
 
 
 ### Features
