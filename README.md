@@ -10,7 +10,7 @@ A web-app to play random anime opening / ending / OST.
 [![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)](http://forthebadge.com)
 
 
-### Features
+## Features
 * Displays a background relevant to the playing content.
 * Seekable custom audio player.
 
@@ -19,6 +19,11 @@ A web-app to play random anime opening / ending / OST.
 | p | toggle pause / play |
 | n | play next track |
 | r | replay current track |
+
+  
+### Some Pointers
+* The app uses various media sources from the internet hence there is no guraantee for the uptime of the media.
+* In case the track doesn't play or the background doesn't show up just file an issue or send a PR with appropriate media link.
 
 
 ### Todo
