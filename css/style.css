@@ -111,3 +111,15 @@ img:hover {
 	background-color: rgba(0, 0, 0, 0.4);
 	border-radius: 15px;
 }
+
+@media all and (max-width: 640px){
+	body{
+		background-size: contain;
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+		-o-background-size: contain;
+	}
+	img{
+		transform: scale(1);
+	}
+}
