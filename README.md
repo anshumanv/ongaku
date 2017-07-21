@@ -22,7 +22,7 @@ A web-app to play random anime opening / ending / OST.
 
   
 ### Some Pointers
-* The app uses various media sources from the internet hence there is no guraantee for the uptime of the media.
+* The app uses various media sources from the internet hence there is no media uptime guarantee.
 * In case the track doesn't play or the background doesn't show up just file an issue or send a PR with appropriate media link.
 
 
