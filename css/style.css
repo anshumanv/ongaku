@@ -112,7 +112,7 @@ img:hover {
 	border-radius: 15px;
 }
 
-@media all and (max-width: 640px){
+@media all and (max-width: 800px){
 	body{
 		background-size: contain;
 		-webkit-background-size: contain;
