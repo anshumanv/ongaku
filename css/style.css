@@ -50,6 +50,7 @@ body{
 
 #wrapper{
   display: flex;
+  justify-content: center;
   height: 75px;
   overflow: hidden;
   transform: translateY(10px);
