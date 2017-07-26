@@ -121,12 +121,13 @@ img:hover {
 	justify-content: end;
 }
 
-#popover-content {
+#popover-content, #popover-title {
 	display: none;
 }
 
-#popover-title {
-	display: none;
+.popover-content, .popover-title {
+	font-family: cairo;
+	font-size: 20px;
 }
 
 .popover-content {
