@@ -98,6 +98,9 @@ window.addEventListener("load", function () {
 		bufferedBar.style.flexBasis = (music.buffered.end(0) / music.duration) * 100 + "%";
 	}
 
+	$(document).ready(function(){
+    	$('[data-toggle="popover"]').popover();   
+	});
 
 	// function to play tracks
 	let order = shuffle(data);
