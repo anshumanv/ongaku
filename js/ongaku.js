@@ -99,7 +99,15 @@ window.addEventListener("load", function () {
 	}
 
 	$(document).ready(function(){
-    	$('[data-toggle="popover"]').popover();   
+    	$("[data-toggle=popover]").popover({
+			html: true,
+			title: function() {
+				return $('#popover-title').html();
+			},
+			content: function() {
+				return $('#popover-content').html();
+			}
+		});  
 	});
 
 	// function to play tracks

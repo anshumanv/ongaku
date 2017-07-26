@@ -121,6 +121,20 @@ img:hover {
 	justify-content: end;
 }
 
+#popover-content {
+	display: none;
+}
+
+#popover-title {
+	display: none;
+}
+
+.popover {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	border: 2px solid red;
+}
 
 @media all and (max-width: 800px){
 	body{
