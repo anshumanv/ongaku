@@ -110,18 +110,8 @@ window.addEventListener("load", function () {
 		});  
 	});
 
-	//$('input.cb-value').prop("checked", true);
-	$('body').on('click', '.cb-value', function() {
-		var mainParent = $(this).parent('.toggle-btn');
-		if($(mainParent).find('input.cb-value').is(':checked')) {
-			$(mainParent).addClass('active');
-		} else {
-			$(mainParent).removeClass('active');
-		}
-	});
-
 	// function to play tracks
-	let order = shuffle(data);
+	var order = shuffle(osts.concat(openings).concat(endings));
 	function play () {
 		music.src = order[0].link;
 		music.play();
@@ -129,7 +119,29 @@ window.addEventListener("load", function () {
 		displayTrackName();
 		document.body.style.backgroundImage = "url('" + order[0].img + "')";
 	}
-		
+	
+	// Function to toggle popover display
+	$('body').on('click', '.cb-value', function() {
+		var mainParent = $(this).parent('.toggle-btn');
+		if($(mainParent).find('input.cb-value').is(':checked')) {
+			$(mainParent).addClass('active');
+		} else {
+			$(mainParent).removeClass('active');
+		}
+	});	
+
+	// Function to handle preference checkboxes
+	$('body').on('change', '.cb-value', function() {
+		order = [];
+		if($('.cb-op')[1].checked){
+			order.push(...openings);
+		}
+		if($('.cb-ed')[1].checked)
+			order.push(...endings);
+		if($('.cb-ost')[1].checked)
+			order.push(...osts);
+	});	
+
 	play();
 
 	// Event handlers
