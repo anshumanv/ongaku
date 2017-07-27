@@ -99,15 +99,29 @@ window.addEventListener("load", function () {
 	}
 
 	$(document).ready(function(){
+		// function to toggle popover
     	$("[data-toggle=popover]").popover({
 			html: true,
 			title: function() {
 				return $('#popover-title').html();
 			},
 			content: function() {
-				return $('#popover-content').html();
+				return $('#popover-body').html();
 			}
-		});  
+		});
+
+    	// A function to retain popover checkbox instances
+    	$("[data-toggle=popover]").on("shown.bs.popover",function(){
+        $(".popover-content input").on("change",function(){
+            if(this.checked){
+                this.setAttribute("checked","checked");
+            }else{
+                this.removeAttribute("checked");
+            }
+            $("#popover-body").html($(".popover-content").html());
+        });
+    });
+
 	});
 
 	// function to play tracks
@@ -120,7 +134,7 @@ window.addEventListener("load", function () {
 		document.body.style.backgroundImage = "url('" + order[0].img + "')";
 	}
 	
-	// Function to toggle popover display
+	// Function to handle checkbox clicks and changes
 	$('body').on('click', '.cb-value', function() {
 		var mainParent = $(this).parent('.toggle-btn');
 		if($(mainParent).find('input.cb-value').is(':checked')) {
@@ -136,10 +150,12 @@ window.addEventListener("load", function () {
 		if($('.cb-op')[1].checked){
 			order.push(...openings);
 		}
-		if($('.cb-ed')[1].checked)
+		if($('.cb-ed')[1].checked){
 			order.push(...endings);
-		if($('.cb-ost')[1].checked)
+		}
+		if($('.cb-ost')[1].checked) {
 			order.push(...osts);
+		}
 	});	
 
 	play();

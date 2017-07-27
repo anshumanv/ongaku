@@ -121,21 +121,21 @@ img:hover {
 	justify-content: end;
 }
 
-#popover-content, #popover-title {
+#popover-body, #popover-title {
 	display: none;
 }
 
-.popover-content, .popover-title {
+.popover-body, .popover-title {
 	font-family: cairo;
 	font-size: 20px;
 }
 
-.popover-content {
+.popover-body {
 	display: flex;
 	flex-direction: column;
 }
 
-.popover-content > * {
+.popover-body > * {
 	flex: 1;
 }
 
