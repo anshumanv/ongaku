@@ -36,7 +36,7 @@ window.addEventListener("load", function () {
 			order.push(order.shift());	// Take the completed one and place it at the end of playlist
 			play();
 		}
-		playHead.style.marginLeft = (percent / 100) * 364  + "px";	// Geez -_-
+		playHead.style.marginLeft = (percent / 100) * (timeLine.offsetWidth - playHead.offsetWidth)  + "px";	// Geez -_-
 	}
 
 	// function to enable track seek
@@ -94,8 +94,7 @@ window.addEventListener("load", function () {
 	}
 
 	function handleBuffer() {
-		console.log('(music.buffered.end(0) / music.duration) * 100 + "%"');
-		bufferedBar.style.flexBasis = (music.buffered.end(0) / music.duration) * 100 + "%";
+		bufferedBar.style.flexBasis = Math.round((music.buffered.end(0) / music.duration) * 100) + "%";
 	}
 
 	$(document).ready(function(){
@@ -124,16 +123,6 @@ window.addEventListener("load", function () {
 
 	});
 
-	// function to play tracks
-	var order = shuffle(osts.concat(openings).concat(endings));
-	function play () {
-		music.src = order[0].link;
-		music.play();
-		updateButton();
-		displayTrackName();
-		document.body.style.backgroundImage = "url('" + order[0].img + "')";
-	}
-	
 	// Function to handle checkbox clicks and changes
 	$('body').on('click', '.cb-value', function() {
 		var mainParent = $(this).parent('.toggle-btn');
@@ -157,6 +146,17 @@ window.addEventListener("load", function () {
 			order.push(...osts);
 		}
 	});	
+
+	// function to play tracks
+	var order = shuffle(osts.concat(openings).concat(endings));
+	function play () {
+		music.src = order[0].link;
+		music.play();
+		updateButton();
+		displayTrackName();
+		document.body.style.backgroundImage = "url('" + order[0].img + "')";
+	}
+	
 
 	play();
 
