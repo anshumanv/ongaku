@@ -165,7 +165,7 @@ window.addEventListener("load", function () {
 	playButton.addEventListener('click', updateButton);
 
 	music.addEventListener('timeupdate', handleProgress);
-	music.addEventListener('timeupdate', handleBuffer);
+	window.setInterval(handleBuffer, 100);
 
 	let mousedown = false;	// variable to keep track of mousedown event
 	timeline.addEventListener('mousedown', ()  => mousedown = true);
