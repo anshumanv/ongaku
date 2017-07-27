@@ -98,9 +98,34 @@ window.addEventListener("load", function () {
 		bufferedBar.style.flexBasis = (music.buffered.end(0) / music.duration) * 100 + "%";
 	}
 
+	$(document).ready(function(){
+		// function to toggle popover
+    	$("[data-toggle=popover]").popover({
+			html: true,
+			title: function() {
+				return $('#popover-title').html();
+			},
+			content: function() {
+				return $('#popover-body').html();
+			}
+		});
+
+    	// A function to retain popover checkbox instances
+    	$("[data-toggle=popover]").on("shown.bs.popover",function(){
+        $(".popover-content input").on("change",function(){
+            if(this.checked){
+                this.setAttribute("checked","checked");
+            }else{
+                this.removeAttribute("checked");
+            }
+            $("#popover-body").html($(".popover-content").html());
+        });
+    });
+
+	});
 
 	// function to play tracks
-	let order = shuffle(data);
+	var order = shuffle(osts.concat(openings).concat(endings));
 	function play () {
 		music.src = order[0].link;
 		music.play();
@@ -108,7 +133,31 @@ window.addEventListener("load", function () {
 		displayTrackName();
 		document.body.style.backgroundImage = "url('" + order[0].img + "')";
 	}
-		
+	
+	// Function to handle checkbox clicks and changes
+	$('body').on('click', '.cb-value', function() {
+		var mainParent = $(this).parent('.toggle-btn');
+		if($(mainParent).find('input.cb-value').is(':checked')) {
+			$(mainParent).addClass('active');
+		} else {
+			$(mainParent).removeClass('active');
+		}
+	});	
+
+	// Function to handle preference checkboxes
+	$('body').on('change', '.cb-value', function() {
+		order = [];
+		if($('.cb-op')[1].checked){
+			order.push(...openings);
+		}
+		if($('.cb-ed')[1].checked){
+			order.push(...endings);
+		}
+		if($('.cb-ost')[1].checked) {
+			order.push(...osts);
+		}
+	});	
+
 	play();
 
 	// Event handlers
