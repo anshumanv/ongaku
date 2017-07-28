@@ -82,6 +82,8 @@ window.addEventListener("load", function () {
 			nextTrack();
 		} else if(e.keyCode === 82) {	// r
 			playAgain();
+		} else if(e.keyCode === 70) {
+			toggleFullscreen();
 		} else {return;}
 	}
 
@@ -147,6 +149,26 @@ window.addEventListener("load", function () {
 		}
 	});	
 
+	// Functions to handle fullscreen
+	function isFullscreen() {
+		return Boolean(document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement);
+	}
+	
+	function toggleFullscreen() {
+		if (isFullscreen()) {
+			if (document.exitFullscreen) document.exitFullscreen();
+			else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
+			else if (document.mozCancelFullScreen) document.mozCancelFullScreen();
+			else if (document.msExitFullscreen) document.msExitFullscreen();
+		} else {
+			const e = document.getElementsByTagName("html")[0];
+			if (e.requestFullscreen) e.requestFullscreen();
+			else if (e.webkitRequestFullscreen) e.webkitRequestFullscreen();
+			else if (e.mozRequestFullScreen) e.mozRequestFullScreen();
+			else if (e.msRequestFullscreen) e.msRequestFullscreen();
+		}
+	}
+
 	// function to play tracks
 	var order = shuffle(osts.concat(openings).concat(endings));
 	function play () {
@@ -156,7 +178,6 @@ window.addEventListener("load", function () {
 		displayTrackName();
 		document.body.style.backgroundImage = "url('" + order[0].img + "')";
 	}
-	
 
 	play();
 
