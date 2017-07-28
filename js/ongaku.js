@@ -11,6 +11,7 @@ window.addEventListener("load", function () {
 	const reButton = document.querySelector('#restart');
 	const trackName = document.querySelector('#track-name');
 	const bufferedBar = document.querySelector('#buffered-bar');
+	const fullscreenButton = document.querySelector('#fullscreen-button');
 
 	// Function to toggle play / pause
 	function togglePlay () {	// function to toggle play/pause
@@ -18,7 +19,7 @@ window.addEventListener("load", function () {
 	}
 
 	// Function to handle play/pause icon
-	function updateButton () {
+	function updatePlayButton () {
 		if (!music.paused) {
 			playButton.classList.remove('play');
 			playButton.classList.add('pause');
@@ -77,13 +78,14 @@ window.addEventListener("load", function () {
 	function handleKeyPress(e) {
 		if(e.keyCode === 80) {	// p 
 			togglePlay();
-			updateButton();
+			updatePlayButton();
 		} else if(e.keyCode === 78) {	// n
 			nextTrack();
 		} else if(e.keyCode === 82) {	// r
 			playAgain();
-		} else if(e.keyCode === 70 || 122) {
+		} else if(e.keyCode === 70) {
 			toggleFullscreen();
+			updateFullscreenButton();
 		} else {return;}
 	}
 
@@ -169,12 +171,17 @@ window.addEventListener("load", function () {
 		}
 	}
 
+	function updateFullscreenButton () {
+		fullscreenButton.classList.toggle('on');
+		fullscreenButton.classList.contains('on') ? fullscreenButton.querySelector('img').src = ('img/cancel-fullscreen.png') : fullscreenButton.querySelector('img').src = ('img/go-fullscreen.png');
+	}
+
 	// function to play tracks
 	var order = shuffle(osts.concat(openings).concat(endings));
 	function play () {
 		music.src = order[0].link;
 		music.play();
-		updateButton();
+		updatePlayButton();
 		displayTrackName();
 		document.body.style.backgroundImage = "url('" + order[0].img + "')";
 	}
@@ -183,7 +190,7 @@ window.addEventListener("load", function () {
 
 	// Event handlers
 	playButton.addEventListener('click', togglePlay);
-	playButton.addEventListener('click', updateButton);
+	playButton.addEventListener('click', updatePlayButton);
 
 	music.addEventListener('timeupdate', handleProgress);
 	window.setInterval(handleBuffer, 100);
@@ -197,6 +204,9 @@ window.addEventListener("load", function () {
 
 	nextButton.addEventListener('click', nextTrack);	// handling clicks on next button
 	reButton.addEventListener('click', playAgain);	// handling clicks on restart button
+
+	fullscreenButton.addEventListener('click', toggleFullscreen);
+	fullscreenButton.addEventListener('click', updateFullscreenButton);
 
 	window.addEventListener('keyup', (e) => handleKeyPress(e));	// handle key-press on window
 });
