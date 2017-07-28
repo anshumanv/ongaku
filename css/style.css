@@ -146,6 +146,10 @@ img:hover {
 	justify-content: space-between;
 }
 
+.botton-right {
+	display: flex;
+}
+
 @media all and (max-width: 800px){
 	body{
 		background-size: contain;
