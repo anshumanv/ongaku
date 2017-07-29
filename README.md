@@ -19,6 +19,7 @@ A web-app to play random anime opening / ending / OST.
 | p | toggle pause / play |
 | n | play next track |
 | r | replay current track |
+| f | toggle fullscreen |
 
   
 ### Some Pointers
@@ -29,8 +30,6 @@ A web-app to play random anime opening / ending / OST.
 ### Todo
 * Improve custom player UI.
 * Display list of tracks in sequence.
-* Fullscreen button.
-* Option to select from opening / ending / ost.
 
 
 ## Contributing
