@@ -83,7 +83,7 @@ window.addEventListener("load", function () {
 			nextTrack();
 		} else if(e.keyCode === 82) {	// r
 			playAgain();
-		} else if(e.keyCode === 70) {
+		} else if(e.keyCode === 70) {	// f
 			toggleFullscreen();
 			updateFullscreenButton();
 		} else {return;}
