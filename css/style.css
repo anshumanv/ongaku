@@ -112,6 +112,7 @@ img:hover {
 	flex-basis: 0%;
 	background-color: rgba(0, 0, 0, 0.4);
 	border-radius: 15px;
+	transition: all .3s;
 }
 
 .top-bar {
@@ -143,6 +144,10 @@ img:hover {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+.botton-right {
+	display: flex;
 }
 
 @media all and (max-width: 800px){
