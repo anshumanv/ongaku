@@ -81,7 +81,37 @@ openings = [
 		"link" : "http://yt-files.com/yt-dd.php?id=xP5_SnR75ZU&hash=81f36d506e80f82f1bf2eab97aab858a&name=Haikyuu!! 3rd Season Opening 1 “Hikari Are” (BURNOUT SYNDROMES)",
 		"name" : "Haikyuu!! Third Season - Hikari Are",
 		"img" : "http://i.imgur.com/qvGY6zf.png"
-	}
+	},
+    
+    {
+        "link" : "http://a.tumblr.com/tumblr_l7e9gmO6IH1qbkgo2o1.mp3",
+        "name" : "Fullmetal Alchemist Brotherhood",
+        "img" : "http://i0.kym-cdn.com/photos/images/original/000/821/013/179.jpg"
+    },
+    
+    {
+        "link" : "http://archive.forunesia.com/downloads/mp3_6/%5BForunesia%5DGoya%20no%20Mechiawase.mp3",
+        "name" : "Noragami - Hello Sleepwalkers",
+        "img" : "https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1291898/Latvian/1291898_Latvian_ShowMasterKeyArt_92190267-deff-e611-8175-020165574d09.jpg"
+    },
+    
+    {
+        "link" : "http://a.tumblr.com/tumblr_lznxqjR9eR1qhn2lco1.mp3",
+        "name" : "Mirai Nikki - Fantasy Mythology",
+        "img" : "https://images2.alphacoders.com/502/thumb-1920-502111.png"
+    },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/death-note-the-world/ewensbzbml/01-the-world.mp3",
+        "name" : "Death Note - Sekai Wo(The World)",
+        "img" : "http://assets1.ignimgs.com/2017/03/23/deathnote-1280-1490294885083_1280w.jpg"
+    },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/ao-no-exorcist-op2-single-in-my-world/qkniuuuqjn/01.%20IN%20MY%20WORLD.mp3",
+        "name" : "Ao No Exorcist - In My World",
+        "img" : "https://images.alphacoders.com/446/446026.jpg"
+    }
 
 ]
 
