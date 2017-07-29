@@ -31,6 +31,7 @@ A web-app to play random anime opening / ending / OST.
 * Improve custom player UI.
 * Display list of tracks in sequence.
 
+> Mainained & Authored by [Anshuman-Verma](https://github.com/Anshuman-Verma) with the help of [Contributors](https://github.com/Anshuman-Verma/ongaku/graphs/contributors)
 
 ## Contributing
 
