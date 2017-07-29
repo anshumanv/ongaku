@@ -119,7 +119,7 @@ img:hover {
 	display: flex;
 	align-self: flex-start;
 	width: 100vw;
-	justify-content: end;
+	justify-content: flex-end;
 }
 
 #popover-body, #popover-title {
