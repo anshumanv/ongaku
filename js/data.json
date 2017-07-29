@@ -112,11 +112,11 @@ openings = [
         "name" : "Ao No Exorcist - In My World",
         "img" : "https://images.alphacoders.com/446/446026.jpg"
     },
-+    
-+    {
-+        "link" : "http://67.159.62.2/anime_ost/ao-no-exorcist-ed-single-take-off/hhkwkkjbmi/01.%20Take%20off.mp3",
-+        "name" : "Ao No Exorcist - Take Off",
-+        "img"  : "https://i.ytimg.com/vi/AB-i6RkEr58/maxresdefault.jpg"
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/ao-no-exorcist-ed-single-take-off/hhkwkkjbmi/01.%20Take%20off.mp3",
+        "name" : "Ao No Exorcist - Take Off",
+        "img"  : "https://i.ytimg.com/vi/AB-i6RkEr58/maxresdefault.jpg"
      }
 
 ]
