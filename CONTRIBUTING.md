@@ -1,7 +1,6 @@
 ## Adding new content
 
 * Head over to [data.json](js/data.json) and refer new addition skeleton.
-* Send PR only to [new-content](https://github.com/Anshuman-Verma/ongaku/tree/new-content) branch.
 * Fill the skeleton for each new addition and place in respective section.
 * Make a double check on the links you provide to ensure their correctness.
 * Make sure audio quality is equal or greater than 256 kbps.
@@ -11,7 +10,6 @@
 
 ## Improving Ongaku
 
-* Send PR only to [dev](https://github.com/Anshuman-Verma/ongaku/tree/dev) branch.
 * Refer [ongaku.js](js/ongaku.js) which holds the crux of the app.
 * Refer [style.css](css/style.css) which contains the styling of the app.
 * Refer [index.html](index.html) which holds the basic HTML of the app.
