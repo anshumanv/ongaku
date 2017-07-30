@@ -1,6 +1,5 @@
 window.addEventListener("load", function () {
 
-
 	// Grabbing elements from the page
 	const music = document.querySelector('#music');
 	const player = document.querySelector('#player');
@@ -209,5 +208,6 @@ window.addEventListener("load", function () {
 	fullscreenButton.addEventListener('click', updateFullscreenButton);
 
 	window.addEventListener('keyup', (e) => handleKeyPress(e));	// handle key-press on window
+	console.log(order);
 });
 

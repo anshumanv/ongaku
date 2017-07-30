@@ -107,6 +107,18 @@ img:hover {
 	cursor: pointer;
 }
 
+#fullscreen-button {
+	transition: all 0.2s;
+	margin: 5px;
+	height: 60px;
+	transform: scale(0.8);
+	background: 2px solid rgba(0, 0, 0, 0.3);
+}
+#fullscreen-button:hover {
+	transform: scale(1);
+	cursor: pointer;
+}
+
 #buffered-bar {
 	height: 20px;
 	flex-basis: 0%;
@@ -158,6 +170,9 @@ img:hover {
 		-o-background-size: contain;
 	}
 	img{
+		transform: scale(1);
+	}
+	#fullscreen-button{
 		transform: scale(1);
 	}
 }
