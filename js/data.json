@@ -134,7 +134,13 @@ openings = [
     {
         "link" : "http://67.159.62.2/anime_ost/assassination-classroom-op-single-seishun-satsubatsuron/kypulqohbf/01%20-%20Seishun%20Satsubatsuron.mp3",
         "name" : "Assassination Classroom OP 1",
-        "img"  : "http://i.imgur.com/ItZib5a.jpg"
+        "img"  : "https://images.alphacoders.com/605/thumb-1920-605582.jpg"
+     },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/assassination-classroom-op2-single-jiriki-hongan-revolution/cinfcejtps/01%20-%20Jikiri%20Hongan%20Revolution.mp3",
+        "name" : "Assassination Classroom OP 2",
+        "img"  : "http://wallpapers-best.com/uploads/posts/2015-12/13_assassination_classroom.jpg"
      }
 
 ]
