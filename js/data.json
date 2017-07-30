@@ -158,6 +158,12 @@ endings = [
 		"link" : "http://lyricmp3skull.org/s363640c/file/boku-no-hero-academia-ed-ending-heroes/257300066.mp3",
 		"name" : "Boku no Hero Academia S1 ED",
 		"img" : "http://lostinanime.com/wp-content/uploads/2017/04/Boku-no-Hero-Academia-2-01-34-1280x720.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/akame-ga-kill-ed-single-konna-sekai-shiritaku-nakatta/rbkbltnkro/01%20Konna%20Sekai%2C%20Shiritakunakatta..mp3",
+		"name" : "Akame ga Kill! Ending 1",
+		"img" : "https://images5.alphacoders.com/542/thumb-1920-542751.jpg"
 	}
 
 ]
