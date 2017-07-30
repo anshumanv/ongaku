@@ -109,10 +109,7 @@ img:hover {
 
 #fullscreen-button {
 	transition: all 0.2s;
-	margin: 5px;
-	height: 60px;
 	transform: scale(0.8);
-	background: 2px solid rgba(0, 0, 0, 0.3);
 }
 #fullscreen-button:hover {
 	transform: scale(1);
