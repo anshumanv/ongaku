@@ -147,6 +147,12 @@ openings = [
         "link" : "http://67.159.62.2/anime_ost/assassination-classroom-s2-op-single-question/zbarnzofkr/01%20-%20QUESTION.mp3",
         "name" : "Assassination Classroom OP 3",
         "img"  : "https://s-media-cache-ak0.pinimg.com/originals/e3/51/5d/e3515d66012a039ff2a52bde2689bd0d.png"
+     },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/assassination-classroom-s2-op2-single-bye-bye-yesterday/gbypjjrfjf/01%20-%20Bye%20Bye%20YESTERDAY.mp3",
+        "name" : "Assassination Classroom OP 4",
+        "img"  : "https://s-media-cache-ak0.pinimg.com/originals/55/1f/a2/551fa255f7df97c6af549571de08cbcd.jpg"
      }
 
 ]
