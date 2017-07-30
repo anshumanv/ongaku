@@ -134,8 +134,8 @@ openings = [
     {
         "link" : "http://67.159.62.2/anime_ost/assassination-classroom-op-single-seishun-satsubatsuron/kypulqohbf/01%20-%20Seishun%20Satsubatsuron.mp3",
         "name" : "Assassination Classroom OP 1",
-        "img"  : "http://i.imgur.com/ItZib5a.jpg"
-     },
+        "img"  : "https://images.alphacoders.com/605/thumb-1920-605582.jpg"
+    },
     
     {
         "link" : "http://67.159.62.2/anime_ost/ao-no-exorcist-op-single-core-pride/ttbjgecvfo/01.%20CORE%20PRIDE.mp3",
@@ -147,7 +147,26 @@ openings = [
         "link" : "http://67.159.62.2/anime_ost/ao-no-exorcist-op-single-core-pride/ayactsngid/02.%20Zen%20Mantra.mp3",
         "name" : "Ao No Exorcist - Zen Mantra",
         "img" : "http://1.bp.blogspot.com/-DhMdu3n73wI/UQ_zKJk42uI/AAAAAAAAAK0/dw5a2xJzULw/s1600/660022.jpg"
-    }
+     },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/assassination-classroom-op2-single-jiriki-hongan-revolution/cinfcejtps/01%20-%20Jikiri%20Hongan%20Revolution.mp3",
+        "name" : "Assassination Classroom OP 2",
+        "img"  : "http://wallpapers-best.com/uploads/posts/2015-12/13_assassination_classroom.jpg"
+     },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/assassination-classroom-s2-op-single-question/zbarnzofkr/01%20-%20QUESTION.mp3",
+        "name" : "Assassination Classroom OP 3",
+        "img"  : "https://s-media-cache-ak0.pinimg.com/originals/e3/51/5d/e3515d66012a039ff2a52bde2689bd0d.png"
+     },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/assassination-classroom-s2-op2-single-bye-bye-yesterday/gbypjjrfjf/01%20-%20Bye%20Bye%20YESTERDAY.mp3",
+        "name" : "Assassination Classroom OP 4",
+        "img"  : "https://s-media-cache-ak0.pinimg.com/originals/55/1f/a2/551fa255f7df97c6af549571de08cbcd.jpg"
+     }
+
 ]
 
 
@@ -187,6 +206,12 @@ endings = [
 		"link" : "http://67.159.62.2/anime_ost/akame-ga-kill-ed2-single-tsuki-akari/kqiuapjncm/01%20Tsukiakari.mp3",
 		"name" : "Akame ga Kill! Ending 2",
 		"img" : "http://fanboygalaxy.com/wp-content/uploads/2015/12/605794.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/assassination-classroom-ed-single-hello-shooting-star/nfukzioqjs/01%20-%20Hello%2C%20shooting-star.mp3",
+		"name" : "Ansatsu Kyoushitu ED 1",
+		"img" : "https://i.ytimg.com/vi/IS_JdSsY7c0/maxresdefault.jpg"
 	}
 
 ]
@@ -216,6 +241,12 @@ osts = [
 		"link" : "http://66.90.93.122/ost/death-note-original-soundtrack/cnpikmfqsu/11-l-s-theme-b.mp3",
 		"name" : "L's theme B",
 		"img" : "http://cdn.wallpapersafari.com/87/52/DSgHjT.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/assassination-classroom-original-soundtrack/exjurvmvru/06%20-%20Koro-sensei%20Ai%20no%20Jugyou.mp3",
+		"name" : "Ansatsu Kyoushitu - Koro-sensei Ai no Jugyou",
+		"img" : "http://wallpapercave.com/wp/wp1951519.png"
 	}
 ]
 
