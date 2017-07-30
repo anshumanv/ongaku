@@ -117,6 +117,12 @@ openings = [
         "link" : "http://67.159.62.2/anime_ost/ao-no-exorcist-ed-single-take-off/hhkwkkjbmi/01.%20Take%20off.mp3",
         "name" : "Ao No Exorcist - Take Off",
         "img"  : "https://i.ytimg.com/vi/AB-i6RkEr58/maxresdefault.jpg"
+     },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/akame-ga-kill-op-single-skyreach/lczbbuiahd/01%20Skyreach.mp3",
+        "name" : "Akame ga Kill! OP - Skyreach",
+        "img"  : "http://www.imgbase.info/images/safe-wallpapers/anime/akame_ga_kill/50256_akame_ga_kill.jpg"
      }
 
 ]
