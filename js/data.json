@@ -194,6 +194,12 @@ endings = [
 		"link" : "http://67.159.62.2/anime_ost/akame-ga-kill-ed2-single-tsuki-akari/kqiuapjncm/01%20Tsukiakari.mp3",
 		"name" : "Akame ga Kill! Ending 2",
 		"img" : "http://fanboygalaxy.com/wp-content/uploads/2015/12/605794.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/assassination-classroom-ed-single-hello-shooting-star/nfukzioqjs/01%20-%20Hello%2C%20shooting-star.mp3",
+		"name" : "Ansatsu Kyoushitu ED 1",
+		"img" : "https://i.ytimg.com/vi/IS_JdSsY7c0/maxresdefault.jpg"
 	}
 
 ]
