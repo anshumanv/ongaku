@@ -127,6 +127,11 @@ img:hover {
 	transition: all .3s;
 }
 
+#fullscreen-button {
+	display: flex;
+	align-items: center;
+}
+
 .top-bar {
 	display: flex;
 	align-self: flex-start;
