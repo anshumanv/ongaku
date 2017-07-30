@@ -121,8 +121,14 @@ openings = [
     
     {
         "link" : "http://67.159.62.2/anime_ost/akame-ga-kill-op-single-skyreach/lczbbuiahd/01%20Skyreach.mp3",
-        "name" : "Akame ga Kill! OP - Skyreach",
+        "name" : "Akame ga Kill! OP1 - Skyreach",
         "img"  : "http://www.imgbase.info/images/safe-wallpapers/anime/akame_ga_kill/50256_akame_ga_kill.jpg"
+     },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/akame-ga-kill-op2-single-liar-mask/xloeoosukx/01%20-%20Liar%20Mask.mp3",
+        "name" : "Akame ga Kill! OP2 - Liar Mask",
+        "img"  : "http://i.imgur.com/ItZib5a.jpg"
      }
 
 ]
