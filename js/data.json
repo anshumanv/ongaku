@@ -164,6 +164,12 @@ endings = [
 		"link" : "http://67.159.62.2/anime_ost/akame-ga-kill-ed-single-konna-sekai-shiritaku-nakatta/rbkbltnkro/01%20Konna%20Sekai%2C%20Shiritakunakatta..mp3",
 		"name" : "Akame ga Kill! Ending 1",
 		"img" : "https://images5.alphacoders.com/542/thumb-1920-542751.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/akame-ga-kill-ed2-single-tsuki-akari/kqiuapjncm/01%20Tsukiakari.mp3",
+		"name" : "Akame ga Kill! Ending 2",
+		"img" : "http://fanboygalaxy.com/wp-content/uploads/2015/12/605794.jpg"
 	}
 
 ]
