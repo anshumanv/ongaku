@@ -208,6 +208,5 @@ window.addEventListener("load", function () {
 	fullscreenButton.addEventListener('click', updateFullscreenButton);
 
 	window.addEventListener('keyup', (e) => handleKeyPress(e));	// handle key-press on window
-	console.log(order);
 });
 
