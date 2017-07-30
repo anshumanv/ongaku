@@ -135,6 +135,18 @@ openings = [
         "link" : "http://67.159.62.2/anime_ost/assassination-classroom-op-single-seishun-satsubatsuron/kypulqohbf/01%20-%20Seishun%20Satsubatsuron.mp3",
         "name" : "Assassination Classroom OP 1",
         "img"  : "https://images.alphacoders.com/605/thumb-1920-605582.jpg"
+    },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/ao-no-exorcist-op-single-core-pride/ttbjgecvfo/01.%20CORE%20PRIDE.mp3",
+        "name" : "Ao no Exorcist OP Single - Core Pride",
+        "img" : "https://images3.alphacoders.com/278/thumb-1920-278569.jpg"
+    },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/ao-no-exorcist-op-single-core-pride/ayactsngid/02.%20Zen%20Mantra.mp3",
+        "name" : "Ao No Exorcist - Zen Mantra",
+        "img" : "http://1.bp.blogspot.com/-DhMdu3n73wI/UQ_zKJk42uI/AAAAAAAAAK0/dw5a2xJzULw/s1600/660022.jpg"
      },
     
     {
