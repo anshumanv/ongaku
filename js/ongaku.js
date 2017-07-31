@@ -1,6 +1,5 @@
 window.addEventListener("load", function () {
 
-
 	// Grabbing elements from the page
 	const music = document.querySelector('#music');
 	const player = document.querySelector('#player');
@@ -173,7 +172,7 @@ window.addEventListener("load", function () {
 
 	function updateFullscreenButton () {
 		fullscreenButton.classList.toggle('on');
-		fullscreenButton.classList.contains('on') ? fullscreenButton.querySelector('img').src = ('img/cancel-fullscreen.png') : fullscreenButton.querySelector('img').src = ('img/go-fullscreen.png');
+		fullscreenButton.classList.contains('on') ? fullscreenButton.querySelector('span').className = ('glyphicon glyphicon-resize-small') : fullscreenButton.querySelector('span').className = ('glyphicon glyphicon-resize-full');
 	}
 
 	// function to play tracks
