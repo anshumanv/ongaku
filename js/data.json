@@ -195,8 +195,31 @@ openings = [
         "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/mmbalohsrr/09%20-%20Egao%20no%20Mahou.mp3",
         "name" : "Fairy Tail(S1) - Egao No Mahou",
         "img" : "https://s-media-cache-ak0.pinimg.com/originals/f9/d5/50/f9d5503cd8d90d1a8a465328206481fe.jpg"
+    },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/xaffohxzgz/01%20-%20Fiesta.mp3",
+        "name" : "Fairy Tail(S1) - Fiesta",
+        "img" : "https://dg31sz3gwrwan.cloudfront.net/fanart/114801/703131-0-q80.jpg"
+    },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/qmgkfwbtfa/03%20-%20Evidence.mp3",
+        "name" : "Fairy Tail(S1) - Evidence",
+        "img" : "http://cdn.playbuzz.com/cdn/cffc1dc9-4f42-4bc5-8904-9350dd35a303/5b3453b3-27af-4c49-a821-c494ddc63a7b.png"
+    },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/edrodoidvs/07%20-%20Towa%20no%20Kizuna%20feat.%20Another%20Infinity.mp3",
+        "name" : "Fairy Tail(S1) - Towa no Kizuna",
+        "img" : "https://i.ytimg.com/vi/pZjLi1xX4UM/maxresdefault.jpg"
+    },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/qrtxcwdksh/05%20-%20The%20Rock%20City%20Boy.mp3",
+        "name" : "Fairy Tail(S1) - The Rock City Boy",
+        "img" : "http://www.mangauk.com/gallery/albums/album-19/lg/fairy_tail_1.jpg"
     }
-
 ]
 
 
