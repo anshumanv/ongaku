@@ -8,6 +8,7 @@ window.addEventListener("load", function () {
 	const playHead = document.querySelector('#playhead');
 	const timeLine = document.querySelector('#timeline');
 	const nextButton = document.querySelector('#next');
+	const previousButton = document.querySelector('#previous');
 	const reButton = document.querySelector('#restart');
 	const trackName = document.querySelector('#track-name');
 	const bufferedBar = document.querySelector('#buffered-bar');
@@ -62,9 +63,15 @@ window.addEventListener("load", function () {
 		return array;
 	}
 
-	// function to play next track in the playlist
+	// function to play next track from the playlist
 	function nextTrack() {
 		order.push(order.shift());
+		play();
+	}
+
+	// function to play previous track from the playlist
+	function previousTrack() {
+		order.unshift(order.pop());
 		play();
 	}
 
@@ -85,7 +92,6 @@ window.addEventListener("load", function () {
 			playAgain();
 		} else if(e.keyCode === 70) {	// f
 			toggleFullscreen();
-			updateFullscreenButton();
 		} else {return;}
 	}
 
@@ -164,18 +170,15 @@ window.addEventListener("load", function () {
 			else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
 			else if (document.mozCancelFullScreen) document.mozCancelFullScreen();
 			else if (document.msExitFullscreen) document.msExitFullscreen();
+			fullscreenButton.querySelector('img').src = ('img/go-fullscreen.png');
 		} else {
 			const e = document.getElementsByTagName("html")[0];
 			if (e.requestFullscreen) e.requestFullscreen();
 			else if (e.webkitRequestFullscreen) e.webkitRequestFullscreen();
 			else if (e.mozRequestFullScreen) e.mozRequestFullScreen();
 			else if (e.msRequestFullscreen) e.msRequestFullscreen();
+			fullscreenButton.querySelector('img').src = ('img/cancel-fullscreen.png');
 		}
-	}
-
-	function updateFullscreenButton () {
-		fullscreenButton.classList.toggle('on');
-		fullscreenButton.classList.contains('on') ? fullscreenButton.querySelector('img').src = ('img/cancel-fullscreen.png') : fullscreenButton.querySelector('img').src = ('img/go-fullscreen.png');
 	}
 
 	// function to play tracks
@@ -205,10 +208,10 @@ window.addEventListener("load", function () {
 	timeline.addEventListener('click', (e) => scrub(e));
 
 	nextButton.addEventListener('click', nextTrack);	// handling clicks on next button
+	previousButton.addEventListener('click', previousTrack);	// handling clicks on next button
 	reButton.addEventListener('click', playAgain);	// handling clicks on restart button
 
 	fullscreenButton.addEventListener('click', toggleFullscreen);
-	fullscreenButton.addEventListener('click', updateFullscreenButton);
 
 	window.addEventListener('keyup', (e) => handleKeyPress(e));	// handle key-press on window
 });
