@@ -98,7 +98,9 @@ window.addEventListener("load", function () {
 	}
 
 	function handleBuffer() {
-		bufferedBar.style.flexBasis = Math.round((music.buffered.end(0) / music.duration) * 100) + "%";
+		if(music.currentTime > 0) {
+			bufferedBar.style.flexBasis = Math.round((music.buffered.end(0) / music.duration) * 100) + "%";
+		}
 	}
 
 	$(document).ready(function(){
