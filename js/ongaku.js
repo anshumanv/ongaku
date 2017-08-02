@@ -92,6 +92,8 @@ window.addEventListener("load", function () {
 			playAgain();
 		} else if(e.keyCode === 70) {	// f
 			toggleFullscreen();
+		} else if(e.keyCode === 76) {	// l
+			previousTrack();
 		} else {return;}
 	}
 
