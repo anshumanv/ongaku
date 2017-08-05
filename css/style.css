@@ -53,6 +53,8 @@ img:hover {
 	font-size: 2em;
 	align-self: flex-end;
 	padding: 2px 10px;
+	display: flex;
+	align-items: center;
 }
 
 .display-track {

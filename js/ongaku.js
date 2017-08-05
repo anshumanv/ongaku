@@ -82,29 +82,83 @@ window.addEventListener("load", function () {
 	}
 
 	// A function to handle key press on window
-	function handleKeyPress(e) {
+	function handleKeyUp(e) {
 		if(e.keyCode === 80) {	// p 
 			togglePlay();
 			updatePlayButton();
-		} else if(e.keyCode === 78) {	// n
+		} 
+		else if(e.keyCode === 78) {	// n
 			nextTrack();
-		} else if(e.keyCode === 82) {	// r
+		} 
+		else if(e.keyCode === 82) {	// r
 			playAgain();
-		} else if(e.keyCode === 70) {	// f
+		} 
+		else if(e.keyCode === 70) {	// f
 			toggleFullscreen();
-		} else if(e.keyCode === 76) {	// l
+		} 
+		else if(e.keyCode === 76) {	// l
 			previousTrack();
-		} else {return;}
+		} 
+		else {
+			return;
+		}
 	}
+
+	function handleKeyDown(e) {
+			switch (e.keyCode) {
+				case 37: 	// Left Arrow
+				timeRewind();
+				break;
+			case 38: 	// Up Arrow
+				volumeUp();
+				break;
+			case 39: 	// Right Arrow
+				timeForward();
+				break;
+			case 40: 	// Down Arrow
+				volumeDown();
+				break;
+			}
+		}
 
 // Function to display track name
 	function displayTrackName() {
 		trackName.innerHTML = order[0].name;
-		$('#track-name').stop(true, true);
-		$('#track-name').show();
-		$('#track-name').fadeOut(10000);
+		displayAnimation();
 	}
 
+	function timeForward() {
+		music.currentTime = Math.min(music.duration, music.currentTime + 10);
+		trackName.innerHTML = "<i class='glyphicon glyphicon-forward'></i>" + " : " + parseInt(music.currentTime / 60) + ":" +  parseInt(music.currentTime % 60);
+		displayAnimation();
+	}
+
+	function timeRewind() {
+		music.currentTime = Math.max(0, music.currentTime - 10);
+		trackName.innerHTML = "<i class='glyphicon glyphicon-backward' style='padding-right: 5px'></i>" + " : " + parseInt(music.currentTime / 60) + ":" +  parseInt(music.currentTime % 60);
+		displayAnimation();
+	}
+
+	function volumeUp() {
+		music.volume = Math.min(1, Math.round((music.volume + 0.1) * 10) / 10);
+		trackName.innerHTML = "<i class='glyphicon glyphicon-volume-up'></i>" + "  : " + parseInt(music.volume * 100);
+		displayAnimation();
+	}
+
+	function volumeDown() {
+		music.volume = Math.max(0, Math.round((music.volume - 0.1) * 10) / 10);
+		trackName.innerHTML = "<i class='glyphicon glyphicon-volume-down'></i>" + " : " + parseInt(music.volume * 100);
+		displayAnimation();
+	}
+
+	function displayAnimation() {
+		$('#track-name').stop(true, true);	// stop any ongoing animation
+		$('#track-name').show();	// display the block
+		$('#track-name').fadeOut(10000);	// fade out the block
+	}
+
+
+	// function to handle buffer bar
 	function handleBuffer() {
 		if(music.currentTime > 0) {
 			bufferedBar.style.flexBasis = Math.round((music.buffered.end(0) / music.duration) * 100) + "%";
@@ -195,6 +249,7 @@ window.addEventListener("load", function () {
 
 	play();
 
+
 	// Event handlers
 	playButton.addEventListener('click', togglePlay);
 	playButton.addEventListener('click', updatePlayButton);
@@ -215,6 +270,6 @@ window.addEventListener("load", function () {
 
 	fullscreenButton.addEventListener('click', toggleFullscreen);
 
-	window.addEventListener('keyup', (e) => handleKeyPress(e));	// handle key-press on window
+	window.addEventListener('keyup', (e) => handleKeyUp(e));	// handle keyup press on window
+	window.addEventListener('keydown', (e) => handleKeyDown(e)); //  handle keydown event on window
 });
-
