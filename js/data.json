@@ -219,7 +219,127 @@ openings = [
         "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/qrtxcwdksh/05%20-%20The%20Rock%20City%20Boy.mp3",
         "name" : "Fairy Tail(S1) - The Rock City Boy",
         "img" : "http://www.mangauk.com/gallery/albums/album-19/lg/fairy_tail_1.jpg"
-    }
+    },
+
+    {
+		"link" : "http://67.159.62.2/anime_ost/naruto-shippuuden-op01-single-heros-come-back/gxkxqfxgtr/01%20-%20Hero%27s%20Come%20Back%21%21.mp3",
+		"name" : "Naruto OP1 - Hero's Come Back",
+		"img" : "https://vignette1.wikia.nocookie.net/naruto/images/5/57/Jiraiya_and_Naruto.png/revision/latest?cb=20150504040452"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/naruto-shippuuden-op2-single-distance/omznhjsgfx/01%20-%20distance.mp3",
+		"name" : "Naruto OP2 - Distance",
+		"img" : "https://s-media-cache-ak0.pinimg.com/originals/26/4e/0f/264e0fe53add37e4a659b693db6ac832.jpg"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/naruto-shippuuden-op03-single-blue-bird/axonsubtbp/01%20-%20Blue%20Bird.mp3",
+		"name" : "Naruto OP3 - Blue Bird",
+		"img" : "https://static.comicvine.com/uploads/original/11121/111219310/5499353-1e13344ca5ef43f7404ba1818ac3fe2c.wix_mp_1024"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/naruto-shippuuden-op04-single-closer/gocfvwugwg/01%20-%20CLOSER.mp3",
+		"name" : "Naruto OP4 - Closer",
+		"img" : "https://i.ytimg.com/vi/diKCJ65OsuI/maxresdefault.jpg"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/naruto-shippuuden-op05-single-hotaru-no-hikari/goxzanrasj/01.%20Hotaru%20no%20Hikari.mp3",
+		"name" : "Naruto OP5 - Glow of a Firefly",
+		"img" : "http://vignette4.wikia.nocookie.net/naruto/images/a/aa/1378762349_82.png/revision/latest?cb=20140308140610&path-prefix=hu"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/naruto-shippuuden-op06-single-sign/togbveyevz/01%20-%20Sign.mp3",
+		"name" : "Naruto OP6 - Sign",
+		"img" : "http://wallpapercave.com/wp/XRHp8Nw.jpg"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/naruto-shippuuden-op07-single-toumei-datta-sekai/fcfxbaajjn/01%20-%20Toumei%20Datta%20Sekai.mp3",
+		"name" : "Naruto OP7 - The World that was Transparent",
+		"img" : "http://wallpapercave.com/wp/yCIjdSh.jpg"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/naruto-shippuuden-op08-single-diver/ccgstjrmng/01%20-%20Diver.mp3",
+		"name" : "Naruto OP8 - Diver",
+		"img" : "https://i.ytimg.com/vi/D8vSvnJN9VQ/maxresdefault.jpg"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/naruto-shippuuden-op09-single-lovers/oknnxcgrom/01%20-%20Lovers.mp3",
+		"name" : "Naruto OP9 - Lovers",
+		"img" : "http://cdn.wallpapersafari.com/71/8/QRO0ej.jpg"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/naruto-shippuuden-op10-single-newsong/wjndulvfpr/02%20-%20newsong.mp3",
+		"name" : "Naruto OP10 - Newsong",
+		"img" : "https://images2.alphacoders.com/505/505021.jpg"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/naruto-shippuuden-op11-single-totsugeki-rock/kfrgxgjowh/01%20-%20Totsugeki%20Rock.mp3",
+		"name" : "Naruto OP11 - Assault Rock",
+		"img" : "https://i.ytimg.com/vi/sg66LRW9FxA/maxresdefault.jpg"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/naruto-shippuuden-op12-album-moshimo/hoxgvkcwnl/01%20-%20Moshimo.mp3",
+		"name" : "Naruto OP12 - Moshimo",
+		"img" : "https://otakukart.com/animeblog/wp-content/uploads/2016/05/naruto-namikaze.jpg"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/naruto-shippuuden-op13-single-niwaka-unimo-fukezu/xhjiurnmlj/01%20-%20Niwaka%20Unimo%20Fukezu.mp3",
+		"name" : "Naruto OP13 - Not Even Giving In To the Sudden Rain",
+		"img" : "https://i.ytimg.com/vi/6GA_82bKpEE/maxresdefault.jpg"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/naruto-shippuuden-op14-single-tsuki-no-ookisa/oqchsohqnm/02%20-%20Tsuki%20no%20Ookisa.mp3",
+		"name" : "Naruto OP14 - Size of the Moon",
+		"img" : "https://lh3.googleusercontent.com/-OiCvMpBDB0w/VmxAi1NJsuI/AAAAAAAABVU/sFxY-I6eWhY/w1365-h795/anime-pictures.net-333064.png"
+	},
+	
+	{
+		"link" : "http://cs1.mp3.pm/download/3707930/NHdSSm5tS3pOUG9UenlaRk9uTnhMYzJLOTNsOElvRzJOTkJUZThkc0JKb1ZreDFMUGgxVVUxOUtlN2NISWZwTTAyQmNXa2lKekVSMC9XbktNQ2ZLbmR0RmhrL014bkZMMGNnZFB3ckJhdHdlaWgwd25WWjJKbnFPWDZPQzJUbFI/DOES_-_Guren_Naruto_Shippuden_OP_15_(mp3.pm).mp3",
+		"name" : "Naruto OP15 - Crimson Lotus",
+		"img" : "https://vignette4.wikia.nocookie.net/naruto/images/8/8e/Naruto_saves_Sakura.png/revision/latest?cb=20150124174623"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/naruto-shippuuden-op16-single-silhouette-kana-boon-/mjwnnsbqis/01.%20Silhouette.mp3",
+		"name" : "Naruto OP16 - Silhouette",
+		"img" : "https://vignette2.wikia.nocookie.net/naruto/images/7/7c/Kaguya%27s_Defeat.png/revision/latest?cb=20160825114025"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/naruto-shippuuden-op17-single-kaze/mhytllgozh/01%20-%20Kaze.mp3",
+		"name" : "Naruto OP17 - Wind",
+		"img" : "https://static.comicvine.com/uploads/original/11124/111240909/4928215-4849739599-43679.png"
+	},
+
+	{
+		"link" : "http://yt-files.com/yt-dd.php?id=x8CfQ3P-Z9w&hash=1c2320258ccb4b548daa83d0cbc1ec79&name=Naruto%20Shippuden%20Opening%2018",
+		"name" : "Naruto OP18 - Line",
+		"img" : "https://i.ytimg.com/vi/ZZaoDACJUsY/maxresdefault.jpg"	
+	},
+
+	{
+		"link" : "http://yt-files.com/yt-dd.php?id=ZrBqxZ1T_5M&hash=67bfefcf768c91f02605582066ed83dc&name=Naruto%20Shippuden%20Opening%2019%20-%20Blood%20Circulator%20(Extended%20Version)",
+		"name" : "Naruto OP19 - Blood Circulator",
+		"img" : "https://i.ytimg.comicvine/vi/IlpmOS405X0/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://mp3fb.com/wp-includes/inc/down.php?id=NYRrKS5rMkBK7PC-Nf5Hw-yxxGfRKdPhvmRMZcDkrPg&t=Anly.%2BNaruto%2BShippuden%2B%E3%83%8A%E3%83%AB%E3%83%88%2B-%2B%E7%96%BE%E9%A2%A8%E4%BC%9D%2BOP%2BOpening%2B20%2BFull%2B%28kara%2Bno%2Bkokoro%29.mp3&hash=true",
+		"name" : "Naruto OP20 - Empty Heart",
+		"img" : "https://66.media.tumblr.com/14ea758c966a129641d80c9fb9f693b3/tumblr_og4xrgQkex1vgv3yxo5_1280.png"
+	}
 ]
 
 
