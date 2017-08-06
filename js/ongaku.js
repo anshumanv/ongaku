@@ -213,6 +213,7 @@ window.addEventListener("load", function () {
 		if($('.cb-ost')[1].checked) {
 			order.push(...osts);
 		}
+		order = shuffle(order);
 	});	
 
 	// Functions to handle fullscreen
