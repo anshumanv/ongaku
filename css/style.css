@@ -6,7 +6,7 @@ html, body {
 }
 
 
-body{
+body {
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -25,6 +25,15 @@ body{
 	flex-wrap: wrap;
 }
 
+#settingIcon:hover {
+	transition: all 1s;
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    cursor: pointer;
+}
 img {
 	transition: all 0.2s;
 	margin: 5px;
@@ -43,7 +52,7 @@ img:hover {
 
 
 /*CSS for track-name display*/
-#track-name{
+#track-name {
 	width: auto;
 	height: auto;
 	background: aliceblue;
