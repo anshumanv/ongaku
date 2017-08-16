@@ -29,7 +29,7 @@
 
 
 
-> Mainained & Authored by [Anshuman-Verma](https://github.com/Anshuman-Verma) with the help of [Contributors](https://github.com/Anshuman-Verma/ongaku/graphs/contributors)
+
 
 ## Contributing
 
@@ -37,5 +37,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
   
 
 ## License
+
+> Mainained & Authored by [Anshuman-Verma](https://github.com/Anshuman-Verma) with the help of [Contributors](https://github.com/Anshuman-Verma/ongaku/graphs/contributors)
 
 MIT © [Anshuman Verma](https://twitter.com/Anshumaniac12)
