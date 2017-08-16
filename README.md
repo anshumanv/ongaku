@@ -16,11 +16,11 @@ A web-app to play random anime opening / ending / OST.
 
 | Key | Function |  
 |:--------------|:----------------:|
-| p | toggle pause / play |
-| n | play next track |
-| r | replay current track |
-| f | toggle fullscreen |
-| l | play last played track / track on the end of the list |
+| SPACE | toggle pause / play |
+| N | play next track |
+| R | replay current track |
+| F | toggle fullscreen |
+| L | play last played track / track on the end of the list |
 
   
 ### Some Pointers

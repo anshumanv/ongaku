@@ -83,7 +83,7 @@ window.addEventListener("load", function () {
 
 	// A function to handle key press on window
 	function handleKeyUp(e) {
-		if(e.keyCode === 80) {	// p 
+		if(e.keyCode === 32) {	// p 
 			togglePlay();
 			updatePlayButton();
 		} 
@@ -192,7 +192,7 @@ window.addEventListener("load", function () {
 	});
 
 	// Function to handle checkbox clicks and changes
-	$('body').on('click', '.cb-value', function() {
+	$('body').on('hover', '.cb-value', function() {
 		var mainParent = $(this).parent('.toggle-btn');
 		if($(mainParent).find('input.cb-value').is(':checked')) {
 			$(mainParent).addClass('active');
