@@ -1,5 +1,5 @@
 # ongaku  
-A web-app to play random anime opening / ending / OST.  
+> A web-app to play random anime opening / ending / OST.  
   
 [![Contributors needed](https://img.shields.io/badge/contributors-needed-yellow.svg)](CONTRIBUTING.md)
 [![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/Anshuman-Verma/ongaku/blob/master/LICENSE)
@@ -28,9 +28,6 @@ A web-app to play random anime opening / ending / OST.
 * In case the track doesn't play or the background doesn't show up just file an issue or send a PR with appropriate media link.
 
 
-### Todo
-* Improve custom player UI.
-* Display list of tracks in sequence.
 
 > Mainained & Authored by [Anshuman-Verma](https://github.com/Anshuman-Verma) with the help of [Contributors](https://github.com/Anshuman-Verma/ongaku/graphs/contributors)
 
