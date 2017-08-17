@@ -192,7 +192,7 @@ window.addEventListener("load", function () {
 	});
 
 	// Function to handle checkbox clicks and changes
-	$('body').on('hover', '.cb-value', function() {
+	$('body').on('click', '.cb-value', function() {
 		var mainParent = $(this).parent('.toggle-btn');
 		if($(mainParent).find('input.cb-value').is(':checked')) {
 			$(mainParent).addClass('active');
