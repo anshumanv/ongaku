@@ -14,6 +14,8 @@ window.addEventListener("load", function () {
 	const bufferedBar = document.querySelector('#buffered-bar');
 	const fullscreenButton = document.querySelector('#fullscreen-button');
 
+	var count = 0;
+
 	// Function to toggle play / pause
 	function togglePlay () {	// function to toggle play/pause
 		music[music.paused ? 'play' : 'pause']();
@@ -169,6 +171,19 @@ window.addEventListener("load", function () {
 		}
 	}
 
+	function keepPlayerAlive() {
+    	count++;
+    	if (count == 1) {
+    		player.style.transform = "translateY(10px)";
+    		setInterval(playerDead, 2000);
+    	}
+	}
+	
+	function playerDead() {
+		player.style.transform = "translateY(50px)";
+		count = 0;
+	}
+
 	$(document).ready(function(){
 		// function to toggle popover
     	$("[data-toggle=popover]").popover({
@@ -261,6 +276,8 @@ window.addEventListener("load", function () {
 
 	music.addEventListener('timeupdate', handleProgress);
 	window.setInterval(handleBuffer, 100);
+
+	document.onmousemove = function() {keepPlayerAlive()};
 
 	let mousedown = false;	// variable to keep track of mousedown event
 	timeline.addEventListener('mousedown', ()  => mousedown = true);
