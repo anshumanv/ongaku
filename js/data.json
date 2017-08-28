@@ -393,7 +393,20 @@ openings = [
 		"link" : "http://67.159.62.2/anime_ost/nisekoi-2-op-single-rally-go-round/vuqvfcktdo/01%20-%20Rally%20Go%20Round.mp3",
 		"name" : "Nisekoi 2 OP Single - Rally Go Round",
 		"img" : "http://www.nisekoi.jp/og.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-op-single-hikaru-nara/pubfkzxlrk/01%20-%20Hikaru%20Nara.mp3",
+		"name" : "Shigatsu wa Kimi no Uso OP Single - Hikaru Nara",
+		"img" : "https://littlecloudcuriosity.files.wordpress.com/2014/10/shigatsu-wa-kimi-no-uso-episode-1-25.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-op2-single-nanairo-symphony/yvylgmsmdt/01%20-%20Nanairo%20Symphony.mp3",
+		"name" : "Shigatsu wa Kimi no Uso OP2 Single - Nanairo Symphony",
+		"img" : "http://i.imgur.com/YN5gDF6.png"
 	}
+
 ]
 
 
@@ -511,6 +524,18 @@ endings = [
 		"link" : "http://67.159.62.2/anime_ost/nisekoi-2-ed1-ed2-single/vfbcoarsvv/01%20-%20AIMAI-Hz.mp3",
 		"name" : "Nisekoi 2 ED Single - AIMAI-Hz",
 		"img" : "http://2.bp.blogspot.com/-mYp5g0YhEt4/VjCey3PVUqI/AAAAAAADJPc/D0XQYto2bAs/s16000/0167-003.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-ed-single-kirameki/lkfmuhddrz/01%20-%20Kirameki.mp3",
+		"name" : "Shigatsu wa Kimi no Uso ED Single - Kirameki",
+		"img" : "https://images4.alphacoders.com/668/668521.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-ed2-single-orange/ijqaomqxiv/01%20-%20Orange.mp3",
+		"name" : "Shigatsu wa Kimi no Uso ED2 Single - Orange",
+		"img" : "https://i.pinimg.com/originals/91/12/cb/9112cb2fae6c3ed1b3978ded4875d4c8.jpg"
 	}
 
 ]
