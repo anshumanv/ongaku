@@ -1,9 +1,9 @@
-# ongaku  
-> A web-app that plays random anime opening / ending / OST.  
-  
+<h1 align="center">ongaku : Anime Radio</h1>  
+
 [![Contributors needed](https://img.shields.io/badge/contributors-needed-yellow.svg)](CONTRIBUTING.md)
 [![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/Anshuman-Verma/ongaku/blob/master/LICENSE)
-
+[![GitHub contributors](https://img.shields.io/github/contributors/cdnjs/cdnjs.svg)](https://github.com/Anshuman-Verma/ongaku/graphs/contributors)
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/anime-ongaku/Lobby)
   
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
