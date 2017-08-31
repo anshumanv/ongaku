@@ -1,9 +1,4 @@
 openings = [ 
-	{
-		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-op-single-departure/ssrkagxzwg/01%20-%20departure%21.mp3",
-		"name" : "Hunter x Hunter 2011 OP Single - departure",
-		"img" : "https://dw9to29mmj727.cloudfront.net/promo/2016/5252-SeriesHeaders_HxH_2000x800.jpg"
-	},
 
 	{
 		"link" : "http://67.159.62.2/anime_ost/tokyo-ghoul-op-single-unravel/eepprhqwvp/01%20-%20unravel.mp3",
@@ -411,6 +406,12 @@ openings = [
 		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-op2-single-nanairo-symphony/yvylgmsmdt/01%20-%20Nanairo%20Symphony.mp3",
 		"name" : "Shigatsu wa Kimi no Uso OP2 Single - Nanairo Symphony",
 		"img" : "http://i.imgur.com/YN5gDF6.png"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-op-single-departure/ssrkagxzwg/01%20-%20departure%21.mp3",
+		"name" : "Hunter x Hunter 2011 OP Single - departure",
+		"img" : "https://dw9to29mmj727.cloudfront.net/promo/2016/5252-SeriesHeaders_HxH_2000x800.jpg"
 	}
 
 ]
