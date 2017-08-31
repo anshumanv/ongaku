@@ -412,7 +412,19 @@ openings = [
 		"link" : "http://67.159.62.2/anime_ost/ps2-dragon-ball-z-3-op-ore-wa-tokoton-tomaranai/qguczonphc/01%20Ore%20wa%20Tokoton%20Tomaranai%21%21.mp3",
 		"name" : "Dragon Ball Z 3 OP - Ore wa Tokoton Tomaranai",
 		"img" : "http://www.cbr.com/wp-content/uploads/2016/09/dragon-ball-z-logo-wallpaper-wallpaper-1.jpg"
-	}
+	},
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/gintama-op-single-pray/zlavwzkpxk/01%20-%20Pray.mp3",
+        "name" : "Gintama (S1) - Pray",
+        "img"  : "https://img.yescdn.ru/2017/03/14/cover/f4d1103765986f77d88f87fabd9f1b20-gintama-season-4.jpg"
+    },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/gintama-op2-single-tooi-nioi/dgrvnaggyd/01%20-%20Tooi%20Nioi.mp3",
+        "name" : "Gintama (S1) - Tooi Nioi",
+        "img"  : "https://animejanaika.files.wordpress.com/2011/04/horriblesubs-sket-dance-01-720p-mkv_snapshot_23-45_2011-04-11_01-59-08.jpg"
+    }
 
 ]
 
