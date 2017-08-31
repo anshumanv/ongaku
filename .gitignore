@@ -1,0 +1,18 @@
+# Object files
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.db
+
+# Executables
+*.exe
+*.out
+*.orig
+*.class
+*.pyc
