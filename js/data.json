@@ -1,5 +1,11 @@
 openings = [ 
 	{
+		"link" : "http://67.159.62.2/anime_ost/ps2-dragon-ball-z-3-op-ore-wa-tokoton-tomaranai/qguczonphc/01%20Ore%20wa%20Tokoton%20Tomaranai%21%21.mp3",
+		"name" : "Dragon Ball Z 3 OP - Ore wa Tokoton Tomaranai",
+		"img" : "http://www.cbr.com/wp-content/uploads/2016/09/dragon-ball-z-logo-wallpaper-wallpaper-1.jpg"
+	},
+	
+	{
 		"link" : "http://67.159.62.2/anime_ost/tokyo-ghoul-op-single-unravel/eepprhqwvp/01%20-%20unravel.mp3",
 		"name" : "Tokyo Ghoul - Unravel",
 		"img" : "https://wallpaperscraft.com/image/tokyo_ghoul_kaneki_ken_man_reflection_100594_1920x1080.jpg"
