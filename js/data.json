@@ -1,4 +1,5 @@
-openings = [ 
+openings = [
+
 	{
 		"link" : "http://67.159.62.2/anime_ost/tokyo-ghoul-op-single-unravel/eepprhqwvp/01%20-%20unravel.mp3",
 		"name" : "Tokyo Ghoul - Unravel",
@@ -83,145 +84,145 @@ openings = [
 		"img" : "http://i.imgur.com/qvGY6zf.png"
 	},
 		
-    {
-        "link" : "http://a.tumblr.com/tumblr_l7e9gmO6IH1qbkgo2o1.mp3",
-        "name" : "Fullmetal Alchemist Brotherhood - Again",
-        "img" : "http://i0.kym-cdn.com/photos/images/original/000/821/013/179.jpg"
-    },
-    
-    {
-        "link" : "http://archive.forunesia.com/downloads/mp3_6/%5BForunesia%5DGoya%20no%20Mechiawase.mp3",
-        "name" : "Noragami - Hello Sleepwalkers",
-        "img" : "https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1291898/Latvian/1291898_Latvian_ShowMasterKeyArt_92190267-deff-e611-8175-020165574d09.jpg"
-    },
-    
-    {
-        "link" : "http://a.tumblr.com/tumblr_lznxqjR9eR1qhn2lco1.mp3",
-        "name" : "Mirai Nikki - Fantasy Mythology",
-        "img" : "https://images2.alphacoders.com/502/thumb-1920-502111.png"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/death-note-the-world/ewensbzbml/01-the-world.mp3",
-        "name" : "Death Note - Sekai Wo(The World)",
-        "img" : "http://assets1.ignimgs.com/2017/03/23/deathnote-1280-1490294885083_1280w.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/ao-no-exorcist-op2-single-in-my-world/qkniuuuqjn/01.%20IN%20MY%20WORLD.mp3",
-        "name" : "Ao No Exorcist - In My World",
-        "img" : "https://images.alphacoders.com/446/446026.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/ao-no-exorcist-ed-single-take-off/hhkwkkjbmi/01.%20Take%20off.mp3",
-        "name" : "Ao No Exorcist - Take Off",
-        "img"  : "https://i.ytimg.com/vi/AB-i6RkEr58/maxresdefault.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/akame-ga-kill-op-single-skyreach/lczbbuiahd/01%20Skyreach.mp3",
-        "name" : "Akame ga Kill! OP1 - Skyreach",
-        "img"  : "http://www.imgbase.info/images/safe-wallpapers/anime/akame_ga_kill/50256_akame_ga_kill.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/akame-ga-kill-op2-single-liar-mask/xloeoosukx/01%20-%20Liar%20Mask.mp3",
-        "name" : "Akame ga Kill! OP2 - Liar Mask",
-        "img"  : "http://i.imgur.com/ItZib5a.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/assassination-classroom-op-single-seishun-satsubatsuron/kypulqohbf/01%20-%20Seishun%20Satsubatsuron.mp3",
-        "name" : "Assassination Classroom OP 1",
-        "img"  : "https://images.alphacoders.com/605/thumb-1920-605582.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/ao-no-exorcist-op-single-core-pride/ttbjgecvfo/01.%20CORE%20PRIDE.mp3",
-        "name" : "Ao no Exorcist OP Single - Core Pride",
-        "img" : "https://images3.alphacoders.com/278/thumb-1920-278569.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/ao-no-exorcist-op-single-core-pride/ayactsngid/02.%20Zen%20Mantra.mp3",
-        "name" : "Ao No Exorcist - Zen Mantra",
-        "img" : "http://1.bp.blogspot.com/-DhMdu3n73wI/UQ_zKJk42uI/AAAAAAAAAK0/dw5a2xJzULw/s1600/660022.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/assassination-classroom-op2-single-jiriki-hongan-revolution/cinfcejtps/01%20-%20Jikiri%20Hongan%20Revolution.mp3",
-        "name" : "Assassination Classroom OP 2",
-        "img"  : "http://wallpapers-best.com/uploads/posts/2015-12/13_assassination_classroom.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/assassination-classroom-s2-op-single-question/zbarnzofkr/01%20-%20QUESTION.mp3",
-        "name" : "Assassination Classroom OP 3",
-        "img"  : "https://s-media-cache-ak0.pinimg.com/originals/e3/51/5d/e3515d66012a039ff2a52bde2689bd0d.png"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/assassination-classroom-s2-op2-single-bye-bye-yesterday/gbypjjrfjf/01%20-%20Bye%20Bye%20YESTERDAY.mp3",
-        "name" : "Assassination Classroom OP 4",
-        "img"  : "https://s-media-cache-ak0.pinimg.com/originals/55/1f/a2/551fa255f7df97c6af549571de08cbcd.jpg"
+	{
+		"link" : "http://a.tumblr.com/tumblr_l7e9gmO6IH1qbkgo2o1.mp3",
+		"name" : "Fullmetal Alchemist Brotherhood - Again",
+		"img" : "http://i0.kym-cdn.com/photos/images/original/000/821/013/179.jpg"
 	},
     
-    {
-        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/zqqjqgsflj/01%20-%20Snow%20Fairy.mp3",
-        "name" : "Fairy Tail(S1) - Snow Fairy",
-        "img" : "http://thehypedgeek.com/wp-content/uploads/2017/05/fairytale_1600x900_0.jpg"
-    },
+	{
+		"link" : "http://archive.forunesia.com/downloads/mp3_6/%5BForunesia%5DGoya%20no%20Mechiawase.mp3",
+		"name" : "Noragami - Hello Sleepwalkers",
+		"img" : "https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1291898/Latvian/1291898_Latvian_ShowMasterKeyArt_92190267-deff-e611-8175-020165574d09.jpg"
+	},
     
-    {
-        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/wppxgvnkcv/03%20-%20S.O.W.%20Sense%20Of%20Wonder.mp3",
-        "name" : "Fairy Tail(S1) - Sense Of Wonder",
-        "img" : "http://geekgirlpenpals.com/wp-content/uploads/2013/09/team-A.png"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/qoochaqtfa/05%20-%20ft..mp3",
-        "name" : "Fairy Tail(S1) - Ft.",
-        "img" : "https://s-media-cache-ak0.pinimg.com/originals/74/88/86/7488869670d0ac639701ae958ef3c547.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/lqnbjimwci/07%20-%20R.P.G.%20~%20Rokin%27%20Playing%20Game.mp3",
-        "name" : "Fairy Tail(S1) - R.P.G. ~Rockin' Playing Game",
-        "img" : "https://images6.alphacoders.com/311/thumb-1920-311015.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/mmbalohsrr/09%20-%20Egao%20no%20Mahou.mp3",
-        "name" : "Fairy Tail(S1) - Egao No Mahou",
-        "img" : "https://s-media-cache-ak0.pinimg.com/originals/f9/d5/50/f9d5503cd8d90d1a8a465328206481fe.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/xaffohxzgz/01%20-%20Fiesta.mp3",
-        "name" : "Fairy Tail(S1) - Fiesta",
-        "img" : "https://dg31sz3gwrwan.cloudfront.net/fanart/114801/703131-0-q80.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/qmgkfwbtfa/03%20-%20Evidence.mp3",
-        "name" : "Fairy Tail(S1) - Evidence",
-        "img" : "http://cdn.playbuzz.com/cdn/cffc1dc9-4f42-4bc5-8904-9350dd35a303/5b3453b3-27af-4c49-a821-c494ddc63a7b.png"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/edrodoidvs/07%20-%20Towa%20no%20Kizuna%20feat.%20Another%20Infinity.mp3",
-        "name" : "Fairy Tail(S1) - Towa no Kizuna",
-        "img" : "https://i.ytimg.com/vi/pZjLi1xX4UM/maxresdefault.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/qrtxcwdksh/05%20-%20The%20Rock%20City%20Boy.mp3",
-        "name" : "Fairy Tail(S1) - The Rock City Boy",
-        "img" : "http://www.mangauk.com/gallery/albums/album-19/lg/fairy_tail_1.jpg"
-    },
+	{
+		"link" : "http://a.tumblr.com/tumblr_lznxqjR9eR1qhn2lco1.mp3",
+		"name" : "Mirai Nikki - Fantasy Mythology",
+		"img" : "https://images2.alphacoders.com/502/thumb-1920-502111.png"
+	},
 
-    {
+	{
+		"link" : "http://67.159.62.2/anime_ost/death-note-the-world/ewensbzbml/01-the-world.mp3",
+		"name" : "Death Note - Sekai Wo(The World)",
+		"img" : "http://assets1.ignimgs.com/2017/03/23/deathnote-1280-1490294885083_1280w.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/ao-no-exorcist-op2-single-in-my-world/qkniuuuqjn/01.%20IN%20MY%20WORLD.mp3",
+		"name" : "Ao No Exorcist - In My World",
+		"img" : "https://images.alphacoders.com/446/446026.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/ao-no-exorcist-ed-single-take-off/hhkwkkjbmi/01.%20Take%20off.mp3",
+		"name" : "Ao No Exorcist - Take Off",
+		"img"  : "https://i.ytimg.com/vi/AB-i6RkEr58/maxresdefault.jpg"
+	},
+    
+	{
+		"link" : "http://67.159.62.2/anime_ost/akame-ga-kill-op-single-skyreach/lczbbuiahd/01%20Skyreach.mp3",
+		"name" : "Akame ga Kill! OP1 - Skyreach",
+		"img"  : "http://www.imgbase.info/images/safe-wallpapers/anime/akame_ga_kill/50256_akame_ga_kill.jpg"
+	},
+    
+	{
+		"link" : "http://67.159.62.2/anime_ost/akame-ga-kill-op2-single-liar-mask/xloeoosukx/01%20-%20Liar%20Mask.mp3",
+		"name" : "Akame ga Kill! OP2 - Liar Mask",
+		"img"  : "http://i.imgur.com/ItZib5a.jpg"
+	},
+    
+	{
+		"link" : "http://67.159.62.2/anime_ost/assassination-classroom-op-single-seishun-satsubatsuron/kypulqohbf/01%20-%20Seishun%20Satsubatsuron.mp3",
+		"name" : "Assassination Classroom OP 1",
+		"img"  : "https://images.alphacoders.com/605/thumb-1920-605582.jpg"
+	},
+    
+	{
+		"link" : "http://67.159.62.2/anime_ost/ao-no-exorcist-op-single-core-pride/ttbjgecvfo/01.%20CORE%20PRIDE.mp3",
+		"name" : "Ao no Exorcist OP Single - Core Pride",
+		"img" : "https://images3.alphacoders.com/278/thumb-1920-278569.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/ao-no-exorcist-op-single-core-pride/ayactsngid/02.%20Zen%20Mantra.mp3",
+		"name" : "Ao No Exorcist - Zen Mantra",
+		"img" : "http://1.bp.blogspot.com/-DhMdu3n73wI/UQ_zKJk42uI/AAAAAAAAAK0/dw5a2xJzULw/s1600/660022.jpg"
+	},
+    
+	{
+		"link" : "http://67.159.62.2/anime_ost/assassination-classroom-op2-single-jiriki-hongan-revolution/cinfcejtps/01%20-%20Jikiri%20Hongan%20Revolution.mp3",
+		"name" : "Assassination Classroom OP 2",
+		"img"  : "http://wallpapers-best.com/uploads/posts/2015-12/13_assassination_classroom.jpg"
+	},
+    
+	{
+		"link" : "http://67.159.62.2/anime_ost/assassination-classroom-s2-op-single-question/zbarnzofkr/01%20-%20QUESTION.mp3",
+		"name" : "Assassination Classroom OP 3",
+		"img"  : "https://s-media-cache-ak0.pinimg.com/originals/e3/51/5d/e3515d66012a039ff2a52bde2689bd0d.png"
+	},
+    
+	{
+		"link" : "http://67.159.62.2/anime_ost/assassination-classroom-s2-op2-single-bye-bye-yesterday/gbypjjrfjf/01%20-%20Bye%20Bye%20YESTERDAY.mp3",
+		"name" : "Assassination Classroom OP 4",
+		"img"  : "https://s-media-cache-ak0.pinimg.com/originals/55/1f/a2/551fa255f7df97c6af549571de08cbcd.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/zqqjqgsflj/01%20-%20Snow%20Fairy.mp3",
+		"name" : "Fairy Tail(S1) - Snow Fairy",
+		"img" : "http://thehypedgeek.com/wp-content/uploads/2017/05/fairytale_1600x900_0.jpg"
+	},
+    
+	{
+		"link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/wppxgvnkcv/03%20-%20S.O.W.%20Sense%20Of%20Wonder.mp3",
+		"name" : "Fairy Tail(S1) - Sense Of Wonder",
+		"img" : "http://geekgirlpenpals.com/wp-content/uploads/2013/09/team-A.png"
+	},
+    
+	{
+		"link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/qoochaqtfa/05%20-%20ft..mp3",
+		"name" : "Fairy Tail(S1) - Ft.",
+		"img" : "https://s-media-cache-ak0.pinimg.com/originals/74/88/86/7488869670d0ac639701ae958ef3c547.jpg"
+	},
+    
+	{
+		"link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/lqnbjimwci/07%20-%20R.P.G.%20~%20Rokin%27%20Playing%20Game.mp3",
+		"name" : "Fairy Tail(S1) - R.P.G. ~Rockin' Playing Game",
+		"img" : "https://images6.alphacoders.com/311/thumb-1920-311015.jpg"
+	},
+    
+	{
+		"link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/mmbalohsrr/09%20-%20Egao%20no%20Mahou.mp3",
+		"name" : "Fairy Tail(S1) - Egao No Mahou",
+		"img" : "https://s-media-cache-ak0.pinimg.com/originals/f9/d5/50/f9d5503cd8d90d1a8a465328206481fe.jpg"
+	},
+    
+	{
+		"link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/xaffohxzgz/01%20-%20Fiesta.mp3",
+		"name" : "Fairy Tail(S1) - Fiesta",
+		"img" : "https://dg31sz3gwrwan.cloudfront.net/fanart/114801/703131-0-q80.jpg"
+	},
+    
+	{
+		"link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/qmgkfwbtfa/03%20-%20Evidence.mp3",
+		"name" : "Fairy Tail(S1) - Evidence",
+		"img" : "http://cdn.playbuzz.com/cdn/cffc1dc9-4f42-4bc5-8904-9350dd35a303/5b3453b3-27af-4c49-a821-c494ddc63a7b.png"
+	},
+    
+	{
+		"link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/edrodoidvs/07%20-%20Towa%20no%20Kizuna%20feat.%20Another%20Infinity.mp3",
+		"name" : "Fairy Tail(S1) - Towa no Kizuna",
+		"img" : "https://i.ytimg.com/vi/pZjLi1xX4UM/maxresdefault.jpg"
+	},
+    
+	{
+		"link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/qrtxcwdksh/05%20-%20The%20Rock%20City%20Boy.mp3",
+		"name" : "Fairy Tail(S1) - The Rock City Boy",
+		"img" : "http://www.mangauk.com/gallery/albums/album-19/lg/fairy_tail_1.jpg"
+	},
+
+	{
 		"link" : "http://67.159.62.2/anime_ost/naruto-shippuuden-op01-single-heros-come-back/gxkxqfxgtr/01%20-%20Hero%27s%20Come%20Back%21%21.mp3",
 		"name" : "Naruto Shippuden OP1 - Hero's Come Back",
 		"img" : "https://vignette1.wikia.nocookie.net/naruto/images/5/57/Jiraiya_and_Naruto.png/revision/latest?cb=20150504040452"
@@ -414,9 +415,9 @@ openings = [
 	},
     
 	{
-			"link" : "http://67.159.62.2/anime_ost/gintama-op-single-pray/zlavwzkpxk/01%20-%20Pray.mp3",
-			"name" : "Gintama OP1 - Pray",
-			"img"  : "https://img.yescdn.ru/2017/03/14/cover/f4d1103765986f77d88f87fabd9f1b20-gintama-season-4.jpg"
+		"link" : "http://67.159.62.2/anime_ost/gintama-op-single-pray/zlavwzkpxk/01%20-%20Pray.mp3",
+		"name" : "Gintama OP1 - Pray",
+		"img"  : "https://img.yescdn.ru/2017/03/14/cover/f4d1103765986f77d88f87fabd9f1b20-gintama-season-4.jpg"
 	},
 
 	{
@@ -424,10 +425,12 @@ openings = [
 		"name" : "Hunter x Hunter 2011 OP Single - departure",
 		"img" : "https://dw9to29mmj727.cloudfront.net/promo/2016/5252-SeriesHeaders_HxH_2000x800.jpg"
 	}
+
 ]
 
 
 endings = [
+	
 	{
 		"link" : "http://cs1.mp3.pm/download/76110057/ckt3MlZaQmsva2tjb2ZDM0ZsNkRnNkJqV1hsb0pIODZFQlNValFpYXdkWExvckM2Ty95OG1GQ1YyTXQ1SFFjcmdKK2Q4cU8rTFpMUHVDTTM3R0w0L2tSWkI3MC85b1lnWnA1Y21FWHc4cXpRYVdCNjVFb01FYnhhQmxnSC9RUFQ/Little_Glee_Monster_-_Dakara_Hitori_janai_TV_size_Boku_no_Hero_Academia_2_ED_(mp3.pm).mp3",
 		"name" : "Boku no Hero Academia S2 ED-1",
@@ -557,8 +560,8 @@ endings = [
 ]
 
 
-
 osts = [
+	
 	{
 		"link" : "http://66.90.93.122/ost/death-note-original-soundtrack/fghgpcdtbm/04-l-s-theme.mp3",
 		"name" : "L's Theme A",
@@ -636,7 +639,5 @@ osts = [
 		"name" : " Nisekoi 2 Original Soundtrack - Tooriame drop",
 		"img" : "http://s2.narvii.com/image/nv4mlfpqviskycwyklfe7bdd2dhgnujx_hq.jpg"
 	}
+	
 ]
-
-
-
