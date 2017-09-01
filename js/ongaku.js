@@ -13,6 +13,8 @@ window.addEventListener("load", function () {
 	const trackName = document.querySelector('#track-name');
 	const bufferedBar = document.querySelector('#buffered-bar');
 	const fullscreenButton = document.querySelector('#fullscreen-button');
+	const infoButton = document.querySelector('.infoImg');
+	const infoBlock = document.querySelector('.top-left');
 
 	// Function to toggle play / pause
 	function togglePlay () {	// function to toggle play/pause
@@ -79,6 +81,18 @@ window.addEventListener("load", function () {
 	function playAgain() {
 		music.currentTime = 0;
 		displayTrackName();
+	}
+
+	// toggle show by Information button
+	function HideAndSeek() {
+    	if (infoBlock.style.display === 'none') {
+        	infoBlock.style.display = 'block';
+        	infoButton.style.visibility = 'hidden';
+    	}
+    	else {
+        	infoBlock.style.display = 'none';
+        	infoButton.style.visibility = 'visible';
+    	}
 	}
 
 	// A function to handle key press on window
@@ -274,6 +288,9 @@ window.addEventListener("load", function () {
 	reButton.addEventListener('click', playAgain);	// handling clicks on restart button
 
 	fullscreenButton.addEventListener('click', toggleFullscreen);
+
+	infoButton.addEventListener('mouseenter', HideAndSeek);
+	infoBlock.addEventListener('mouseleave', HideAndSeek);
 
 	window.addEventListener('keyup', (e) => handleKeyUp(e));	// handle keyup press on window
 	window.addEventListener('keydown', (e) => handleKeyDown(e)); //  handle keydown event on window
