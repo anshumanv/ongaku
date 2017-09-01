@@ -1,0 +1,14 @@
+root = true
+
+# Use tab indentation for all files with size 2
+[*]
+indent_style = tab
+end_of_line = lf
+charset = utf-8
+insert_final_newline = true
+indent_size = 2
+
+# tab indentation of size 4 for css
+[*.{css,scss,twig}]
+indent_size = 4
+

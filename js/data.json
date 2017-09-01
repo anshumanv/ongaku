@@ -1,4 +1,5 @@
 openings = [ 
+	
 	{
 		"link" : "http://67.159.62.2/anime_ost/tokyo-ghoul-op-single-unravel/eepprhqwvp/01%20-%20unravel.mp3",
 		"name" : "Tokyo Ghoul - Unravel",
@@ -82,7 +83,7 @@ openings = [
 		"name" : "Haikyuu!! Third Season - Hikari Are",
 		"img" : "http://i.imgur.com/qvGY6zf.png"
 	},
-    
+		
     {
         "link" : "http://a.tumblr.com/tumblr_l7e9gmO6IH1qbkgo2o1.mp3",
         "name" : "Fullmetal Alchemist Brotherhood - Again",
@@ -332,14 +333,93 @@ openings = [
 	{
 		"link" : "http://yt-files.com/yt-dd.php?id=ZrBqxZ1T_5M&hash=67bfefcf768c91f02605582066ed83dc&name=Naruto%20Shippuden%20Opening%2019%20-%20Blood%20Circulator%20(Extended%20Version)",
 		"name" : "Naruto Shippuden OP19 - Blood Circulator",
-		"img" : "https://i.ytimg.comicvine/vi/IlpmOS405X0/maxresdefault.jpg"
+		"img" : "http://brutalgamer.com/wp-content/uploads/2016/10/Naruto-vs-Sasuke.jpg"
 	},
 
 	{
 		"link" : "http://mp3fb.com/wp-includes/inc/down.php?id=NYRrKS5rMkBK7PC-Nf5Hw-yxxGfRKdPhvmRMZcDkrPg&t=Anly.%2BNaruto%2BShippuden%2B%E3%83%8A%E3%83%AB%E3%83%88%2B-%2B%E7%96%BE%E9%A2%A8%E4%BC%9D%2BOP%2BOpening%2B20%2BFull%2B%28kara%2Bno%2Bkokoro%29.mp3&hash=true",
 		"name" : "Naruto Shippuden OP20 - Empty Heart",
 		"img" : "https://66.media.tumblr.com/14ea758c966a129641d80c9fb9f693b3/tumblr_og4xrgQkex1vgv3yxo5_1280.png"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/07-ghost-op-single-aka-no-kakera/mstpwvknyr/01%20Aka%20no%20Kakera.mp3",
+		"name" : "07-Ghost OP Single - Aka no Kakera",
+		"img" : "http://4.bp.blogspot.com/_pApmc90k9Bo/S72xEwj5bLI/AAAAAAAAEMM/ulsHvRMKYhY/s1600/Minitokyo.07-Ghost.Scans_413306.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/golden-time-op-ed-single-golden-time/wehqayowth/01%20-%20Golden%20Time.mp3",
+		"name" : "Golden Time OP Single - Golden Time",
+		"img" : "https://sosotakuu.files.wordpress.com/2014/04/golden_time_vol08_006-008.jpg?w=1200"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/golden-time-op2-ed2-single-the-worlds-end/vnvaiftjtq/01%20-%20The%20World%27s%20End.mp3",
+		"name" : "Golden Time OP2 Single - The World's End",
+		"img" : "https://s-media-cache-ak0.pinimg.com/originals/b1/a3/38/b1a3382c70da17fd47559c6e42cd279b.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/guilty-crown-op-single-my-dearest/pmwwmpwipg/01%20-%20My%20Dearest.mp3",
+		"name" : "Guilty Crown OP Single - My Dearest",
+		"img" : "https://wallpaperscraft.com/image/guilty_crown_male_female_flight_city_63566_1280x720.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/guilty-crown-op2-single-the-everlasting-guilty-crown/nturommtww/01%20-%20The%20Everlasting%20Guilty%20Crown.mp3",
+		"name" : " Guilty Crown OP2 Single - The Everlasting Guilty Crown",
+		"img" : "https://s-media-cache-ak0.pinimg.com/originals/0d/0b/d5/0d0bd59ee678072e11e9ce27943d4062.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/kaze-no-stigma-op-ed-single-blast-of-wind/yeegxxirzn/01%20-%20blast%20of%20wind.mp3",
+		"name" : "Kaze no Stigma OP Single - Blast of wind",
+		"img" : "https://img1.goodfon.ru/original/2035x1443/3/9f/kaze-no-stigma-pechat-vetra.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/nisekoi-op-single-click/xkbbwcqkgj/01%20-%20CLICK.mp3",
+		"name" : " Nisekoi OP Single - CLICK ",
+		"img" : "https://mirrorpurple.files.wordpress.com/2015/03/pyoh.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/nisekoi-op2-single-step/ltwqulxsfb/01%20-%20STEP.mp3",
+		"name" : " Nisekoi OP2 Single - STEP",
+		"img" : "https://i.ytimg.com/vi/QGRGd3H0ZHs/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/nisekoi-2-op-single-rally-go-round/vuqvfcktdo/01%20-%20Rally%20Go%20Round.mp3",
+		"name" : "Nisekoi 2 OP Single - Rally Go Round",
+		"img" : "http://www.nisekoi.jp/og.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-op-single-hikaru-nara/pubfkzxlrk/01%20-%20Hikaru%20Nara.mp3",
+		"name" : "Shigatsu wa Kimi no Uso OP Single - Hikaru Nara",
+		"img" : "http://tp.lingyu.me/bz/uploads/2016/08/www.lingyu.me_20160808081904118.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-op2-single-nanairo-symphony/yvylgmsmdt/01%20-%20Nanairo%20Symphony.mp3",
+		"name" : "Shigatsu wa Kimi no Uso OP2 Single - Nanairo Symphony",
+		"img" : "http://i.imgur.com/YN5gDF6.png"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/ps2-dragon-ball-z-3-op-ore-wa-tokoton-tomaranai/qguczonphc/01%20Ore%20wa%20Tokoton%20Tomaranai%21%21.mp3",
+		"name" : "Dragon Ball Z 3 OP - Ore wa Tokoton Tomaranai",
+		"img" : "http://www.cbr.com/wp-content/uploads/2016/09/dragon-ball-z-logo-wallpaper-wallpaper-1.jpg"
+	},
+    
+	{
+			"link" : "http://67.159.62.2/anime_ost/gintama-op-single-pray/zlavwzkpxk/01%20-%20Pray.mp3",
+			"name" : "Gintama OP1 - Pray",
+			"img"  : "https://img.yescdn.ru/2017/03/14/cover/f4d1103765986f77d88f87fabd9f1b20-gintama-season-4.jpg"
 	}
+
 ]
 
 
@@ -385,6 +465,90 @@ endings = [
 		"link" : "http://67.159.62.2/anime_ost/assassination-classroom-ed-single-hello-shooting-star/nfukzioqjs/01%20-%20Hello%2C%20shooting-star.mp3",
 		"name" : "Ansatsu Kyoushitu ED 1",
 		"img" : "https://i.ytimg.com/vi/IS_JdSsY7c0/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/07-ghost-ed-single-hitomi-no-kotae/sxaiztokmv/01%20Hitomi%20no%20Kotae.mp3",
+		"name" : " 07-Ghost ED Single - Hitomi no Kotae",
+		"img" : "https://images6.alphacoders.com/747/747698.png"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/golden-time-op-ed-single-golden-time/plypywtgyw/02%20-%20Sweet%26Sweet%20CHERRY.mp3",
+		"name" : "Golden Time - Sweet&Sweet CHERRY",
+		"img" : "https://i.ytimg.com/vi/3kktZWHjzz4/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/guilty-crown-ed-single-departures-anata-ni-okuru-ai-no-uta/mqcrjtngdj/01%20-%20Departures%20~Anata%20ni%20Okuru%20Ai%20no%20Uta~.mp3",
+		"name" : "Guilty Crown ED Single - Departures ~Anata ni Okuru Ai no Uta~",
+		"img" : "https://www.walldevil.com/wallpapers/a40/anime-wallpaper-light-images.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/guilty-crown-ed2-single-kokuhaku/ladyjjytsr/01%20-%20Kokuhaku.mp3",
+		"name" : "Guilty Crown ED2 Single - Kokuhaku",
+		"img" : "http://geodavephotography.com/images/guilty-crown-wallpaper/38061238-guilty-crown-wallpaper.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/nisekoi-ed-single-heart-pattern/wsgeufzfdd/02%20-%20Heart%20Pattern.mp3",
+		"name" : "Nisekoi ED Single - Heart Pattern",
+		"img" : "http://www.ricedigital.co.uk/wp-content/uploads/2017/04/nisekoi.png"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/nisekoi-ed2-single-recover-decoration/wbnqgcnkaj/02%20-%20Recover%20Decoration.mp3",
+		"name" : "Nisekoi ED2 Single - Recover Decoration",
+		"img" : "https://otakutherapy.com/wp-content/uploads/2017/01/otku_0f5fa08a3c0dcf10.png"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/nisekoi-ed3-single-trick-box/rjmmetkhwj/02%20-%20TRICK%20BOX.mp3",
+		"name" : "Nisekoi ED3 Single - TRICK BOX",
+		"img" : "https://images3.alphacoders.com/816/thumb-1920-816542.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/nisekoi-ed4-single-order-x-order/plnvrisstm/02%20-%20Order%20x%20Order.mp3",
+		"name" : "Nisekoi ED4 Single - Order x Order",
+		"img" : "http://3.s.kawaiinyan.com/i/54/23/orig.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/nisekoi-ed5-single-hana-gonomi/qxymnqtnbx/02%20-%20Hana%20Gonomi.mp3",
+		"name" : "Nisekoi ED5 Single - Hana Gonomi",
+		"img" : "http://blog-imgs-67.fc2.com/k/e/n/kenbouwide/1393684845835.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/nisekoi-ed6-single-souzou-diary/ftdpkmbqil/02%20-%20Souzou%20Diary.mp3",
+		"name" : "Nisekoi ED6 Single - Souzou Diary",
+		"img" : "http://cdn-ak.b.st-hatena.com/entryimage/251672494-origin-1431692155.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/nisekoi-ed7-single-taisetsu-no-tsukurikata/xsiofhrdze/02%20-%20Taisetsu%20no%20Tsukurikata.mp3",
+		"name" : "Nisekoi ED7 Single - Taisetsu no Tsukurikata",
+		"img" : "http://img.manga-sanctuary.com/news/origin/3261.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/nisekoi-2-ed1-ed2-single/vfbcoarsvv/01%20-%20AIMAI-Hz.mp3",
+		"name" : "Nisekoi 2 ED Single - AIMAI-Hz",
+		"img" : "http://2.bp.blogspot.com/-mYp5g0YhEt4/VjCey3PVUqI/AAAAAAADJPc/D0XQYto2bAs/s16000/0167-003.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-ed-single-kirameki/lkfmuhddrz/01%20-%20Kirameki.mp3",
+		"name" : "Shigatsu wa Kimi no Uso ED Single - Kirameki",
+		"img" : "https://images4.alphacoders.com/668/668521.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-ed2-single-orange/ijqaomqxiv/01%20-%20Orange.mp3",
+		"name" : "Shigatsu wa Kimi no Uso ED2 Single - Orange",
+		"img" : "https://i.pinimg.com/originals/91/12/cb/9112cb2fae6c3ed1b3978ded4875d4c8.jpg"
 	}
 
 ]
@@ -420,6 +584,54 @@ osts = [
 		"link" : "http://67.159.62.2/anime_ost/assassination-classroom-original-soundtrack/exjurvmvru/06%20-%20Koro-sensei%20Ai%20no%20Jugyou.mp3",
 		"name" : "Ansatsu Kyoushitu - Koro-sensei Ai no Jugyou",
 		"img" : "http://wallpapercave.com/wp/wp1951519.png"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/07-ghost-original-soundtrack/nytdjsvcls/101%20TEITO%20KLEIN.mp3",
+		"name" : " 07-Ghost Original Soundtrack - TEITO KLEIN",
+		"img" : "http://images6.fanpop.com/image/polls/791000/791253_1370636398293_full.jpg?v=1370636405"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/golden-time-original-soundtrack-vol-1/yodptjslut/01%20-%20Nanigenai%20Ichinichi.mp3",
+		"name" : "Golden Time Original Soundtrack - Nanigenai Ichinichi",
+		"img" : "https://katsureview.files.wordpress.com/2013/10/horriblesubs-golden-time-01-720p-mkv_snapshot_01-07_2013-10-20_23-07-50.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/golden-time-original-soundtrack-vol.2/vwkvwbxfbx/02-nonbiri-shitai.mp3",
+		"name" : " Golden Time Original Soundtrack - Nonbiri Shitai",
+		"img" : "https://i.ytimg.com/vi/9Web7evH6fM/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/guilty-crown-original-soundtrack/feznsyvqkw/01%20-%20BIOS%20%28feat.%20Mika%20Kobayashi%29.mp3",
+		"name" : "Guilty Crown Original Soundtrack - BIOS",
+		"img" : "https://i.ytimg.com/vi/vLhafvJvPUI/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/kaze-no-stigma-original-soundtrack/dlmpvoolhi/01%20-%20Ensen.mp3",
+		"name" : " Kaze no Stigma Original Soundtrack - Ensen",
+		"img" : "https://images2.alphacoders.com/642/thumb-1920-642240.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/nisekoi-2-original-soundtrack-selection-vol-1/gbgjxcqwio/01%20-%20Sleep%20zzz....mp3",
+		"name" : "Nisekoi 2 Original Soundtrack - Sleep zzz...",
+		"img" : "https://dreamuniverse.files.wordpress.com/2015/04/nisekoi-s2-01-05.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/nisekoi-2-original-soundtrack-selection-vol-2/geaoaunkod/01%20-%20Matado-Love.mp3",
+		"name" : "Nisekoi 2 Original Soundtrack - Matado-Love",
+		"img" : "http://pm1.narvii.com/5725/5399ad44d0f5004859bd1b433f79354342ed018c_hq.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/nisekoi-2-original-soundtrack-vol-3/heppkprjob/01%20-%20Tooriame%20drop.mp3",
+		"name" : " Nisekoi 2 Original Soundtrack - Tooriame drop",
+		"img" : "http://s2.narvii.com/image/nv4mlfpqviskycwyklfe7bdd2dhgnujx_hq.jpg"
 	}
 ]
 

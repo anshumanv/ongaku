@@ -83,7 +83,7 @@ window.addEventListener("load", function () {
 
 	// A function to handle key press on window
 	function handleKeyUp(e) {
-		if(e.keyCode === 80) {	// p 
+		if(e.keyCode === 32) {	// p 
 			togglePlay();
 			updatePlayButton();
 		} 
@@ -123,20 +123,24 @@ window.addEventListener("load", function () {
 
 // Function to display track name
 	function displayTrackName() {
-		trackName.innerHTML = order[0].name;
+		trackName.textContent = order[0].name;
 		displayAnimation();
 	}
 
 	function timeForward() {
 		music.currentTime = Math.min(music.duration, music.currentTime + 10);
-		trackName.innerHTML = "<i class='glyphicon glyphicon-forward'></i>" + " : " + parseInt(music.currentTime / 60) + ":" +  parseInt(music.currentTime % 60);
+		displayTimeUpdate(true);
 		displayAnimation();
 	}
 
 	function timeRewind() {
 		music.currentTime = Math.max(0, music.currentTime - 10);
-		trackName.innerHTML = "<i class='glyphicon glyphicon-backward' style='padding-right: 5px'></i>" + " : " + parseInt(music.currentTime / 60) + ":" +  parseInt(music.currentTime % 60);
+		displayTimeUpdate(false);
 		displayAnimation();
+	}
+
+	function displayTimeUpdate (status) {
+		trackName.innerHTML = `${status ? "<i class='glyphicon glyphicon-forward'></i>" : "<i class='glyphicon glyphicon-backward' style='padding-right: 5px'></i>"} ${Math.floor(music.currentTime / 60) < 10 ? '0' : ''}${Math.floor(music.currentTime / 60)}:${Math.floor(music.currentTime % 60) < 10 ? '0' : ''}${Math.floor(music.currentTime % 60)}`;
 	}
 
 	function volumeUp() {
