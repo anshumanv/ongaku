@@ -33,7 +33,7 @@ openings = [
 	{
 		"link" : "http://lyricmp3skull.org/s363640c/file/masayume-chasing-fairytail-season-2-op-1/148886932.mp3",
 		"name" : "Fairy Tail OP-15",
-		"img" : "https://s-media-cache-ak0.pinimg.com/originals/a5/25/67/a52567b58c01b41ef84f6ce6715a80a1.jpg"
+		"img" : "https://i.ytimg.com/vi/tzVZQGgHtsY/maxresdefault.jpg"
 	},
 
 	{
@@ -168,60 +168,6 @@ openings = [
         "img"  : "https://s-media-cache-ak0.pinimg.com/originals/55/1f/a2/551fa255f7df97c6af549571de08cbcd.jpg"
 	},
     
-    {
-        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/zqqjqgsflj/01%20-%20Snow%20Fairy.mp3",
-        "name" : "Fairy Tail(S1) - Snow Fairy",
-        "img" : "http://thehypedgeek.com/wp-content/uploads/2017/05/fairytale_1600x900_0.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/wppxgvnkcv/03%20-%20S.O.W.%20Sense%20Of%20Wonder.mp3",
-        "name" : "Fairy Tail(S1) - Sense Of Wonder",
-        "img" : "http://geekgirlpenpals.com/wp-content/uploads/2013/09/team-A.png"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/qoochaqtfa/05%20-%20ft..mp3",
-        "name" : "Fairy Tail(S1) - Ft.",
-        "img" : "https://s-media-cache-ak0.pinimg.com/originals/74/88/86/7488869670d0ac639701ae958ef3c547.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/lqnbjimwci/07%20-%20R.P.G.%20~%20Rokin%27%20Playing%20Game.mp3",
-        "name" : "Fairy Tail(S1) - R.P.G. ~Rockin' Playing Game",
-        "img" : "https://images6.alphacoders.com/311/thumb-1920-311015.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/mmbalohsrr/09%20-%20Egao%20no%20Mahou.mp3",
-        "name" : "Fairy Tail(S1) - Egao No Mahou",
-        "img" : "https://s-media-cache-ak0.pinimg.com/originals/f9/d5/50/f9d5503cd8d90d1a8a465328206481fe.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/xaffohxzgz/01%20-%20Fiesta.mp3",
-        "name" : "Fairy Tail(S1) - Fiesta",
-        "img" : "https://dg31sz3gwrwan.cloudfront.net/fanart/114801/703131-0-q80.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/qmgkfwbtfa/03%20-%20Evidence.mp3",
-        "name" : "Fairy Tail(S1) - Evidence",
-        "img" : "http://cdn.playbuzz.com/cdn/cffc1dc9-4f42-4bc5-8904-9350dd35a303/5b3453b3-27af-4c49-a821-c494ddc63a7b.png"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/edrodoidvs/07%20-%20Towa%20no%20Kizuna%20feat.%20Another%20Infinity.mp3",
-        "name" : "Fairy Tail(S1) - Towa no Kizuna",
-        "img" : "https://i.ytimg.com/vi/pZjLi1xX4UM/maxresdefault.jpg"
-    },
-    
-    {
-        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/qrtxcwdksh/05%20-%20The%20Rock%20City%20Boy.mp3",
-        "name" : "Fairy Tail(S1) - The Rock City Boy",
-        "img" : "http://www.mangauk.com/gallery/albums/album-19/lg/fairy_tail_1.jpg"
-    },
-
     {
 		"link" : "http://67.159.62.2/anime_ost/naruto-shippuuden-op01-single-heros-come-back/gxkxqfxgtr/01%20-%20Hero%27s%20Come%20Back%21%21.mp3",
 		"name" : "Naruto Shippuden OP1 - Hero's Come Back",
@@ -415,10 +361,64 @@ openings = [
 	},
     
 	{
-			"link" : "http://67.159.62.2/anime_ost/gintama-op-single-pray/zlavwzkpxk/01%20-%20Pray.mp3",
-			"name" : "Gintama OP1 - Pray",
-			"img"  : "https://img.yescdn.ru/2017/03/14/cover/f4d1103765986f77d88f87fabd9f1b20-gintama-season-4.jpg"
-	}
+		"link" : "http://67.159.62.2/anime_ost/gintama-op-single-pray/zlavwzkpxk/01%20-%20Pray.mp3",
+		"name" : "Gintama OP1 - Pray",
+		"img"  : "https://img.yescdn.ru/2017/03/14/cover/f4d1103765986f77d88f87fabd9f1b20-gintama-season-4.jpg"
+	},
+
+	{
+        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/zqqjqgsflj/01%20-%20Snow%20Fairy.mp3",
+        "name" : "Fairy Tail(S1) - Snow Fairy",
+        "img" : "https://image.dek-d.com/27/0316/7120/121730361"
+    },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/wppxgvnkcv/03%20-%20S.O.W.%20Sense%20Of%20Wonder.mp3",
+        "name" : "Fairy Tail(S1) - Sense Of Wonder",
+        "img" : "http://www.ilbazardimari.net/wp-content/uploads/Fairy-Tail-Protagonisti-2560-x-1440-senza.jpg"
+    },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/qmgkfwbtfa/03%20-%20Evidence.mp3",
+        "name" : "Fairy Tail(S1) - Evidence",
+        "img" : "http://static.zerochan.net/FAIRY.TAIL.full.686623.jpg"
+    },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/edrodoidvs/07%20-%20Towa%20no%20Kizuna%20feat.%20Another%20Infinity.mp3",
+        "name" : "Fairy Tail(S1) - Towa no Kizuna",
+        "img" : "http://2.bp.blogspot.com/-VZI9_yxr1k4/U19vbUMjEWI/AAAAAAAABLA/owOYYA5gerA/s1921/1-Erza-Scarlet-Anime-Wallpaper-FairyTail.jpg"
+    },
+
+    {
+        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/qoochaqtfa/05%20-%20ft..mp3",
+        "name" : "Fairy Tail(S1) - Ft.",
+        "img" : "https://i.ytimg.com/vi/LIzkR3CMcjo/maxresdefault.jpg"
+    },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/lqnbjimwci/07%20-%20R.P.G.%20~%20Rokin%27%20Playing%20Game.mp3",
+        "name" : "Fairy Tail(S1) - R.P.G. ~Rockin' Playing Game",
+        "img" : "https://images6.alphacoders.com/311/thumb-1920-311015.jpg"
+    },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-1/mmbalohsrr/09%20-%20Egao%20no%20Mahou.mp3",
+        "name" : "Fairy Tail(S1) - Egao No Mahou",
+        "img" : "https://s-media-cache-ak0.pinimg.com/originals/f9/d5/50/f9d5503cd8d90d1a8a465328206481fe.jpg"
+    },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/xaffohxzgz/01%20-%20Fiesta.mp3",
+        "name" : "Fairy Tail(S1) - Fiesta",
+        "img" : "https://dg31sz3gwrwan.cloudfront.net/fanart/114801/703131-0-q80.jpg"
+    },
+    
+    {
+        "link" : "http://67.159.62.2/anime_ost/fairy-tail-op-ed-theme-songs-vol-2/qrtxcwdksh/05%20-%20The%20Rock%20City%20Boy.mp3",
+        "name" : "Fairy Tail(S1) - The Rock City Boy",
+        "img" : "http://www.mangauk.com/gallery/albums/album-19/lg/fairy_tail_1.jpg"
+    }
 
 ]
 
