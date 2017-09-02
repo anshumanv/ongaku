@@ -33,6 +33,10 @@ img {
 	background: 2px solid rgba(0, 0, 0, 0.3);
 }
 
+.infoImg {
+	transition: all 0s;
+}
+
 img:hover {
 	transform: scale(1);
 	cursor: pointer;
@@ -64,6 +68,22 @@ img:hover {
 }
 
 /*CSS for top-bar and its elements follows*/
+#top-left {
+	background-color: ghostwhite;
+	display: none;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+.table-hover{
+	animation: fadeIn;
+	animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
 .top-bar {
 	display: flex;
 	align-self: flex-start;
