@@ -430,7 +430,14 @@ openings = [
 		"link" : "http://67.159.62.2/anime_ost/dragon-ball-super-op01-single-chouzetsu-dynamic/kuecqilssc/01%20-%20Chouzetsu%20Dynamic%21.mp3",
 		"name" : "Dragon Ball Super OP - Chouzetsu Dynamic",
 		"img"  : "https://images.alphacoders.com/764/thumb-1920-764254.png"
-	}
+	},
+
+	{
+		"link" : "http://www.youtubeinmp3.com/download/get/?i=BDZ8geGJMQxQ8o1kJIZGKmdg5Bg01Kj1&e=88&v=tHG6pXGxxIE",
+		"name" : "Dragon Ball Super OP 2",
+		"img"  : "https://images2.alphacoders.com/831/831309.png"
+	},
+
 
 ]
 
