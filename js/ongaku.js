@@ -84,14 +84,14 @@ window.addEventListener("load", function () {
 	}
 
 	// toggle show by Information button
-	function HideAndSeek() {
+	function handlingInfoHover() {
     	if (infoBlock.style.display === 'none') {
+			infoButton.style.visibility = 'hidden';
         	infoBlock.style.display = 'block';
-        	infoButton.style.visibility = 'hidden';
     	}
     	else {
+			infoButton.style.visibility = 'visible';
         	infoBlock.style.display = 'none';
-        	infoButton.style.visibility = 'visible';
     	}
 	}
 
@@ -289,8 +289,8 @@ window.addEventListener("load", function () {
 
 	fullscreenButton.addEventListener('click', toggleFullscreen);
 
-	infoButton.addEventListener('mouseenter', HideAndSeek);
-	infoBlock.addEventListener('mouseleave', HideAndSeek);
+	infoButton.addEventListener('mouseenter', handlingInfoHover);
+	infoBlock.addEventListener('mouseleave', handlingInfoHover);
 
 	window.addEventListener('keyup', (e) => handleKeyUp(e));	// handle keyup press on window
 	window.addEventListener('keydown', (e) => handleKeyDown(e)); //  handle keydown event on window

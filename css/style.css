@@ -65,8 +65,19 @@ img:hover {
 
 /*CSS for top-bar and its elements follows*/
 #top-left {
-	background-color: aliceblue;
+	background-color: ghostwhite;
 	display: none;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+.table-hover{
+	animation: fadeIn;
+	animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 .top-bar {
