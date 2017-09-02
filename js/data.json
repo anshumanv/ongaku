@@ -466,6 +466,12 @@ openings = [
 		"link" : "http://67.159.62.2/anime_ost/gintama-op5-single-donten/ettjaclvre/01%20-%20Donten.mp3",
 		"name" : "Gintama OP5 - Donten",
 		"img"  : "https://storge.pic2.me/cm/2560x1440/456/55fc5da7def08.jpg"
+	},
+
+	{
+		"link" : "http://download894.mediafireuserdownload.com/246fo4cu8xig/zfkqeq2syzncvv9/01+-+Guren+no+Yumiya.mp3",
+		"name" : "Attack On Titan - Guren No Yumiya",
+		"img"  : "https://i.ytimg.com/vi/Ihtxj1QZUi0/maxresdefault.jpg"
 	}
 
 ]
