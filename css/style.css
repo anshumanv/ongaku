@@ -77,6 +77,7 @@ img:hover {
 .table-hover{
 	animation: fadeIn;
 	animation-duration: 1s;
+	text-align: center;
 }
 
 @keyframes fadeIn {
