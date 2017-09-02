@@ -433,11 +433,10 @@ openings = [
 	},
 
 	{
-		"link" : "http://www.youtubeinmp3.com/download/get/?i=BDZ8geGJMQxQ8o1kJIZGKmdg5Bg01Kj1&e=88&v=tHG6pXGxxIE",
+		"link" : "https://www.youtubeinmp3.com/fetch/?video=https://www.youtube.com/watch?v=tHG6pXGxxIE",
 		"name" : "Dragon Ball Super OP 2",
 		"img"  : "https://images2.alphacoders.com/831/831309.png"
-	},
-
+	}
 
 ]
 
