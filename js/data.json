@@ -427,9 +427,9 @@ openings = [
 	},
 
 	{
-		"link" :"http://67.159.62.2/anime_ost/steins-gate-op-single-hacking-to-the-gate/jntezehukc/01%20Hacking%20to%20the%20Gate.mp3",
-		"name" :"Steins;Gate OP Single - Hacking to the Gate",
-		"img" :"https://images2.alphacoders.com/224/thumb-1920-224760.jpg"
+		"link" : "http://67.159.62.2/anime_ost/steins-gate-op-single-hacking-to-the-gate/jntezehukc/01%20Hacking%20to%20the%20Gate.mp3",
+		"name" : "Steins;Gate OP Single - Hacking to the Gate",
+		"img" : "https://images2.alphacoders.com/224/thumb-1920-224760.jpg"
 	}
 
 ]
@@ -562,7 +562,7 @@ endings = [
 		"name" : "Shigatsu wa Kimi no Uso ED2 Single - Orange",
 		"img" : "https://i.pinimg.com/originals/91/12/cb/9112cb2fae6c3ed1b3978ded4875d4c8.jpg"
 	}
-	
+
 ]
 
 
