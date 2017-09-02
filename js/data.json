@@ -447,13 +447,13 @@ openings = [
 	{
 		"link" : "http://67.159.62.2/anime_ost/gintama-op4-single-kasanaru-kage/mjydqwsuom/01%20-%20Kasanaru%20Kage.mp3",
 		"name" : "Gintama OP4 - Kasanaru Kage",
-		"img"  : "http://image.tmdb.org/t/p/w780/apO3905dT9eyWnrDtT3BGASziP0.jpg",
+		"img"  : "https://images3.alphacoders.com/713/thumb-1920-713053.png",
 	},
 		
 	{
 		"link" : "http://67.159.62.2/anime_ost/gintama-op5-single-donten/ettjaclvre/01%20-%20Donten.mp3",
 		"name" : "Gintama OP5 - Donten",
-		"img"  : "http://i.imgur.com/wnxRZso.png"
+		"img"  : "https://storge.pic2.me/cm/2560x1440/456/55fc5da7def08.jpg"
 	}
 
 ]
