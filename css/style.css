@@ -33,6 +33,10 @@ img {
 	background: 2px solid rgba(0, 0, 0, 0.3);
 }
 
+.infoImg {
+	transition: all 0s;
+}
+
 img:hover {
 	transform: scale(1);
 	cursor: pointer;
