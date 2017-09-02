@@ -17,15 +17,15 @@
 
 | Key | Function |  
 |:--------------|:----------------:|
-| SPACE | Toggle pause / play |
+| SPACE | Pause or play |
 | N | Play next track |
 | R | Replay current track |
 | F | Toggle fullscreen |
 | L | Play last played track / Track on the end of the list |
-| UP | Volume Up |
-| DOWN | Volume Down |
-| LEFT | Track Seek -10s |
-| RIGHT | Track Seek +10s |
+| UP | Volume up in 10% increments |
+| DOWN | Volume down in 10% increments |
+| LEFT | Jump 10 seconds backward |
+| RIGHT | Jump 10 seconds forward |
 
   
 ### Some Pointers
