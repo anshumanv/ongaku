@@ -22,8 +22,8 @@
 | R | Replay current track |
 | F | Toggle fullscreen |
 | L | Play last played track / Track on the end of the list |
-| UP | Volume up in 10% increments |
-| DOWN | Volume down in 10% increments |
+| UP | Increments volume by 10% |
+| DOWN | Decrements volume by 10% |
 | LEFT | Jump 10 seconds backward |
 | RIGHT | Jump 10 seconds forward |
 
