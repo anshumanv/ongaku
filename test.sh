@@ -1,5 +1,5 @@
 fname=js/data.json
-call="awesome_bot $fname --skip-save-results --allow-redirect -w cs1.mp3.pm, mp3fb"
+call="awesome_bot $fname --skip-save-results --allow-redirect -w cs1.mp3.pm,mp3fb.com"
 
 out=$($call)
 if [[ $out != *"No issues"* ]]; then
