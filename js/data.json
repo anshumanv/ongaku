@@ -423,7 +423,25 @@ openings = [
 	{
 		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-op-single-departure/ssrkagxzwg/01%20-%20departure%21.mp3",
 		"name" : "Hunter x Hunter 2011 OP Single - departure",
-		"img" : "https://dw9to29mmj727.cloudfront.net/promo/2016/5252-SeriesHeaders_HxH_2000x800.jpg"
+		"img"  : "https://dw9to29mmj727.cloudfront.net/promo/2016/5252-SeriesHeaders_HxH_2000x800.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/dragon-ball-super-op01-single-chouzetsu-dynamic/kuecqilssc/01%20-%20Chouzetsu%20Dynamic%21.mp3",
+		"name" : "Dragon Ball Super OP - Chouzetsu Dynamic",
+		"img"  : "https://images.alphacoders.com/764/thumb-1920-764254.png"
+	},
+
+	{
+		"link" : "https://www.youtubeinmp3.com/fetch/?video=https://www.youtube.com/watch?v=tHG6pXGxxIE",
+		"name" : "Dragon Ball Super OP 2",
+		"img"  : "https://images2.alphacoders.com/831/831309.png"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/steins-gate-op-single-hacking-to-the-gate/jntezehukc/01%20Hacking%20to%20the%20Gate.mp3",
+		"name" : "Steins;Gate OP Single - Hacking to the Gate",
+		"img" : "https://images2.alphacoders.com/224/thumb-1920-224760.jpg"
 	}
 
 ]
