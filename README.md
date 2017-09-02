@@ -17,17 +17,17 @@
 
 | Key | Function |  
 |:--------------|:----------------:|
-| SPACE | Pause or play |
-| N | Play next track |
-| R | Replay current track |
-| F | Toggle fullscreen |
-| L | Play last played track / Track on the end of the list |
-| UP | Increments volume by 10% |
-| DOWN | Decrements volume by 10% |
-| LEFT | Jump 10 seconds backward |
-| RIGHT | Jump 10 seconds forward |
+| <img src="http://www.redbackstudios.com.au/enews/images/keyboard-button-Space-long.jpg" width="35"> | Pause or play |
+| <img src="http://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/letter-uppercase-N-icon.png" width="35"> | Play next track |
+| <img src="http://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/letter-uppercase-R-icon.png" width="35"> | Replay current track |
+| <img src="http://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/letter-uppercase-F-icon.png" width="35"> | Toggle fullscreen |
+| <img src="http://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/letter-uppercase-L-icon.png" width="35"> | Play last played track / Track on the end of the list |
+| <img src="http://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/arrow-up-icon.png" width="35"> | Increments volume by 10% |
+| <img src="http://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/arrow-down-icon.png" width="35"> | Decrements volume by 10% |
+| <img src="http://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/arrow-left-icon.png" width="35"> | Jump 10 seconds backward |
+| <img src="http://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/arrow-right-icon.png" width="35"> | Jump 10 seconds forward |
 
-  
+
 ### Some Pointers
 * The app uses various media sources from the internet hence there is no media uptime guarantee.
 * In case the track doesn't play or the background doesn't show up just file an issue or send a PR with appropriate media link.
