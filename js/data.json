@@ -436,6 +436,12 @@ openings = [
 		"link" : "https://www.youtubeinmp3.com/fetch/?video=https://www.youtube.com/watch?v=tHG6pXGxxIE",
 		"name" : "Dragon Ball Super OP 2",
 		"img"  : "https://images2.alphacoders.com/831/831309.png"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/steins-gate-op-single-hacking-to-the-gate/jntezehukc/01%20Hacking%20to%20the%20Gate.mp3",
+		"name" : "Steins;Gate OP Single - Hacking to the Gate",
+		"img" : "https://images2.alphacoders.com/224/thumb-1920-224760.jpg"
 	}
 
 ]
