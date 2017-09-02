@@ -17,7 +17,7 @@
 
 | Key | Function |  
 |:--------------|:----------------:|
-| <img src="https://www.techonthenet.com/clipart/keyboard/images/space_key_m.png" width="35"> | Pause or play |
+| <img src="http://www.redbackstudios.com.au/enews/images/keyboard-button-Space-long.jpg" width="35"> | Pause or play |
 | <img src="http://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/letter-uppercase-N-icon.png" width="35"> | Play next track |
 | <img src="http://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/letter-uppercase-R-icon.png" width="35"> | Replay current track |
 | <img src="http://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/letter-uppercase-F-icon.png" width="35"> | Toggle fullscreen |
