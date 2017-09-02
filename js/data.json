@@ -442,6 +442,30 @@ openings = [
 		"link" : "http://67.159.62.2/anime_ost/steins-gate-op-single-hacking-to-the-gate/jntezehukc/01%20Hacking%20to%20the%20Gate.mp3",
 		"name" : "Steins;Gate OP Single - Hacking to the Gate",
 		"img" : "https://images2.alphacoders.com/224/thumb-1920-224760.jpg"
+	},
+    
+	{
+		"link" : "http://67.159.62.2/anime_ost/gintama-op2-single-tooi-nioi/dgrvnaggyd/01%20-%20Tooi%20Nioi.mp3",
+		"name" : "Gintama OP2 - Tooi Nioi",
+		"img"  : "https://animejanaika.files.wordpress.com/2011/04/horriblesubs-sket-dance-01-720p-mkv_snapshot_23-45_2011-04-11_01-59-08.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/gintama-op3-single-gin-iro-no-sora/cjbijtbyxz/01%20-%20Gin%20iro%20no%20Sora.mp3",
+		"name" : "Gintama OP3 - Gin iro no Sora",
+		"img"  : "https://myanimelist.cdn-dena.com/s/common/uploaded_files/1449204090-b9875961dca681114b8c47224457c13b.jpeg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/gintama-op4-single-kasanaru-kage/mjydqwsuom/01%20-%20Kasanaru%20Kage.mp3",
+		"name" : "Gintama OP4 - Kasanaru Kage",
+		"img"  : "https://images3.alphacoders.com/713/thumb-1920-713053.png",
+	},
+		
+	{
+		"link" : "http://67.159.62.2/anime_ost/gintama-op5-single-donten/ettjaclvre/01%20-%20Donten.mp3",
+		"name" : "Gintama OP5 - Donten",
+		"img"  : "https://storge.pic2.me/cm/2560x1440/456/55fc5da7def08.jpg"
 	}
 
 ]
