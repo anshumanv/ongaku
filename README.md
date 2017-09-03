@@ -5,7 +5,8 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/Anshuman-Verma/ongaku.svg)](https://github.com/Anshuman-Verma/ongaku/graphs/contributors)
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/anime-ongaku/Lobby)
 [![Build Status](https://travis-ci.org/Anshuman-Verma/ongaku.svg?branch=master)](https://travis-ci.org/Anshuman-Verma/ongaku)
-  
+[![HitCount](https://hitt.herokuapp.com/Anshuman-Verma/ongaku.svg)](https://github.com/Anshuman-Verma/ongaku)
+
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)](http://forthebadge.com)
