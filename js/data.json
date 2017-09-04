@@ -387,7 +387,7 @@ openings = [
 	{
 		"link" : "http://67.159.62.2/anime_ost/nisekoi-op2-single-step/ltwqulxsfb/01%20-%20STEP.mp3",
 		"name" : " Nisekoi OP2 Single - STEP",
-		"img" : "https://i.ytimg.com/vi/QGRGd3H0ZHs/maxresdefault.jpg"
+		"img" : "http://68.media.tumblr.com/777305313c81d42f541a451c67292712/tumblr_o8thjwe0Yq1rajfs7o1_1280.png"
 	},
 
 	{
@@ -530,7 +530,7 @@ endings = [
 	{
 		"link" : "http://67.159.62.2/anime_ost/golden-time-op-ed-single-golden-time/plypywtgyw/02%20-%20Sweet%26Sweet%20CHERRY.mp3",
 		"name" : "Golden Time - Sweet&Sweet CHERRY",
-		"img" : "https://i.ytimg.com/vi/3kktZWHjzz4/maxresdefault.jpg"
+		"img" : "https://www.shanethegamer.com/wp-content/uploads/2016/03/GT-Background.jpg"
 	},
 
 	{
@@ -578,13 +578,13 @@ endings = [
 	{
 		"link" : "http://67.159.62.2/anime_ost/nisekoi-ed6-single-souzou-diary/ftdpkmbqil/02%20-%20Souzou%20Diary.mp3",
 		"name" : "Nisekoi ED6 Single - Souzou Diary",
-		"img" : "http://cdn-ak.b.st-hatena.com/entryimage/251672494-origin-1431692155.jpg"
+		"img" : "http://i.imgur.com/wiGcohC.jpg"
 	},
 
 	{
 		"link" : "http://67.159.62.2/anime_ost/nisekoi-ed7-single-taisetsu-no-tsukurikata/xsiofhrdze/02%20-%20Taisetsu%20no%20Tsukurikata.mp3",
 		"name" : "Nisekoi ED7 Single - Taisetsu no Tsukurikata",
-		"img" : "http://img.manga-sanctuary.com/news/origin/3261.jpg"
+		"img" : "https://i.ytimg.com/vi/oaUkGVOQ1kQ/maxresdefault.jpg"
 	},
 
 	{
@@ -655,7 +655,7 @@ osts = [
 	{
 		"link" : "http://67.159.62.2/anime_ost/golden-time-original-soundtrack-vol.2/vwkvwbxfbx/02-nonbiri-shitai.mp3",
 		"name" : " Golden Time Original Soundtrack - Nonbiri Shitai",
-		"img" : "https://i.ytimg.com/vi/9Web7evH6fM/maxresdefault.jpg"
+		"img" : "http://www.anime-evo.net/wp-content/uploads/2014/02/Golden_17_1.jpg"
 	},
 
 	{
@@ -679,13 +679,13 @@ osts = [
 	{
 		"link" : "http://67.159.62.2/anime_ost/nisekoi-2-original-soundtrack-selection-vol-2/geaoaunkod/01%20-%20Matado-Love.mp3",
 		"name" : "Nisekoi 2 Original Soundtrack - Matado-Love",
-		"img" : "http://pm1.narvii.com/5725/5399ad44d0f5004859bd1b433f79354342ed018c_hq.jpg"
+		"img" : "https://i.ytimg.com/vi/V_RcMfC8x5M/maxresdefault.jpg"
 	},
 
 	{
 		"link" : "http://67.159.62.2/anime_ost/nisekoi-2-original-soundtrack-vol-3/heppkprjob/01%20-%20Tooriame%20drop.mp3",
 		"name" : " Nisekoi 2 Original Soundtrack - Tooriame drop",
-		"img" : "http://s2.narvii.com/image/nv4mlfpqviskycwyklfe7bdd2dhgnujx_hq.jpg"
+		"img" : "https://4.bp.blogspot.com/-cqAZK1NBF_c/WUa7Alqff9I/AAAAAAAABs4/cKmZjdnxqIkrkDrO68XRidDO750-b9e5gCLcBGAs/s1600/1475.jpg"
 	},
 	
 	{
@@ -1040,6 +1040,42 @@ osts = [
 		"link" : "http://www.youtubeinmp3.com/fetch/?video=https://www.youtube.com/watch?v=IK1K9O3y-gk",
 		"name" : "Dragon Ball Super ED - Far Away",
 		"img" : "http://i.imgur.com/FMIKlge.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-twinkle-little-star/xvjwjvfriu/01%20-%20Mozart%20Twelve%20Variations%20on%20%27Ah%20vous%20dirai-je%2C%20Maman%27%20K.265.mp3",
+		"name" : "Shigatsu wa Kimi no Uso Original Soundtrack - Twinkle Little Star",
+		"img" : "https://pbs.twimg.com/media/CuVNoWmVMAAH_oS.jpg:large"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-twinkle-little-star/euxawjmtld/02%20-%20Kreisler%20Love%27s%20Joy.mp3",
+		"name" : "Shigatsu wa Kimi no Uso Original Soundtrack - Kreisler Love's Joy",
+		"img"  : "https://images8.alphacoders.com/832/832863.png"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-original-soundtrack-vol-1/qudigmmayf/01%20-%20Shigatsu%20wa%20Kimi%20no%20Uso.mp3",
+		"name" : "Shigatsu wa Kimi no Uso Original Soundtrack - Shigatsu wa Kimi no Uso",
+		"img"  : "http://i1.wp.com/inews.gtimg.com/newsapp_match/0/1273726548/0",
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-original-soundtrack-vol-1/dosycblwjk/06%20-%20Watashi%2C%20Violinist%20na%20no.mp3",
+		"name" : "Shigatsu wa Kimi no Uso Original Soundtrack -Watashi, Violinist na no",
+		"img"  : "https://vignette2.wikia.nocookie.net/shigatsu-wa-kimi-no-uso/images/2/22/Epi14cover.jpg/revision/latest/scale-to-width-down/2000?cb=20150321015734"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-original-soundtrack-vol-2/cgqxlwiqag/06%20-%20Uso%20to%20Honto.mp3",
+		"name" : "Shigatsu wa Kimi no Uso Original Soundtrack -  Uso to Honto",
+		"img"  : "https://pedanticperspective.files.wordpress.com/2014/10/kaori-and-kousei.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-original-soundtrack-vol-2/vnwimijwem/10%20-%20Watashi%20no%20Uso.mp3",
+		"name" : "Shigatsu wa Kimi no Uso Original Soundtrack - Watashi no Uso ",
+		"img"  : "http://image.diyidan.net/post/2016/8/23/syhxW3Z9FtZZTUHQ.jpg"
 	}
 	
 ]
