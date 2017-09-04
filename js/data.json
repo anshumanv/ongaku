@@ -472,6 +472,18 @@ openings = [
 		"link" : "http://yt-files.com/yt-dd.php?id=m4O2VS4511Y&hash=29f2d27354eb0d248618a2b398d85904&name=Shingeki%20no%20Kyojin%20Attack%20on%20Titan%20Opening%20OP%20Guren%20no%20Yumiya%20Linked%20Horizon%20Extended%20Ver",
 		"name" : "Attack On Titan - Guren No Yumiya",
 		"img"  : "https://k43.kn3.net/taringa/D/D/8/D/C/6/t_good/767.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/code-geass-hangyaku-no-lelouch-op-single-colors/ilvckpkocj/01%20-%20COLORS.mp3",
+		"name" : "Code Geass (Hangyaku no Lelouch) OP1 - Colors",
+		"img"  : "https://d1m6vmmwsgiy3l.cloudfront.net/wallpapers/code_geass_lelouch_of_the_363_1680.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/code-geass-hangyaku-no-lelouch-op2-single-kaidoku-funou/itgzwjatxy/01%20-%20Kaidoku%20Funou.mp3",
+		"name" : "Code Geass (Hangyaku no Lelouch) OP2 - Kaidoku Funou",
+		"img"  : "http://yumenomangas.free.fr/codegeass/walls/big/YumeNoMangas.codegeass.0078.jpg"
 	}
 
 ]
@@ -603,6 +615,18 @@ endings = [
 		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-ed2-single-orange/ijqaomqxiv/01%20-%20Orange.mp3",
 		"name" : "Shigatsu wa Kimi no Uso ED2 Single - Orange",
 		"img" : "https://i.pinimg.com/originals/91/12/cb/9112cb2fae6c3ed1b3978ded4875d4c8.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/code-geass-hangyaku-no-lelouch-ed-single-yuukyou-seishunka/fdsbdohyaz/01%20-%20Yuukyou%20Seishunkan.mp3",
+		"name" : "Code Geass (Hangyaku no Lelouch) ED1 - Yuukyou Seishunkan",
+		"img"  : "http://www.desktop-background.com/download/1920x1200/2010/05/15/17682_code-geass-wallpapers-album-on-imgur_2560x1600_h.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/code-geass-hangyaku-no-lelouch-ed2-single-mosaic-kakera/kwpddhndnz/01%20-%20Mosaic%20Kakera.mp3",
+		"name" : "Code Geass (Hangyaku no Lelouch) ED2 - Mosaic Kakera",
+		"img"  : "http://animewallpaperstock.com/wallpaper/02ka/code-geass/code-geass0151.jpg"
 	}
 
 ]
