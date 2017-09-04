@@ -74,6 +74,10 @@ img:hover {
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 }
 
+th {
+	text-align: center;
+}
+
 .table-hover{
 	animation: fadeIn;
 	animation-duration: 1s;
