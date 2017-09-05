@@ -578,13 +578,13 @@ endings = [
 	{
 		"link" : "http://67.159.62.2/anime_ost/nisekoi-ed6-single-souzou-diary/ftdpkmbqil/02%20-%20Souzou%20Diary.mp3",
 		"name" : "Nisekoi ED6 Single - Souzou Diary",
-		"img" : "http://i.imgur.com/wiGcohC.jpg"
+		"img" : "http://cdn-ak.b.st-hatena.com/entryimage/251672494-origin-1431692155.jpg"
 	},
 
 	{
 		"link" : "http://67.159.62.2/anime_ost/nisekoi-ed7-single-taisetsu-no-tsukurikata/xsiofhrdze/02%20-%20Taisetsu%20no%20Tsukurikata.mp3",
 		"name" : "Nisekoi ED7 Single - Taisetsu no Tsukurikata",
-		"img" : "https://i.ytimg.com/vi/oaUkGVOQ1kQ/maxresdefault.jpg"
+		"img" : "http://img.manga-sanctuary.com/news/origin/3261.jpg"
 	},
 
 	{
@@ -1057,7 +1057,7 @@ osts = [
 	{
 		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-original-soundtrack-vol-1/qudigmmayf/01%20-%20Shigatsu%20wa%20Kimi%20no%20Uso.mp3",
 		"name" : "Shigatsu wa Kimi no Uso Original Soundtrack - Shigatsu wa Kimi no Uso",
-		"img"  : "http://i1.wp.com/inews.gtimg.com/newsapp_match/0/1273726548/0",
+		"img"  : "http://i1.wp.com/inews.gtimg.com/newsapp_match/0/1273726548/0"
 	},
 
 	{
@@ -1069,13 +1069,13 @@ osts = [
 	{
 		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-original-soundtrack-vol-2/cgqxlwiqag/06%20-%20Uso%20to%20Honto.mp3",
 		"name" : "Shigatsu wa Kimi no Uso Original Soundtrack -  Uso to Honto",
-		"img"  : "https://pedanticperspective.files.wordpress.com/2014/10/kaori-and-kousei.jpg"
+		"img"  : "https://i.ytimg.com/vi/eN0M0912lrw/maxresdefault.jpg"
 	},
 
 	{
 		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-original-soundtrack-vol-2/vnwimijwem/10%20-%20Watashi%20no%20Uso.mp3",
 		"name" : "Shigatsu wa Kimi no Uso Original Soundtrack - Watashi no Uso ",
-		"img"  : "http://image.diyidan.net/post/2016/8/23/syhxW3Z9FtZZTUHQ.jpg"
+		"img"  : "https://s26.postimg.org/x5d4e75qx/Ep19.png"
 	}
 	
 ]
