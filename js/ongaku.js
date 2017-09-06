@@ -85,14 +85,14 @@ window.addEventListener("load", function () {
 
 	// toggle show by Information button
 	function handlingInfoHover() {
-    	if (infoBlock.style.display === 'none') {
+		if (infoBlock.style.display === 'none') {
 			infoButton.style.visibility = 'hidden';
-        	infoBlock.style.display = 'block';
-    	}
-    	else {
-			infoButton.style.visibility = 'visible';
-        	infoBlock.style.display = 'none';
-    	}
+			infoBlock.style.display = 'block';
+		}
+		else {
+		infoButton.style.visibility = 'visible';
+		infoBlock.style.display = 'none';
+		}
 	}
 
 	// A function to handle key press on window
