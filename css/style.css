@@ -70,7 +70,6 @@ img:hover {
 /*CSS for top-bar and its elements follows*/
 #top-left {
 	background-color: ghostwhite;
-	display: none;
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 }
 
