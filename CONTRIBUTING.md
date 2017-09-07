@@ -20,3 +20,5 @@
 * Refer [style.css](css/style.css) which contains the styling of the app.
 * Refer [index.html](index.html) which holds the basic HTML of the app.
 * Make respective changes and send a PR.
+* Please solve only one issue per PR.
+* Only one enhancement per PR is allowed unless the enhancement is of single anime.
