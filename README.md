@@ -1,11 +1,11 @@
 <h1 align="center">ongaku : Anime Radio</h1>  
 
 [![Contributors needed](https://img.shields.io/badge/contributors-needed-yellow.svg)](CONTRIBUTING.md)
-[![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/Anshuman-Verma/ongaku/blob/master/LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/Anshuman-Verma/ongaku.svg)](https://github.com/Anshuman-Verma/ongaku/graphs/contributors)
+[![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/anshumanv/ongaku/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/anshumanv/ongaku.svg)](https://github.com/anshumanv/ongaku/graphs/contributors)
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/anime-ongaku/Lobby)
-[![Build Status](https://travis-ci.org/Anshuman-Verma/ongaku.svg?branch=master)](https://travis-ci.org/Anshuman-Verma/ongaku)
-[![HitCount](https://hitt.herokuapp.com/Anshuman-Verma/ongaku.svg)](https://github.com/Anshuman-Verma/ongaku)
+[![Build Status](https://travis-ci.org/anshumanv/ongaku.svg?branch=master)](https://travis-ci.org/anshumanv/ongaku)
+[![HitCount](https://hitt.herokuapp.com/anshumanv/ongaku.svg)](https://github.com/anshumanv/ongaku)
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
