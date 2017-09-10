@@ -1100,6 +1100,54 @@ osts = [
 		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-original-soundtrack-vol-2/vnwimijwem/10%20-%20Watashi%20no%20Uso.mp3",
 		"name" : "Shigatsu wa Kimi no Uso Original Soundtrack - Watashi no Uso ",
 		"img"  : "https://s26.postimg.org/x5d4e75qx/Ep19.png"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/fairy-tail-original-soundtrack-vol-1/wmteztakxy/01%20-%20FAIRY%20TAIL%20Main%20Theme.mp3",
+		"name" : "Fairy Tail OST - FAIRY TAIL Main Theme",
+		"img" : "https://i.pinimg.com/originals/9a/f5/33/9af533de167287e928fa90e98104b0a3.jpg"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/fairy-tail-original-soundtrack-vol-1/uusdsnrdya/02%20-%20Erza%20no%20Theme.mp3",
+		"name" : "Fairy Tail OST - Erza no Theme",
+		"img" : "https://s26.postimg.org/e9kzpwhjt/erza_scarlet_by_carl1tos-d5y6eqs.png"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/fairy-tail-original-soundtrack-vol-1/ovrfykycdr/03%20-%20Mahou%20Hatsudou.mp3",
+		"name" : "Fairy Tail OST - Mahou Hatsudou",
+		"img" : "https://s26.postimg.org/vt8z7ulzt/fairy-tail-5834552601706.jpg"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/fairy-tail-original-soundtrack-vol-1/iwrxlsjaxn/04%20-%20Dragonslayer.mp3",
+		"name" : "Fairy Tail OST - Dragonslayer",
+		"img" : "https://s26.postimg.org/yrajfaj15/144a532890529559.jpg"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/fairy-tail-original-soundtrack-vol-1/lenjziqveo/05%20-%20Rakuen%20no%20Tou.mp3",
+		"name" : "Fairy Tail OST - Rakuen no Tou",
+		"img" : "https://s26.postimg.org/qzttgqevt/maxresdefault_7.jpg"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/fairy-tail-original-soundtrack-vol-1/iesddjpvjy/20%20-%20Lucy%20no%20Theme.mp3",
+		"name" : "Fairy Tail OST - Lucy no Theme",
+		"img" : "https://s26.postimg.org/7lb5siztl/tumblr_nqhaplq_PFR1updw00o6_r1_1280.png"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/fairy-tail-original-soundtrack-vol-2/jjrjmzzrkl/08%20-%20Makarov.mp3",
+		"name" : "Fairy Tail OST - Makarov",
+		"img" : "https://s26.postimg.org/escuoeaqh/big-4466555169.jpg"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/fairy-tail-original-soundtrack-vol.5/qauruoohgn/2-21-fairy-tail-rising.mp3",
+		"name" : "Fairy Tail OST - Fairy Tail Rising",
+		"img"  : "https://s26.postimg.org/mngtlcxqx/thumb-1920-387046.jpg"
 	}
 	
 ]
