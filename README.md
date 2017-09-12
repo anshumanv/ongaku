@@ -35,8 +35,7 @@
 * In case the track doesn't play or the background doesn't show up just file an issue or send a PR with appropriate media link.
 
 
-## Ports
-[<img src="https://rawgit.com/sindresorhus/awesome-electron/master/electron-logo.svg" align="right" width="100">](https://electron.atom.io/)
+## Ports [<img src="https://rawgit.com/sindresorhus/awesome-electron/master/electron-logo.svg" align="right" width="100">](https://electron.atom.io/)
 
 Electron based desktop port is available in [ongaku-desktop](https://github.com/Anshuman-Verma/ongaku-desktop.git).
 
