@@ -36,7 +36,7 @@
 
 
 ## Ports
-[<img src="https://rawgit.com/sindresorhus/awesome-electron/master/electron-logo.svg" align="right" width="100">](https://electron.atom.io/) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[<img src="https://rawgit.com/sindresorhus/awesome-electron/master/electron-logo.svg" align="right" width="100">](https://electron.atom.io/)
 
 Electron based desktop port is available in [ongaku-desktop](https://github.com/Anshuman-Verma/ongaku-desktop.git).
 
