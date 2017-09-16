@@ -40,7 +40,7 @@ window.addEventListener("load", function () {
 			order.push(order.shift());	// Take the completed one and place it at the end of playlist
 			play();
 		}
-		playHead.style.marginLeft = (percent / 100) * (timeLine.offsetWidth - playHead.offsetWidth)  + "px";	// Geez -_-
+		playHead.style.marginLeft = (percent / 100) * (timeLine.offsetWidth - playHead.offsetWidth)  + "px";
 	}
 
 	// function to enable track seek
