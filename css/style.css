@@ -77,6 +77,11 @@ th {
 	text-align: center;
 }
 
+.table th, .table td {
+    border-top: none !important;
+    border-left: none !important;
+}
+
 .table-hover{
 	animation: fadeIn;
 	animation-duration: 1s;
