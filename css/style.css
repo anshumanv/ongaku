@@ -126,6 +126,8 @@ th {
 	display: flex;
 	justify-content: space-between;
 	width: 100vw;
+    position: fixed;
+    bottom: 0px;
 }
 
 #player{
