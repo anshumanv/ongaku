@@ -145,6 +145,15 @@ th {
   	transform: translateY(100%) translateY(-10px);
 }
 
+#playTime {
+	font-size: medium;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	margin-bottom: -20px;
+	padding-top: 3px;
+}
+
 #wrapper{
   display: flex;
   justify-content: center;
