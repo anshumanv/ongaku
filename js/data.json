@@ -484,6 +484,12 @@ openings = [
 		"link" : "http://67.159.62.2/anime_ost/code-geass-hangyaku-no-lelouch-op2-single-kaidoku-funou/itgzwjatxy/01%20-%20Kaidoku%20Funou.mp3",
 		"name" : "Code Geass (Hangyaku no Lelouch) OP2 - Kaidoku Funou",
 		"img"  : "http://cdn.pcwallart.com/images/code-geass-lelouch-wallpaper-2.jpg"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/clannad-original-soundtrack-disc-3/muvenwocfa/09-meg-mell-cockool-mix-full-ver.-.mp3",
+		"name" : "Clannad OP1 - Meg Mell",
+		"img"  : "http://wallpapersdsc.net/wp-content/uploads/2017/04/Clannad-Computer-Backgrounds.png"
 	}
 
 ]
@@ -1196,6 +1202,36 @@ osts = [
 		"link" : "http://67.159.62.2/anime_ost/fairy-tail-original-soundtrack-vol-4/wjhlnkclrt/17%20-%20Ultear%20to%20Gray.mp3",
 		"name" : "Fairy Tail OST - Ultear to Gray",
 		"img"  : "https://s25.postimg.org/6w9n8n11r/Drops_of_Time.png"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/clannad-original-soundtrack-disc-1/fdrelxsesf/01-shio.mp3",
+		"name" : "Clannad OST - Shio",
+		"img"  : "https://i.pinimg.com/originals/23/a4/22/23a422e7f602f09800a2caf92802e233.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/clannad-original-soundtrack-disc-1/dzmzzccevq/02-illusions.mp3",
+		"name" : "Clannad OST - Illusions",
+		"img"  : "https://pbs.twimg.com/media/DEOSDQjUwAAkUr3.jpg"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/clannad-original-soundtrack-disc-1/gpumkomlzv/05-nagisa.mp3",
+		"name" : "Clannad OST - Nagisa",
+		"img"  : "http://att.bbs.duowan.com/forum/201208/28/1301385om5t5slwdw5msho.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/clannad-original-soundtrack-disc-1/szlqfqytmg/08-hurry-starfish.mp3",
+		"name" : "Clannad OST - Hurry, Starfish",
+		"img"  : "https://gss0.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/b3b7d0a20cf431adcabe073a4b36acaf2edd9840.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/clannad-original-soundtrack-disc-1/bonksbhnmj/13-meaningful-ways-to-pass-the-time.mp3",
+		"name" : "Clannad OST - Meaningful Ways to Pass the Time",
+		"img"  : "https://i.ytimg.com/vi/EEXxDszslTo/maxresdefault.jpg"
 	}
 	
 ]
