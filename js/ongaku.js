@@ -42,10 +42,10 @@ window.addEventListener("load", function () {
 			play();
 		}
 		playHead.style.marginLeft = (percent / 100) * (timeLine.offsetWidth - playHead.offsetWidth)  + "px";
-		var currentTimeMin = ("0" + parseInt(music.currentTime / 60)).slice(-2);
-		var currentTimeSec = ("0" + parseInt(music.currentTime - (currentTimeMin * 60))).slice(-2);
-		var durationMin = ("0" + parseInt(music.duration / 60)).slice(-2);
-		var durationSec = ("0" + parseInt(music.duration - (durationMin * 60))).slice(-2);
+		let currentTimeMin = ("0" + parseInt(music.currentTime / 60)).slice(-2);
+		let currentTimeSec = ("0" + parseInt(music.currentTime - (currentTimeMin * 60))).slice(-2);
+		let durationMin = ("0" + parseInt(music.duration / 60)).slice(-2);
+		let durationSec = ("0" + parseInt(music.duration - (durationMin * 60))).slice(-2);
 		playTime.innerHTML = currentTimeMin + ":" + currentTimeSec + " : " + durationMin + ":" + durationSec;
 	}
 

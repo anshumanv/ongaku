@@ -142,7 +142,7 @@ th {
 	border-radius: 15px;
   	opacity: 0.5;
   	transition: all 0.5s;
-  	transform: translateY(100%) translateY(-10px);
+  	transform: translateY(100%) translateY(-15px);
 }
 
 #playTime {
@@ -164,7 +164,7 @@ th {
 
 #player:hover {
   opacity: 1;
-  transform: translateY(10px) ;
+  transform: translateY(5px) ;
 }
 
 /* Play/Pause Button */
