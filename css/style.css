@@ -142,7 +142,15 @@ th {
 	border-radius: 15px;
   	opacity: 0.5;
   	transition: all 0.5s;
-  	transform: translateY(100%) translateY(-10px);
+  	transform: translateY(100%) translateY(-15px);
+}
+
+#playTime {
+	font-size: medium;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	margin-bottom: -20px;
 }
 
 #wrapper{
@@ -155,7 +163,7 @@ th {
 
 #player:hover {
   opacity: 1;
-  transform: translateY(10px) ;
+  transform: translateY(5px) ;
 }
 
 /* Play/Pause Button */
