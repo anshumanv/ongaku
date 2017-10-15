@@ -5,5 +5,5 @@
 - [ ] I searched or browsed the repo’s other issues to ensure this is not a duplicate.
 - [ ] This issue is for enhancement/bug fixing.
 - [ ] This issue is an addition to JSON database.
-- [ ] I have gone through [Contribution Guidelines](https://github.com/Anshuman-Verma/ongaku/blob/master/CONTRIBUTING.md).
+- [ ] I have gone through [Contribution Guidelines](https://github.com/anshumanv/ongaku/blob/master/CONTRIBUTING.md).
 - [ ] Assign this issue to me.
