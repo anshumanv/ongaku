@@ -42,7 +42,7 @@ window.addEventListener("load", function () {
 		if (percent >= 100) {
 			percent = 0;
 			order.push(order.shift());	// Take the completed one and place it at the end of playlist
-			play();
+			play(order);
 		}
 		playHead.style.marginLeft = (percent / 100) * (timeLine.offsetWidth - playHead.offsetWidth)  + "px";
 		let currentTimeMin = ("0" + parseInt(music.currentTime / 60)).slice(-2);
@@ -77,13 +77,13 @@ window.addEventListener("load", function () {
 	// function to play next track from the playlist
 	function nextTrack() {
 		order.push(order.shift());
-		play();
+		play(order);
 	}
 
 	// function to play previous track from the playlist
 	function previousTrack() {
 		order.unshift(order.pop());
-		play();
+		play(order);
 	}
 
 	// function to replay the current track
