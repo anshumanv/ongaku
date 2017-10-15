@@ -16,6 +16,9 @@ window.addEventListener("load", function () {
 	const fullscreenButton = document.querySelector('#fullscreen-button');
 	const infoButton = document.querySelector('.infoImg');
 	const infoBlock = document.querySelector('.top-left');
+	const openTrackListButton = document.querySelector('.track-list-img');
+	const closeTrackListButton = document.querySelector('.close-track-list');
+
 
 	// Function to toggle play / pause
 	function togglePlay () {	// function to toggle play/pause
@@ -99,6 +102,16 @@ window.addEventListener("load", function () {
 		infoButton.style.visibility = 'visible';
 		infoBlock.style.display = 'none';
 		}
+	}
+
+	//A function to open the track list
+	function openTrackList() {
+		$('.track-list').addClass('open-track-list');
+	}
+
+	//A function to close the track list
+	function closeTrackList() {
+		$('.track-list').removeClass('open-track-list');
 	}
 
 	// A function to handle key press on window
@@ -189,6 +202,7 @@ window.addEventListener("load", function () {
 		}
 	}
 
+	var order = shuffle(osts.concat(openings).concat(endings));
 	$(document).ready(function(){
 		// function to toggle popover
     	$("[data-toggle=popover]").popover({
@@ -211,8 +225,10 @@ window.addEventListener("load", function () {
             }
             $("#popover-body").html($(".popover-content").html());
         });
-    });
-
+		});
+		
+		init_track_list(order);
+		play(order);
 	});
 
 	// Function to handle checkbox clicks and changes
@@ -238,6 +254,7 @@ window.addEventListener("load", function () {
 			order.push(...osts);
 		}
 		order = shuffle(order);
+		init_track_list(order);
 	});	
 
 	// Functions to handle fullscreen
@@ -263,8 +280,7 @@ window.addEventListener("load", function () {
 	}
 
 	// function to play tracks
-	var order = shuffle(osts.concat(openings).concat(endings));
-	function play () {
+	function play (order) {
 		music.src = order[0].link;
 		music.play();
 		updatePlayButton();
@@ -272,8 +288,33 @@ window.addEventListener("load", function () {
 		document.body.style.backgroundImage = "url('" + order[0].img + "')";
 	}
 
-	play();
+	function init_track_list(order) {
+		var track_list = '';
+		for(var i = 0; i < order.length; i++) {
+			track_list += '<li>'+order[i].name+'</li>';
+		}
 
+		document.querySelector('#track-list ul').innerHTML = track_list;
+		$('#track-list ul li').on('click', select_track);
+	}
+
+	function select_track(e) {
+		//finding the selected title
+		var selected_title = e.target.innerHTML;
+		var found_title = $.grep(order, function(track) { return track.name == selected_title });
+
+		//updating the player to play the selected track
+		music.src = found_title[0].link
+		music.play();
+		updatePlayButton();
+
+		//displaying the title of the song playing
+		trackName.textContent = found_title[0].name;
+		displayAnimation();
+
+		//updating the background image to the new tracks image
+		document.body.style.backgroundImage = "url('" + found_title[0].img + "')";
+	}
 
 	// Event handlers
 	playButton.addEventListener('click', togglePlay);
@@ -297,6 +338,9 @@ window.addEventListener("load", function () {
 
 	infoButton.addEventListener('mouseenter', handlingInfoHover);
 	infoBlock.addEventListener('mouseleave', handlingInfoHover);
+
+	openTrackListButton.addEventListener('click', openTrackList);
+	closeTrackListButton.addEventListener('click', closeTrackList);
 
 	window.addEventListener('keyup', (e) => handleKeyUp(e));	// handle keyup press on window
 	window.addEventListener('keydown', (e) => handleKeyDown(e)); //  handle keydown event on window
