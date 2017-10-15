@@ -16,6 +16,11 @@ window.addEventListener("load", function () {
 	const fullscreenButton = document.querySelector('#fullscreen-button');
 	const infoButton = document.querySelector('.infoImg');
 	const infoBlock = document.querySelector('.top-left');
+	const sideBarCollapseButton = document.querySelector('.btn.btn-default.closebtn');
+	const sideBarExapndButton = document.querySelector('#expandbtn');
+	const searchBarInput = document.querySelector('#searchBar');
+	const searchEraseButton = document.querySelector('.btn.btn-default.erasebtn');
+	var currentSongNumber = 0;
 
 	// Function to toggle play / pause
 	function togglePlay () {	// function to toggle play/pause
@@ -73,13 +78,25 @@ window.addEventListener("load", function () {
 
 	// function to play next track from the playlist
 	function nextTrack() {
-		order.push(order.shift());
+		if (currentSongNumber == order.length -1) {
+			currentSongNumber = 0;
+		}
+		else {
+			currentSongNumber = currentSongNumber + 1;
+		}
+		highlightSelectedSong();
 		play();
 	}
 
 	// function to play previous track from the playlist
 	function previousTrack() {
-		order.unshift(order.pop());
+		if (currentSongNumber == 0) {
+			currentSongNumber = order.length - 1;
+		}
+		else {
+			currentSongNumber = currentSongNumber -1;
+		}
+		highlightSelectedSong();
 		play();
 	}
 
@@ -262,18 +279,81 @@ window.addEventListener("load", function () {
 		}
 	}
 
+	function collapsingSideBar() {
+		$('#sidebar').css({'width': '0'});
+		$('#sidebar').hide();
+	}
+
+	function exapndginSideBar() {
+		$('#sidebar').css({'width': '25%'});
+		$('#sidebar').show();
+	}
+
+	function clearSearchText() {
+		$('#searchBar').val('');
+		searchAndFilterSongs();
+	}
+
 	// function to play tracks
 	var order = shuffle(osts.concat(openings).concat(endings));
 	function play () {
-		music.src = order[0].link;
+		music.src = order[currentSongNumber].link;
 		music.play();
 		updatePlayButton();
 		displayTrackName();
-		document.body.style.backgroundImage = "url('" + order[0].img + "')";
+		document.body.style.backgroundImage = "url('" + order[currentSongNumber].img + "')";
+	}
+
+	function loadSongListToSideBar () {
+		function channelListElement(songNumber, href, imgSrc, name) {
+			return '<div class="channelElementWrapper" id="channelElementWrapper_' + songNumber + '">'
+				+'<div class="channelElement" data-songnumber="' + songNumber + '">' 
+				+ '<a href="javascript:void(0)" title="' + name + '" data-href="' + href + '">' 
+				+ '<img src="' + imgSrc + '" /><span>' 
+				+ name + '</span></a></div><hr class="style-two" /><div>';
+		} 
+		order.forEach(function(element, index) { 
+			$('#sidebar #channels').append(channelListElement(index, element.link, element.img, element.name));
+		});
+		// setting first song as selected
+		if ($('.channelElementWrapper').length > 0) {
+			$($('.channelElementWrapper')[0]).addClass('selected');
+		}
+	}
+
+	function searchAndFilterSongs() {
+		const channelElementArr = $('#sidebar #channels .channelElementWrapper');
+		const searchString = $('#searchBar').val().toUpperCase();
+
+		for (i = 0; i < channelElementArr.length; i++) {
+			const elementContent = $($(channelElementArr[i]).find('span')[0]).html();
+			if (elementContent.toUpperCase().indexOf(searchString) > -1) {
+				$(channelElementArr[i]).show();
+			}
+			else {
+				$(channelElementArr[i]).hide();
+			}
+		}
+	}
+
+	function highlightSelectedSong() {
+		const prevSongNumber = $('#channels').attr('data-playingsongnumber');
+		$('#channelElementWrapper_' + prevSongNumber).removeClass('selected');
+		$('#channels').attr('data-playingsongnumber', currentSongNumber);
+		$('#channelElementWrapper_' + currentSongNumber).addClass('selected');
+		clearSearchText();
+		$('#channels').scrollTop(currentSongNumber * $($('.channelElementWrapper')[0]).height());
+	}
+
+	function playSelectedSong(songNumber) {
+		currentSongNumber = songNumber;
+		highlightSelectedSong();
+		play();
+		collapsingSideBar();
 	}
 
 	play();
-
+	loadSongListToSideBar();
 
 	// Event handlers
 	playButton.addEventListener('click', togglePlay);
@@ -297,6 +377,17 @@ window.addEventListener("load", function () {
 
 	infoButton.addEventListener('mouseenter', handlingInfoHover);
 	infoBlock.addEventListener('mouseleave', handlingInfoHover);
+	sideBarCollapseButton.addEventListener('click', collapsingSideBar);
+	sideBarExapndButton.addEventListener('click', exapndginSideBar);
+	searchBarInput.addEventListener('keyup', searchAndFilterSongs);
+	searchEraseButton.addEventListener('click', clearSearchText);
+
+	$('.channelElement').each(function() {
+		var $this = $(this);
+		$this.on("click", function() {
+			playSelectedSong($this.data('songnumber'))
+		});
+	});
 
 	window.addEventListener('keyup', (e) => handleKeyUp(e));	// handle keyup press on window
 	window.addEventListener('keydown', (e) => handleKeyDown(e)); //  handle keydown event on window
