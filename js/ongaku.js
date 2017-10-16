@@ -77,12 +77,14 @@ window.addEventListener("load", function () {
 	// function to play next track from the playlist
 	function nextTrack() {
 		order.push(order.shift());
+		init_track_list(order);
 		play(order);
 	}
 
 	// function to play previous track from the playlist
 	function previousTrack() {
 		order.unshift(order.pop());
+		init_track_list(order);
 		play(order);
 	}
 
@@ -289,22 +291,36 @@ window.addEventListener("load", function () {
 	}
 
 	function init_track_list(order) {
-		var track_list = '';
-		for(var i = 0; i < order.length; i++) {
+		let track_list = '';
+		for(let i = 0; i < order.length; i++) {
 			track_list += '<li>'+order[i].name+'</li>';
 		}
-
+		
 		document.querySelector('#track-list ul').innerHTML = track_list;
 		$('#track-list ul li').on('click', select_track);
 	}
 
 	function select_track(e) {
 		//finding the selected title
-		var selected_title = e.target.innerHTML;
-		var found_title = $.grep(order, function(track) { return track.name == selected_title });
+		let selected_index;
+		let selected_title = e.target.innerHTML;
+		let found_title = $.grep(order, function(track, index) {
+			if(track.name === selected_title) {
+				selected_index = index;
+				return track;
+			}
+		});
+		
+		//moving tracks above selected track to the bottom of the track list
+		let removed_tracks = order.slice(0, selected_index);
+		order.splice(0, removed_tracks.length);
+		order = order.concat(removed_tracks);
+
+		//updating the track list with new track order
+		init_track_list(order);
 
 		//updating the player to play the selected track
-		music.src = found_title[0].link
+		music.src = found_title[0].link;
 		music.play();
 		updatePlayButton();
 
