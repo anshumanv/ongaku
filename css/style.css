@@ -52,7 +52,7 @@ img:hover {
 	height: auto;
 	background: aliceblue;
 	border-radius: 15px;
-  	text-align: center;
+  text-align: center;
 	opacity: 0.75;
 	font-size: 2em;
 	align-self: flex-end;
@@ -260,3 +260,66 @@ th {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 }
 /* Checkbox CSS end */
+
+/* Track list css */
+.track-list {
+	width: 200px;
+	height: 100%;
+	background-color: rgba(77, 133, 222, 0.62);
+	z-index: 1;
+	position: absolute;
+	overflow: auto;
+	transform: translateX(-200px);
+	transition: transform .5s ease;
+}
+
+.track-list::-webkit-scrollbar {
+	background-color: transparent;
+	width: 10px;
+}
+
+.track-list::-webkit-scrollbar-track {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.track-list::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 60px;
+}
+
+.track-list ul {
+	padding: 0;
+}
+
+.track-list ul li {
+	cursor: pointer;
+	list-style-type: none;
+	padding: 10px;
+	-webkit-transition: background-color .5s;
+	-moz-transition: background-color .5s;
+	transition: background-color .5s;
+}
+
+.track-list ul li:hover {
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.track-list-img {
+	margin-right: auto;
+}
+
+.open-track-list {
+	transform: translateX(0);
+}
+
+.close-track-list {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.close-track-list button {
+	background: transparent;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+}
