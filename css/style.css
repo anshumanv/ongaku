@@ -8,12 +8,19 @@ html, body {
 .fa {
 	color: #fff;
 	padding: 0 15px;
+	text-shadow: -.5px -.5px 0 #000,
+	.5px -.5px 0 #000,
+	-.5px .5px 0 #000,
+	.5px .5px 0 #000;
 }
 
 .fa:hover {
-	text-shadow: 0 1px 4px #000;
+	text-shadow: -1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
 	color: #bbb;
-	font-size: 4.1em;
+	font-size: 2.1em;
 }
 
 .fa:active {
