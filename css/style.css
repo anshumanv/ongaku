@@ -10,6 +10,16 @@ html, body {
 	padding: 0 15px;
 }
 
+.fa:hover {
+	text-shadow: 0 1px 4px #000;
+	color: #bbb;
+	font-size: 4.1em;
+}
+
+.fa:active {
+	color: #000;
+}
+
 body{
 	background-size: cover;
 	-webkit-background-size: cover;
