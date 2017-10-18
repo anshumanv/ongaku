@@ -83,12 +83,36 @@ openings = [
 		"name" : "Haikyuu!! Third Season - Hikari Are",
 		"img" : "http://i.imgur.com/qvGY6zf.png"
 	},
-		
+	
 	{
 		"link" : "http://67.159.62.2/anime_ost/fullmetal-alchemist-brotherhood-op1-single-again/zsodgdfokq/01%20-%20again.mp3",
-		"name" : "Fullmetal Alchemist Brotherhood - Again",
+		"name" : "Fullmetal-Alchemist-Brotherhood OP1 - Again",
 		"img" : "http://i0.kym-cdn.com/photos/images/original/000/821/013/179.jpg"
 	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/fullmetal-alchemist-brotherhood-op2-single-hologram/bckimqttws/01%20-%20Hologram.mp3",
+		"name" : "Fullmetal-Alchemist-Brotherhood OP2 - Hologram",
+		"img" : "http://jonvilma.com/images/fullmetal-alchemist-2.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/fullmetal-alchemist-brotherhood-op3-single-golden-time-lover/numnozkxdo/01%20-%20Golden%20Time%20Lover.mp3",
+		"name" : "Fullmetal-Alchemist-Brotherhood OP3 - Golden Time Lover",
+		"img" : "http://pm1.narvii.com/6276/77afa9042fd4a32f41a70d34b242adaa8bde8b22_hq.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/fullmetal-alchemist-brotherhood-op4-single-period/wcjbtbdgdd/01%20-%20Period.mp3",
+		"name" : "Fullmetal-Alchemist-Brotherhood OP4 - Period",
+		"img" : "http://i1.wp.com/toplistsmania.com/wp-content/uploads/2016/10/Fullmtal-Alchemist.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/fullmetal-alchemist-brotherhood-op5-single-rain/buwbuqlitk/01.%20Rain.mp3",
+		"name" : "Fullmetal-Alchemist-Brotherhood OP5 - Rain",
+		"img" : "http://quackpot.com/albums/album30/FMA_Brotherhood00004.png"
+	}	,
     
 	{
 		"link" : "http://archive.forunesia.com/downloads/mp3_6/%5BForunesia%5DGoya%20no%20Mechiawase.mp3",
@@ -1033,7 +1057,7 @@ osts = [
 	{
 		"link" : "http://66.90.93.122/ost/naruto-shippuden-original-soundtrack-1/inbplxhxtj/12-jinchuuriki.mp3",
 		"name" : "Naruto Shippuden OST - Jinchuuriki",
-		"img" : "https://i0.wp.com/anisubs.id/wp-content/uploads/2017/04/maxresdefault-2.jpg?fit=1920%2C1080"
+		"img" : "https://k61.kn3.net/taringa/B/F/B/E/9/0/Beriku/9B7.jpg"
 	},
 
 	{
