@@ -5,6 +5,10 @@ html, body {
   padding: 0;
 }
 
+.fa {
+	color: #fff;
+	padding: 0 15px;
+}
 
 body{
 	background-size: cover;
