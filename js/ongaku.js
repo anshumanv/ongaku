@@ -228,7 +228,8 @@ window.addEventListener("load", function () {
             $("#popover-body").html($(".popover-content").html());
         });
 		});
-		
+
+		$('[data-toggle="tooltip"]').tooltip();
 		init_track_list(order);
 		play(order);
 	});
