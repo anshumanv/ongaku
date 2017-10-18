@@ -16,3 +16,6 @@
 *.orig
 *.class
 *.pyc
+
+# IDE
+.idea/
