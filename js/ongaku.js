@@ -270,14 +270,12 @@ window.addEventListener("load", function () {
 			else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
 			else if (document.mozCancelFullScreen) document.mozCancelFullScreen();
 			else if (document.msExitFullscreen) document.msExitFullscreen();
-			fullscreenButton.querySelector('img').src = ('img/go-fullscreen.png');
 		} else {
 			const e = document.getElementsByTagName("html")[0];
 			if (e.requestFullscreen) e.requestFullscreen();
 			else if (e.webkitRequestFullscreen) e.webkitRequestFullscreen();
 			else if (e.mozRequestFullScreen) e.mozRequestFullScreen();
 			else if (e.msRequestFullscreen) e.msRequestFullscreen();
-			fullscreenButton.querySelector('img').src = ('img/cancel-fullscreen.png');
 		}
 	}
 
