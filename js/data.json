@@ -520,6 +520,18 @@ openings = [
 		"link" : "https://s0.vocaroo.com/media/download_temp/Vocaroo_s0HM0lH5nwdX.mp3",
 		"name" : "Full Metal Panic OP - Tomorrow",
 		"img" : "http://www.wallpapers4u.org/wp-content/uploads/girl_full_metal_panic_nice_smile_gesture_24709_1920x1080.jpg"
+	},
+	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/g95vnwebcmb93nv/Re-Zero%20Kara%20Hajimeru%20Isekai%20Seikatsu%20Opening%20FULL.mp3?dl=0",
+		"name" : "Re:Zero Kara Hajimeru Isekai Seikatsu OST - Opening 1",
+		"img" : "https://image.tmdb.org/t/p/original/n6YYb2jMN0UE1YNJcPSHnwX7vMq.jpg"
+	},
+	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/27m8fylvfa42gsa/Inazuma%20Eleven%20Opening%20Theme%20Song.m4a?dl=0 ",
+		"name" : "Inazuma Eleven OST - Opening Theme Song",
+		"img" : "https://images4.alphacoders.com/675/thumb-1920-675017.jpg"
 	}
 
 ]
@@ -1280,6 +1292,18 @@ osts = [
 		"link" : "https://s1.vocaroo.com/media/download_temp/Vocaroo_s1oMIbR1BFgl.mp3",
 		"name" : "Kimi no na wa OST - Zen zen zense Radwimps",
 		"img" : "https://i.imgur.com/QIyA637.png"
+	},
+	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/27m8fylvfa42gsa/Inazuma%20Eleven%20Opening%20Theme%20Song.m4a?dl=0 ",
+		"name" : "Inazuma Eleven OST - Opening Theme Song",
+		"img" : "https://images4.alphacoders.com/675/thumb-1920-675017.jpg"
+	},
+	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/r8olgisqrm0j7p3/Death%20note.m4a?dl=0",
+		"name" : "Death Note OST - Death Note",
+		"img" : "https://i.ytimg.com/vi/fIeGTEQPAKE/maxresdefault.jpg"
 	}
 	
 ]
