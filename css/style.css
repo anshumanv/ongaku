@@ -5,6 +5,27 @@ html, body {
   padding: 0;
 }
 
+.fa {
+	color: #fff;
+	padding: 0 15px;
+	text-shadow: -.5px -.5px 0 #000,
+	.5px -.5px 0 #000,
+	-.5px .5px 0 #000,
+	.5px .5px 0 #000;
+}
+
+.fa:hover {
+	text-shadow: -1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
+	color: #bbb;
+	font-size: 2.1em;
+}
+
+.fa:active {
+	color: #000;
+}
 
 body{
 	background-size: cover;
