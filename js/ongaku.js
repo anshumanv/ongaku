@@ -16,8 +16,12 @@ window.addEventListener("load", function () {
 	const fullscreenButton = document.querySelector('#fullscreen-button');
 	const infoButton = document.querySelector('.infoImg');
 	const infoBlock = document.querySelector('.top-left');
+	const settingsButton = document.querySelector('.top-right');
+	const optionsButton = document.querySelector('#options');
 	const openTrackListButton = document.querySelector('.track-list-img');
 	const closeTrackListButton = document.querySelector('.close-track-list');
+	var timer;
+	const buttonsToToggle = [ playButton, playHead, player, timeLine, nextButton, previousButton, reButton, bufferedBar, fullscreenButton, infoButton, settingsButton, optionsButton ];
 
 
 	// Function to toggle play / pause
@@ -35,7 +39,7 @@ window.addEventListener("load", function () {
 			playButton.classList.add('play');
 		}
 	}
-	
+
 	// A  function to handle song duration bar
 	function handleProgress () {
 		var percent = (music.currentTime / music.duration ) * 100;
@@ -56,6 +60,27 @@ window.addEventListener("load", function () {
 	function scrub (e) {
 		const scrubTime = (e.offsetX / 362) * music.duration;
 		music.currentTime = scrubTime;
+	}
+
+	// Starts a 3-second timer and calls mouseStopped when mouse hasn't moved for 3 seconds
+	function startTimer() {
+		showIcons();
+		clearTimeout(timer);
+		timer=setTimeout(hideIcons,3000);
+	}
+
+	// Hides all icons on screen
+	function hideIcons() {
+		for (var index = 0; index < buttonsToToggle.length; index++) {
+			$(buttonsToToggle[index]).fadeOut(1000);
+		}
+	}
+
+	// Shows all icons on screen
+	function showIcons() {
+		for (var index = 0; index < buttonsToToggle.length; index++) {
+			$(buttonsToToggle[index]).fadeIn(1000);
+		}
 	}
 
 	// The de-facto unbiased shuffle algorithm is the Fisher-Yates (aka Knuth) Shuffle (based on SE answer).
@@ -118,22 +143,22 @@ window.addEventListener("load", function () {
 
 	// A function to handle key press on window
 	function handleKeyUp(e) {
-		if(e.keyCode === 32) {	// p 
+		if(e.keyCode === 32) {	// p
 			togglePlay();
 			updatePlayButton();
-		} 
+		}
 		else if(e.keyCode === 78) {	// n
 			nextTrack();
-		} 
+		}
 		else if(e.keyCode === 82) {	// r
 			playAgain();
-		} 
+		}
 		else if(e.keyCode === 70) {	// f
 			toggleFullscreen();
-		} 
+		}
 		else if(e.keyCode === 76) {	// l
 			previousTrack();
-		} 
+		}
 		else {
 			return;
 		}
@@ -242,7 +267,7 @@ window.addEventListener("load", function () {
 		} else {
 			$(mainParent).removeClass('active');
 		}
-	});	
+	});
 
 	// Function to handle preference checkboxes
 	$('body').on('change', '.cb-value', function() {
@@ -258,13 +283,13 @@ window.addEventListener("load", function () {
 		}
 		order = shuffle(order);
 		init_track_list(order);
-	});	
+	});
 
 	// Functions to handle fullscreen
 	function isFullscreen() {
 		return Boolean(document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement);
 	}
-	
+
 	function toggleFullscreen() {
 		if (isFullscreen()) {
 			if (document.exitFullscreen) document.exitFullscreen();
@@ -294,7 +319,7 @@ window.addEventListener("load", function () {
 		for(let i = 0; i < order.length; i++) {
 			track_list += '<li>'+order[i].name+'</li>';
 		}
-		
+
 		document.querySelector('#track-list ul').innerHTML = track_list;
 		$('#track-list ul li').on('click', select_track);
 	}
@@ -309,7 +334,7 @@ window.addEventListener("load", function () {
 				return track;
 			}
 		});
-		
+
 		//moving tracks above selected track to the bottom of the track list
 		let removed_tracks = order.slice(0, selected_index);
 		order.splice(0, removed_tracks.length);
@@ -332,6 +357,7 @@ window.addEventListener("load", function () {
 	}
 
 	// Event handlers
+	window.addEventListener('mousemove', startTimer);
 	playButton.addEventListener('click', togglePlay);
 	playButton.addEventListener('click', updatePlayButton);
 

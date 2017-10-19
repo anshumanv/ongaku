@@ -16,13 +16,12 @@
 	<link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
 	<script async defer src="https://buttons.github.io/buttons.js"></script>
 	<script src = "js/ongaku.js"></script>
-	<script>window.$ = window.jQuery = require('jquery')</script> 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src = "js/data.json"></script>
 	</head>
-	
+
 	<body>
-	
+
 		<audio id = "music"></audio>
 
 		<div id="track-list" class="track-list">
@@ -33,7 +32,7 @@
 		</div>
 
 		<div class="top-bar">
-			<i class="fa fa-bars fa-2x track-list-img" data-toggle="tooltip" data-placement="bottom" title="Playlist"></i>
+			<i class="fa fa-bars fa-2x track-list-img" data-toggle="tooltip" data-placement="bottom" title="Playlist" id="options"></i>
 			<i class="fa fa-info-circle fa-2x infoImg"></i>
 
 			<div id="top-left" class="top-left" style="border-radius: 10px; display: none">
@@ -125,7 +124,7 @@
 		</div>
 
 		<div class="display-track">
-			<div id="track-name"></div>		
+			<div id="track-name"></div>
 		</div>
 
 		<div class="bottom-bar">
@@ -140,7 +139,7 @@
 				</div>
 			</div>
 
-		
+
 			<div id="wrapper">
 				<div id="player">
 					<div id="playTime"></div>
@@ -152,7 +151,7 @@
 					</div>
 				</div>
 			</div>
-		
+
 			<div class="botton-right">
 				<div id="restart" title="Play Again">
 					<i class="fa fa-refresh fa-2x" data-toggle="tooltip" data-placement="top" title="Play Again"></i>
