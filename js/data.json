@@ -27,7 +27,7 @@ openings = [
 	{
 		"link" : "http://lyricmp3skull.org/s363640c/file/danganronpa-anime-op-tv-size/249496430.mp3",
 		"name" : "Danganronpa The Animation OP",
-		"img" : "http://data.freehdw.com/danganronpa-2-goodbye-despair-ps-vita-characters.jpg"
+		"img" : "https://i.ytimg.com/vi/guJYoQ5gQ7s/maxresdefault.jpg"
 	},
 
 	{
@@ -514,6 +514,30 @@ openings = [
 		"link" : "http://67.159.62.2/anime_ost/clannad-original-soundtrack-disc-3/muvenwocfa/09-meg-mell-cockool-mix-full-ver.-.mp3",
 		"name" : "Clannad OP1 - Meg Mell",
 		"img"  : "http://wallpapersdsc.net/wp-content/uploads/2017/04/Clannad-Computer-Backgrounds.png"
+	},
+
+	{
+		"link" : "https://s0.vocaroo.com/media/download_temp/Vocaroo_s0HM0lH5nwdX.mp3",
+		"name" : "Full Metal Panic OP - Tomorrow",
+		"img" : "http://www.wallpapers4u.org/wp-content/uploads/girl_full_metal_panic_nice_smile_gesture_24709_1920x1080.jpg"
+	},
+	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/g95vnwebcmb93nv/Re-Zero%20Kara%20Hajimeru%20Isekai%20Seikatsu%20Opening%20FULL.mp3?dl=0",
+		"name" : "Re:Zero OP1 - Kara Hajimeru Isekai Seikatsu",
+		"img" : "https://image.tmdb.org/t/p/original/n6YYb2jMN0UE1YNJcPSHnwX7vMq.jpg"
+	},
+	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/3l41690wfwq3vvo/real%20bleach%20opening%201%20orange%20range%20asterisk.m4a?dl=0",
+		"name" : "Bleach OST 1 - Asterisk - Orange Range",
+		"img" : "https://i.ytimg.com/vi/xWUKT8CY978/maxresdefault.jpg"
+	},
+	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/27m8fylvfa42gsa/Inazuma%20Eleven%20Opening%20Theme%20Song.m4a?dl=0 ",
+		"name" : "Inazuma Eleven OP - Opening Theme Song",
+		"img" : "https://images4.alphacoders.com/675/thumb-1920-675017.jpg"
 	}
 
 ]
@@ -781,7 +805,7 @@ osts = [
 	{
 		"link" : "http://66.90.93.122/ost/naruto-original-soundtrack-1/dabcafpszq/10-sakura-s-theme.mp3",
 		"name" : "Naruto OST - Sakura's Theme",
-		"img" : "http://fullhdwallpapersdownload.com/wp-content/uploads/2016/07/cool-sakura-wallpaper.jpg"
+		"img" : "http://pm1.narvii.com/6388/688dc608d0225b16e5081b9f202bb23cfd919724_hq.jpg"
 	},
 
 	{
@@ -1256,6 +1280,42 @@ osts = [
 		"link" : "http://67.159.62.2/anime_ost/clannad-original-soundtrack-disc-1/bonksbhnmj/13-meaningful-ways-to-pass-the-time.mp3",
 		"name" : "Clannad OST - Meaningful Ways to Pass the Time",
 		"img"  : "https://i.ytimg.com/vi/EEXxDszslTo/maxresdefault.jpg"
-	}
+	},
+	
+	{
+		"link" : "https://my.mixtape.moe/swjtom.mp3",
+		"name" : "Boku no Hero Academia S2 OST-2 Jet Set Run",
+		"img" : "https://images6.alphacoders.com/820/820024.png"
+	},
+
+	{
+		"link" : "https://s1.vocaroo.com/media/download_temp/Vocaroo_s1b0f75sq5EN.mp3",
+		"name" : "Kimi no na wa OST - Yumetourou Radwimps",
+		"img" : "https://i.imgur.com/GZ3Ojg2.jpg"
+	},
+
+	{
+		"link" : "https://s1.vocaroo.com/media/download_temp/Vocaroo_s1oMIbR1BFgl.mp3",
+		"name" : "Kimi no na wa OST - Zen zen zense Radwimps",
+		"img" : "https://i.imgur.com/QIyA637.png"
+	},
+	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/9sqnxnojdtrcjnm/Detective%20Conan%20Soundtrack%201.m4a?dl=0",
+		"name" : "Detective Conan OST - Theme Song",
+		"img" : "https://www.pixelstalk.net/wp-content/uploads/2016/10/Manga-Detective-Conan-Pictures.jpg"
+	},
+
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/lnqmo3gx7y9glr8/One%20Piece%20Epic%20Battle%20Theme.m4a?dl=0",
+		"name" : "One Piece OST - Epic Battle Theme",
+		"img" : "https://i.imgur.com/7hdijZP.jpg"
+	},
+	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/r8olgisqrm0j7p3/Death%20note.m4a?dl=0",
+		"name" : "Death Note OST - Death Note",
+		"img" : "https://i.ytimg.com/vi/fIeGTEQPAKE/maxresdefault.jpg"
+	}	
 	
 ]

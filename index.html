@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en">
 <html>
@@ -8,7 +8,9 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Ongaku : Anime Radio</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
 	<link rel = "stylesheet" href = "css/style.css">
+	<script src="https://use.fontawesome.com/292557cf8d.js"></script>
 	<link href = "img/favicon-naruto.ico" rel="icon" type="image/x-icon">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
@@ -31,8 +33,9 @@
 		</div>
 
 		<div class="top-bar">
-			<img src="img/hamburger-menu.png" class="track-list-img" data-toggle="tooltip" data-placement="bottom" title="Track List">
-			<img src="img/info.png" class="infoImg" style="visibility: visible">
+			<i class="fa fa-bars fa-2x track-list-img" data-toggle="tooltip" data-placement="bottom" title="Playlist"></i>
+			<i class="fa fa-info-circle fa-2x infoImg"></i>
+
 			<div id="top-left" class="top-left" style="border-radius: 10px; display: none">
 				<table class="table table-hover" style="margin-bottom: 0px">
 					<thead style="background-color: black;color: white">
@@ -83,7 +86,9 @@
 			</div>
 
 			<div class="top-right">
-				<a  data-placement="left" data-container="body" data-placement="left" type="button" data-html="true" data-toggle="popover" data-trigger="click"><img class="preferences-button" title="Select Preferences" data-toggle="tooltip" data-placement="bottom" src="img/options.jpg"></a>
+				<a  data-placement="left" data-container="body" data-placement="left" type="button" data-html="true" data-toggle="popover" data-trigger="click">
+					<i class="fa fa-cog fa-2x" data-toggle="tooltip" data-placement="bottom" title="Preferences"></i>
+				</a>
 				<div id="popover-title">
 					Preferences
 				</div>
@@ -125,11 +130,11 @@
 		<div class="bottom-bar">
 
 			<div class="bottom-left">
-				<div id="previous" data-toggle="tooltip" data-placement="top" title="Play Last">
-					<img src="img/previous-button.png">
+				<div id="previous" title="Play Last">
+					<i class="fa fa-backward fa-2x" data-toggle="tooltip" data-placement="top" title="Play Last"></i>
 				</div>
-				<div id="next" data-toggle="tooltip" data-placement="top" title="Play Next">
-					<img src="img/next-button.png">
+				<div id="next" title="Play Next">
+					<i class="fa fa-forward fa-2x" data-toggle="tooltip" data-placement="top" title="Play Next"></i>
 				</div>
 			</div>
 
@@ -147,11 +152,11 @@
 			</div>
 		
 			<div class="botton-right">
-				<div id="restart" data-toggle="tooltip" data-placement="top" title="Play Again">
-					<img src="img/restart.png">
+				<div id="restart" title="Play Again">
+					<i class="fa fa-refresh fa-2x" data-toggle="tooltip" data-placement="top" title="Play Again"></i>
 				</div>
-				<div id="fullscreen-button" data-toggle="tooltip" data-placement="top" title="Toggle Fullscreen" class="expand">
-					<img src="img/go-fullscreen.png">
+				<div id="fullscreen-button" title="Toggle Fullscreen">
+					<i class="fa fa-arrows-alt fa-2x" data-toggle="tooltip" data-placement="top" title="Toggle Fullscreen"></i>
 				</div>
 			</div>
 
