@@ -1295,9 +1295,21 @@ osts = [
 	},
 	
 	{
-		"link" : "https://www.dl.dropboxusercontent.com/s/27m8fylvfa42gsa/Inazuma%20Eleven%20Opening%20Theme%20Song.m4a?dl=0 ",
-		"name" : "Inazuma Eleven OST - Opening Theme Song",
-		"img" : "https://images4.alphacoders.com/675/thumb-1920-675017.jpg"
+		"link" : "https://www.dl.dropboxusercontent.com/s/3l41690wfwq3vvo/real%20bleach%20opening%201%20orange%20range%20asterisk.m4a?dl=0",
+		"name" : "Bleach OST 1 - Asterisk - Orange Range",
+		"img" : "https://i.ytimg.com/vi/LGAYnGcOd2o/maxresdefault.jpg"
+	},
+	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/9sqnxnojdtrcjnm/Detective%20Conan%20Soundtrack%201.m4a?dl=0",
+		"name" : "Detective Conan OST 1",
+		"img" : "https://www.pixelstalk.net/wp-content/uploads/2016/10/Manga-Detective-Conan-Pictures.jpg"
+	},
+
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/lnqmo3gx7y9glr8/One%20Piece%20Epic%20Battle%20Theme.m4a?dl=0",
+		"name" : "One Piece OST - Epic Battle Theme",
+		"img" : "https://i.imgur.com/7hdijZP.jpg"
 	},
 	
 	{
