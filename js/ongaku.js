@@ -18,7 +18,8 @@ window.addEventListener("load", function () {
 	const infoBlock = document.querySelector('.top-left');
 	const openTrackListButton = document.querySelector('.track-list-img');
 	const closeTrackListButton = document.querySelector('.close-track-list');
-
+	var mouseIdle, mousePos = {x:0, y:0};
+	
 
 	// Function to toggle play / pause
 	function togglePlay () {	// function to toggle play/pause
@@ -330,6 +331,25 @@ window.addEventListener("load", function () {
 		//updating the background image to the new tracks image
 		document.body.style.backgroundImage = "url('" + found_title[0].img + "')";
 	}
+	
+	function detectMouseMove(event) {
+
+		// If the mouse move
+		if(event.clientX != mousePos.x || event.clientY != mousePos.y) {
+			clearTimeout(mouseIdle);
+			
+			$('.top-bar').fadeIn();
+			$('.bottom-bar').fadeIn();
+			
+			mouseIdle = setTimeout(function () {
+				$('.top-bar').fadeOut(); 
+				$('.bottom-bar').fadeOut(); 
+			}, 3000);
+			
+			mousePos = { x:event.clientX, y:event.clientY };
+			console.log(mousePos);
+		}
+	}
 
 	// Event handlers
 	playButton.addEventListener('click', togglePlay);
@@ -359,4 +379,6 @@ window.addEventListener("load", function () {
 
 	window.addEventListener('keyup', (e) => handleKeyUp(e));	// handle keyup press on window
 	window.addEventListener('keydown', (e) => handleKeyDown(e)); //  handle keydown event on window
+
+	window.addEventListener("mousemove", detectMouseMove); // handle fadeout
 });
