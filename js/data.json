@@ -532,6 +532,12 @@ openings = [
 		"link" : "https://www.dl.dropboxusercontent.com/s/3l41690wfwq3vvo/real%20bleach%20opening%201%20orange%20range%20asterisk.m4a?dl=0",
 		"name" : "Bleach OST 1 - Asterisk - Orange Range",
 		"img" : "https://i.ytimg.com/vi/xWUKT8CY978/maxresdefault.jpg"
+	},
+	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/27m8fylvfa42gsa/Inazuma%20Eleven%20Opening%20Theme%20Song.m4a?dl=0 ",
+		"name" : "Inazuma Eleven OP - Opening Theme Song",
+		"img" : "https://images4.alphacoders.com/675/thumb-1920-675017.jpg"
 	}
 
 ]
@@ -1310,12 +1316,6 @@ osts = [
 		"link" : "https://www.dl.dropboxusercontent.com/s/r8olgisqrm0j7p3/Death%20note.m4a?dl=0",
 		"name" : "Death Note OST - Death Note",
 		"img" : "https://i.ytimg.com/vi/fIeGTEQPAKE/maxresdefault.jpg"
-	},
-	
-	{
-		"link" : "https://www.dl.dropboxusercontent.com/s/27m8fylvfa42gsa/Inazuma%20Eleven%20Opening%20Theme%20Song.m4a?dl=0 ",
-		"name" : "Inazuma Eleven OST - Opening Theme Song",
-		"img" : "https://images4.alphacoders.com/675/thumb-1920-675017.jpg"
-	}
+	}	
 	
 ]
