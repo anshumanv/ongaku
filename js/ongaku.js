@@ -116,6 +116,12 @@ window.addEventListener("load", function () {
 		$('.track-list').removeClass('open-track-list');
 	}
 
+	//A function to handle click on window
+	function handleClick(e) {
+		if($('.track-list').hasClass('open-track-list') && e.target.tagName == 'BODY')
+			closeTrackList();
+	}
+
 	// A function to handle key press on window
 	function handleKeyUp(e) {
 		if(e.keyCode === 32) {	// p 
@@ -359,4 +365,5 @@ window.addEventListener("load", function () {
 
 	window.addEventListener('keyup', (e) => handleKeyUp(e));	// handle keyup press on window
 	window.addEventListener('keydown', (e) => handleKeyDown(e)); //  handle keydown event on window
+	window.addEventListener('click', (e) => handleClick(e)); //handle click event on window
 });
