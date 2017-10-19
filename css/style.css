@@ -121,6 +121,7 @@ th {
 	align-self: flex-start;
 	width: 100vw;
 	justify-content: flex-end;
+	padding: 10px 0px;
 }
 
 #popover-body, #popover-title {
@@ -154,6 +155,7 @@ th {
 	width: 100vw;
     position: fixed;
     bottom: 0px;
+    align-items: center;
 }
 
 #player{
