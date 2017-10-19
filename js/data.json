@@ -514,6 +514,12 @@ openings = [
 		"link" : "http://67.159.62.2/anime_ost/clannad-original-soundtrack-disc-3/muvenwocfa/09-meg-mell-cockool-mix-full-ver.-.mp3",
 		"name" : "Clannad OP1 - Meg Mell",
 		"img"  : "http://wallpapersdsc.net/wp-content/uploads/2017/04/Clannad-Computer-Backgrounds.png"
+	},
+
+	{
+		"link" : "https://s0.vocaroo.com/media/download_temp/Vocaroo_s0HM0lH5nwdX.mp3",
+		"name" : "Full Metal Panic OP - Tomorrow",
+		"img" : "http://www.wallpapers4u.org/wp-content/uploads/girl_full_metal_panic_nice_smile_gesture_24709_1920x1080.jpg"
 	}
 
 ]
@@ -1262,6 +1268,18 @@ osts = [
 		"link" : "https://my.mixtape.moe/swjtom.mp3",
 		"name" : "Boku no Hero Academia S2 OST-2 Jet Set Run",
 		"img" : "https://images6.alphacoders.com/820/820024.png"
+	},
+
+	{
+		"link" : "https://s1.vocaroo.com/media/download_temp/Vocaroo_s1b0f75sq5EN.mp3",
+		"name" : "Kimi no na wa OST - Yumetourou Radwimps",
+		"img" : "https://www.koi-nya.net/img/subidos_posts/2017/01/Kimi-no-na-wa-protagonistas.jpg"
+	},
+
+	{
+		"link" : "https://s1.vocaroo.com/media/download_temp/Vocaroo_s1oMIbR1BFgl.mp3",
+		"name" : "Kimi no na wa OST - Zen zen zense Radwimps",
+		"img" : "https://www.koi-nya.net/img/subidos_posts/2017/01/Kimi-no-na-wa-protagonistas.jpg"
 	}
 	
 ]
