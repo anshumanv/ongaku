@@ -31,7 +31,7 @@
 		</div>
 
 		<div class="top-bar">
-			<img src="img/hamburger-menu.png" class="track-list-img">
+			<img src="img/hamburger-menu.png" class="track-list-img" data-toggle="tooltip" data-placement="bottom" title="Playlist">
 			<img src="img/info.png" class="infoImg" style="visibility: visible">
 			<div id="top-left" class="top-left" style="border-radius: 10px; display: none">
 				<table class="table table-hover" style="margin-bottom: 0px">
@@ -83,7 +83,7 @@
 			</div>
 
 			<div class="top-right">
-				<a  data-placement="left" data-container="body" data-placement="left" type="button" data-html="true" data-toggle="popover" data-trigger="click"><img class="preferences-button" title="Select Preferences" src="img/options.jpg"></a>
+				<a  data-placement="left" data-container="body" data-placement="left" type="button" data-html="true" data-toggle="popover" data-trigger="click"><img class="preferences-button" title="Select Preferences" data-toggle="tooltip" data-placement="bottom" src="img/options.jpg"></a>
 				<div id="popover-title">
 					Preferences
 				</div>
@@ -125,10 +125,10 @@
 		<div class="bottom-bar">
 
 			<div class="bottom-left">
-				<div id="previous" title="Play Last">
+				<div id="previous" data-toggle="tooltip" data-placement="top" title="Play Last">
 					<img src="img/previous-button.png">
 				</div>
-				<div id="next" title="Play Next">
+				<div id="next" data-toggle="tooltip" data-placement="top" title="Play Next">
 					<img src="img/next-button.png">
 				</div>
 			</div>
@@ -137,7 +137,7 @@
 			<div id="wrapper">
 				<div id="player">
 					<div id="playTime"></div>
-					<button id="pButton" class="play" title="Toggle Play"></button>
+					<button id="pButton" class="play" data-toggle="tooltip" data-placement="top" title="Toggle Play"></button>
 					<div id="timeline">
 						<div id="buffered-bar">
 							<div id="playhead"></div>
@@ -147,10 +147,10 @@
 			</div>
 		
 			<div class="botton-right">
-				<div id="restart" title="Play Again">
+				<div id="restart" data-toggle="tooltip" data-placement="top" title="Play Again">
 					<img src="img/restart.png">
 				</div>
-				<div id="fullscreen-button" title="Toggle Fullscreen">
+				<div id="fullscreen-button" data-toggle="tooltip" data-placement="top" title="Toggle Fullscreen" class="expand">
 					<img src="img/go-fullscreen.png">
 				</div>
 			</div>
