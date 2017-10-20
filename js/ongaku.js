@@ -18,6 +18,10 @@ window.addEventListener("load", function () {
 	const infoBlock = document.querySelector('.top-left');
 	const openTrackListButton = document.querySelector('.track-list-img');
 	const closeTrackListButton = document.querySelector('.close-track-list');
+	const songSearchInput = document.querySelector('#song_search');
+
+	//event namespace
+	const event_keyup_search_songs = "keyup.song_search";
 
 
 	// Function to toggle play / pause
@@ -300,6 +304,9 @@ window.addEventListener("load", function () {
 	}
 
 	function select_track(e) {
+		// clear search input incase during search and select
+		$(songSearchInput).val("");
+
 		//finding the selected title
 		let selected_index;
 		let selected_title = e.target.innerHTML;
@@ -331,6 +338,25 @@ window.addEventListener("load", function () {
 		document.body.style.backgroundImage = "url('" + found_title[0].img + "')";
 	}
 
+	function searchSongs(event) {
+		event.stopPropagation();
+		var search = $(songSearchInput).val() || "";
+		search = search.toLowerCase();
+		if(search) {
+			$('#track-list ul li')
+				.show()
+				.each(function(index, song) {
+					var songTitle = $(song).text() || "";
+					songTitle = songTitle.toLowerCase();
+					if(songTitle.indexOf(search) === -1) {
+						$(song).hide();
+					}
+				});
+		} else {
+			$('#track-list ul li').show();
+		}
+	}
+
 	// Event handlers
 	playButton.addEventListener('click', togglePlay);
 	playButton.addEventListener('click', updatePlayButton);
@@ -356,7 +382,8 @@ window.addEventListener("load", function () {
 
 	openTrackListButton.addEventListener('click', openTrackList);
 	closeTrackListButton.addEventListener('click', closeTrackList);
-
-	window.addEventListener('keyup', (e) => handleKeyUp(e));	// handle keyup press on window
-	window.addEventListener('keydown', (e) => handleKeyDown(e)); //  handle keydown event on window
+	
+	$(songSearchInput).on(event_keyup_search_songs, searchSongs);
+	window.addEventListener('keyup', (e) => handleKeyUp(e));	// attach keyup event on window
+	window.addEventListener('keydown', (e) => handleKeyDown(e)); //  attach keydown event on window
 });

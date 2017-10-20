@@ -360,4 +360,10 @@ th {
 }
 /* Tooltip CSS end */
 
+/* Search box css */
+.song-search {
+	width: 100%;
+	padding: 3px;
+	color: #555;
+}
 
