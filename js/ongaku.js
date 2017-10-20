@@ -126,6 +126,9 @@ window.addEventListener("load", function () {
 	function handleClick(e) {
 		if($('.track-list').hasClass('open-track-list') && e.target.tagName == 'BODY')
 			closeTrackList();
+
+		if($('.popover').length > 0 && e.target.tagName == 'BODY')
+			$('[data-toggle="popover"]').popover('hide');
 	}
 
 	// A function to handle key press on window
@@ -361,7 +364,6 @@ window.addEventListener("load", function () {
 			}, 3000);
 			
 			mousePos = { x:event.clientX, y:event.clientY };
-			console.log(mousePos);
 		}
 	}
 
@@ -411,7 +413,8 @@ window.addEventListener("load", function () {
 	closeTrackListButton.addEventListener('click', closeTrackList);
 	
 	$(songSearchInput).on(event_keyup_search_songs, searchSongs);
-	
+	$('[data-toggle=popover]').on('click', function() { $(this).popover('toggle'); })
+
 	window.addEventListener('keyup', (e) => handleKeyUp(e));	// attach keyup event on window
 	window.addEventListener('keydown', (e) => handleKeyDown(e)); //  attach keydown event on window
 	window.addEventListener('click', (e) => handleClick(e)); //attach click event on window
