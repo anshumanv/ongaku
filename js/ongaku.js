@@ -403,11 +403,6 @@ window.addEventListener("load", function () {
 
 	openTrackListButton.addEventListener('click', openTrackList);
 	closeTrackListButton.addEventListener('click', closeTrackList);
-
-	window.addEventListener('keyup', (e) => handleKeyUp(e));	// handle keyup press on window
-	window.addEventListener('keydown', (e) => handleKeyDown(e)); //  handle keydown event on window
-
-	
 	
 	$(songSearchInput).on(event_keyup_search_songs, searchSongs);
 	window.addEventListener('keyup', (e) => handleKeyUp(e));	// attach keyup event on window
