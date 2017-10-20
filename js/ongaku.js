@@ -18,6 +18,8 @@ window.addEventListener("load", function () {
 	const infoBlock = document.querySelector('.top-left');
 	const openTrackListButton = document.querySelector('.track-list-img');
 	const closeTrackListButton = document.querySelector('.close-track-list');
+	var mouseIdle, mousePos = {x:0, y:0};
+	
 	const songSearchInput = document.querySelector('#song_search');
 
 	//event namespace
@@ -337,6 +339,25 @@ window.addEventListener("load", function () {
 		//updating the background image to the new tracks image
 		document.body.style.backgroundImage = "url('" + found_title[0].img + "')";
 	}
+	
+	function detectMouseMove(event) {
+
+		// If the mouse move
+		if(event.clientX != mousePos.x || event.clientY != mousePos.y) {
+			clearTimeout(mouseIdle);
+			
+			$('.top-bar').fadeIn();
+			$('.bottom-bar').fadeIn();
+			
+			mouseIdle = setTimeout(function () {
+				$('.top-bar').fadeOut(); 
+				$('.bottom-bar').fadeOut(); 
+			}, 3000);
+			
+			mousePos = { x:event.clientX, y:event.clientY };
+			console.log(mousePos);
+		}
+	}
 
 	function searchSongs(event) {
 		event.stopPropagation();
@@ -386,4 +407,6 @@ window.addEventListener("load", function () {
 	$(songSearchInput).on(event_keyup_search_songs, searchSongs);
 	window.addEventListener('keyup', (e) => handleKeyUp(e));	// attach keyup event on window
 	window.addEventListener('keydown', (e) => handleKeyDown(e)); //  attach keydown event on window
+  
+  window.addEventListener("mousemove", detectMouseMove); // handle fadeout
 });
