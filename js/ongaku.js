@@ -18,6 +18,12 @@ window.addEventListener("load", function () {
 	const infoBlock = document.querySelector('.top-left');
 	const openTrackListButton = document.querySelector('.track-list-img');
 	const closeTrackListButton = document.querySelector('.close-track-list');
+	var mouseIdle, mousePos = {x:0, y:0};
+	
+	const songSearchInput = document.querySelector('#song_search');
+
+	//event namespace
+	const event_keyup_search_songs = "keyup.song_search";
 
 
 	// Function to toggle play / pause
@@ -306,6 +312,9 @@ window.addEventListener("load", function () {
 	}
 
 	function select_track(e) {
+		// clear search input incase during search and select
+		$(songSearchInput).val("");
+
 		//finding the selected title
 		let selected_index;
 		let selected_title = e.target.innerHTML;
@@ -336,6 +345,44 @@ window.addEventListener("load", function () {
 		//updating the background image to the new tracks image
 		document.body.style.backgroundImage = "url('" + found_title[0].img + "')";
 	}
+	
+	function detectMouseMove(event) {
+
+		// If the mouse move
+		if(event.clientX != mousePos.x || event.clientY != mousePos.y) {
+			clearTimeout(mouseIdle);
+			
+			$('.top-bar').fadeIn();
+			$('.bottom-bar').fadeIn();
+			
+			mouseIdle = setTimeout(function () {
+				$('.top-bar').fadeOut(); 
+				$('.bottom-bar').fadeOut(); 
+			}, 3000);
+			
+			mousePos = { x:event.clientX, y:event.clientY };
+			console.log(mousePos);
+		}
+	}
+
+	function searchSongs(event) {
+		event.stopPropagation();
+		var search = $(songSearchInput).val() || "";
+		search = search.toLowerCase();
+		if(search) {
+			$('#track-list ul li')
+				.show()
+				.each(function(index, song) {
+					var songTitle = $(song).text() || "";
+					songTitle = songTitle.toLowerCase();
+					if(songTitle.indexOf(search) === -1) {
+						$(song).hide();
+					}
+				});
+		} else {
+			$('#track-list ul li').show();
+		}
+	}
 
 	// Event handlers
 	playButton.addEventListener('click', togglePlay);
@@ -362,8 +409,11 @@ window.addEventListener("load", function () {
 
 	openTrackListButton.addEventListener('click', openTrackList);
 	closeTrackListButton.addEventListener('click', closeTrackList);
-
-	window.addEventListener('keyup', (e) => handleKeyUp(e));	// handle keyup press on window
-	window.addEventListener('keydown', (e) => handleKeyDown(e)); //  handle keydown event on window
-	window.addEventListener('click', (e) => handleClick(e)); //handle click event on window
+	
+	$(songSearchInput).on(event_keyup_search_songs, searchSongs);
+	
+	window.addEventListener('keyup', (e) => handleKeyUp(e));	// attach keyup event on window
+	window.addEventListener('keydown', (e) => handleKeyDown(e)); //  attach keydown event on window
+	window.addEventListener('click', (e) => handleClick(e)); //attach click event on window
+  window.addEventListener("mousemove", detectMouseMove); // handle fadeout
 });

@@ -681,7 +681,37 @@ endings = [
 		"link" : "http://67.159.62.2/anime_ost/code-geass-hangyaku-no-lelouch-ed2-single-mosaic-kakera/kwpddhndnz/01%20-%20Mosaic%20Kakera.mp3",
 		"name" : "Code Geass (Hangyaku no Lelouch) ED2 - Mosaic Kakera",
 		"img"  : "http://animewallpaperstock.com/wallpaper/02ka/code-geass/code-geass0151.jpg"
-	}
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/fullmetal-alchemist-brotherhood-ed-single-uso/lbexbhjzxa/01%20-%20Uso.mp3",
+		"name" : "Fullmetal-Alchemist-Brotherhood ED1 - Uso",
+		"img" : "http://trunkweed.com/uploads/posts/images/1305215-fullmetal-alchemist-and-the-broken-angel.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/fullmetal-alchemist-brotherhood-ed2-single-let-it-out/qnailtliwd/01%20-%20LET%20IT%20OUT.mp3",
+		"name" : "Fullmetal-Alchemist-Brotherhood ED2 - Let It Out",
+		"img" : "https://nefariousreviews.files.wordpress.com/2015/12/fullmetal-alchemist-brotherhood-al.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/fullmetal-alchemist-brotherhood-ed3-single-tsunaida-te/orsurintit/01%20-%20Tsunaida%20Te.mp3",
+		"name" : "Fullmetal-Alchemist-Brotherhood ED3 - Tsunaida Te",
+		"img" : "http://hd.tuzi123.com/11884/10/06/02/465_9008976_5e0b20fc1e490fe.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/fullmetal-alchemist-brotherhood-ed4-single-shunkan-sentimental/gupinmiinq/01%20-%20Shunkan%20Sentimental.mp3",
+		"name" : "Fullmetal-Alchemist-Brotherhood ED4 - Shunkan Sentimental",
+		"img" : "https://pbs.twimg.com/media/CoQ-kLVUEAAinZC.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/fullmetal-alchemist-brotherhood-ed5-single-ray-of-light/ltusbwxdbx/01%20-%20RAY%20OF%20LIGHT.mp3",
+		"name" : "Fullmetal-Alchemist-Brotherhood ED5 - Ray Of Light",
+		"img" : "http://animuverse.com/wp-content/uploads/2016/08/vlcsnap-2010-07-06-13h35m55s35.png"
+	}	
 
 ]
 
