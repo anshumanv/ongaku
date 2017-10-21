@@ -12,7 +12,7 @@ window.addEventListener("load", function () {
 	const nextButton = document.querySelector('#next');
 	const previousButton = document.querySelector('#previous');
 	const reButton = document.querySelector('#restart');
-	const trackName = document.querySelector('.track-name');
+	const trackName = document.querySelector('#track-name');
 	const bufferedBar = document.querySelector('#buffered-bar');
 	const fullscreenButton = document.querySelector('#fullscreen-button');
 	const infoButton = document.querySelector('.infoImg');
@@ -230,6 +230,7 @@ window.addEventListener("load", function () {
 
     	// A function to retain popover checkbox instances
     	$("[data-toggle=popover]").on("shown.bs.popover",function(){
+				$('#modal-wrapper').show();
         $(".popover-content input").on("change",function(){
             if(this.checked){
                 this.setAttribute("checked","checked");
@@ -411,7 +412,13 @@ window.addEventListener("load", function () {
 	closeTrackListButton.addEventListener('click', closeTrackList);
 	//A function to handle click on window
 	modalWrapper.addEventListener('click', function(e) {
-		if (e.target.tagName !== 'LI' && e.target.tagName !== 'INPUT') { closeTrackList(); }
+		if (e.target.tagName !== 'LI' && e.target.tagName !== 'INPUT') {
+			closeTrackList();
+			if($('.popover').length > 0) {
+				$('[data-toggle="popover"]').popover('hide');
+				$('#modal-wrapper').hide();
+			}
+		}
 	});
 
 	$(songSearchInput).on(event_keyup_search_songs, searchSongs);

@@ -35,6 +35,39 @@
 				<input type="text" name="song_search" id="song_search" class="song-search"/>
 				<ul></ul>
 			</div>
+			<div class="modal-preference">
+				<div id="popover-title">
+					Preferences
+				</div>
+				<div id="popover-body">
+					<div class="opening">
+						<div>Opening</div>
+						<div class="toggle-btn active">
+							<input type="checkbox"  checked class="cb-value cb-op" />
+							<span class="round-btn"></span>
+						</div>
+					</div>
+					<div class="ending">
+						<div>Ending</div>
+						<div class="toggle-btn active">
+							<input type="checkbox"  checked class="cb-value cb-ed" />
+							<span class="round-btn"></span>
+						</div>
+
+					</div>
+					<div class="ost">
+						<div>OST</div>
+						<div class="toggle-btn active">
+							<input type="checkbox"  checked class="cb-value cb-ost" />
+							<span class="round-btn"></span>
+						</div>
+					</div>
+					<!-- Place this tag where you want the button to render. -->
+					<a class="github-button" href="https://github.com/anshumanv/ongaku" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Anshuman-Verma/ongaku on GitHub">Star</a>
+					<!-- Place this tag where you want the button to render. -->
+					<a class="github-button" href="https://github.com/anshumanv/ongaku/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork Anshuman-Verma/ongaku on GitHub">Fork</a>
+				</div>
+			</div>
 		</div>
 
 		<div class="top-bar">
@@ -93,37 +126,6 @@
 				<a  data-placement="left" data-container="body" data-placement="left" type="button" data-html="true" data-toggle="popover" data-trigger="manual">
 					<i class="fa fa-cog fa-2x" data-toggle="tooltip" data-placement="bottom" title="Preferences"></i>
 				</a>
-				<div id="popover-title">
-					Preferences
-				</div>
-				<div id="popover-body">
-					<div class="opening">
-						<div>Opening</div>
-						<div class="toggle-btn active">
-							<input type="checkbox"  checked class="cb-value cb-op" />
-							<span class="round-btn"></span>
-						</div>
-					</div>
-					<div class="ending">
-						<div>Ending</div>
-						<div class="toggle-btn active">
-							<input type="checkbox"  checked class="cb-value cb-ed" />
-							<span class="round-btn"></span>
-						</div>
-
-					</div>
-					<div class="ost">
-						<div>OST</div>
-						<div class="toggle-btn active">
-							<input type="checkbox"  checked class="cb-value cb-ost" />
-							<span class="round-btn"></span>
-						</div>
-					</div>
-					<!-- Place this tag where you want the button to render. -->
-					<a class="github-button" href="https://github.com/anshumanv/ongaku" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Anshuman-Verma/ongaku on GitHub">Star</a>
-					<!-- Place this tag where you want the button to render. -->
-					<a class="github-button" href="https://github.com/anshumanv/ongaku/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork Anshuman-Verma/ongaku on GitHub">Fork</a>
-				</div>
 			</div>
 		</div>
 
@@ -141,7 +143,6 @@
 						<div id="playhead"></div>
 					</div>
 				</div>
-				<div class="track-name"></div>
 				<div id="playTime"></div>
 			</div>
 		</div>
@@ -149,7 +150,7 @@
 
 
 		<div class="display-track">
-			<div id="track-name" class="track-name"></div>
+			<div id="track-name"></div>
 		</div>
 
 		<div class="bottom-bar">
