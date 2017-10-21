@@ -359,7 +359,7 @@ window.addEventListener("load", function () {
 				$('.top-bar').fadeOut();
 				$('#pButton').fadeOut();
 				$('.bottom-bar').fadeOut(); 
-			}, 3000);
+			}, 2000);
 			
 			mousePos = { x:event.clientX, y:event.clientY };
 		}
