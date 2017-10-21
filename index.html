@@ -25,14 +25,16 @@
 
 		<audio id = "music"></audio>
 
-		<div id="track-list" class="track-list">
-			<div class="close-track-list">
-				<button>
-					<i class="fa fa-close fa-1x" title="Close"></i>
-				</button>
+		<div id="modal-wrapper">
+			<div id="track-list" class="track-list">
+				<div class="close-track-list">
+					<button>
+						<i class="fa fa-close fa-1x" title="Close"></i>
+					</button>
+				</div>
+				<input type="text" name="song_search" id="song_search" class="song-search"/>
+				<ul></ul>
 			</div>
-			<input type="text" name="song_search" id="song_search" class="song-search"/>
-			<ul></ul>
 		</div>
 
 		<div class="top-bar">
@@ -139,6 +141,7 @@
 						<div id="playhead"></div>
 					</div>
 				</div>
+				<div class="track-name"></div>
 				<div id="playTime"></div>
 			</div>
 		</div>
@@ -146,7 +149,7 @@
 
 
 		<div class="display-track">
-			<div id="track-name"></div>		
+			<div id="track-name" class="track-name"></div>
 		</div>
 
 		<div class="bottom-bar">

@@ -12,13 +12,14 @@ window.addEventListener("load", function () {
 	const nextButton = document.querySelector('#next');
 	const previousButton = document.querySelector('#previous');
 	const reButton = document.querySelector('#restart');
-	const trackName = document.querySelector('#track-name');
+	const trackName = document.querySelector('.track-name');
 	const bufferedBar = document.querySelector('#buffered-bar');
 	const fullscreenButton = document.querySelector('#fullscreen-button');
 	const infoButton = document.querySelector('.infoImg');
 	const infoBlock = document.querySelector('.top-left');
 	const openTrackListButton = document.querySelector('.track-list-img');
 	const closeTrackListButton = document.querySelector('.close-track-list');
+	const modalWrapper = document.querySelector('#modal-wrapper');
 	var mouseIdle, mousePos = {x:0, y:0};
 	
 	const songSearchInput = document.querySelector('#song_search');
@@ -117,20 +118,13 @@ window.addEventListener("load", function () {
 	//A function to open the track list
 	function openTrackList() {
 		$('.track-list').addClass('open-track-list');
+		$('#modal-wrapper').show();
 	}
 
 	//A function to close the track list
 	function closeTrackList() {
 		$('.track-list').removeClass('open-track-list');
-	}
-
-	//A function to handle click on window
-	function handleClick(e) {
-		if($('.track-list').hasClass('open-track-list') && e.target.tagName == 'BODY')
-			closeTrackList();
-
-		if($('.popover').length > 0 && e.target.tagName == 'BODY')
-			$('[data-toggle="popover"]').popover('hide');
+		$('#modal-wrapper').hide();
 	}
 
 	// A function to handle key press on window
@@ -415,12 +409,15 @@ window.addEventListener("load", function () {
 
 	openTrackListButton.addEventListener('click', openTrackList);
 	closeTrackListButton.addEventListener('click', closeTrackList);
-	
+	//A function to handle click on window
+	modalWrapper.addEventListener('click', function(e) {
+		if (e.target.tagName !== 'LI' && e.target.tagName !== 'INPUT') { closeTrackList(); }
+	});
+
 	$(songSearchInput).on(event_keyup_search_songs, searchSongs);
 	$('[data-toggle=popover]').on('click', function() { $(this).popover('toggle'); })
 
 	window.addEventListener('keyup', (e) => handleKeyUp(e));	// attach keyup event on window
 	window.addEventListener('keydown', (e) => handleKeyDown(e)); //  attach keydown event on window
-	window.addEventListener('click', (e) => handleClick(e)); //attach click event on window
   window.addEventListener("mousemove", detectMouseMove); // handle fadeout
 });
