@@ -177,7 +177,8 @@ th {
 #playTime {
 	font-size: medium;
 	font-weight: bold;
-	color: black;
+	background-color: rgba(0,0,0,0.55);
+	color: #EEE;
 	text-align: center;
 	margin-bottom: -20px;
 	opacity: 0;
