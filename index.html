@@ -22,12 +22,14 @@
 	</head>
 	
 	<body>
-	
+
 		<audio id = "music"></audio>
 
 		<div id="track-list" class="track-list">
 			<div class="close-track-list">
-				<button>X</button>
+				<button>
+					<i class="fa fa-close fa-1x" title="Close"></i>
+				</button>
 			</div>
 			<input type="text" name="song_search" id="song_search" class="song-search"/>
 			<ul></ul>
@@ -123,6 +125,26 @@
 			</div>
 		</div>
 
+		<!--<button id="pButton" class="play" data-toggle="tooltip" data-placement="top" title="Toggle Play"></button>-->
+		<button id="pButton" class="play" title="Toggle Play">
+			<i class="fa fa-play fa-4x" id="play" title="Play"></i>
+			<i class="fa fa-pause fa-4x" id="pause" title="Pause"></i>
+		</button>
+
+		<div id="wrapper">
+			<div id="player">
+				<div id="timeline">
+					<div id="buffered-bar">
+						<div id="playedBar"></div>
+						<div id="playhead"></div>
+					</div>
+				</div>
+				<div id="playTime"></div>
+			</div>
+		</div>
+
+
+
 		<div class="display-track">
 			<div id="track-name"></div>		
 		</div>
@@ -138,19 +160,6 @@
 				</div>
 			</div>
 
-		
-			<div id="wrapper">
-				<div id="player">
-					<div id="playTime"></div>
-					<button id="pButton" class="play" data-toggle="tooltip" data-placement="top" title="Toggle Play"></button>
-					<div id="timeline">
-						<div id="buffered-bar">
-							<div id="playhead"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		
 			<div class="botton-right">
 				<div id="restart" title="Play Again">
 					<i class="fa fa-refresh fa-2x" data-toggle="tooltip" data-placement="top" title="Play Again"></i>

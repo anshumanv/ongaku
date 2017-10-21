@@ -24,6 +24,9 @@ html, body {
 	font-size: 2.1em;
 }
 
+.fa-close:hover { font-size: 1.1em; }
+.fa-play:hover,.fa-pause:hover { font-size: 4.1em; }
+
 .fa:active {
 	color: #000;
 }
@@ -63,10 +66,6 @@ img:hover {
 	transform: scale(1);
 	cursor: pointer;
 }
-
-.play{background: url('../img/play.png') ;}
-.pause{background: url('../img/pause.png') ;}
-
 
 /*CSS for track-name display*/
 #track-name{
@@ -123,6 +122,8 @@ th {
 	width: 100vw;
 	justify-content: flex-end;
 	padding: 10px 0px;
+	margin-top: 25px;
+	position: absolute;
 }
 
 #popover-body, #popover-title {
@@ -160,9 +161,7 @@ th {
 }
 
 #player{
-	width: 480px;
-	height: 60px;
-	background: rgba(77, 133, 222, 0.62);
+	width: 100%;
 	border-radius: 15px;
   	opacity: 0.5;
   	transition: all 0.5s;
@@ -178,53 +177,58 @@ th {
 }
 
 #wrapper{
-  display: flex;
-  justify-content: center;
-  height: 75px;
-  transform: translateY(10px);
+	display: flex;
+	justify-content: center;
+	transform: translateY(-60px);
+	top: 25px;
+	position: absolute;
+	width: 100%;
 }
 
 #player:hover {
   opacity: 1;
-  transform: translateY(5px) ;
+  transform: translateY(20px) ;
 }
 
 /* Play/Pause Button */
 #pButton{
-	height:60px;
-	width: 60px;
 	border: none;
-	background-size: 50% 50%;
-	background-repeat: no-repeat;
-	background-position: center;
 	float:left;
+	margin: auto;
+	background: transparent;
+	width: 100%;
+	height: 100%;
 }
 
 #timeline{
-	width: 382px;
-	height: 20px;
+	width: 100%;
+	height: 10px;
 	background: rgba(0,0,0,.3);
-	margin-top: 20px;
+	margin-top: 15px;
 	float: left;
-	border-radius: 15px;
 	display: flex;
 }
 
 /*Grabable Playhead*/
 #playhead{
 	cursor: pointer;
-	width: 18px;
-	height: 18px;
-	border-radius: 50%;
-	margin-top: 1px;
-	background: black;
+	width: 2px;
+	height: 15px;
+	margin-top: -15px;
+	background: red;
+}
+
+#playedBar{
+	cursor: pointer;
+	height: 15px;
+	margin-top: -4px;
+	background: red;
 }
 
 #buffered-bar {
-	height: 20px;
+	height: 10px;
 	flex-basis: 0%;
-	background-color: rgba(0, 0, 0, 0.4);
-	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.4);
 	transition: all .3s;
 }
 
