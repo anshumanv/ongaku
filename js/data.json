@@ -25,6 +25,36 @@ openings = [
 	},
 
 	{
+		"link" : "http://67.159.62.2/anime_ost/bleach-op1-single-orange-range-asterisk/folyoxgrmj/01-asterisk-.mp3",
+		"name" : "Bleach OP1 - Asterisk",
+		"img" : "https://1.bp.blogspot.com/-pCRlFldxgMA/TrVTSkwb9xI/AAAAAAAAAZ4/vHnEfPFcaY4/s1600/chibi+bleach+character-bleach+wallpaper.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/bleach-op2-single-d-tecnolife-uverworld-/lunnibictb/01-d-tecnolife.mp3",
+		"name" : "Bleach OP2 - Tecnolife",
+		"img" : "http://www.news-anime.com/wp-content/uploads/2009/01/pic1_3039jpeg.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/bleach-op3-single-ichirin-no-hana/chhvdszdtp/01%20-%20Ichirin%20no%20Hana.mp3",
+		"name" : "Bleach OP3 - Ichirin no Hana",
+		"img" : "http://pm1.narvii.com/6241/6278d669931658527be32be68391fc8dd23bcea6_hq.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/bleach-tonight-tonight-tonight/hfdztydmtc/01.-tonight-tonight-tonight.mp3",
+		"name" : "Bleach OP4 - Tonight Tonight Tonight",
+		"img" : "https://www.walldevil.com/wallpapers/a38/bleach-orihime-inoue.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/bleach-op5-single-rolling-star/bdjbvdmaar/01%20-%20Rolling%20star.mp3",
+		"name" : "Bleach OP5 - Rolling Star",
+		"img" : "http://www.animacity.ru/sites/default/files/users/9086/photo/2014/141/Bleach-Kurosaci-Ichigo-1800x2880.jpg"
+	},	
+
+	{
 		"link" : "http://lyricmp3skull.org/s363640c/file/danganronpa-anime-op-tv-size/249496430.mp3",
 		"name" : "Danganronpa The Animation OP",
 		"img" : "https://i.ytimg.com/vi/guJYoQ5gQ7s/maxresdefault.jpg"
