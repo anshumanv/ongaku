@@ -73,7 +73,7 @@ img:hover {
 	height: auto;
 	background: aliceblue;
 	border-radius: 15px;
-  text-align: center;
+	text-align: center;
 	opacity: 0.75;
 	font-size: 2em;
 	align-self: flex-end;
@@ -127,7 +127,7 @@ th {
 	width: 100vw;
 	justify-content: flex-end;
 	padding: 10px 0px;
-	margin-top: 25px;
+	margin-top: 20px;
 	position: absolute;
 }
 
@@ -163,6 +163,7 @@ th {
     position: fixed;
     bottom: 0px;
     align-items: center;
+	margin-bottom: 10px
 }
 
 #player{
