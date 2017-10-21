@@ -5,6 +5,7 @@ window.addEventListener("load", function () {
 	const music = document.querySelector('#music');
 	const player = document.querySelector('#player');
 	const playButton = document.querySelector('#pButton');
+	const playedBar = document.querySelector('#playedBar');
 	const playHead = document.querySelector('#playhead');
 	const playTime = document.querySelector('#playTime');
 	const timeLine = document.querySelector('#timeline');
@@ -18,6 +19,7 @@ window.addEventListener("load", function () {
 	const infoBlock = document.querySelector('.top-left');
 	const openTrackListButton = document.querySelector('.track-list-img');
 	const closeTrackListButton = document.querySelector('.close-track-list');
+	const modalWrapper = document.querySelector('#modal-wrapper');
 	var mouseIdle, mousePos = {x:0, y:0};
 	
 	const songSearchInput = document.querySelector('#song_search');
@@ -34,11 +36,11 @@ window.addEventListener("load", function () {
 	// Function to handle play/pause icon
 	function updatePlayButton () {
 		if (!music.paused) {
-			playButton.classList.remove('play');
-			playButton.classList.add('pause');
+			$('#play').hide();
+			$('#pause').show();
 		} else {
-			playButton.classList.remove('pause');
-			playButton.classList.add('play');
+			$('#play').show();
+			$('#pause').hide();
 		}
 	}
 	
@@ -51,6 +53,7 @@ window.addEventListener("load", function () {
 			play(order);
 		}
 		playHead.style.marginLeft = (percent / 100) * (timeLine.offsetWidth - playHead.offsetWidth)  + "px";
+		playedBar.style.width = (percent / 100) * (timeLine.offsetWidth - playHead.offsetWidth)  + "px";
 		let currentTimeMin = ("0" + parseInt(music.currentTime / 60)).slice(-2);
 		let currentTimeSec = ("0" + parseInt(music.currentTime - (currentTimeMin * 60))).slice(-2);
 		let durationMin = ("0" + parseInt(music.duration / 60)).slice(-2);
@@ -60,7 +63,7 @@ window.addEventListener("load", function () {
 
 	// function to enable track seek
 	function scrub (e) {
-		const scrubTime = (e.offsetX / 362) * music.duration;
+		const scrubTime = (e.offsetX / window.innerWidth) * music.duration;
 		music.currentTime = scrubTime;
 	}
 
@@ -114,21 +117,15 @@ window.addEventListener("load", function () {
 
 	//A function to open the track list
 	function openTrackList() {
-		$('.track-list').addClass('open-track-list');
+		$('#modal-wrapper').show(5, 'linear', function(){
+			$('.track-list').addClass('open-track-list');
+		});
 	}
 
 	//A function to close the track list
 	function closeTrackList() {
 		$('.track-list').removeClass('open-track-list');
-	}
-
-	//A function to handle click on window
-	function handleClick(e) {
-		if($('.track-list').hasClass('open-track-list') && e.target.tagName == 'BODY')
-			closeTrackList();
-
-		if($('.popover').length > 0 && e.target.tagName == 'BODY')
-			$('[data-toggle="popover"]').popover('hide');
+		setTimeout(function() {$('#modal-wrapper').hide(5, 'linear')}, 400);
 	}
 
 	// A function to handle key press on window
@@ -234,6 +231,7 @@ window.addEventListener("load", function () {
 
     	// A function to retain popover checkbox instances
     	$("[data-toggle=popover]").on("shown.bs.popover",function(){
+				$('#modal-wrapper').show();
         $(".popover-content input").on("change",function(){
             if(this.checked){
                 this.setAttribute("checked","checked");
@@ -356,10 +354,12 @@ window.addEventListener("load", function () {
 			clearTimeout(mouseIdle);
 			
 			$('.top-bar').fadeIn();
+			$('#pButton').fadeIn();
 			$('.bottom-bar').fadeIn();
 			
 			mouseIdle = setTimeout(function () {
-				$('.top-bar').fadeOut(); 
+				$('.top-bar').fadeOut();
+				$('#pButton').fadeOut();
 				$('.bottom-bar').fadeOut(); 
 			}, 3000);
 			
@@ -411,12 +411,21 @@ window.addEventListener("load", function () {
 
 	openTrackListButton.addEventListener('click', openTrackList);
 	closeTrackListButton.addEventListener('click', closeTrackList);
-	
+	//A function to handle click on window
+	modalWrapper.addEventListener('click', function(e) {
+		if (e.target.tagName !== 'LI' && e.target.tagName !== 'INPUT') {
+			closeTrackList();
+			if($('.popover').length > 0) {
+				$('[data-toggle="popover"]').popover('hide');
+				$('#modal-wrapper').hide();
+			}
+		}
+	});
+
 	$(songSearchInput).on(event_keyup_search_songs, searchSongs);
 	$('[data-toggle=popover]').on('click', function() { $(this).popover('toggle'); })
 
 	window.addEventListener('keyup', (e) => handleKeyUp(e));	// attach keyup event on window
 	window.addEventListener('keydown', (e) => handleKeyDown(e)); //  attach keydown event on window
-	window.addEventListener('click', (e) => handleClick(e)); //attach click event on window
   window.addEventListener("mousemove", detectMouseMove); // handle fadeout
 });
