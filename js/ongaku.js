@@ -117,14 +117,16 @@ window.addEventListener("load", function () {
 
 	//A function to open the track list
 	function openTrackList() {
-		$('.track-list').addClass('open-track-list');
-		$('#modal-wrapper').show();
+		$('#modal-wrapper').show(10, 'linear', function(){
+			$('.track-list').addClass('open-track-list');
+		});
 	}
 
 	//A function to close the track list
 	function closeTrackList() {
-		$('.track-list').removeClass('open-track-list');
-		$('#modal-wrapper').hide();
+		$('#modal-wrapper').hide(10, 'linear', function() {
+			$('.track-list').removeClass('open-track-list');
+		});
 	}
 
 	// A function to handle key press on window
