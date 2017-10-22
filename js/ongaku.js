@@ -30,20 +30,11 @@ window.addEventListener("load", function () {
 
 	// Function to toggle play / pause
 	function togglePlay () {	// function to toggle play/pause
-		music[music.paused ? 'play' : 'pause']();
-	}
-
-	// Function to handle play/pause icon
-	function updatePlayButton () {
-		if (!music.paused) {
-			$('#play').hide();
-			$('#pause').show();
-		} else {
-			$('#play').show();
-			$('#pause').hide();
+		if (!isMusicLoading()) {
+			music[music.paused ? 'play' : 'pause']();
 		}
 	}
-	
+
 	// A  function to handle song duration bar
 	function handleProgress () {
 		var percent = (music.currentTime / music.duration ) * 100;
@@ -132,7 +123,6 @@ window.addEventListener("load", function () {
 	function handleKeyUp(e) {
 		if(e.keyCode === 32) {	// p 
 			togglePlay();
-			updatePlayButton();
 		} 
 		else if(e.keyCode === 78) {	// n
 			nextTrack();
@@ -297,7 +287,6 @@ window.addEventListener("load", function () {
 	function play (order) {
 		music.src = order[0].link;
 		music.play();
-		updatePlayButton();
 		displayTrackName();
 		document.body.style.backgroundImage = "url('" + order[0].img + "')";
 	}
@@ -337,7 +326,6 @@ window.addEventListener("load", function () {
 		//updating the player to play the selected track
 		music.src = found_title[0].link;
 		music.play();
-		updatePlayButton();
 
 		//displaying the title of the song playing
 		trackName.textContent = found_title[0].name;
@@ -386,9 +374,30 @@ window.addEventListener("load", function () {
 		}
 	}
 
+	function isMusicLoading () {
+		return music.readyState !== music.HAVE_ENOUGH_DATA;
+	}
+
+	// Handles showing play/pause/loading based on current state of music
+	function updateMusicStateButtons() {
+		if (isMusicLoading()) {
+			$('#loader').show();
+			$('#play, #pause').hide();
+			return;
+		}
+
+		$('#loader').hide();
+		if (!music.paused) {
+			$('#play').hide();
+			$('#pause').show();
+		} else {
+			$('#play').show();
+			$('#pause').hide();
+		}
+	}
+
 	// Event handlers
 	playButton.addEventListener('click', togglePlay);
-	playButton.addEventListener('click', updatePlayButton);
 
 	music.addEventListener('timeupdate', handleProgress);
 	window.setInterval(handleBuffer, 100);
@@ -428,4 +437,15 @@ window.addEventListener("load", function () {
 	window.addEventListener('keyup', (e) => handleKeyUp(e));	// attach keyup event on window
 	window.addEventListener('keydown', (e) => handleKeyDown(e)); //  attach keydown event on window
   window.addEventListener("mousemove", detectMouseMove); // handle fadeout
+
+	const musicStateEvents = [
+		'play',
+		'pause',
+		'playing',
+		'seeking',
+	];
+	musicStateEvents.forEach(event => {
+		music.addEventListener(event, updateMusicStateButtons());
+	});
+
 });
