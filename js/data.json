@@ -568,6 +568,12 @@ openings = [
 		"link" : "https://www.dl.dropboxusercontent.com/s/27m8fylvfa42gsa/Inazuma%20Eleven%20Opening%20Theme%20Song.m4a?dl=0 ",
 		"name" : "Inazuma Eleven OP - Opening Theme Song",
 		"img" : "https://images4.alphacoders.com/675/thumb-1920-675017.jpg"
+	},
+
+	{
+		"link" : "http://66.90.93.122/ost/one-punch-man-original-soundtrack/kghfumrsdk/01-the-hero-okoreru-kobushi-ni-hi-wo-tsukero-.mp3",
+		"name" : "One Punch Man OP - Hero",
+		"img" : "https://initiate.alphacoders.com/download/wallpaper/670899/images/jpg/1988977696"
 	}
 
 ]
@@ -747,7 +753,7 @@ endings = [
 
 
 osts = [
-	
+
 	{
 		"link" : "http://66.90.93.122/ost/death-note-original-soundtrack/fghgpcdtbm/04-l-s-theme.mp3",
 		"name" : "L's Theme A",
@@ -1376,6 +1382,12 @@ osts = [
 		"link" : "https://www.dl.dropboxusercontent.com/s/r8olgisqrm0j7p3/Death%20note.m4a?dl=0",
 		"name" : "Death Note OST - Death Note",
 		"img" : "https://i.ytimg.com/vi/fIeGTEQPAKE/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://66.90.93.122/ost/one-punch-man-original-soundtrack/grcvueppvk/02-theme-of-one-punch-man-seigi-shikkou-.mp3",
+		"name" : "One Punch Man OST - Seigi Shikkou",
+		"img" : "https://initiate.alphacoders.com/download/wallpaper/654247/images3/jpg/1422319762"
 	}	
 	
 ]
