@@ -203,9 +203,10 @@ window.addEventListener("load", function () {
 	}
 
 	function displayAnimation() {
-		$('#track-name').stop(true, true);	// stop any ongoing animation
-		$('#track-name').show();	// display the block
-		$('#track-name').fadeOut(10000);	// fade out the block
+		// stop any ongoing animation
+		// display the block
+		// fade out the block
+		$('#track-name').stop(true, true).show().fadeOut(10000);
 	}
 
 
@@ -353,14 +354,10 @@ window.addEventListener("load", function () {
 		if(event.clientX != mousePos.x || event.clientY != mousePos.y) {
 			clearTimeout(mouseIdle);
 			
-			$('.top-bar').fadeIn();
-			$('#pButton').fadeIn();
-			$('.bottom-bar').fadeIn();
+			$('.top-bar, #pButton, .bottom-bar').fadeIn();
 			
 			mouseIdle = setTimeout(function () {
-				$('.top-bar').fadeOut();
-				$('#pButton').fadeOut();
-				$('.bottom-bar').fadeOut(); 
+				$('.top-bar, #pButton, .bottom-bar').fadeOut();
 			}, 3000);
 			
 			mousePos = { x:event.clientX, y:event.clientY };
