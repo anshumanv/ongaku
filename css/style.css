@@ -13,19 +13,14 @@ html, body {
 	.5px -.5px 0 #000,
 	-.5px .5px 0 #000,
 	.5px .5px 0 #000;
+	transition: all 0.2s;
 }
 
 .fa:hover {
-	text-shadow: -1px -1px 0 #000,
-	1px -1px 0 #000,
-	-1px 1px 0 #000,
-	1px 1px 0 #000;
+	transform: scale(1.2);
+	transition: all 0.2s;
 	color: #bbb;
 }
-
-.fa-1x:hover { font-size: 1.1em; }
-.fa-2x:hover { font-size: 2.1em; }
-.fa-4x:hover { font-size: 4.1em; }
 
 .fa:active {
 	color: #000;
@@ -60,11 +55,6 @@ img {
 
 .infoImg {
 	transition: all 0s;
-}
-
-img:hover {
-	transform: scale(1);
-	cursor: pointer;
 }
 
 /*CSS for track-name display*/
@@ -228,6 +218,7 @@ th {
 	height: 15px;
 	margin-top: -15px;
 	background: red;
+	transition: all 0.5s;
 }
 
 #playedBar{
@@ -235,6 +226,7 @@ th {
 	height: 14px;
 	margin-top: -4px;
 	background: red;
+	transition: all 0.5s;
 }
 
 #buffered-bar {
