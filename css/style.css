@@ -211,7 +211,7 @@ th {
 	height: 100%;
 }
 
-#pButton .state-controls {
+#pButton i {
 	display: none;
 }
 
