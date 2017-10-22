@@ -445,7 +445,7 @@ window.addEventListener("load", function () {
 		'seeking',
 	];
 	musicStateEvents.forEach(event => {
-		music.addEventListener(event, updateMusicStateButtons());
+		music.addEventListener(event, updateMusicStateButtons);
 	});
 
 });
