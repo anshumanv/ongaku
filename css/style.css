@@ -278,6 +278,10 @@ th {
 	border-radius: 60px;
 }
 
+.track-list ul {
+	padding: 0;
+}
+
 .track-list ul li {
 	cursor: pointer;
 	list-style-type: none;
