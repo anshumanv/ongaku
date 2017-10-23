@@ -268,6 +268,7 @@ th {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_2genQF
 .track-list ul {
 	padding: 0;
@@ -288,10 +289,14 @@ th {
 =======
 .track-list::-webkit-scrollbar {
 >>>>>>> parent of 8570af6... Remove Close Tracklist
+=======
+.track-list::-webkit-scrollbar {
+>>>>>>> parent of 8570af6... Remove Close Tracklist
 	background-color: transparent;
 	width: 10px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_2genQF
 .track-list ul::-webkit-scrollbar-track {
@@ -306,6 +311,13 @@ th {
 
 .track-list .tracklist-scroll-bar::-webkit-scrollbar-thumb {
 >>>>>>> .merge_file_fJ82GF
+=======
+.track-list::-webkit-scrollbar-track {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.track-list::-webkit-scrollbar-thumb {
+>>>>>>> parent of 8570af6... Remove Close Tracklist
 =======
 .track-list::-webkit-scrollbar-track {
 	background-color: rgba(0, 0, 0, 0.3);
