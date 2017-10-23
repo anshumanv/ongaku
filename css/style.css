@@ -202,14 +202,6 @@ th {
 	height: 100%;
 }
 
-#pButton i {
-	display: none;
-}
-
-#pButton .loader {
-	margin: 0 auto;
-}
-
 #timeline{
 	width: 100%;
 	height: 10px;
@@ -267,70 +259,27 @@ th {
 	transition: transform .5s ease;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_2genQF
+.sticky-bar {
+	top: 0px;
+	position: sticky;
+}
+
 .track-list ul {
 	padding: 0;
-	overflow: auto;
-	height: 100%;
 }
 
-.track-list ul::-webkit-scrollbar {
-=======
-.tracklist-scroll-bar {
-	margin-top: 30px;
-	height: 100%;
-	overflow: auto;
-}
-
-.track-list .tracklist-scroll-bar::-webkit-scrollbar {
->>>>>>> .merge_file_fJ82GF
-=======
 .track-list::-webkit-scrollbar {
->>>>>>> parent of 8570af6... Remove Close Tracklist
-=======
-.track-list::-webkit-scrollbar {
->>>>>>> parent of 8570af6... Remove Close Tracklist
 	background-color: transparent;
 	width: 10px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_2genQF
-.track-list ul::-webkit-scrollbar-track {
-	background-color: rgba(0, 0, 0, 0.3);
-}
-
-.track-list ul::-webkit-scrollbar-thumb {
-=======
-.track-list .tracklist-scroll-bar::-webkit-scrollbar-track {
-	background-color: rgba(0, 0, 0, 0.3);
-}
-
-.track-list .tracklist-scroll-bar::-webkit-scrollbar-thumb {
->>>>>>> .merge_file_fJ82GF
-=======
 .track-list::-webkit-scrollbar-track {
 	background-color: rgba(0, 0, 0, 0.3);
 }
 
 .track-list::-webkit-scrollbar-thumb {
->>>>>>> parent of 8570af6... Remove Close Tracklist
-=======
-.track-list::-webkit-scrollbar-track {
-	background-color: rgba(0, 0, 0, 0.3);
-}
-
-.track-list::-webkit-scrollbar-thumb {
->>>>>>> parent of 8570af6... Remove Close Tracklist
 	background-color: rgba(0, 0, 0, 0.4);
 	border-radius: 60px;
-}
-
-.track-list ul {
-	padding: 0;
 }
 
 .track-list ul li {
@@ -434,6 +383,5 @@ th {
 	width: 100%;
 	padding: 3px;
 	color: #555;
-	position: fixed;
 }
 
