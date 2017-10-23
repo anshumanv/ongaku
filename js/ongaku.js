@@ -443,7 +443,7 @@ window.addEventListener("load", function () {
 		'pause',
 		'playing',
 		'seeking',
-		'canplay',
+		'seeked',
 	];
 	musicStateEvents.forEach(event => {
 		music.addEventListener(event, updateMusicStateButtons);
