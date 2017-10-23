@@ -1388,6 +1388,72 @@ osts = [
 		"link" : "http://66.90.93.122/ost/one-punch-man-original-soundtrack/grcvueppvk/02-theme-of-one-punch-man-seigi-shikkou-.mp3",
 		"name" : "One Punch Man OST - Seigi Shikkou",
 		"img" : "https://initiate.alphacoders.com/download/wallpaper/654247/images3/jpg/1422319762"
-	}	
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/zcukgvseyu/02%20-%20The%20World%20of%20Adventurers%20~%20Kanzenban.mp3",
+		"name" : "Hunter x Hunter 2011 OST - The World of Adventurers ~ Kanzenban",
+		"img" : "https://i.ytimg.com/vi/rVkpAyvDr5c/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/wpssdidbjc/03%20-%20Ginpatsu%20no%20Shounen.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Ginpatsu no Shounen",
+		"img" : "http://jonvilma.com/images/hunter-x-hunter-3.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/qpufobsqgc/04%20-%20Hiiro%20no%20Hitomi%20no%20Aika.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Hiiro no Hitomi no Aika",
+		"img" : "http://i.imgur.com/8sMDDzX.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/ejqifsulqf/05%20-%20All%20I%20Need%20Is%20MONEY%21.mp3",
+		"name" : "Hunter x Hunter 2011 OST - All I Need Is MONEY!",
+		"img" : "https://i.ytimg.com/vi/8eepXE410Yw/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/hedzslksgi/07%20-%20Shounen%20no%20Asa%20no%20Uta.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Shounen no Asa no Uta",
+		"img" : "http://vignette3.wikia.nocookie.net/hunterxhunter/images/2/26/Gon_and_Killua_-_Ep_38.jpg/revision/latest?cb=20121106055919"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/ocktubxvve/08%20-%20Koukai.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Koukai",
+		"img" : "https://i.ytimg.com/vi/azIk3Fzpdmk/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/flzwjyyndy/11%20-%20Kijutsu%20Shi%20no%20Baire.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Kijutsu Shi no Baire",
+		"img" : "http://vignette1.wikia.nocookie.net/hunterxhunter/images/3/3f/Hisoka_y_una_de_sus_cartas.png/revision/latest?cb=20140503143813&path-prefix=es"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/fxmrxectut/12%20-%20Mosa%20Domo%20no%20Heigei.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Mosa Domo no Heigei",
+		"img" : "https://archive-media-0.nyafuu.org/w/image/1421/12/1421121591707.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/iglwchvujp/13%20-%20Ikkiuchi%21.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Ikkiuchi!",
+		"img" : "https://s1.postimg.org/5uck585l27/Anime_X_708009.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/mwboiphbip/14%20-%20Boys%2C%20Be%20Courageous%21.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Boys, Be Courageous!",
+		"img" : "https://lh6.googleusercontent.com/-kmu9npdWH70/VBhmwe-stGI/AAAAAAAAaCA/8E_b_2hZaw8/w1280-h720/screenshot-0006.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/fwrwchlsmm/32%20-%20Ginpatsu%20no%20Lullaby.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Ginpatsu no Lullaby",
+		"img" : "http://vignette3.wikia.nocookie.net/hunterxhunter/images/0/04/Alluka_kissing_Killua_on_the_cheek.png/revision/latest?cb=20140723163536"
+	}
 	
 ]
