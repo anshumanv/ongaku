@@ -170,8 +170,9 @@ th {
 	background-color: rgba(0,0,0,0.55);
 	color: #EEE;
 	text-align: center;
-	margin-bottom: -20px;
+	margin: 0 auto -20px;
 	opacity: 0;
+  width: 200px;
 }
 
 #wrapper{
@@ -387,4 +388,3 @@ th {
 	padding: 3px;
 	color: #555;
 }
-
