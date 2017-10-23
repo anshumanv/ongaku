@@ -266,6 +266,7 @@ th {
 	transition: transform .5s ease;
 }
 
+<<<<<<< .merge_file_2genQF
 .track-list ul {
 	padding: 0;
 	overflow: auto;
@@ -273,15 +274,32 @@ th {
 }
 
 .track-list ul::-webkit-scrollbar {
+=======
+.tracklist-scroll-bar {
+	margin-top: 30px;
+	height: 100%;
+	overflow: auto;
+}
+
+.track-list .tracklist-scroll-bar::-webkit-scrollbar {
+>>>>>>> .merge_file_fJ82GF
 	background-color: transparent;
 	width: 10px;
 }
 
+<<<<<<< .merge_file_2genQF
 .track-list ul::-webkit-scrollbar-track {
 	background-color: rgba(0, 0, 0, 0.3);
 }
 
 .track-list ul::-webkit-scrollbar-thumb {
+=======
+.track-list .tracklist-scroll-bar::-webkit-scrollbar-track {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.track-list .tracklist-scroll-bar::-webkit-scrollbar-thumb {
+>>>>>>> .merge_file_fJ82GF
 	background-color: rgba(0, 0, 0, 0.4);
 	border-radius: 60px;
 }
@@ -387,5 +405,6 @@ th {
 	width: 100%;
 	padding: 3px;
 	color: #555;
+	position: fixed;
 }
 
