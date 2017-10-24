@@ -657,6 +657,12 @@ endings = [
 		"link" : "http://67.159.62.2/anime_ost/code-geass-hangyaku-no-lelouch-ed2-single-mosaic-kakera/kwpddhndnz/01%20-%20Mosaic%20Kakera.mp3",
 		"name" : "Code Geass (Hangyaku no Lelouch) ED2 - Mosaic Kakera",
 		"img"  : "http://animewallpaperstock.com/wallpaper/02ka/code-geass/code-geass0151.jpg"
+	},
+	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/pz214766ugomysq/Sayuri%20-%20Sore%20wa%20Chiisana%20Hikari%20no%20Youna%20%20Boku%20Dake%20Ga%20Inai%20Machi%20%28ERASED%29%20FULL%20ENDING.mp3?dl=0",
+		"name" : "Boku Dake Ga Inai Machi (Erased) ED - Sore wa Chiisana Hikari no Youna",
+		"img" : "https://images8.alphacoders.com/697/thumb-1920-697276.png"
 	}
 
 ]
@@ -1262,6 +1268,11 @@ osts = [
 		"link" : "https://my.mixtape.moe/swjtom.mp3",
 		"name" : "Boku no Hero Academia S2 OST-2 Jet Set Run",
 		"img" : "https://images6.alphacoders.com/820/820024.png"
-	}
+	},
 	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/oc3aems3hpc4uy3/Parasyte%20the%20Maxim%20OST%20-%20Next%20to%20You.mp3?dl=0",
+		"name" : "Parasyte the Maxim OST - Next to You",
+		"img" : "https://i.ytimg.com/vi/MHQn3l4mS3M/maxresdefault.jpg"
+	}
 ]
