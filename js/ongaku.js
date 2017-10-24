@@ -5,6 +5,7 @@ window.addEventListener("load", function () {
 	const music = document.querySelector('#music');
 	const player = document.querySelector('#player');
 	const playButton = document.querySelector('#pButton');
+	const playedBar = document.querySelector('#playedBar');
 	const playHead = document.querySelector('#playhead');
 	const playTime = document.querySelector('#playTime');
 	const timeLine = document.querySelector('#timeline');
@@ -18,24 +19,22 @@ window.addEventListener("load", function () {
 	const infoBlock = document.querySelector('.top-left');
 	const openTrackListButton = document.querySelector('.track-list-img');
 	const closeTrackListButton = document.querySelector('.close-track-list');
+	const modalWrapper = document.querySelector('#modal-wrapper');
+	var mouseIdle, mousePos = {x:0, y:0};
+	
+	const songSearchInput = document.querySelector('#song_search');
+
+	//event namespace
+	const event_keyup_search_songs = "keyup.song_search";
 
 
 	// Function to toggle play / pause
 	function togglePlay () {	// function to toggle play/pause
-		music[music.paused ? 'play' : 'pause']();
-	}
-
-	// Function to handle play/pause icon
-	function updatePlayButton () {
-		if (!music.paused) {
-			playButton.classList.remove('play');
-			playButton.classList.add('pause');
-		} else {
-			playButton.classList.remove('pause');
-			playButton.classList.add('play');
+		if (!isMusicLoading()) {
+			music[music.paused ? 'play' : 'pause']();
 		}
 	}
-	
+
 	// A  function to handle song duration bar
 	function handleProgress () {
 		var percent = (music.currentTime / music.duration ) * 100;
@@ -45,6 +44,7 @@ window.addEventListener("load", function () {
 			play(order);
 		}
 		playHead.style.marginLeft = (percent / 100) * (timeLine.offsetWidth - playHead.offsetWidth)  + "px";
+		playedBar.style.width = (percent / 100) * (timeLine.offsetWidth - playHead.offsetWidth)  + "px";
 		let currentTimeMin = ("0" + parseInt(music.currentTime / 60)).slice(-2);
 		let currentTimeSec = ("0" + parseInt(music.currentTime - (currentTimeMin * 60))).slice(-2);
 		let durationMin = ("0" + parseInt(music.duration / 60)).slice(-2);
@@ -54,7 +54,7 @@ window.addEventListener("load", function () {
 
 	// function to enable track seek
 	function scrub (e) {
-		const scrubTime = (e.offsetX / 362) * music.duration;
+		const scrubTime = (e.offsetX / window.innerWidth) * music.duration;
 		music.currentTime = scrubTime;
 	}
 
@@ -108,19 +108,21 @@ window.addEventListener("load", function () {
 
 	//A function to open the track list
 	function openTrackList() {
-		$('.track-list').addClass('open-track-list');
+		$('#modal-wrapper').show(5, 'linear', function(){
+			$('.track-list').addClass('open-track-list');
+		});
 	}
 
 	//A function to close the track list
 	function closeTrackList() {
 		$('.track-list').removeClass('open-track-list');
+		setTimeout(function() {$('#modal-wrapper').hide(5, 'linear')}, 400);
 	}
 
 	// A function to handle key press on window
 	function handleKeyUp(e) {
 		if(e.keyCode === 32) {	// p 
 			togglePlay();
-			updatePlayButton();
 		} 
 		else if(e.keyCode === 78) {	// n
 			nextTrack();
@@ -191,9 +193,10 @@ window.addEventListener("load", function () {
 	}
 
 	function displayAnimation() {
-		$('#track-name').stop(true, true);	// stop any ongoing animation
-		$('#track-name').show();	// display the block
-		$('#track-name').fadeOut(10000);	// fade out the block
+		// stop any ongoing animation
+		// display the block
+		// fade out the block
+		$('#track-name').stop(true, true).show().fadeOut(10000);
 	}
 
 
@@ -219,6 +222,7 @@ window.addEventListener("load", function () {
 
     	// A function to retain popover checkbox instances
     	$("[data-toggle=popover]").on("shown.bs.popover",function(){
+				$('#modal-wrapper').show();
         $(".popover-content input").on("change",function(){
             if(this.checked){
                 this.setAttribute("checked","checked");
@@ -284,7 +288,6 @@ window.addEventListener("load", function () {
 	function play (order) {
 		music.src = order[0].link;
 		music.play();
-		updatePlayButton();
 		displayTrackName();
 		document.body.style.backgroundImage = "url('" + order[0].img + "')";
 	}
@@ -300,6 +303,9 @@ window.addEventListener("load", function () {
 	}
 
 	function select_track(e) {
+		// clear search input incase during search and select
+		$(songSearchInput).val("");
+
 		//finding the selected title
 		let selected_index;
 		let selected_title = e.target.innerHTML;
@@ -321,7 +327,6 @@ window.addEventListener("load", function () {
 		//updating the player to play the selected track
 		music.src = found_title[0].link;
 		music.play();
-		updatePlayButton();
 
 		//displaying the title of the song playing
 		trackName.textContent = found_title[0].name;
@@ -330,10 +335,66 @@ window.addEventListener("load", function () {
 		//updating the background image to the new tracks image
 		document.body.style.backgroundImage = "url('" + found_title[0].img + "')";
 	}
+	
+	function detectMouseMove(event) {
+
+		// If the mouse move
+		if(event.clientX != mousePos.x || event.clientY != mousePos.y) {
+			clearTimeout(mouseIdle);
+			
+			$('.top-bar, #pButton, .bottom-bar').fadeIn();
+			
+			mouseIdle = setTimeout(function () {
+				$('.top-bar, #pButton, .bottom-bar').fadeOut();
+			}, 3000);
+			
+			mousePos = { x:event.clientX, y:event.clientY };
+		}
+	}
+
+	function searchSongs(event) {
+		event.stopPropagation();
+		var search = $(songSearchInput).val() || "";
+		search = search.toLowerCase();
+		if(search) {
+			$('#track-list ul li')
+				.show()
+				.each(function(index, song) {
+					var songTitle = $(song).text() || "";
+					songTitle = songTitle.toLowerCase();
+					if(songTitle.indexOf(search) === -1) {
+						$(song).hide();
+					}
+				});
+		} else {
+			$('#track-list ul li').show();
+		}
+	}
+
+	function isMusicLoading () {
+		return music.readyState !== music.HAVE_ENOUGH_DATA;
+	}
+
+	// Handles showing play/pause/loading based on current state of music
+	function updateMusicStateButtons() {
+		if (isMusicLoading()) {
+			$('#loader').show();
+			$('#play, #pause').hide();
+			return;
+		}
+
+		$('#loader').hide();
+		if (!music.paused) {
+			$('#play').hide();
+			$('#pause').show();
+		} else {
+			$('#play').show();
+			$('#pause').hide();
+		}
+	}
 
 	// Event handlers
 	playButton.addEventListener('click', togglePlay);
-	playButton.addEventListener('click', updatePlayButton);
 
 	music.addEventListener('timeupdate', handleProgress);
 	window.setInterval(handleBuffer, 100);
@@ -356,7 +417,32 @@ window.addEventListener("load", function () {
 
 	openTrackListButton.addEventListener('click', openTrackList);
 	closeTrackListButton.addEventListener('click', closeTrackList);
+	//A function to handle click on window
+	modalWrapper.addEventListener('click', function(e) {
+		if (e.target.tagName !== 'LI' && e.target.tagName !== 'INPUT') {
+			closeTrackList();
+			if($('.popover').length > 0) {
+				$('[data-toggle="popover"]').popover('hide');
+				$('#modal-wrapper').hide();
+			}
+		}
+	});
 
-	window.addEventListener('keyup', (e) => handleKeyUp(e));	// handle keyup press on window
-	window.addEventListener('keydown', (e) => handleKeyDown(e)); //  handle keydown event on window
+	$(songSearchInput).on(event_keyup_search_songs, searchSongs);
+	$('[data-toggle=popover]').on('click', function() { $(this).popover('toggle'); })
+
+	window.addEventListener('keyup', (e) => handleKeyUp(e));	// attach keyup event on window
+	window.addEventListener('keydown', (e) => handleKeyDown(e)); //  attach keydown event on window
+  window.addEventListener("mousemove", detectMouseMove); // handle fadeout
+
+	const musicStateEvents = [
+		'play',
+		'pause',
+		'playing',
+		'seeking',
+		'seeked',
+	];
+	musicStateEvents.forEach(event => {
+		music.addEventListener(event, updateMusicStateButtons);
+	});
 });

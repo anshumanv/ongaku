@@ -25,6 +25,36 @@ openings = [
 	},
 
 	{
+		"link" : "http://67.159.62.2/anime_ost/bleach-op1-single-orange-range-asterisk/folyoxgrmj/01-asterisk-.mp3",
+		"name" : "Bleach OP1 - Asterisk",
+		"img" : "https://1.bp.blogspot.com/-pCRlFldxgMA/TrVTSkwb9xI/AAAAAAAAAZ4/vHnEfPFcaY4/s1600/chibi+bleach+character-bleach+wallpaper.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/bleach-op2-single-d-tecnolife-uverworld-/lunnibictb/01-d-tecnolife.mp3",
+		"name" : "Bleach OP2 - Tecnolife",
+		"img" : "http://www.news-anime.com/wp-content/uploads/2009/01/pic1_3039jpeg.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/bleach-op3-single-ichirin-no-hana/chhvdszdtp/01%20-%20Ichirin%20no%20Hana.mp3",
+		"name" : "Bleach OP3 - Ichirin no Hana",
+		"img" : "http://pm1.narvii.com/6241/6278d669931658527be32be68391fc8dd23bcea6_hq.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/bleach-tonight-tonight-tonight/hfdztydmtc/01.-tonight-tonight-tonight.mp3",
+		"name" : "Bleach OP4 - Tonight Tonight Tonight",
+		"img" : "https://www.walldevil.com/wallpapers/a38/bleach-orihime-inoue.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/bleach-op5-single-rolling-star/bdjbvdmaar/01%20-%20Rolling%20star.mp3",
+		"name" : "Bleach OP5 - Rolling Star",
+		"img" : "http://www.animacity.ru/sites/default/files/users/9086/photo/2014/141/Bleach-Kurosaci-Ichigo-1800x2880.jpg"
+	},	
+
+	{
 		"link" : "http://lyricmp3skull.org/s363640c/file/danganronpa-anime-op-tv-size/249496430.mp3",
 		"name" : "Danganronpa The Animation OP",
 		"img" : "https://i.ytimg.com/vi/guJYoQ5gQ7s/maxresdefault.jpg"
@@ -514,6 +544,36 @@ openings = [
 		"link" : "http://67.159.62.2/anime_ost/clannad-original-soundtrack-disc-3/muvenwocfa/09-meg-mell-cockool-mix-full-ver.-.mp3",
 		"name" : "Clannad OP1 - Meg Mell",
 		"img"  : "http://wallpapersdsc.net/wp-content/uploads/2017/04/Clannad-Computer-Backgrounds.png"
+	},
+
+	{
+		"link" : "https://s0.vocaroo.com/media/download_temp/Vocaroo_s0HM0lH5nwdX.mp3",
+		"name" : "Full Metal Panic OP - Tomorrow",
+		"img" : "http://www.wallpapers4u.org/wp-content/uploads/girl_full_metal_panic_nice_smile_gesture_24709_1920x1080.jpg"
+	},
+	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/g95vnwebcmb93nv/Re-Zero%20Kara%20Hajimeru%20Isekai%20Seikatsu%20Opening%20FULL.mp3?dl=0",
+		"name" : "Re:Zero OP1 - Kara Hajimeru Isekai Seikatsu",
+		"img" : "https://image.tmdb.org/t/p/original/n6YYb2jMN0UE1YNJcPSHnwX7vMq.jpg"
+	},
+	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/3l41690wfwq3vvo/real%20bleach%20opening%201%20orange%20range%20asterisk.m4a?dl=0",
+		"name" : "Bleach OST 1 - Asterisk - Orange Range",
+		"img" : "https://i.ytimg.com/vi/xWUKT8CY978/maxresdefault.jpg"
+	},
+	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/27m8fylvfa42gsa/Inazuma%20Eleven%20Opening%20Theme%20Song.m4a?dl=0 ",
+		"name" : "Inazuma Eleven OP - Opening Theme Song",
+		"img" : "https://images4.alphacoders.com/675/thumb-1920-675017.jpg"
+	},
+
+	{
+		"link" : "http://66.90.93.122/ost/one-punch-man-original-soundtrack/kghfumrsdk/01-the-hero-okoreru-kobushi-ni-hi-wo-tsukero-.mp3",
+		"name" : "One Punch Man OP - Hero",
+		"img" : "https://initiate.alphacoders.com/download/wallpaper/670899/images/jpg/1988977696"
 	}
 
 ]
@@ -657,13 +717,43 @@ endings = [
 		"link" : "http://67.159.62.2/anime_ost/code-geass-hangyaku-no-lelouch-ed2-single-mosaic-kakera/kwpddhndnz/01%20-%20Mosaic%20Kakera.mp3",
 		"name" : "Code Geass (Hangyaku no Lelouch) ED2 - Mosaic Kakera",
 		"img"  : "http://animewallpaperstock.com/wallpaper/02ka/code-geass/code-geass0151.jpg"
-	}
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/fullmetal-alchemist-brotherhood-ed-single-uso/lbexbhjzxa/01%20-%20Uso.mp3",
+		"name" : "Fullmetal-Alchemist-Brotherhood ED1 - Uso",
+		"img" : "http://trunkweed.com/uploads/posts/images/1305215-fullmetal-alchemist-and-the-broken-angel.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/fullmetal-alchemist-brotherhood-ed2-single-let-it-out/qnailtliwd/01%20-%20LET%20IT%20OUT.mp3",
+		"name" : "Fullmetal-Alchemist-Brotherhood ED2 - Let It Out",
+		"img" : "https://nefariousreviews.files.wordpress.com/2015/12/fullmetal-alchemist-brotherhood-al.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/fullmetal-alchemist-brotherhood-ed3-single-tsunaida-te/orsurintit/01%20-%20Tsunaida%20Te.mp3",
+		"name" : "Fullmetal-Alchemist-Brotherhood ED3 - Tsunaida Te",
+		"img" : "http://hd.tuzi123.com/11884/10/06/02/465_9008976_5e0b20fc1e490fe.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/fullmetal-alchemist-brotherhood-ed4-single-shunkan-sentimental/gupinmiinq/01%20-%20Shunkan%20Sentimental.mp3",
+		"name" : "Fullmetal-Alchemist-Brotherhood ED4 - Shunkan Sentimental",
+		"img" : "https://pbs.twimg.com/media/CoQ-kLVUEAAinZC.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/fullmetal-alchemist-brotherhood-ed5-single-ray-of-light/ltusbwxdbx/01%20-%20RAY%20OF%20LIGHT.mp3",
+		"name" : "Fullmetal-Alchemist-Brotherhood ED5 - Ray Of Light",
+		"img" : "http://animuverse.com/wp-content/uploads/2016/08/vlcsnap-2010-07-06-13h35m55s35.png"
+	}	
 
 ]
 
 
 osts = [
-	
+
 	{
 		"link" : "http://66.90.93.122/ost/death-note-original-soundtrack/fghgpcdtbm/04-l-s-theme.mp3",
 		"name" : "L's Theme A",
@@ -1262,5 +1352,107 @@ osts = [
 		"link" : "https://my.mixtape.moe/swjtom.mp3",
 		"name" : "Boku no Hero Academia S2 OST-2 Jet Set Run",
 		"img" : "https://images6.alphacoders.com/820/820024.png"
+	},
+
+	{
+		"link" : "https://s1.vocaroo.com/media/download_temp/Vocaroo_s1b0f75sq5EN.mp3",
+		"name" : "Kimi no na wa OST - Yumetourou Radwimps",
+		"img" : "https://i.imgur.com/GZ3Ojg2.jpg"
+	},
+
+	{
+		"link" : "https://s1.vocaroo.com/media/download_temp/Vocaroo_s1oMIbR1BFgl.mp3",
+		"name" : "Kimi no na wa OST - Zen zen zense Radwimps",
+		"img" : "https://i.imgur.com/QIyA637.png"
+	},
+	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/9sqnxnojdtrcjnm/Detective%20Conan%20Soundtrack%201.m4a?dl=0",
+		"name" : "Detective Conan OST - Theme Song",
+		"img" : "https://www.pixelstalk.net/wp-content/uploads/2016/10/Manga-Detective-Conan-Pictures.jpg"
+	},
+
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/lnqmo3gx7y9glr8/One%20Piece%20Epic%20Battle%20Theme.m4a?dl=0",
+		"name" : "One Piece OST - Epic Battle Theme",
+		"img" : "https://i.imgur.com/7hdijZP.jpg"
+	},
+	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/r8olgisqrm0j7p3/Death%20note.m4a?dl=0",
+		"name" : "Death Note OST - Death Note",
+		"img" : "https://i.ytimg.com/vi/fIeGTEQPAKE/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://66.90.93.122/ost/one-punch-man-original-soundtrack/grcvueppvk/02-theme-of-one-punch-man-seigi-shikkou-.mp3",
+		"name" : "One Punch Man OST - Seigi Shikkou",
+		"img" : "https://initiate.alphacoders.com/download/wallpaper/654247/images3/jpg/1422319762"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/zcukgvseyu/02%20-%20The%20World%20of%20Adventurers%20~%20Kanzenban.mp3",
+		"name" : "Hunter x Hunter 2011 OST - The World of Adventurers ~ Kanzenban",
+		"img" : "https://i.ytimg.com/vi/rVkpAyvDr5c/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/wpssdidbjc/03%20-%20Ginpatsu%20no%20Shounen.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Ginpatsu no Shounen",
+		"img" : "http://jonvilma.com/images/hunter-x-hunter-3.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/qpufobsqgc/04%20-%20Hiiro%20no%20Hitomi%20no%20Aika.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Hiiro no Hitomi no Aika",
+		"img" : "http://i.imgur.com/8sMDDzX.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/ejqifsulqf/05%20-%20All%20I%20Need%20Is%20MONEY%21.mp3",
+		"name" : "Hunter x Hunter 2011 OST - All I Need Is MONEY!",
+		"img" : "https://i.ytimg.com/vi/8eepXE410Yw/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/hedzslksgi/07%20-%20Shounen%20no%20Asa%20no%20Uta.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Shounen no Asa no Uta",
+		"img" : "https://s1.postimg.org/67hqgn6skv/image.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/ocktubxvve/08%20-%20Koukai.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Koukai",
+		"img" : "https://i.ytimg.com/vi/azIk3Fzpdmk/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/flzwjyyndy/11%20-%20Kijutsu%20Shi%20no%20Baire.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Kijutsu Shi no Baire",
+		"img" : "https://s1.postimg.org/1zs1z5nka7/image.png"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/fxmrxectut/12%20-%20Mosa%20Domo%20no%20Heigei.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Mosa Domo no Heigei",
+		"img" : "https://archive-media-0.nyafuu.org/w/image/1421/12/1421121591707.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/iglwchvujp/13%20-%20Ikkiuchi%21.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Ikkiuchi!",
+		"img" : "https://s1.postimg.org/5uck585l27/Anime_X_708009.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/mwboiphbip/14%20-%20Boys%2C%20Be%20Courageous%21.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Boys, Be Courageous!",
+		"img" : "https://lh6.googleusercontent.com/-kmu9npdWH70/VBhmwe-stGI/AAAAAAAAaCA/8E_b_2hZaw8/w1280-h720/screenshot-0006.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/fwrwchlsmm/32%20-%20Ginpatsu%20no%20Lullaby.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Ginpatsu no Lullaby",
+		"img" : "https://s1.postimg.org/27ksmxffwv/image.png"
 	}
 ]

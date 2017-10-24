@@ -22,20 +22,57 @@
 	</head>
 	
 	<body>
-	
+
 		<audio id = "music"></audio>
 
-		<div id="track-list" class="track-list">
-			<div class="close-track-list">
-				<button>X</button>
+		<div id="modal-wrapper">
+			<div id="track-list" class="track-list">
+				<div class="close-track-list">
+					<button>
+						<i class="fa fa-close fa-1x" title="Close"></i>
+					</button>
+				</div>
+				<input type="text" name="song_search" id="song_search" class="song-search"/>
+				<ul></ul>
 			</div>
-			<ul></ul>
+			<div class="modal-preference">
+				<div id="popover-title">
+					Preferences
+				</div>
+				<div id="popover-body">
+					<div class="opening">
+						<div>Opening</div>
+						<div class="toggle-btn active">
+							<input type="checkbox"  checked class="cb-value cb-op" />
+							<span class="round-btn"></span>
+						</div>
+					</div>
+					<div class="ending">
+						<div>Ending</div>
+						<div class="toggle-btn active">
+							<input type="checkbox"  checked class="cb-value cb-ed" />
+							<span class="round-btn"></span>
+						</div>
+
+					</div>
+					<div class="ost">
+						<div>OST</div>
+						<div class="toggle-btn active">
+							<input type="checkbox"  checked class="cb-value cb-ost" />
+							<span class="round-btn"></span>
+						</div>
+					</div>
+					<!-- Place this tag where you want the button to render. -->
+					<a class="github-button" href="https://github.com/anshumanv/ongaku" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Anshuman-Verma/ongaku on GitHub">Star</a>
+					<!-- Place this tag where you want the button to render. -->
+					<a class="github-button" href="https://github.com/anshumanv/ongaku/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork Anshuman-Verma/ongaku on GitHub">Fork</a>
+				</div>
+			</div>
 		</div>
 
 		<div class="top-bar">
 			<i class="fa fa-bars fa-2x track-list-img" data-toggle="tooltip" data-placement="bottom" title="Playlist"></i>
 			<i class="fa fa-info-circle fa-2x infoImg"></i>
-
 			<div id="top-left" class="top-left" style="border-radius: 10px; display: none">
 				<table class="table table-hover" style="margin-bottom: 0px">
 					<thead style="background-color: black;color: white">
@@ -86,46 +123,35 @@
 			</div>
 
 			<div class="top-right">
-				<a  data-placement="left" data-container="body" data-placement="left" type="button" data-html="true" data-toggle="popover" data-trigger="click">
+				<a  data-placement="left" data-container="body" data-placement="left" type="button" data-html="true" data-toggle="popover" data-trigger="manual">
 					<i class="fa fa-cog fa-2x" data-toggle="tooltip" data-placement="bottom" title="Preferences"></i>
 				</a>
-
-				<div id="popover-title">
-					Preferences
-				</div>
-				<div id="popover-body">
-					<div class="opening">
-						<div>Opening</div>
-						<div class="toggle-btn active">
-							<input type="checkbox"  checked class="cb-value cb-op" />
-							<span class="round-btn"></span>
-						</div>
-					</div>
-					<div class="ending">
-						<div>Ending</div>
-						<div class="toggle-btn active">
-							<input type="checkbox"  checked class="cb-value cb-ed" />
-							<span class="round-btn"></span>
-						</div>
-
-					</div>
-					<div class="ost">
-						<div>OST</div>
-						<div class="toggle-btn active">
-							<input type="checkbox"  checked class="cb-value cb-ost" />
-							<span class="round-btn"></span>
-						</div>
-					</div>
-					<!-- Place this tag where you want the button to render. -->
-					<a class="github-button" href="https://github.com/anshumanv/ongaku" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Anshuman-Verma/ongaku on GitHub">Star</a>
-					<!-- Place this tag where you want the button to render. -->
-					<a class="github-button" href="https://github.com/anshumanv/ongaku/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork Anshuman-Verma/ongaku on GitHub">Fork</a>
-				</div>
 			</div>
 		</div>
 
+		<!--<button id="pButton" class="play" data-toggle="tooltip" data-placement="top" title="Toggle Play"></button>-->
+		<button id="pButton" class="play" title="Toggle Play">
+			<i class="fa fa-play fa-4x" id="play" title="Play"></i>
+			<i class="fa fa-pause fa-4x" id="pause" title="Pause"></i>
+			<i class="fa fa-spinner fa-pulse fa-4x loader" id="loader" title="Loading"></i>
+		</button>
+
+		<div id="wrapper">
+			<div id="player">
+				<div id="timeline">
+					<div id="buffered-bar">
+						<div id="playedBar"></div>
+						<div id="playhead"></div>
+					</div>
+				</div>
+				<div id="playTime"></div>
+			</div>
+		</div>
+
+
+
 		<div class="display-track">
-			<div id="track-name"></div>		
+			<div id="track-name"></div>
 		</div>
 
 		<div class="bottom-bar">
@@ -136,30 +162,15 @@
 				</div>
 				<div id="next" title="Play Next">
 					<i class="fa fa-forward fa-2x" data-toggle="tooltip" data-placement="top" title="Play Next"></i>
-
 				</div>
 			</div>
 
-		
-			<div id="wrapper">
-				<div id="player">
-					<div id="playTime"></div>
-					<button id="pButton" class="play" data-toggle="tooltip" data-placement="top" title="Toggle Play"></button>
-					<div id="timeline">
-						<div id="buffered-bar">
-							<div id="playhead"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		
 			<div class="botton-right">
 				<div id="restart" title="Play Again">
 					<i class="fa fa-refresh fa-2x" data-toggle="tooltip" data-placement="top" title="Play Again"></i>
 				</div>
 				<div id="fullscreen-button" title="Toggle Fullscreen">
 					<i class="fa fa-arrows-alt fa-2x" data-toggle="tooltip" data-placement="top" title="Toggle Fullscreen"></i>
-
 				</div>
 			</div>
 
