@@ -747,6 +747,12 @@ endings = [
 		"link" : "http://67.159.62.2/anime_ost/fullmetal-alchemist-brotherhood-ed5-single-ray-of-light/ltusbwxdbx/01%20-%20RAY%20OF%20LIGHT.mp3",
 		"name" : "Fullmetal-Alchemist-Brotherhood ED5 - Ray Of Light",
 		"img" : "http://animuverse.com/wp-content/uploads/2016/08/vlcsnap-2010-07-06-13h35m55s35.png"
+	},
+
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/pz214766ugomysq/Sayuri%20-%20Sore%20wa%20Chiisana%20Hikari%20no%20Youna%20%20Boku%20Dake%20Ga%20Inai%20Machi%20%28ERASED%29%20FULL%20ENDING.mp3?dl=0",
+		"name" : "Boku Dake Ga Inai Machi (Erased) ED - Sore wa Chiisana Hikari no Youna",
+		"img" : "https://images8.alphacoders.com/697/thumb-1920-697276.png"
 	}	
 
 ]
@@ -1454,6 +1460,12 @@ osts = [
 		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/fwrwchlsmm/32%20-%20Ginpatsu%20no%20Lullaby.mp3",
 		"name" : "Hunter x Hunter 2011 OST - Ginpatsu no Lullaby",
 		"img" : "https://s1.postimg.org/27ksmxffwv/image.png"
+	},
+
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/oc3aems3hpc4uy3/Parasyte%20the%20Maxim%20OST%20-%20Next%20to%20You.mp3?dl=0",
+		"name" : "Parasyte the Maxim OST - Next to You",
+		"img" : "https://i.ytimg.com/vi/MHQn3l4mS3M/maxresdefault.jpg"
 	}
-	
+
 ]
