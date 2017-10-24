@@ -1,6 +1,3 @@
-window.addEventListener("load", function () {
-
-
 	// Grabbing elements from the page
 	const music = document.querySelector('#music');
 	const player = document.querySelector('#player');
@@ -445,4 +442,3 @@ window.addEventListener("load", function () {
 	musicStateEvents.forEach(event => {
 		music.addEventListener(event, updateMusicStateButtons);
 	});
-});
