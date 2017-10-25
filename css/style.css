@@ -267,6 +267,11 @@ th {
 	transition: transform .5s ease;
 }
 
+.sticky-bar {
+	top: 0px;
+	position: sticky;
+}
+
 .track-list::-webkit-scrollbar {
 	background-color: transparent;
 	width: 10px;
