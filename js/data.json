@@ -1466,6 +1466,30 @@ osts = [
 		"link" : "https://www.dl.dropboxusercontent.com/s/oc3aems3hpc4uy3/Parasyte%20the%20Maxim%20OST%20-%20Next%20to%20You.mp3?dl=0",
 		"name" : "Parasyte the Maxim OST - Next to You",
 		"img" : "https://i.ytimg.com/vi/MHQn3l4mS3M/maxresdefault.jpg"
+	},
+	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/mrw567lse6cl3r9/1-01%20Made%20in%20Abyss.m4a.m4a?dl=0",
+		"name" : "Made in Abyss OST - Made in Abyss",
+		"img" : "https://blog.sakugabooru.com/wp-content/uploads/2017/07/abysshosoi1.jpg"
+	},
+
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/tw55qtqptktday6/1-23%20Hanezeve%20Caradhina%20%28ft.Takeshi%20Saito%29.m4a.m4a?dl=0",
+		"name" : "Made in Abyss OST - Hanezeve Caradhina",
+		"img" : "https://images7.alphacoders.com/860/860635.jpg"
+	},
+
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/7j9yq19rul50d8w/2-04%20Orth%20Waltz.m4a.m4a?dl=0",
+		"name" : "Made in Abyss OST - Orth Waltz",
+		"img" : "http://randomc.net/image/Made%20in%20Abyss/Made%20in%20Abyss%20-%2010%20-%20Large%2015.jpg"
+	},
+
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/3fzaaeoz4fazlny/2-17%20Reg%27s%20Power.m4a.m4a?dl=0",
+		"name" : "Made in Abyss OST - Reg's Power",
+		"img" : "https://manga.tokyo/wp-content/uploads/2017/08/ABYSS05_0040.jpg"
 	}
 
 ]
