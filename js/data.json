@@ -574,6 +574,30 @@ openings = [
 		"link" : "http://66.90.93.122/ost/one-punch-man-original-soundtrack/kghfumrsdk/01-the-hero-okoreru-kobushi-ni-hi-wo-tsukero-.mp3",
 		"name" : "One Punch Man OP - Hero",
 		"img" : "https://initiate.alphacoders.com/download/wallpaper/670899/images/jpg/1988977696"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/sword-art-online-ii-op-single-ignite/zxifjhyesp/01%20-%20IGNITE.mp3",
+		"name" : "Sword Art Online II OP Single - IGNITE",
+		"img" : "http://i2.wp.com/otabibo.com/wp-content/uploads/2016/09/f81d30822dce760c948c10f649296f6d.jpg?fit=1920%2C1080"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/sword-art-online-ii-op2-single-courage/faktzemrkz/01%20-%20courage.mp3",
+		"name" : "Sword Art Online II OP2 Single - courage",
+		"img" : "http://www.gamesvillage.it/wp-content/uploads/2016/08/Realization-01.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/sword-art-online-op-single-crossing-field/smkuzghlnl/01%20-%20crossing%20field.mp3",
+		"name" : "Sword Art Online OP Single - crossing field",
+		"img" : "https://i.ytimg.com/vi/J08aKXztgCs/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/sword-art-online-op2-single-innocence/hpzyswvouy/01%20-%20INNOCENCE.mp3",
+		"name" : "Sword Art Online OP2 Single - INNOCENCE",
+		"img" : "https://i.ytimg.com/vi/1KJ_zIA6cvE/maxresdefault.jpg"
 	}
 
 ]
@@ -753,7 +777,31 @@ endings = [
 		"link" : "https://www.dl.dropboxusercontent.com/s/pz214766ugomysq/Sayuri%20-%20Sore%20wa%20Chiisana%20Hikari%20no%20Youna%20%20Boku%20Dake%20Ga%20Inai%20Machi%20%28ERASED%29%20FULL%20ENDING.mp3?dl=0",
 		"name" : "Boku Dake Ga Inai Machi (Erased) ED - Sore wa Chiisana Hikari no Youna",
 		"img" : "https://images8.alphacoders.com/697/thumb-1920-697276.png"
-	}	
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/sword-art-online-ed-single-yume-sekai/mgksxgdvtu/01%20-%20Yume%20Sekai.mp3",
+		"name" : "Sword Art Online ED Single - Yume Sekai",
+		"img" : "http://pic.139zhuti.com/?img_url=http://pic.jj20.com/up/allimg/512/0P312132330/120P3132330-8.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/sword-art-online-ed2-single-overfly/zoycixihyv/01%20-%20Overfly.mp3",
+		"name" : "Sword Art Online ED2 Single - Overfly",
+		"img" : "https://images4.alphacoders.com/797/797483.png"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/sword-art-online-ii-ed-single-startear/jkzurggqtj/01%20-%20Startear.mp3",
+		"name" : "Sword Art Online II ED Single - Startear",
+		"img" : "http://pbs.twimg.com/media/CmhLL-EUIAAkP6d.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/sword-art-online-ii-ed2-ed3-single-shirushi/gybtjsvnva/01%20-%20Shirushi.mp3",
+		"name" : "Sword Art Online II ED2 Single - Shirushi",
+		"img" : "https://i.ytimg.com/vi/AsrjmNIoGNw/maxresdefault.jpg"
+	}
 
 ]
 
