@@ -371,7 +371,8 @@
 	}
 
 	function isMusicLoading () {
-		return music.readyState !== music.HAVE_ENOUGH_DATA;
+		return music.readyState !== music.HAVE_FUTURE_DATA
+			&& music.readyState !== music.HAVE_ENOUGH_DATA;
 	}
 
 	// Handles showing play/pause/loading based on current state of music
