@@ -13,9 +13,13 @@
 
 
 ## Features
+* Wide range of anime music.
 * Displays a background relevant to the playing content.
 * Seekable custom audio player.
 * Powerful keycode functionality.
+* Display the ongoing playlist and select specific track from it.
+* Search bar to search for your favourite track(s).
+* Set preferences to what you like (Openings, Endings, OSTs).
 
 | Key | Function |  
 |:--------------|:----------------:|
