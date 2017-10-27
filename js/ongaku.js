@@ -107,7 +107,7 @@
 	function openTrackList() {
 		$('#modal-wrapper').show(5, 'linear', function(){
 			$('.track-list').addClass('open-track-list');
-			$('#next, #previous').hide('fast');
+			$('#next, #previous, .track-list-img').hide('fast');
 		});
 	}
 
@@ -115,7 +115,7 @@
 	function closeTrackList() {
 		$('.track-list').removeClass('open-track-list');
 		setTimeout(function() {$('#modal-wrapper').hide(5, 'linear')}, 400);
-		$('#next, #previous').show('fast');
+		$('#next, #previous, .track-list-img').show('fast');
 	}
 
 	// A function to handle key press on window
