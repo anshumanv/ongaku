@@ -568,6 +568,36 @@ openings = [
 		"link" : "https://www.dl.dropboxusercontent.com/s/27m8fylvfa42gsa/Inazuma%20Eleven%20Opening%20Theme%20Song.m4a?dl=0 ",
 		"name" : "Inazuma Eleven OP - Opening Theme Song",
 		"img" : "https://images4.alphacoders.com/675/thumb-1920-675017.jpg"
+	},
+
+	{
+		"link" : "http://66.90.93.122/ost/one-punch-man-original-soundtrack/kghfumrsdk/01-the-hero-okoreru-kobushi-ni-hi-wo-tsukero-.mp3",
+		"name" : "One Punch Man OP - Hero",
+		"img" : "https://initiate.alphacoders.com/download/wallpaper/670899/images/jpg/1988977696"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/sword-art-online-ii-op-single-ignite/zxifjhyesp/01%20-%20IGNITE.mp3",
+		"name" : "Sword Art Online II OP Single - IGNITE",
+		"img" : "http://i2.wp.com/otabibo.com/wp-content/uploads/2016/09/f81d30822dce760c948c10f649296f6d.jpg?fit=1920%2C1080"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/sword-art-online-ii-op2-single-courage/faktzemrkz/01%20-%20courage.mp3",
+		"name" : "Sword Art Online II OP2 Single - courage",
+		"img" : "http://www.gamesvillage.it/wp-content/uploads/2016/08/Realization-01.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/sword-art-online-op-single-crossing-field/smkuzghlnl/01%20-%20crossing%20field.mp3",
+		"name" : "Sword Art Online OP Single - crossing field",
+		"img" : "https://i.ytimg.com/vi/J08aKXztgCs/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/sword-art-online-op2-single-innocence/hpzyswvouy/01%20-%20INNOCENCE.mp3",
+		"name" : "Sword Art Online OP2 Single - INNOCENCE",
+		"img" : "https://i.ytimg.com/vi/1KJ_zIA6cvE/maxresdefault.jpg"
 	}
 
 ]
@@ -741,13 +771,43 @@ endings = [
 		"link" : "http://67.159.62.2/anime_ost/fullmetal-alchemist-brotherhood-ed5-single-ray-of-light/ltusbwxdbx/01%20-%20RAY%20OF%20LIGHT.mp3",
 		"name" : "Fullmetal-Alchemist-Brotherhood ED5 - Ray Of Light",
 		"img" : "http://animuverse.com/wp-content/uploads/2016/08/vlcsnap-2010-07-06-13h35m55s35.png"
-	}	
+	},
+
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/pz214766ugomysq/Sayuri%20-%20Sore%20wa%20Chiisana%20Hikari%20no%20Youna%20%20Boku%20Dake%20Ga%20Inai%20Machi%20%28ERASED%29%20FULL%20ENDING.mp3?dl=0",
+		"name" : "Boku Dake Ga Inai Machi (Erased) ED - Sore wa Chiisana Hikari no Youna",
+		"img" : "https://images8.alphacoders.com/697/thumb-1920-697276.png"
+	},
+	
+	{
+		"link" : "http://67.159.62.2/anime_ost/sword-art-online-ed-single-yume-sekai/mgksxgdvtu/01%20-%20Yume%20Sekai.mp3",
+		"name" : "Sword Art Online ED Single - Yume Sekai",
+		"img" : "http://pic.139zhuti.com/?img_url=http://pic.jj20.com/up/allimg/512/0P312132330/120P3132330-8.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/sword-art-online-ed2-single-overfly/zoycixihyv/01%20-%20Overfly.mp3",
+		"name" : "Sword Art Online ED2 Single - Overfly",
+		"img" : "https://images4.alphacoders.com/797/797483.png"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/sword-art-online-ii-ed-single-startear/jkzurggqtj/01%20-%20Startear.mp3",
+		"name" : "Sword Art Online II ED Single - Startear",
+		"img" : "http://pbs.twimg.com/media/CmhLL-EUIAAkP6d.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/sword-art-online-ii-ed2-ed3-single-shirushi/gybtjsvnva/01%20-%20Shirushi.mp3",
+		"name" : "Sword Art Online II ED2 Single - Shirushi",
+		"img" : "https://i.ytimg.com/vi/AsrjmNIoGNw/maxresdefault.jpg"
+	}
 
 ]
 
 
 osts = [
-	
+
 	{
 		"link" : "http://66.90.93.122/ost/death-note-original-soundtrack/fghgpcdtbm/04-l-s-theme.mp3",
 		"name" : "L's Theme A",
@@ -1376,6 +1436,108 @@ osts = [
 		"link" : "https://www.dl.dropboxusercontent.com/s/r8olgisqrm0j7p3/Death%20note.m4a?dl=0",
 		"name" : "Death Note OST - Death Note",
 		"img" : "https://i.ytimg.com/vi/fIeGTEQPAKE/maxresdefault.jpg"
-	}	
+	},
+
+	{
+		"link" : "http://66.90.93.122/ost/one-punch-man-original-soundtrack/grcvueppvk/02-theme-of-one-punch-man-seigi-shikkou-.mp3",
+		"name" : "One Punch Man OST - Seigi Shikkou",
+		"img" : "https://initiate.alphacoders.com/download/wallpaper/654247/images3/jpg/1422319762"
+	},
 	
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/zcukgvseyu/02%20-%20The%20World%20of%20Adventurers%20~%20Kanzenban.mp3",
+		"name" : "Hunter x Hunter 2011 OST - The World of Adventurers ~ Kanzenban",
+		"img" : "https://i.ytimg.com/vi/rVkpAyvDr5c/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/wpssdidbjc/03%20-%20Ginpatsu%20no%20Shounen.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Ginpatsu no Shounen",
+		"img" : "http://jonvilma.com/images/hunter-x-hunter-3.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/qpufobsqgc/04%20-%20Hiiro%20no%20Hitomi%20no%20Aika.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Hiiro no Hitomi no Aika",
+		"img" : "http://i.imgur.com/8sMDDzX.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/ejqifsulqf/05%20-%20All%20I%20Need%20Is%20MONEY%21.mp3",
+		"name" : "Hunter x Hunter 2011 OST - All I Need Is MONEY!",
+		"img" : "https://i.ytimg.com/vi/8eepXE410Yw/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/hedzslksgi/07%20-%20Shounen%20no%20Asa%20no%20Uta.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Shounen no Asa no Uta",
+		"img" : "https://s1.postimg.org/67hqgn6skv/image.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/ocktubxvve/08%20-%20Koukai.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Koukai",
+		"img" : "https://i.ytimg.com/vi/azIk3Fzpdmk/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/flzwjyyndy/11%20-%20Kijutsu%20Shi%20no%20Baire.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Kijutsu Shi no Baire",
+		"img" : "https://s1.postimg.org/1zs1z5nka7/image.png"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/fxmrxectut/12%20-%20Mosa%20Domo%20no%20Heigei.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Mosa Domo no Heigei",
+		"img" : "https://archive-media-0.nyafuu.org/w/image/1421/12/1421121591707.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/iglwchvujp/13%20-%20Ikkiuchi%21.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Ikkiuchi!",
+		"img" : "https://s1.postimg.org/5uck585l27/Anime_X_708009.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/mwboiphbip/14%20-%20Boys%2C%20Be%20Courageous%21.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Boys, Be Courageous!",
+		"img" : "https://lh6.googleusercontent.com/-kmu9npdWH70/VBhmwe-stGI/AAAAAAAAaCA/8E_b_2hZaw8/w1280-h720/screenshot-0006.jpg"
+	},
+
+	{
+		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/fwrwchlsmm/32%20-%20Ginpatsu%20no%20Lullaby.mp3",
+		"name" : "Hunter x Hunter 2011 OST - Ginpatsu no Lullaby",
+		"img" : "https://s1.postimg.org/27ksmxffwv/image.png"
+	},
+
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/oc3aems3hpc4uy3/Parasyte%20the%20Maxim%20OST%20-%20Next%20to%20You.mp3?dl=0",
+		"name" : "Parasyte the Maxim OST - Next to You",
+		"img" : "https://i.ytimg.com/vi/MHQn3l4mS3M/maxresdefault.jpg"
+	},
+	
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/mrw567lse6cl3r9/1-01%20Made%20in%20Abyss.m4a.m4a?dl=0",
+		"name" : "Made in Abyss OST - Made in Abyss",
+		"img" : "https://blog.sakugabooru.com/wp-content/uploads/2017/07/abysshosoi1.jpg"
+	},
+
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/tw55qtqptktday6/1-23%20Hanezeve%20Caradhina%20%28ft.Takeshi%20Saito%29.m4a.m4a?dl=0",
+		"name" : "Made in Abyss OST - Hanezeve Caradhina",
+		"img" : "https://images7.alphacoders.com/860/860635.jpg"
+	},
+
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/7j9yq19rul50d8w/2-04%20Orth%20Waltz.m4a.m4a?dl=0",
+		"name" : "Made in Abyss OST - Orth Waltz",
+		"img" : "http://randomc.net/image/Made%20in%20Abyss/Made%20in%20Abyss%20-%2010%20-%20Large%2015.jpg"
+	},
+
+	{
+		"link" : "https://www.dl.dropboxusercontent.com/s/3fzaaeoz4fazlny/2-17%20Reg%27s%20Power.m4a.m4a?dl=0",
+		"name" : "Made in Abyss OST - Reg's Power",
+		"img" : "https://manga.tokyo/wp-content/uploads/2017/08/ABYSS05_0040.jpg"
+	}
+
 ]
