@@ -18,7 +18,7 @@
 	const closeTrackListButton = document.querySelector('.close-track-list');
 	const modalWrapper = document.querySelector('#modal-wrapper');
 	var mouseIdle, mousePos = {x:0, y:0};
-	
+
 	const songSearchInput = document.querySelector('#song_search');
 
 	//event namespace
@@ -107,6 +107,7 @@
 	function openTrackList() {
 		$('#modal-wrapper').show(5, 'linear', function(){
 			$('.track-list').addClass('open-track-list');
+			$('#next, #previous').hide('fast');
 		});
 	}
 
@@ -114,25 +115,26 @@
 	function closeTrackList() {
 		$('.track-list').removeClass('open-track-list');
 		setTimeout(function() {$('#modal-wrapper').hide(5, 'linear')}, 400);
+		$('#next, #previous').show('fast');
 	}
 
 	// A function to handle key press on window
 	function handleKeyUp(e) {
-		if(e.keyCode === 32) {	// p 
+		if(e.keyCode === 32) {	// p
 			togglePlay();
-		} 
+		}
 		else if(e.keyCode === 78) {	// n
 			nextTrack();
-		} 
+		}
 		else if(e.keyCode === 82) {	// r
 			playAgain();
-		} 
+		}
 		else if(e.keyCode === 70) {	// f
 			toggleFullscreen();
-		} 
+		}
 		else if(e.keyCode === 76) {	// l
 			previousTrack();
-		} 
+		}
 		else {
 			return;
 		}
@@ -243,7 +245,7 @@
 		} else {
 			$(mainParent).removeClass('active');
 		}
-	});	
+	});
 
 	// Function to handle preference checkboxes
 	$('body').on('change', '.cb-value', function() {
@@ -259,13 +261,13 @@
 		}
 		order = shuffle(order);
 		init_track_list(order);
-	});	
+	});
 
 	// Functions to handle fullscreen
 	function isFullscreen() {
 		return Boolean(document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement);
 	}
-	
+
 	function toggleFullscreen() {
 		if (isFullscreen()) {
 			if (document.exitFullscreen) document.exitFullscreen();
@@ -294,7 +296,7 @@
 		for(let i = 0; i < order.length; i++) {
 			track_list += '<li>'+order[i].name+'</li>';
 		}
-		
+
 		document.querySelector('#track-list ul').innerHTML = track_list;
 		$('#track-list ul li').on('click', select_track);
 	}
@@ -312,7 +314,7 @@
 				return track;
 			}
 		});
-		
+
 		//moving tracks above selected track to the bottom of the track list
 		let removed_tracks = order.slice(0, selected_index);
 		order.splice(0, removed_tracks.length);
@@ -332,19 +334,19 @@
 		//updating the background image to the new tracks image
 		document.body.style.backgroundImage = "url('" + found_title[0].img + "')";
 	}
-	
+
 	function detectMouseMove(event) {
 
 		// If the mouse move
 		if(event.clientX != mousePos.x || event.clientY != mousePos.y) {
 			clearTimeout(mouseIdle);
-			
+
 			$('.top-bar, #pButton, .bottom-bar').fadeIn();
-			
+
 			mouseIdle = setTimeout(function () {
 				$('.top-bar, #pButton, .bottom-bar').fadeOut();
 			}, 3000);
-			
+
 			mousePos = { x:event.clientX, y:event.clientY };
 		}
 	}
