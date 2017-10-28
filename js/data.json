@@ -598,6 +598,12 @@ openings = [
 		"link" : "http://67.159.62.2/anime_ost/sword-art-online-op2-single-innocence/hpzyswvouy/01%20-%20INNOCENCE.mp3",
 		"name" : "Sword Art Online OP2 Single - INNOCENCE",
 		"img" : "https://i.ytimg.com/vi/1KJ_zIA6cvE/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://66.90.93.122/ost/one-piece-best-songs-collection/nwzgfutsno/101-we-are-.mp3",
+		"name" : "One Piece OP1 - We Are!",
+		"img" : "https://img00.deviantart.net/a893/i/2013/213/b/9/one_piece___we_are__by_sergiart-d6g6a0a.png"
 	}
 
 ]
@@ -801,6 +807,12 @@ endings = [
 		"link" : "http://67.159.62.2/anime_ost/sword-art-online-ii-ed2-ed3-single-shirushi/gybtjsvnva/01%20-%20Shirushi.mp3",
 		"name" : "Sword Art Online II ED2 Single - Shirushi",
 		"img" : "https://i.ytimg.com/vi/AsrjmNIoGNw/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "http://66.90.93.122/ost/one-piece-best-songs-collection/ghdwjhlbth/102-memories.mp3",
+		"name" : "One Piece ED1 - Memories",
+		"img" : "https://i.ytimg.com/vi/4fZvK_I-qEE/maxresdefault.jpg"
 	}
 
 ]
