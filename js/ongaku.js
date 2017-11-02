@@ -248,6 +248,16 @@
 		}
 	});
 
+	//filters list to only display favorites if checked
+	function filteredByFavorites(songList, isChecked) {
+		if ( isChecked ) {
+			return songList.filter( function(song) {
+				return localStorage.getItem(song.name)
+			});
+		}
+		return songList
+	}
+
 	// Function to handle preference checkboxes
 	$('body').on('change', '.cb-value', function() {
 		order = [];
@@ -260,6 +270,8 @@
 		if($('.cb-ost')[1].checked) {
 			order.push(...osts);
 		}
+		
+		order = filteredByFavorites(order, $('.cb-fav')[1].checked)
 		order = shuffle(order);
 		init_track_list(order);
 	});
@@ -284,9 +296,14 @@
 		}
 	}
 
+	//function to check if song is a favorite
+	function isFavorite() { 
+		return localStorage.getItem([order[0].name])
+	}
+
 	//function to handle favorites in local storage
 	function toggleFavorites() {
-		if( localStorage.getItem([order[0].name]) ) {
+		if( isFavorite() ) {
 			localStorage.removeItem(order[0].name)
 			displayStar()
 		} else {
@@ -297,10 +314,9 @@
 
 	//displays a filled in star if in favorite list
 	function displayStar() {
-		console.log(localStorage)
 		var element = document.getElementById("starImg");
 		
-		if( localStorage.getItem([order[0].name]) ) {
+		if( isFavorite() ) {
 			element.classList.remove("fa-star-o");			
 			element.classList.add("fa-star");
 		} else {
