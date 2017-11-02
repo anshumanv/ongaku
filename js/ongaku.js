@@ -13,6 +13,7 @@
 	const bufferedBar = document.querySelector('#buffered-bar');
 	const fullscreenButton = document.querySelector('#fullscreen-button');
 	const infoButton = document.querySelector('.infoImg');
+	const favoriteButton = document.querySelector('#starImg');
 	const infoBlock = document.querySelector('.top-left');
 	const openTrackListButton = document.querySelector('.track-list-img');
 	const closeTrackListButton = document.querySelector('.close-track-list');
@@ -283,11 +284,38 @@
 		}
 	}
 
+	//function to handle favorites in local storage
+	function toggleFavorites() {
+		if( localStorage.getItem([order[0].name]) ) {
+			localStorage.removeItem(order[0].name)
+			displayStar()
+		} else {
+			localStorage.setItem(order[0].name, true)
+			displayStar()
+		}
+	}
+
+	//displays a filled in star if in favorite list
+	function displayStar() {
+		console.log(localStorage)
+		var element = document.getElementById("starImg");
+		
+		if( localStorage.getItem([order[0].name]) ) {
+			element.classList.remove("fa-star-o");			
+			element.classList.add("fa-star");
+		} else {
+			element.classList.remove("fa-star");			
+			element.classList.add("fa-star-o");
+		}
+	}
+
+
 	// function to play tracks
 	function play (order) {
 		music.src = order[0].link;
 		music.play();
 		displayTrackName();
+		displayStar();
 		document.body.style.backgroundImage = "url('" + order[0].img + "')";
 	}
 
@@ -326,6 +354,9 @@
 		//updating the player to play the selected track
 		music.src = found_title[0].link;
 		music.play();
+
+		//displays status of favorite
+		displayStar();
 
 		//displaying the title of the song playing
 		trackName.textContent = found_title[0].name;
@@ -411,6 +442,8 @@
 	reButton.addEventListener('click', playAgain);	// handling clicks on restart button
 
 	fullscreenButton.addEventListener('click', toggleFullscreen);
+
+	favoriteButton.addEventListener('click', toggleFavorites);
 
 	infoButton.addEventListener('mouseenter', handlingInfoHover);
 	infoBlock.addEventListener('mouseleave', handlingInfoHover);
