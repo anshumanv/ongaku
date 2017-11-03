@@ -252,10 +252,10 @@
 	function filteredByFavorites(songList, isChecked) {
 		if ( isChecked ) {
 			return songList.filter( function(song) {
-				return localStorage.getItem(song.name)
+				return localStorage.getItem(song.name);
 			});
 		}
-		return songList
+		return songList;
 	}
 
 	// Function to handle preference checkboxes
@@ -298,30 +298,28 @@
 
 	//function to check if song is a favorite
 	function isFavorite() { 
-		return localStorage.getItem([order[0].name])
+		return localStorage.getItem([order[0].name]);
 	}
 
 	//function to handle favorites in local storage
 	function toggleFavorites() {
 		if( isFavorite() ) {
-			localStorage.removeItem(order[0].name)
-			displayStar()
+			localStorage.removeItem(order[0].name);
+			displayStar();
 		} else {
-			localStorage.setItem(order[0].name, true)
-			displayStar()
+			localStorage.setItem(order[0].name, true);
+			displayStar();
 		}
 	}
 
-	//displays a filled in star if in favorite list
-	function displayStar() {
-		var element = document.getElementById("starImg");
-		
+	// determines which star icon to display
+	function displayStar() {		
 		if( isFavorite() ) {
-			element.classList.remove("fa-star-o");			
-			element.classList.add("fa-star");
+			favoriteButton.classList.remove("fa-star-o");			
+			favoriteButton.classList.add("fa-star");
 		} else {
-			element.classList.remove("fa-star");			
-			element.classList.add("fa-star-o");
+			favoriteButton.classList.remove("fa-star");			
+			favoriteButton.classList.add("fa-star-o");
 		}
 	}
 
