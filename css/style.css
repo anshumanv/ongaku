@@ -139,7 +139,7 @@ th {
 	flex: 1;
 }
 
-.opening, .ending, .ost {
+.opening, .ending, .ost, .fav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;

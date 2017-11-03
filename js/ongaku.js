@@ -13,6 +13,7 @@
 	const bufferedBar = document.querySelector('#buffered-bar');
 	const fullscreenButton = document.querySelector('#fullscreen-button');
 	const infoButton = document.querySelector('.infoImg');
+	const favoriteButton = document.querySelector('#starImg');
 	const infoBlock = document.querySelector('.top-left');
 	const openTrackListButton = document.querySelector('.track-list-img');
 	const closeTrackListButton = document.querySelector('.close-track-list');
@@ -247,6 +248,16 @@
 		}
 	});
 
+	//filters list to only display favorites if checked
+	function filteredByFavorites(songList, isChecked) {
+		if ( isChecked ) {
+			return songList.filter( function(song) {
+				return localStorage.getItem(song.name);
+			});
+		}
+		return songList;
+	}
+
 	// Function to handle preference checkboxes
 	$('body').on('change', '.cb-value', function() {
 		order = [];
@@ -259,6 +270,8 @@
 		if($('.cb-ost')[1].checked) {
 			order.push(...osts);
 		}
+		
+		order = filteredByFavorites(order, $('.cb-fav')[1].checked)
 		order = shuffle(order);
 		init_track_list(order);
 	});
@@ -283,11 +296,40 @@
 		}
 	}
 
+	//function to check if song is a favorite
+	function isFavorite() { 
+		return localStorage.getItem([order[0].name]);
+	}
+
+	//function to handle favorites in local storage
+	function toggleFavorites() {
+		if( isFavorite() ) {
+			localStorage.removeItem(order[0].name);
+			displayStar();
+		} else {
+			localStorage.setItem(order[0].name, true);
+			displayStar();
+		}
+	}
+
+	// determines which star icon to display
+	function displayStar() {		
+		if( isFavorite() ) {
+			favoriteButton.classList.remove("fa-star-o");			
+			favoriteButton.classList.add("fa-star");
+		} else {
+			favoriteButton.classList.remove("fa-star");			
+			favoriteButton.classList.add("fa-star-o");
+		}
+	}
+
+
 	// function to play tracks
 	function play (order) {
 		music.src = order[0].link;
 		music.play();
 		displayTrackName();
+		displayStar();
 		document.body.style.backgroundImage = "url('" + order[0].img + "')";
 	}
 
@@ -326,6 +368,9 @@
 		//updating the player to play the selected track
 		music.src = found_title[0].link;
 		music.play();
+
+		//displays status of favorite
+		displayStar();
 
 		//displaying the title of the song playing
 		trackName.textContent = found_title[0].name;
@@ -411,6 +456,8 @@
 	reButton.addEventListener('click', playAgain);	// handling clicks on restart button
 
 	fullscreenButton.addEventListener('click', toggleFullscreen);
+
+	favoriteButton.addEventListener('click', toggleFavorites);
 
 	infoButton.addEventListener('mouseenter', handlingInfoHover);
 	infoBlock.addEventListener('mouseleave', handlingInfoHover);
