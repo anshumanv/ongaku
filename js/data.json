@@ -103,13 +103,13 @@ openings = [
 	},
 
 	{
-		"link" : "http://yt-files.com/yt-dd.php?id=0m-JsMXxXsQ&hash=1163f36946da6ba620dc63dc93d86069&name=Haikyuu Season 2 Op 1 I'm a believer full",
+		"link" : "https://goo.gl/dFW5Lz",
 		"name" : "Haikyuu!! Second Season - I'm a believer",
 		"img" : "https://www.thebitbag.com/wp-content/uploads/2016/03/Karasuno2.png"
 	},
 
 	{
-		"link" : "http://yt-files.com/yt-dd.php?id=xP5_SnR75ZU&hash=81f36d506e80f82f1bf2eab97aab858a&name=Haikyuu!! 3rd Season Opening 1 “Hikari Are” (BURNOUT SYNDROMES)",
+		"link" : "http://muzmo.ru/get/music/20170508/muzmo_ru_Burnout_Syndromes_-_Hikari_Are_Haikyuu_3_TV-size_45433045.mp3?sid=cl4ea6cuf9mgg63fl6oj7imr06",
 		"name" : "Haikyuu!! Third Season - Hikari Are",
 		"img" : "http://i.imgur.com/qvGY6zf.png"
 	},
@@ -379,13 +379,13 @@ openings = [
 	},
 
 	{
-		"link" : "http://yt-files.com/yt-dd.php?id=x8CfQ3P-Z9w&hash=1c2320258ccb4b548daa83d0cbc1ec79&name=Naruto%20Shippuden%20Opening%2018",
+		"link" : "https://goo.gl/YCN9Dm",
 		"name" : "Naruto Shippuden OP18 - Line",
 		"img" : "https://i.ytimg.com/vi/ZZaoDACJUsY/maxresdefault.jpg"	
 	},
 
 	{
-		"link" : "http://yt-files.com/yt-dd.php?id=ZrBqxZ1T_5M&hash=67bfefcf768c91f02605582066ed83dc&name=Naruto%20Shippuden%20Opening%2019%20-%20Blood%20Circulator%20(Extended%20Version)",
+		"link" : "https://goo.gl/P1D9NS",
 		"name" : "Naruto Shippuden OP19 - Blood Circulator",
 		"img" : "http://brutalgamer.com/wp-content/uploads/2016/10/Naruto-vs-Sasuke.jpg"
 	},
@@ -487,12 +487,6 @@ openings = [
 	},
 
 	{
-		"link" : "http://yt2converter.com/yt-dd.php?id=tHG6pXGxxIE&hash=661a2d713365fe1720bd581dbb2a4596&t=6&name=Dragon%20Ball%20Super%20Opening%20#2 (HD)",
-		"name" : "Dragon Ball Super OP 2",
-		"img"  : "https://images2.alphacoders.com/831/831309.png"
-	},
-
-	{
 		"link" : "http://67.159.62.2/anime_ost/steins-gate-op-single-hacking-to-the-gate/jntezehukc/01%20Hacking%20to%20the%20Gate.mp3",
 		"name" : "Steins;Gate OP Single - Hacking to the Gate",
 		"img" : "https://images2.alphacoders.com/224/thumb-1920-224760.jpg"
@@ -523,7 +517,7 @@ openings = [
 	},
 	
 	{
-		"link" : "http://yt-files.com/yt-dd.php?id=m4O2VS4511Y&hash=29f2d27354eb0d248618a2b398d85904&name=Shingeki%20no%20Kyojin%20Attack%20on%20Titan%20Opening%20OP%20Guren%20no%20Yumiya%20Linked%20Horizon%20Extended%20Ver",
+		"link" : "https://goo.gl/ph7Fhm",
 		"name" : "Attack On Titan - Guren No Yumiya",
 		"img"  : "https://k43.kn3.net/taringa/D/D/8/D/C/6/t_good/767.jpg"
 	},
@@ -618,7 +612,7 @@ endings = [
 	},
 
 	{
-		"link" : "https://www.youtubeinmp3.com/fetch/?video=https://www.youtube.com/watch?v=n-or12ftZB8",
+		"link" : "http://67.159.62.2/anime_ost/magi-kingdom-of-magic-ed-single-eden-2013-/uvnfngdufq/01.-eden.mp3",
 		"name" : "Magi S2 ED-1",
 		"img" : "http://s2.narvii.com/image/xza6vkrba26ae3xlwahgdo6d72piihue_hq.jpg"
 	},
@@ -1244,12 +1238,6 @@ osts = [
 		"link" : "http://66.90.93.122/ost/naruto-shippuden-original-soundtrack-1/huxtigyycv/22-tragic.mp3",
 		"name" : "Naruto Shippuden OST - Tragic",
 		"img" : "http://image.noelshack.com/fichiers/2017/07/1487083218-naruto-sasuke-looses-arms.jpg"
-	},
-
-	{
-		"link" : "http://www.youtubeinmp3.com/fetch/?video=https://www.youtube.com/watch?v=IK1K9O3y-gk",
-		"name" : "Dragon Ball Super ED - Far Away",
-		"img" : "http://i.imgur.com/FMIKlge.jpg"
 	},
 
 	{
