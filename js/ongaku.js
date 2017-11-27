@@ -13,7 +13,7 @@
 	const bufferedBar = document.querySelector('#buffered-bar');
 	const fullscreenButton = document.querySelector('#fullscreen-button');
 	const infoButton = document.querySelector('.infoImg');
-	const favoriteButton = document.querySelector('#starImg');
+	const FavouriteButton = document.querySelector('#starImg');
 	const infoBlock = document.querySelector('.top-left');
 	const openTrackListButton = document.querySelector('.track-list-img');
 	const closeTrackListButton = document.querySelector('.close-track-list');
@@ -248,8 +248,8 @@
 		}
 	});
 
-	//filters list to only display favorites if checked
-	function filteredByFavorites(songList, isChecked) {
+	// Filters list to only display favourites if checked
+	function filteredByFavourites(songList, isChecked) {
 		if ( isChecked ) {
 			return songList.filter( function(song) {
 				return localStorage.getItem(song.name);
@@ -271,7 +271,7 @@
 			order.push(...osts);
 		}
 		
-		order = filteredByFavorites(order, $('.cb-fav')[1].checked)
+		order = filteredByFavourites(order, $('.cb-fav')[1].checked)
 		order = shuffle(order);
 		init_track_list(order);
 	});
@@ -296,14 +296,14 @@
 		}
 	}
 
-	//function to check if song is a favorite
-	function isFavorite() { 
+	// Function to check if song is a favourite
+	function isFavourite() { 
 		return localStorage.getItem([order[0].name]);
 	}
 
-	//function to handle favorites in local storage
-	function toggleFavorites() {
-		if( isFavorite() ) {
+	// Function to handle Favourites in local storage
+	function toggleFavourites() {
+		if( isFavourite() ) {
 			localStorage.removeItem(order[0].name);
 			displayStar();
 		} else {
@@ -312,14 +312,14 @@
 		}
 	}
 
-	// determines which star icon to display
+	// Determines which star icon to display
 	function displayStar() {		
-		if( isFavorite() ) {
-			favoriteButton.classList.remove("fa-star-o");			
-			favoriteButton.classList.add("fa-star");
+		if( isFavourite() ) {
+			FavouriteButton.classList.remove("fa-star-o");			
+			FavouriteButton.classList.add("fa-star");
 		} else {
-			favoriteButton.classList.remove("fa-star");			
-			favoriteButton.classList.add("fa-star-o");
+			FavouriteButton.classList.remove("fa-star");			
+			FavouriteButton.classList.add("fa-star-o");
 		}
 	}
 
@@ -369,7 +369,7 @@
 		music.src = found_title[0].link;
 		music.play();
 
-		//displays status of favorite
+		//displays status of Favourite
 		displayStar();
 
 		//displaying the title of the song playing
@@ -457,7 +457,7 @@
 
 	fullscreenButton.addEventListener('click', toggleFullscreen);
 
-	favoriteButton.addEventListener('click', toggleFavorites);
+	FavouriteButton.addEventListener('click', toggleFavourites);
 
 	infoButton.addEventListener('mouseenter', handlingInfoHover);
 	infoBlock.addEventListener('mouseleave', handlingInfoHover);
