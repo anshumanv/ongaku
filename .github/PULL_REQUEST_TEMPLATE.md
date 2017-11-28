@@ -1,6 +1,8 @@
 
 Fixes #{ISSUE_NUMBER}
 
+Demo: https://pr-{PR_NUMBER}-ongaku.surge.sh
+
 #### This PR is for [Anime Name].
 
 - [ ] This issue is for enhancement/bug fixing.
