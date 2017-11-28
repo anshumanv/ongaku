@@ -21,7 +21,7 @@ openings = [
 	{
 		"link" : "http://lyricmp3skull.org/s363640c/file/op-3/294904496.mp3",
 		"name" : "Bongou Stray Dogs 2 OP-1",
-		"img" : "https://pbs.twimg.com/media/C-FAE86UQAAdckd.jpg"
+		"img" : "https://images4.alphacoders.com/739/thumb-1920-739891.png"
 	},
 
 	{
@@ -379,7 +379,7 @@ openings = [
 	},
 
 	{
-		"link" : "https://goo.gl/YCN9Dm",
+		"link" : "https://eeu.ymcdn.cc/73535503af6ba157759ff356b87be5f9/YISH07M62rQ",
 		"name" : "Naruto Shippuden OP18 - Line",
 		"img" : "https://i.ytimg.com/vi/ZZaoDACJUsY/maxresdefault.jpg"	
 	},
@@ -453,7 +453,7 @@ openings = [
 	{
 		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-op-single-hikaru-nara/pubfkzxlrk/01%20-%20Hikaru%20Nara.mp3",
 		"name" : "Shigatsu wa Kimi no Uso OP Single - Hikaru Nara",
-		"img" : "http://tp.lingyu.me/bz/uploads/2016/08/www.lingyu.me_20160808081904118.jpg"
+		"img" : "https://underthehoshizora.files.wordpress.com/2015/03/maxresdefault2.jpg?w=1920&h=1080&crop=1"
 	},
 
 	{
@@ -565,7 +565,7 @@ openings = [
 	},
 
 	{
-		"link" : "http://66.90.93.122/ost/one-punch-man-original-soundtrack/kghfumrsdk/01-the-hero-okoreru-kobushi-ni-hi-wo-tsukero-.mp3",
+		"link" : "http://66.90.93.122/ost/one-punch-man-original-soundtrack/lafivvty/01%20THE%20HERO%21%21-OKORERU%20KOBUSHI%20NI%20HI%20WO%20TSUKERO-.mp3",
 		"name" : "One Punch Man OP - Hero",
 		"img" : "https://initiate.alphacoders.com/download/wallpaper/670899/images/jpg/1988977696"
 	},
@@ -595,7 +595,7 @@ openings = [
 	},
 
 	{
-		"link" : "http://66.90.93.122/ost/one-piece-best-songs-collection/nwzgfutsno/101-we-are-.mp3",
+		"link" : "http://67.159.62.2/anime_ost/one-piece-op10-single-we-are/kcurabkakv/02%20-%20We%20Are%21.mp3",
 		"name" : "One Piece OP1 - We Are!",
 		"img" : "https://img00.deviantart.net/a893/i/2013/213/b/9/one_piece___we_are__by_sergiart-d6g6a0a.png"
 	}
@@ -804,7 +804,7 @@ endings = [
 	},
 
 	{
-		"link" : "http://66.90.93.122/ost/one-piece-best-songs-collection/ghdwjhlbth/102-memories.mp3",
+		"link" : "https://www.televisiontunes.com/song/download/20853",
 		"name" : "One Piece ED1 - Memories",
 		"img" : "https://i.ytimg.com/vi/4fZvK_I-qEE/maxresdefault.jpg"
 	}
@@ -815,25 +815,25 @@ endings = [
 osts = [
 
 	{
-		"link" : "http://66.90.93.122/ost/death-note-original-soundtrack/fghgpcdtbm/04-l-s-theme.mp3",
+		"link" : "http://66.90.93.122/ost/death-note-original-soundtrack/hhhpvhnq/04%20L%27s%20Theme.mp3",
 		"name" : "L's Theme A",
 		"img" : "https://s-media-cache-ak0.pinimg.com/originals/ea/90/c6/ea90c6d4e0245946a0119cf246de4324.jpg"
 	},
 
 	{
-		"link" : "http://66.90.93.122/ost/death-note-original-soundtrack/ftrosjnhdv/03-light-s-theme.mp3",
+		"link" : "http://66.90.93.122/ost/death-note-original-soundtrack/pnaxqmiw/03%20Light%27s%20Theme.mp3",
 		"name" : "Light's Theme",
 		"img" : "https://www.walldevil.com/wallpapers/a91/death-note-yagami.jpg"
 	},
 
 	{
-		"link" : "http://66.90.93.122/ost/death-note-original-soundtrack/drakbyuujm/19-death-note-theme.mp3",
+		"link" : "http://66.90.93.122/ost/death-note-original-soundtrack/youzpnhv/19%20Death%20note%20Theme.mp3",
 		"name" : "Death Note Main Theme",
-		"img" : "http://wallpoper.com/images/00/31/67/12/death-note_00316712.jpg"
+		"img" : "http://popnerdtv.com/wp-content/uploads/2017/06/deathnote.jpg"
 	},
 
 	{
-		"link" : "http://66.90.93.122/ost/death-note-original-soundtrack/cnpikmfqsu/11-l-s-theme-b.mp3",
+		"link" : "http://66.90.93.122/ost/death-note-original-soundtrack/vrukdjls/11%20L%27s%20Theme%20B.mp3",
 		"name" : "L's theme B",
 		"img" : "http://cdn.wallpapersafari.com/87/52/DSgHjT.jpg"
 	},
@@ -1231,7 +1231,7 @@ osts = [
 	{
 		"link" : "http://66.90.93.122/ost/naruto-shippuden-original-soundtrack-1/mcydqpmy/21%20-%20Stalemate.mp3",
 		"name" : "Naruto Shippuden OST - Stalemate",
-		"img" : "http://chaspikserial.ru/uploads/posts/1files/152765-sage-naruto-hd-wallpapers.jpg"
+		"img" : "https://cdn.idntimes.com/content-images/post/20171003/da-6-4b6a9ff0b1cd4c10ec57a1dc8ae00a85.jpg"
 	},
 
 	{
@@ -1439,7 +1439,7 @@ osts = [
 	},
 
 	{
-		"link" : "http://66.90.93.122/ost/one-punch-man-original-soundtrack/grcvueppvk/02-theme-of-one-punch-man-seigi-shikkou-.mp3",
+		"link" : "http://66.90.93.122/ost/one-punch-man-original-soundtrack/lmdyjfkn/02%20THEME%20OF%20ONE%20PUNCH%20MAN-SEIGI%20SHIKKOU-.mp3",
 		"name" : "One Punch Man OST - Seigi Shikkou",
 		"img" : "https://initiate.alphacoders.com/download/wallpaper/654247/images3/jpg/1422319762"
 	},
