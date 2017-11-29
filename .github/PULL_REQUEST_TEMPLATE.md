@@ -1,7 +1,8 @@
 
 Fixes #{ISSUE_NUMBER}
 
-Demo: https://pr-{PR_NUMBER}-ongaku.surge.sh
+Demo: https://ongaku-${PULL_REQUEST}.surge.sh
+<!-- i.e. instead of `${PULL_REQUEST}` place Pull Request number, after creating PR.-->
 
 #### This PR is for [Anime Name].
 
