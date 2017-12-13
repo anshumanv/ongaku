@@ -782,7 +782,7 @@ endings = [
 	{
 		"link" : "http://67.159.62.2/anime_ost/sword-art-online-ed-single-yume-sekai/mgksxgdvtu/01%20-%20Yume%20Sekai.mp3",
 		"name" : "Sword Art Online ED Single - Yume Sekai",
-		"img" : "http://pic.139zhuti.com/?img_url=http://pic.jj20.com/up/allimg/512/0P312132330/120P3132330-8.jpg"
+		"img" : "https://s18.postimg.org/n4nz8mu55/Yume_Sekai_anime_limited_pressing.jpg"
 	},
 
 	{
@@ -1538,6 +1538,72 @@ osts = [
 		"link" : "https://www.dl.dropboxusercontent.com/s/3fzaaeoz4fazlny/2-17%20Reg%27s%20Power.m4a.m4a?dl=0",
 		"name" : "Made in Abyss OST - Reg's Power",
 		"img" : "https://manga.tokyo/wp-content/uploads/2017/08/ABYSS05_0040.jpg"
+	},
+	
+	{
+		"link" : "https://www.dropbox.com/s/4mkmczh5ibh27ph/01%20-%20swordland.mp3?dl=1",
+		"name" : "Sword Art Online OST - Swordland",
+		"img" : "https://s18.postimg.org/61uunryt5/art-yuuki-tatsuya-devushki-2210.jpg"
+	},
+
+	{
+		"link" : "https://www.dropbox.com/s/awaclli6kkuio7p/03%20-%20everyday%20life.mp3?dl=1",
+		"name" : "Sword Art Online OST - Everyday Life",
+		"img" : "https://s18.postimg.org/jirt6v6mh/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "https://www.dropbox.com/s/ewgfotr6z1s6j9m/03%20-%20sorrowfully.mp3?dl=1",
+		"name" : "Sword Art Online OST - Sorrowfully",
+		"img" : "https://s18.postimg.org/7evds5rbt/Sword_Art_Online_-_03_7.jpg"
+	},
+
+	{
+		"link" : "https://www.dropbox.com/s/6vnooruxvjqxtx9/04%20-%20critical%20phase.mp3?dl=1",
+		"name" : "Sword Art Online OST - Critial Phase",
+		"img" : "https://s18.postimg.org/u3kkrxj21/d0047863_50434c9e3644f.jpg"
+	},
+
+	{
+		"link" : "https://www.dropbox.com/s/ixhsm4dm3k5rktc/05%20-%20victory.mp3?dl=1",
+		"name" : "Sword Art Online OST - Victory",
+		"img" : "https://s18.postimg.org/dtz02oibd/sequence-01-still002.jpg"
+	},
+
+	{
+		"link" : "https://www.dropbox.com/s/jj4373gcahh9ww1/06%20-%20a%20new%20world%20of%20fairies.mp3?dl=1",
+		"name" : "Sword Art Online OST - A New World Of Fairies",
+		"img" : "https://s18.postimg.org/t3yv9rixl/swordart17flying.jpg"
+	},
+
+	{
+		"link" : "https://www.dropbox.com/s/8fz57tm5pw61qzm/08%20-%20survive%20the%20swordland.mp3?dl=1",
+		"name" : "Sword Art Online OST - Survive The Swordland",
+		"img" : "https://s18.postimg.org/lp9jhbrw9/Sword_Art_Online_-_14_1.jpg"
+	},
+
+	{
+		"link" : "https://www.dropbox.com/s/7q943ooao94um3m/10%20-%20fight%20with%20a%20devil.mp3?dl=1",
+		"name" : "Sword Art Online OST - Fight With A Devil",
+		"img" : "https://s18.postimg.org/kzqr56h4p/Sword_Art_Online_-_25_-_Large_07.jpg"
+	},
+
+	{
+		"link" : "https://www.dropbox.com/s/xyyehxi23iub3i1/13%20-%20march%20down.mp3?dl=1",
+		"name" : "Sword Art Online OST - March Down",
+		"img" : "https://s18.postimg.org/wq4omex0p/kirito_asuna_yui_sword_art_online_by_kiritoalo-d9m606f.jpg"
+	},
+
+	{
+		"link" : "https://www.dropbox.com/s/rwzi6xpk1w8u6nb/14%20-%20town%20in%20the%20morning.mp3?dl=1",
+		"name" : "Sword Art Online OST - Town In The Morning",
+		"img" : "https://s18.postimg.org/9py1a11qx/SAO_environment.png"
+	},
+
+	{
+		"link" : "https://www.dropbox.com/s/039js875veik2je/15%20-%20climbing%20up%20the%20world%20tree.mp3?dl=1",
+		"name" : "Sword Art Online OST - Climbing Up The World Tree",
+		"img" : "https://s18.postimg.org/ck16nwbrd/Worldtree.png"
 	}
 
 ]
