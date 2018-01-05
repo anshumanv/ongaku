@@ -598,6 +598,18 @@ openings = [
 		"link" : "http://67.159.62.2/anime_ost/one-piece-op10-single-we-are/kcurabkakv/02%20-%20We%20Are%21.mp3",
 		"name" : "One Piece OP1 - We Are!",
 		"img" : "https://img00.deviantart.net/a893/i/2013/213/b/9/one_piece___we_are__by_sergiart-d6g6a0a.png"
+	},
+
+	{
+		"link" : "https://www.dropbox.com/s/k385z7a5ur6uph5/Boku%20no%20Hero%20Academia%20Season2%20OP1.mp3?dl=1",
+		"name" : "Boku No Hero Academia 2 OP - Peace Sign",
+		"img" : "https://s10.postimg.org/4lomw3bax/5_Lxi5gd.jpg"
+	},
+
+	{
+		"link" : "https://www.dropbox.com/s/ah4ecd6qbidzbrh/Boku%20no%20Hero%20Academia%20Season2%20OP2.mp3?dl=1",
+		"name" : "Boku No Hero Academia 2 OP - Sora ni Utaeba",
+		"img" : "https://s10.postimg.org/wlsqgijy1/1280x720-_Pd_G.jpg"
 	}
 
 ]
