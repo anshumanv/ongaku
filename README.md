@@ -1,4 +1,8 @@
-<h1 align="center">ongaku : Anime Radio</h1>  
+<p align="center">
+	<img src="./ongaku.png" alt="ongaku">
+</p>
+
+<h1 align="center">Anime Radio</h1>  
 
 [![Contributors needed](https://img.shields.io/badge/contributors-needed-yellow.svg)](CONTRIBUTING.md)
 [![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/anshumanv/ongaku/blob/master/LICENSE)
