@@ -271,8 +271,7 @@
 			order.push(...osts);
 		}
 		
-		order = filteredByFavourites(order, $('.cb-fav')[1].checked)
-		order = shuffle(order);
+		order = shuffle(filteredByFavourites(order, $('.cb-fav')[1].checked));
 		init_track_list(order);
 	});
 
