@@ -1,91 +1,91 @@
 openings = [
 
 	{
-		"link" : "https://www.dropbox.com/s/ehxe7yius3a1aai/Tokyo%20Ghoul-unravel.mp3?dl=0",
+		"link" : "https://www.dropbox.com/s/ehxe7yius3a1aai/Tokyo%20Ghoul-unravel.mp3?dl=1",
 		"name" : "Tokyo Ghoul - Unravel",
 		"img" : "https://images8.alphacoders.com/596/596889.jpg"
 	},
 
 	{
-		"link" : "https://www.dropbox.com/s/r7ln5ya480vrkmt/Boku%20Dake%20ga%20Inai%20Machi%20OP%20-%20Opening%20_Re%20%28320%20%20kbps%29.mp3?dl=0",
+		"link" : "https://www.dropbox.com/s/r7ln5ya480vrkmt/Boku%20Dake%20ga%20Inai%20Machi%20OP%20-%20Opening%20_Re%20%28320%20%20kbps%29.mp3?dl=1",
 		"name" : "Boku dake ga Inai Machi OP",
 		"img" : "https://s-media-cache-ak0.pinimg.com/originals/94/2d/cd/942dcd797700a370636b5a90115a4026.jpg"
 	},
 
 	{
-		"link" : "https://www.dropbox.com/s/mnbob8tbfdjm6wi/Boku%20no%20Hero%20Academia%20S1%20OP1.mp3?dl=0",
+		"link" : "https://www.dropbox.com/s/mnbob8tbfdjm6wi/Boku%20no%20Hero%20Academia%20S1%20OP1.mp3?dl=1",
 		"name" : "Boku no Hero Academia S1 OP-1",
 		"img" : "http://www.ricedigital.co.uk/wp-content/uploads/2017/03/003-1.jpg"
 	},
 
 	{
-		"link" : "https://www.dropbox.com/s/1gxii3ltnexhptr/Bungou%20Stray%20Dogs%20Season%202%20opening%E3%80%8ESCREEN%20mode%20-%20Reason%20Living%E3%80%8F%20%28256%20%20kbps%29.mp3?dl=0",
+		"link" : "https://www.dropbox.com/s/1gxii3ltnexhptr/Bungou%20Stray%20Dogs%20Season%202%20opening%E3%80%8ESCREEN%20mode%20-%20Reason%20Living%E3%80%8F%20%28256%20%20kbps%29.mp3?dl=1",
 		"name" : "Bongou Stray Dogs 2 OP-1",
 		"img" : "https://images4.alphacoders.com/739/thumb-1920-739891.png"
 	},
 
 	{
-		"link" : "https://www.dropbox.com/s/9bev4gatm608d7s/Bleach%20OP1-%20Asterisk.mp3?dl=0",
+		"link" : "https://www.dropbox.com/s/9bev4gatm608d7s/Bleach%20OP1-%20Asterisk.mp3?dl=1",
 		"name" : "Bleach OP1 - Asterisk",
 		"img" : "https://1.bp.blogspot.com/-pCRlFldxgMA/TrVTSkwb9xI/AAAAAAAAAZ4/vHnEfPFcaY4/s1600/chibi+bleach+character-bleach+wallpaper.jpg"
 	},
 
 	{
-		"link" : "https://www.dropbox.com/s/9vs2t5i5w3cj6xu/Bleach%20OP2-Tecnolife.mp3?dl=0",
+		"link" : "https://www.dropbox.com/s/9vs2t5i5w3cj6xu/Bleach%20OP2-Tecnolife.mp3?dl=1",
 		"name" : "Bleach OP2 - Tecnolife",
 		"img" : "http://www.news-anime.com/wp-content/uploads/2009/01/pic1_3039jpeg.jpg"
 	},
 
 	{
-		"link" : "https://www.dropbox.com/s/tnqr9hzie2g7mw3/Bleach%20OP3-Ichirin%20no%20Hana.mp3?dl=0",
+		"link" : "https://www.dropbox.com/s/tnqr9hzie2g7mw3/Bleach%20OP3-Ichirin%20no%20Hana.mp3?dl=1",
 		"name" : "Bleach OP3 - Ichirin no Hana",
 		"img" : "http://pm1.narvii.com/6241/6278d669931658527be32be68391fc8dd23bcea6_hq.jpg"
 	},
 
 	{
-		"link" : "https://www.dropbox.com/s/zytdkxms03wtovv/Bleach%20OP4-TONIGHT%20TONIGHT%20TONIGHT.mp3?dl=0",
+		"link" : "https://www.dropbox.com/s/zytdkxms03wtovv/Bleach%20OP4-TONIGHT%20TONIGHT%20TONIGHT.mp3?dl=1",
 		"name" : "Bleach OP4 - Tonight Tonight Tonight",
 		"img" : "https://www.walldevil.com/wallpapers/a38/bleach-orihime-inoue.jpg"
 	},
 
 	{
-		"link" : "http://67.159.62.2/anime_ost/bleach-op5-single-rolling-star/bdjbvdmaar/01%20-%20Rolling%20star.mp3",
+		"link" : "https://www.dropbox.com/s/1vvmymdfv6vwfk9/Bleach%20OP5%20Rolling%20Stars.mp3?dl=1",
 		"name" : "Bleach OP5 - Rolling Star",
 		"img" : "http://www.animacity.ru/sites/default/files/users/9086/photo/2014/141/Bleach-Kurosaci-Ichigo-1800x2880.jpg"
 	},	
 
 	{
-		"link" : "https://www.dropbox.com/s/tcolq51w4nayptn/Danganronpa_-_Never_Say_Never_%28mp3.pm%29.mp3?dl=0",
+		"link" : "https://www.dropbox.com/s/tcolq51w4nayptn/Danganronpa_-_Never_Say_Never_%28mp3.pm%29.mp3?dl=1",
 		"name" : "Danganronpa The Animation OP",
 		"img" : "https://i.ytimg.com/vi/guJYoQ5gQ7s/maxresdefault.jpg"
 	},
 
 	{
-		"link" : "https://www.dropbox.com/s/6gcjr8lwhclkvr2/Fairy%20Tail%20Opening%2015%20%20%20Subs%20CC%20%28320%20%20kbps%29.mp3?dl=0",
+		"link" : "https://www.dropbox.com/s/6gcjr8lwhclkvr2/Fairy%20Tail%20Opening%2015%20%20%20Subs%20CC%20%28320%20%20kbps%29.mp3?dl=1",
 		"name" : "Fairy Tail OP-15",
 		"img" : "https://i.ytimg.com/vi/tzVZQGgHtsY/maxresdefault.jpg"
 	},
 
 	{
-		"link" : "http://67.159.62.2/anime_ost/no-game-no-life-op-single-this-game/ilrmfboknr/01%20-%20This%20game.mp3",
+		"link" : "https://www.dropbox.com/s/qhhaugoil4n25gh/No%20Game%20No%20Life%20-This%20Game.mp3?dl=1",
 		"name" : "No Game No Life : This Game",
 		"img" : "https://s-media-cache-ak0.pinimg.com/originals/30/99/80/30998042552e7c13ab63a7e2d4999ae4.jpg"
 	},
 
 	{
-		"link" : "http://67.159.62.2/anime_ost/magi-op-single-v-i-p/rxpcfjtnec/01%20-%20V.I.P.mp3",
+		"link" : "https://www.dropbox.com/s/vfragnjfyfjskoj/Magi%20-%20V.I.P.mp3?dl=1",
 		"name" : "Magi : V.I.P",
 		"img" : "https://i.ytimg.com/vi/0P1YBu0TrNg/maxresdefault.jpg"
 	},
 
 	{
-		"link" : "http://67.159.62.2/anime_ost/magi-kingdom-of-magic-op-single-anniversary/kteguexycl/1.-anniversary.mp3",
+		"link" : "https://www.dropbox.com/s/8pmtrpeax1r85rv/Magi-TheKingdomOfMagic-OP-Anniversary.mp3?dl=1",
 		"name" : "Magi - Kingdom of Magic : Anniversary",
 		"img" : "https://i.ytimg.com/vi/NVdDA6D_mlQ/maxresdefault.jpg"
 	},
 
 	{
-		"link" : "http://67.159.62.2/anime_ost/haikyuu-op-imagination/lijkfqzsmd/01-imagination.mp3",
+		"link" : "https://www.dropbox.com/s/114vh072a5ew9q6/Haikyuu%20Opening-Imagination.mp3?dl=1",
 		"name" : "Haikyuu!! OP - Imagination",
 		"img" : "https://s-media-cache-ak0.pinimg.com/originals/7b/16/04/7b160499eb132186ccfe44485cb54b7a.jpg"
 	},
@@ -361,7 +361,7 @@ openings = [
 	},
 	
 	{
-		"link" : "https://www.dropbox.com/s/859fvspohcc9gok/Naruto%20Shippuden%20OP15.mp3?dl=0",
+		"link" : "https://www.dropbox.com/s/859fvspohcc9gok/Naruto%20Shippuden%20OP15.mp3?dl=1",
 		"name" : "Naruto Shippuden OP15 - Crimson Lotus",
 		"img" : "http://1.bp.blogspot.com/-2O_G1kNZJEY/U5vHkFtJIjI/AAAAAAAAAzI/sXhcaIyLkWI/s1600/unixlo+ns+.png"
 	},
@@ -547,19 +547,19 @@ openings = [
 	},
 	
 	{
-		"link" : "https://www.dl.dropboxusercontent.com/s/g95vnwebcmb93nv/Re-Zero%20Kara%20Hajimeru%20Isekai%20Seikatsu%20Opening%20FULL.mp3?dl=0",
+		"link" : "https://www.dl.dropboxusercontent.com/s/g95vnwebcmb93nv/Re-Zero%20Kara%20Hajimeru%20Isekai%20Seikatsu%20Opening%20FULL.mp3?dl=1",
 		"name" : "Re:Zero OP1 - Kara Hajimeru Isekai Seikatsu",
 		"img" : "https://image.tmdb.org/t/p/original/n6YYb2jMN0UE1YNJcPSHnwX7vMq.jpg"
 	},
 	
 	{
-		"link" : "https://www.dl.dropboxusercontent.com/s/3l41690wfwq3vvo/real%20bleach%20opening%201%20orange%20range%20asterisk.m4a?dl=0",
+		"link" : "https://www.dl.dropboxusercontent.com/s/3l41690wfwq3vvo/real%20bleach%20opening%201%20orange%20range%20asterisk.m4a?dl=1",
 		"name" : "Bleach OST 1 - Asterisk - Orange Range",
-		"img" : "https://www.dropbox.com/s/jtr73u5qnrbzrgl/Bleach%20OP1%20img.jpg?dl=0"
+		"img" : "https://www.dropbox.com/s/jtr73u5qnrbzrgl/Bleach%20OP1%20img.jpg?dl=1"
 	},
 	
 	{
-		"link" : "https://www.dl.dropboxusercontent.com/s/27m8fylvfa42gsa/Inazuma%20Eleven%20Opening%20Theme%20Song.m4a?dl=0 ",
+		"link" : "https://www.dl.dropboxusercontent.com/s/27m8fylvfa42gsa/Inazuma%20Eleven%20Opening%20Theme%20Song.m4a?dl=1",
 		"name" : "Inazuma Eleven OP - Opening Theme Song",
 		"img" : "https://images4.alphacoders.com/675/thumb-1920-675017.jpg"
 	},
@@ -618,7 +618,7 @@ openings = [
 endings = [
 	
 	{
-		"link" : "https://www.dropbox.com/s/sfvp4finjib7h7f/Boku%20no%20Hero%20Academia%20Season%202%20Ending%201%20Full%E3%80%8ELittle%20Glee%20Monster%20-%20Dakara%2C%20Hitori%20ja%20nai%E3%80%8F%20%28256%20%20kbps%29.mp3?dl=0",
+		"link" : "https://www.dropbox.com/s/sfvp4finjib7h7f/Boku%20no%20Hero%20Academia%20Season%202%20Ending%201%20Full%E3%80%8ELittle%20Glee%20Monster%20-%20Dakara%2C%20Hitori%20ja%20nai%E3%80%8F%20%28256%20%20kbps%29.mp3?dl=1",
 		"name" : "Boku no Hero Academia S2 ED-1",
 		"img" : "https://i.ytimg.com/vi/ldTgrPe6Y4E/maxresdefault.jpg"
 	},
@@ -786,7 +786,7 @@ endings = [
 	},
 
 	{
-		"link" : "https://www.dl.dropboxusercontent.com/s/pz214766ugomysq/Sayuri%20-%20Sore%20wa%20Chiisana%20Hikari%20no%20Youna%20%20Boku%20Dake%20Ga%20Inai%20Machi%20%28ERASED%29%20FULL%20ENDING.mp3?dl=0",
+		"link" : "https://www.dl.dropboxusercontent.com/s/pz214766ugomysq/Sayuri%20-%20Sore%20wa%20Chiisana%20Hikari%20no%20Youna%20%20Boku%20Dake%20Ga%20Inai%20Machi%20%28ERASED%29%20FULL%20ENDING.mp3?dl=1",
 		"name" : "Boku Dake Ga Inai Machi (Erased) ED - Sore wa Chiisana Hikari no Youna",
 		"img" : "https://images8.alphacoders.com/697/thumb-1920-697276.png"
 	},
@@ -1433,19 +1433,19 @@ osts = [
 	},
 	
 	{
-		"link" : "https://www.dl.dropboxusercontent.com/s/9sqnxnojdtrcjnm/Detective%20Conan%20Soundtrack%201.m4a?dl=0",
+		"link" : "https://www.dl.dropboxusercontent.com/s/9sqnxnojdtrcjnm/Detective%20Conan%20Soundtrack%201.m4a?dl=1",
 		"name" : "Detective Conan OST - Theme Song",
 		"img" : "https://www.pixelstalk.net/wp-content/uploads/2016/10/Manga-Detective-Conan-Pictures.jpg"
 	},
 
 	{
-		"link" : "https://www.dl.dropboxusercontent.com/s/lnqmo3gx7y9glr8/One%20Piece%20Epic%20Battle%20Theme.m4a?dl=0",
+		"link" : "https://www.dl.dropboxusercontent.com/s/lnqmo3gx7y9glr8/One%20Piece%20Epic%20Battle%20Theme.m4a?dl=1",
 		"name" : "One Piece OST - Epic Battle Theme",
 		"img" : "https://i.imgur.com/7hdijZP.jpg"
 	},
 	
 	{
-		"link" : "https://www.dl.dropboxusercontent.com/s/r8olgisqrm0j7p3/Death%20note.m4a?dl=0",
+		"link" : "https://www.dl.dropboxusercontent.com/s/r8olgisqrm0j7p3/Death%20note.m4a?dl=1",
 		"name" : "Death Note OST - Death Note",
 		"img" : "https://i.ytimg.com/vi/fIeGTEQPAKE/maxresdefault.jpg"
 	},
@@ -1523,31 +1523,31 @@ osts = [
 	},
 
 	{
-		"link" : "https://www.dl.dropboxusercontent.com/s/oc3aems3hpc4uy3/Parasyte%20the%20Maxim%20OST%20-%20Next%20to%20You.mp3?dl=0",
+		"link" : "https://www.dl.dropboxusercontent.com/s/oc3aems3hpc4uy3/Parasyte%20the%20Maxim%20OST%20-%20Next%20to%20You.mp3?dl=1",
 		"name" : "Parasyte the Maxim OST - Next to You",
 		"img" : "https://i.ytimg.com/vi/MHQn3l4mS3M/maxresdefault.jpg"
 	},
 	
 	{
-		"link" : "https://www.dl.dropboxusercontent.com/s/mrw567lse6cl3r9/1-01%20Made%20in%20Abyss.m4a.m4a?dl=0",
+		"link" : "https://www.dl.dropboxusercontent.com/s/mrw567lse6cl3r9/1-01%20Made%20in%20Abyss.m4a.m4a?dl=1",
 		"name" : "Made in Abyss OST - Made in Abyss",
 		"img" : "https://blog.sakugabooru.com/wp-content/uploads/2017/07/abysshosoi1.jpg"
 	},
 
 	{
-		"link" : "https://www.dl.dropboxusercontent.com/s/tw55qtqptktday6/1-23%20Hanezeve%20Caradhina%20%28ft.Takeshi%20Saito%29.m4a.m4a?dl=0",
+		"link" : "https://www.dl.dropboxusercontent.com/s/tw55qtqptktday6/1-23%20Hanezeve%20Caradhina%20%28ft.Takeshi%20Saito%29.m4a.m4a?dl=1",
 		"name" : "Made in Abyss OST - Hanezeve Caradhina",
 		"img" : "https://images7.alphacoders.com/860/860635.jpg"
 	},
 
 	{
-		"link" : "https://www.dl.dropboxusercontent.com/s/7j9yq19rul50d8w/2-04%20Orth%20Waltz.m4a.m4a?dl=0",
+		"link" : "https://www.dl.dropboxusercontent.com/s/7j9yq19rul50d8w/2-04%20Orth%20Waltz.m4a.m4a?dl=1",
 		"name" : "Made in Abyss OST - Orth Waltz",
 		"img" : "http://randomc.net/image/Made%20in%20Abyss/Made%20in%20Abyss%20-%2010%20-%20Large%2015.jpg"
 	},
 
 	{
-		"link" : "https://www.dl.dropboxusercontent.com/s/3fzaaeoz4fazlny/2-17%20Reg%27s%20Power.m4a.m4a?dl=0",
+		"link" : "https://www.dl.dropboxusercontent.com/s/3fzaaeoz4fazlny/2-17%20Reg%27s%20Power.m4a.m4a?dl=1",
 		"name" : "Made in Abyss OST - Reg's Power",
 		"img" : "https://manga.tokyo/wp-content/uploads/2017/08/ABYSS05_0040.jpg"
 	},
