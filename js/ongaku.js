@@ -326,6 +326,7 @@
 	// function to play tracks
 	function play (order) {
 		music.src = order[0].link;
+		music.crossOrigin = 'anonymous';
 		var playPromise = music.play();
 
 		// In browsers that don’t yet support this functionality,
@@ -381,7 +382,7 @@
 		//updating the player to play the selected track
 		music.src = found_title[0].link;
 		//music.play();
-
+		music.crossOrigin = 'anonymous';
 		var playPromise = music.play();
 
 		// In browsers that don’t yet support this functionality,
