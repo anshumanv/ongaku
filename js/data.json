@@ -169,12 +169,6 @@ openings = [
 	},
 
 	{
-		"link" : "https://www.dropbox.com/s/m9pnkotvv3hx7ki/Ao%20No%20Exorcist%20-%20Take%20Off.mp3?dl=1",
-		"name" : "Ao No Exorcist - Take Off",
-		"img"  : "https://i.ytimg.com/vi/AB-i6RkEr58/maxresdefault.jpg"
-	},
-    
-	{
 		"link" : "https://www.dropbox.com/s/nku4h43ykw1w54a/Akame%20ga%20Kill%21%20OP1%20-%20Skyreach.mp3?dl=1",
 		"name" : "Akame ga Kill! OP1 - Skyreach",
 		"img"  : "https://s26.postimg.org/4tbt1v8ex/50256_akame_ga_kill.jpg"
@@ -193,31 +187,25 @@ openings = [
 	},
     
 	{
-		"link" : "http://67.159.62.2/anime_ost/ao-no-exorcist-op-single-core-pride/ttbjgecvfo/01.%20CORE%20PRIDE.mp3",
+		"link" : "https://www.dropbox.com/s/d4wq6w8728t3zi1/Ao%20No%20Exorcist%20Opening%201%20-%20Core%20Pride.mp3?dl=1",
 		"name" : "Ao no Exorcist OP Single - Core Pride",
 		"img" : "https://images3.alphacoders.com/278/thumb-1920-278569.jpg"
 	},
-
-	{
-		"link" : "http://67.159.62.2/anime_ost/ao-no-exorcist-op-single-core-pride/ayactsngid/02.%20Zen%20Mantra.mp3",
-		"name" : "Ao No Exorcist - Zen Mantra",
-		"img" : "http://1.bp.blogspot.com/-DhMdu3n73wI/UQ_zKJk42uI/AAAAAAAAAK0/dw5a2xJzULw/s1600/660022.jpg"
-	},
     
 	{
-		"link" : "http://67.159.62.2/anime_ost/assassination-classroom-op2-single-jiriki-hongan-revolution/cinfcejtps/01%20-%20Jikiri%20Hongan%20Revolution.mp3",
+		"link" : "https://www.dropbox.com/s/tcetbrb355zr8cw/Assassination%20Classroom%20OP%202.mp3?dl=1",
 		"name" : "Assassination Classroom OP 2",
 		"img"  : "http://wallpapersdsc.net/wp-content/uploads/2017/04/Assassination-Classroom-454.png"
 	},
     
 	{
-		"link" : "http://67.159.62.2/anime_ost/assassination-classroom-s2-op-single-question/zbarnzofkr/01%20-%20QUESTION.mp3",
+		"link" : "https://www.dropbox.com/s/h4ppp5xtr2hp8fj/Assassination%20Classroom%20OP%203.mp3?dl=1",
 		"name" : "Assassination Classroom OP 3",
 		"img"  : "https://s-media-cache-ak0.pinimg.com/originals/e3/51/5d/e3515d66012a039ff2a52bde2689bd0d.png"
 	},
     
 	{
-		"link" : "http://67.159.62.2/anime_ost/assassination-classroom-s2-op2-single-bye-bye-yesterday/gbypjjrfjf/01%20-%20Bye%20Bye%20YESTERDAY.mp3",
+		"link" : "https://www.dropbox.com/s/gv790isjm7yfb84/Assassination%20Classroom%20OP%204.mp3?dl=1",
 		"name" : "Assassination Classroom OP 4",
 		"img"  : "https://s-media-cache-ak0.pinimg.com/originals/55/1f/a2/551fa255f7df97c6af549571de08cbcd.jpg"
 	},
@@ -633,6 +621,18 @@ endings = [
 		"link" : "http://lyricmp3skull.org/s363640c/file/rin-sore-wa-chiisana-hikari-no-youna-boku-dake-ga-inai-machi-erased-ending-tv-sized/285358460.mp3",
 		"name" : "Boku dake ga Inai Machi ED",
 		"img" : "https://s-media-cache-ak0.pinimg.com/originals/8b/9a/b0/8b9ab099322ef6e31bf291ceaa17a0a9--manga-art-kenya.jpg"
+	},
+
+	{
+		"link" : "https://www.dropbox.com/s/m9pnkotvv3hx7ki/Ao%20No%20Exorcist%20-%20Take%20Off.mp3?dl=1",
+		"name" : "Ao No Exorcist - Take Off",
+		"img"  : "https://i.ytimg.com/vi/AB-i6RkEr58/maxresdefault.jpg"
+	},
+    
+	{
+		"link" : "https://www.dropbox.com/s/y5plo0yvpsc4qq7/Ao%20No%20Exorcist%20Ending%202%20-%20Wired%20Life.mp3?dl=1",
+		"name" : "Ao No Exorcist - Wired Life",
+		"img" : "http://1.bp.blogspot.com/-DhMdu3n73wI/UQ_zKJk42uI/AAAAAAAAAK0/dw5a2xJzULw/s1600/660022.jpg"
 	},
 
 	{
