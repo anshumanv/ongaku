@@ -598,6 +598,12 @@ openings = [
 		"link" : "https://www.dropbox.com/s/ah4ecd6qbidzbrh/Boku%20no%20Hero%20Academia%20Season2%20OP2.mp3?dl=1",
 		"name" : "Boku No Hero Academia 2 OP - Sora ni Utaeba",
 		"img" : "https://s10.postimg.org/wlsqgijy1/1280x720-_Pd_G.jpg"
+	},
+	
+	{
+		"link" : "https://www.dropbox.com/s/3t0fnrfc8vnnavh/Amaama%20to%20Inazuma%20OP%20-%20Harebare%20Fanfare.mp3?dl=1",
+		"name" : "Amaama to Inazuma OP - Harebare Fanfare",
+		"img" : "https://www.dropbox.com/s/uqebz75mmgqy7ce/amaama-to-inazuma-kouhei-inuzuka-tsumugi-anime-1283.png?dl=1"
 	}
 
 ]
@@ -819,6 +825,12 @@ endings = [
 		"link" : "https://www.televisiontunes.com/song/download/20853",
 		"name" : "One Piece ED1 - Memories",
 		"img" : "https://i.ytimg.com/vi/4fZvK_I-qEE/maxresdefault.jpg"
+	},
+	
+	{
+		"link" : "https://www.dropbox.com/s/fvutawwuqjfocov/Brian%20the%20Sun%20-%20Maybe.mp3?dl=1",
+		"name" : "Amaama to Inazuma ED - Maybe",
+		"img" : "https://www.dropbox.com/s/nw2bwf87t8nudh1/111223.jpg?dl=1"
 	}
 
 ]
@@ -1682,6 +1694,12 @@ osts = [
 		"link" : "https://www.dropbox.com/s/t3gl5c4ybm3inx6/32%20-%20at%20nightfall.mp3?dl=1",
 		"name" : "Sword Art Online OST - At Nightfall",
 		"img" : "https://s18.postimg.org/cpiq29s7d/kirito-sword-art-online-anime-hd-wallpaper-1920x1080-26161.jpg"
+	},
+	
+	{
+		"link" : "https://www.dropbox.com/s/adhvu2r1646c2j0/Gohan%20ya-san%20Megumi.mp3?dl=1",
+		"name" : "Amaama to Inazuma OST - Gohan ya-san Megumi",
+		"img" : "https://www.dropbox.com/s/suvtvzcdm5rptxy/amaama%204.jpg?dl=1"
 	}
 
 ]
