@@ -403,13 +403,13 @@ openings = [
 	},
 
 	{
-		"link" : "http://67.159.62.2/anime_ost/guilty-crown-op-single-my-dearest/pmwwmpwipg/01%20-%20My%20Dearest.mp3",
+		"link" : "https://www.dropbox.com/s/qg9vqsslfs8a9dx/guilty-crown-op-1-my-dearest.mp3?dl=1",
 		"name" : "Guilty Crown OP Single - My Dearest",
 		"img" : "https://wallpaperscraft.com/image/guilty_crown_male_female_flight_city_63566_1280x720.jpg"
 	},
 
 	{
-		"link" : "http://67.159.62.2/anime_ost/guilty-crown-op2-single-the-everlasting-guilty-crown/nturommtww/01%20-%20The%20Everlasting%20Guilty%20Crown.mp3",
+		"link" : "https://www.dropbox.com/s/sarnfc8yk175yz3/The%20Everlasting%20Guilty%20Crown.mp3?dl=1",
 		"name" : " Guilty Crown OP2 Single - The Everlasting Guilty Crown",
 		"img" : "https://s-media-cache-ak0.pinimg.com/originals/0d/0b/d5/0d0bd59ee678072e11e9ce27943d4062.jpg"
 	},
@@ -678,13 +678,13 @@ endings = [
 	},
 
 	{
-		"link" : "http://67.159.62.2/anime_ost/guilty-crown-ed-single-departures-anata-ni-okuru-ai-no-uta/mqcrjtngdj/01%20-%20Departures%20~Anata%20ni%20Okuru%20Ai%20no%20Uta~.mp3",
+		"link" : "https://www.dropbox.com/s/y0fydaeorb26lkk/Departures%20-Anata%20ni%20Okuru%20Ai%20no%20Uta-Guilty%20Crown.mp3?dl=1",
 		"name" : "Guilty Crown ED Single - Departures ~Anata ni Okuru Ai no Uta~",
 		"img" : "https://www.walldevil.com/wallpapers/a40/anime-wallpaper-light-images.jpg"
 	},
 
 	{
-		"link" : "http://67.159.62.2/anime_ost/guilty-crown-ed2-single-kokuhaku/ladyjjytsr/01%20-%20Kokuhaku.mp3",
+		"link" : "https://www.dropbox.com/s/1vq60w76bm0us8u/Guilty%20Crown-ED2-%20Kokuhaku.mp3?dl=1",
 		"name" : "Guilty Crown ED2 Single - Kokuhaku",
 		"img" : "https://images2.alphacoders.com/607/thumb-1920-607188.jpg"
 	},
@@ -887,7 +887,7 @@ osts = [
 	},
 
 	{
-		"link" : "http://67.159.62.2/anime_ost/guilty-crown-original-soundtrack/feznsyvqkw/01%20-%20BIOS%20%28feat.%20Mika%20Kobayashi%29.mp3",
+		"link" : "https://www.dropbox.com/s/9npvy0tn9dh3giq/Kobayashi_Mika-Guilty_Crown-Bios_instrumental.mp3?dl=1",
 		"name" : "Guilty Crown Original Soundtrack - BIOS",
 		"img" : "https://i.ytimg.com/vi/vLhafvJvPUI/maxresdefault.jpg"
 	},
