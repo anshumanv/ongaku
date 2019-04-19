@@ -439,13 +439,13 @@ openings = [
 	},
 
 	{
-		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-op-single-hikaru-nara/pubfkzxlrk/01%20-%20Hikaru%20Nara.mp3",
+		"link" : "https://www.dropbox.com/s/zw8n91s31o63ghp/01.%20Hikaru%20Nara.mp3?dl=1",
 		"name" : "Shigatsu wa Kimi no Uso OP Single - Hikaru Nara",
 		"img" : "https://underthehoshizora.files.wordpress.com/2015/03/maxresdefault2.jpg?w=1920&h=1080&crop=1"
 	},
 
 	{
-		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-op2-single-nanairo-symphony/yvylgmsmdt/01%20-%20Nanairo%20Symphony.mp3",
+		"link" : "https://www.dropbox.com/s/rx8k09zdylciwpu/Nanairo%20Symphony%20OP2.mp3?dl=1",
 		"name" : "Shigatsu wa Kimi no Uso OP2 Single - Nanairo Symphony",
 		"img" : "http://i.imgur.com/YN5gDF6.png"
 	},
@@ -738,13 +738,13 @@ endings = [
 	},
 
 	{
-		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-ed-single-kirameki/lkfmuhddrz/01%20-%20Kirameki.mp3",
+		"link" : "https://www.dropbox.com/s/cda4stqf1pjyc69/Kirameki%20ED1.mp3?dl=1",
 		"name" : "Shigatsu wa Kimi no Uso ED Single - Kirameki",
 		"img" : "https://images4.alphacoders.com/668/668521.jpg"
 	},
 
 	{
-		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-ed2-single-orange/ijqaomqxiv/01%20-%20Orange.mp3",
+		"link" : "https://www.dropbox.com/s/3tj3o2ikz9bb3q7/Orange%20ED2.mp3?dl=1",
 		"name" : "Shigatsu wa Kimi no Uso ED2 Single - Orange",
 		"img" : "https://i.pinimg.com/originals/91/12/cb/9112cb2fae6c3ed1b3978ded4875d4c8.jpg"
 	},
@@ -1265,13 +1265,13 @@ osts = [
 	},
 
 	{
-		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-twinkle-little-star/xvjwjvfriu/01%20-%20Mozart%20Twelve%20Variations%20on%20%27Ah%20vous%20dirai-je%2C%20Maman%27%20K.265.mp3",
+		"link" : "https://www.dropbox.com/s/6hn0ej6v8gubupw/01.%20Mozart-%20Twelve%20Variations%20on%20%27%27Ah%20vous%20dirai-je%2C%20Maman%27%27%20K.265.mp3?dl=1",
 		"name" : "Shigatsu wa Kimi no Uso Original Soundtrack - Twinkle Little Star",
 		"img" : "https://pbs.twimg.com/media/CuVNoWmVMAAH_oS.jpg:large"
 	},
 
 	{
-		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-twinkle-little-star/euxawjmtld/02%20-%20Kreisler%20Love%27s%20Joy.mp3",
+		"link" : "https://www.dropbox.com/s/d4le0owhx59mkfx/02.%20Kreisler-%20Love%27s%20Joy.mp3?dl=1",
 		"name" : "Shigatsu wa Kimi no Uso Original Soundtrack - Kreisler Love's Joy",
 		"img"  : "https://images8.alphacoders.com/832/832863.png"
 	},
@@ -1283,19 +1283,19 @@ osts = [
 	},
 
 	{
-		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-original-soundtrack-vol-1/dosycblwjk/06%20-%20Watashi%2C%20Violinist%20na%20no.mp3",
+		"link" : "https://www.dropbox.com/s/s71543f2taa0mbh/09.%20Watashi%2C%20Violinist%20na%20no.mp3?dl=1",
 		"name" : "Shigatsu wa Kimi no Uso Original Soundtrack -Watashi, Violinist na no",
 		"img"  : "https://vignette2.wikia.nocookie.net/shigatsu-wa-kimi-no-uso/images/2/22/Epi14cover.jpg/revision/latest/scale-to-width-down/2000?cb=20150321015734"
 	},
 
 	{
-		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-original-soundtrack-vol-2/cgqxlwiqag/06%20-%20Uso%20to%20Honto.mp3",
+		"link" : "https://www.dropbox.com/s/is7udv3xmeaf2tv/30.%20Uso%20to%20Honto.mp3?dl=1",
 		"name" : "Shigatsu wa Kimi no Uso Original Soundtrack -  Uso to Honto",
 		"img"  : "https://i.ytimg.com/vi/eN0M0912lrw/maxresdefault.jpg"
 	},
 
 	{
-		"link" : "http://67.159.62.2/anime_ost/shigatsu-wa-kimi-no-uso-original-soundtrack-vol-2/vnwimijwem/10%20-%20Watashi%20no%20Uso.mp3",
+		"link" : "https://www.dropbox.com/s/835ey7zmlajli79/05.%20Watashi%20no%20Uso%20~Piano%20Solo~.mp3?dl=1",
 		"name" : "Shigatsu wa Kimi no Uso Original Soundtrack - Watashi no Uso ",
 		"img"  : "https://s26.postimg.org/x5d4e75qx/Ep19.png"
 	},
