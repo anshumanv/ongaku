@@ -52,7 +52,7 @@ openings = [
 		"link" : "https://www.dropbox.com/s/1vvmymdfv6vwfk9/Bleach%20OP5%20Rolling%20Stars.mp3?dl=1",
 		"name" : "Bleach OP5 - Rolling Star",
 		"img" : "http://www.animacity.ru/sites/default/files/users/9086/photo/2014/141/Bleach-Kurosaci-Ichigo-1800x2880.jpg"
-	},	
+	},
 
 	{
 		"link" : "https://www.dropbox.com/s/tcolq51w4nayptn/Danganronpa_-_Never_Say_Never_%28mp3.pm%29.mp3?dl=1",
@@ -113,7 +113,7 @@ openings = [
 		"name" : "Haikyuu!! Third Season - Hikari Are",
 		"img" : "http://i.imgur.com/qvGY6zf.png"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/szfz6gp5ubjrllz/Fullmetal-Alchemist-Brotherhood%20OP1%20-%20Again.mp3?dl=1",
 		"name" : "Fullmetal-Alchemist-Brotherhood OP1 - Again",
@@ -143,13 +143,13 @@ openings = [
 		"name" : "Fullmetal-Alchemist-Brotherhood OP5 - Rain",
 		"img" : "http://quackpot.com/albums/album30/FMA_Brotherhood00004.png"
 	}	,
-    
+
 	{
 		"link" : "https://www.dropbox.com/s/uiuj6wlezmjd6it/Noragami%20-%20Hello%20Sleepwalkers.mp3?dl=1",
 		"name" : "Noragami - Hello Sleepwalkers",
 		"img" : "https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1291898/Latvian/1291898_Latvian_ShowMasterKeyArt_92190267-deff-e611-8175-020165574d09.jpg"
 	},
-    
+
 	{
 		"link" : "https://www.dropbox.com/s/d79pcmju7724504/Mirai%20Nikki%20OP1%20Yousei%20Teikoku.mp3?dl=1",
 		"name" : "Mirai Nikki - Yousei Teikoku",
@@ -173,37 +173,37 @@ openings = [
 		"name" : "Akame ga Kill! OP1 - Skyreach",
 		"img"  : "https://s26.postimg.org/4tbt1v8ex/50256_akame_ga_kill.jpg"
 	},
-    
+
 	{
 		"link" : "https://www.dropbox.com/s/gp5zc124mv7swd1/Akame%20ga%20Kill%21%20OP2%20-%20Liar%20Mask.mp3?dl=1",
 		"name" : "Akame ga Kill! OP2 - Liar Mask",
 		"img"  : "http://i.imgur.com/ItZib5a.jpg"
 	},
-    
+
 	{
 		"link" : "https://www.dropbox.com/s/38sijlka8szq0zi/Assassination%20Classroom%20-%20Seishun%20Satsubatsuron.mp3?dl=1",
 		"name" : "Assassination Classroom - Seishun Satsubatsuron",
 		"img"  : "https://images.alphacoders.com/605/thumb-1920-605582.jpg"
 	},
-    
+
 	{
 		"link" : "https://www.dropbox.com/s/d4wq6w8728t3zi1/Ao%20No%20Exorcist%20Opening%201%20-%20Core%20Pride.mp3?dl=1",
 		"name" : "Ao no Exorcist OP Single - Core Pride",
 		"img" : "https://images3.alphacoders.com/278/thumb-1920-278569.jpg"
 	},
-    
+
 	{
 		"link" : "https://www.dropbox.com/s/tcetbrb355zr8cw/Assassination%20Classroom%20OP%202.mp3?dl=1",
 		"name" : "Assassination Classroom OP 2",
 		"img"  : "http://wallpapersdsc.net/wp-content/uploads/2017/04/Assassination-Classroom-454.png"
 	},
-    
+
 	{
 		"link" : "https://www.dropbox.com/s/h4ppp5xtr2hp8fj/Assassination%20Classroom%20OP%203.mp3?dl=1",
 		"name" : "Assassination Classroom OP 3",
 		"img"  : "https://s-media-cache-ak0.pinimg.com/originals/e3/51/5d/e3515d66012a039ff2a52bde2689bd0d.png"
 	},
-    
+
 	{
 		"link" : "https://www.dropbox.com/s/gv790isjm7yfb84/Assassination%20Classroom%20OP%204.mp3?dl=1",
 		"name" : "Assassination Classroom OP 4",
@@ -215,49 +215,49 @@ openings = [
 		"name" : "Fairy Tail(S1) - Snow Fairy",
 		"img" : "https://i.ytimg.com/vi/x_anOJ4WUTE/maxresdefault.jpg"
 	},
-    
+
 	{
 		"link" : "https://www.dropbox.com/s/0pna5pjqbtud9vs/Fairy%20Tail%28S1%29%20-%20Sense%20Of%20Wonder.mp3?dl=1",
 		"name" : "Fairy Tail(S1) - Sense Of Wonder",
 		"img" : "http://www.ilbazardimari.net/wp-content/uploads/Fairy-Tail-Protagonisti-2560-x-1440-senza.jpg"
 	},
-    
+
 	{
 		"link" : "https://www.dropbox.com/s/u48pjmi9py05u2m/Fairy%20Tail%28S1%29%20-%20Ft..mp3?dl=1",
 		"name" : "Fairy Tail(S1) - Ft.",
 		"img" : "https://i.ytimg.com/vi/LIzkR3CMcjo/maxresdefault.jpg"
 	},
-    
+
 	{
 		"link" : "https://www.dropbox.com/s/21so16vmk3g0dqf/Fairy%20Tail%28S1%29%20-%20R.P.G.%20~Rockin%27%20Playing%20Game.mp3?dl=1",
 		"name" : "Fairy Tail(S1) - R.P.G. ~Rockin' Playing Game",
 		"img" : "https://images6.alphacoders.com/311/thumb-1920-311015.jpg"
 	},
-    
+
 	{
 		"link" : "https://www.dropbox.com/s/df0tyobmcka8dki/Fairy%20Tail%28S1%29%20-%20Egao%20No%20Mahou.mp3?dl=1",
 		"name" : "Fairy Tail(S1) - Egao No Mahou",
 		"img" : "https://s-media-cache-ak0.pinimg.com/originals/f9/d5/50/f9d5503cd8d90d1a8a465328206481fe.jpg"
 	},
-    
+
 	{
 		"link" : "https://www.dropbox.com/s/p158e6kmxg3e2tu/Fairy%20Tail%28S1%29%20-%20Fiesta.mp3?dl=1",
 		"name" : "Fairy Tail(S1) - Fiesta",
 		"img" : "https://dg31sz3gwrwan.cloudfront.net/fanart/114801/703131-0-q80.jpg"
 	},
-    
+
 	{
 		"link" : "https://www.dropbox.com/s/6qh7ygieouu32tt/Fairy%20Tail%28S1%29%20-%20Evidence.mp3?dl=1",
 		"name" : "Fairy Tail(S1) - Evidence",
 		"img" : "http://static.zerochan.net/FAIRY.TAIL.full.686623.jpg"
 	},
-    
+
 	{
 		"link" : "https://www.dropbox.com/s/7o0ivkzrtk2c6c5/Fairy%20Tail%28S1%29%20-%20Towa%20no%20Kizuna.mp3?dl=1",
 		"name" : "Fairy Tail(S1) - Towa no Kizuna",
 		"img" : "http://2.bp.blogspot.com/-VZI9_yxr1k4/U19vbUMjEWI/AAAAAAAABLA/owOYYA5gerA/s1921/1-Erza-Scarlet-Anime-Wallpaper-FairyTail.jpg"
 	},
-    
+
 	{
 		"link" : "https://www.dropbox.com/s/rgavk6q4fvofw11/Fairy%20Tail%28S1%29%20-%20The%20Rock%20City%20Boy.mp3?dl=1",
 		"name" : "Fairy Tail(S1) - The Rock City Boy",
@@ -269,97 +269,97 @@ openings = [
 		"name" : "Naruto Shippuden OP1 - Hero's Come Back",
 		"img" : "https://s26.postimg.org/ksuglf4gp/Jiraiya_and_Naruto.png"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/fubi8usptt1jalp/OP%20%2302%20-%20%20distance.mp3?dl=1",
 		"name" : "Naruto Shippuden OP2 - Distance",
 		"img" : "https://s-media-cache-ak0.pinimg.com/originals/26/4e/0f/264e0fe53add37e4a659b693db6ac832.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/e3k0a5ijuod6451/OP%20%2303%20-%20%20Blue%20Bird.mp3?dl=1",
 		"name" : "Naruto Shippuden OP3 - Blue Bird",
 		"img" : "https://static.comicvine.com/uploads/original/11121/111219310/5499353-1e13344ca5ef43f7404ba1818ac3fe2c.wix_mp_1024"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/qr2bgo5h4jrqvt1/OP%20%2304%20-%20%20CLOSER_%20by%20Inoue%20Joe.mp3?dl=1",
 		"name" : "Naruto Shippuden OP4 - Closer",
 		"img" : "https://i.ytimg.com/vi/diKCJ65OsuI/maxresdefault.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/o23ede1wtbkycd9/OP%20%2305%20-%20%20Hotaru%20no%20Hikari.mp3?dl=1",
 		"name" : "Naruto Shippuden OP5 - Glow of a Firefly",
 		"img" : "http://vignette4.wikia.nocookie.net/naruto/images/a/aa/1378762349_82.png/revision/latest?cb=20140308140610&path-prefix=hu"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/574i47oarj2e30z/OP%20%2306%20-%20%20Sign.mp3?dl=1",
 		"name" : "Naruto Shippuden OP6 - Sign",
 		"img" : "http://wallpapercave.com/wp/XRHp8Nw.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/dl2p7e1lmh8eli0/OP%20%2307%20-%20%20Toumei%20Datta%20Sekai.mp3?dl=1",
 		"name" : "Naruto Shippuden OP7 - The World that was Transparent",
 		"img" : "http://wallpapercave.com/wp/yCIjdSh.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/j0ltyb2ewfki1vv/OP%20%2308%20-%20%20Diver.mp3?dl=1",
 		"name" : "Naruto Shippuden OP8 - Diver",
 		"img" : "https://i.ytimg.com/vi/D8vSvnJN9VQ/maxresdefault.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/0dekpx8781mzeut/OP%20%2309%20-%20%20Lovers.mp3?dl=1",
 		"name" : "Naruto Shippuden OP9 - Lovers",
 		"img" : "http://cdn.wallpapersafari.com/71/8/QRO0ej.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/ztphxs0k1dl0f3a/OP%20%2310%20-%20%20Newsong_%20by%20tactica.mp3?dl=1",
 		"name" : "Naruto Shippuden OP10 - Newsong",
 		"img" : "https://images2.alphacoders.com/505/505021.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/tzw7efn65znk4b0/OP%20%2311%20-%20%20Totsugeki%20Rock.mp3?dl=1",
 		"name" : "Naruto Shippuden OP11 - Assault Rock",
 		"img" : "https://i.ytimg.com/vi/sg66LRW9FxA/maxresdefault.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/9v4m2vlnuf0o3mp/OP%20%2312%20-%20%20Moshimo_%20by%20Daisuke.mp3?dl=1",
 		"name" : "Naruto Shippuden OP12 - Moshimo",
 		"img" : "https://otakukart.com/animeblog/wp-content/uploads/2016/05/naruto-namikaze.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/46zem8xjeru8joa/OP%20%2313%20-%20%20Niwaka%20Unimo%20Fukezu.mp3?dl=1",
 		"name" : "Naruto Shippuden OP13 - Not Even Giving In To the Sudden Rain",
 		"img" : "https://i.ytimg.com/vi/6GA_82bKpEE/maxresdefault.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/xfq3ej6ebnpi1qo/OP%20%2314%20-%20Tsuki%20no%20Ookisa.mp3?dl=1",
 		"name" : "Naruto Shippuden OP14 - Size of the Moon",
 		"img" : "https://lh3.googleusercontent.com/-OiCvMpBDB0w/VmxAi1NJsuI/AAAAAAAABVU/sFxY-I6eWhY/w1365-h795/anime-pictures.net-333064.png"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/mx1dnq75j5nqig0/OP%20%2315%20-%20%20Does%20-%20Guren.mp3?dl=1",
 		"name" : "Naruto Shippuden OP15 - Crimson Lotus",
 		"img" : "http://1.bp.blogspot.com/-2O_G1kNZJEY/U5vHkFtJIjI/AAAAAAAAAzI/sXhcaIyLkWI/s1600/unixlo+ns+.png"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/byatynvoygbeloa/OP%20%2316%20-%20%20KANA%20BOON%20-%20Silhouette.mp3?dl=1",
 		"name" : "Naruto Shippuden OP16 - Silhouette",
 		"img" : "https://s26.postimg.org/3ot8cudeh/Kaguya_s_Defeat.png"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/brr1ctz9ls7r0yp/OP%20%2317%20-%20%20Kaze.mp3?dl=1",
 		"name" : "Naruto Shippuden OP17 - Wind",
@@ -369,7 +369,7 @@ openings = [
 	{
 		"link" : "https://www.dropbox.com/s/fn1l3lwo64rm4v0/OP%20%2318%20-%20%20LINE.mp3?dl=1",
 		"name" : "Naruto Shippuden OP18 - Line",
-		"img" : "https://i.ytimg.com/vi/ZZaoDACJUsY/maxresdefault.jpg"	
+		"img" : "https://i.ytimg.com/vi/ZZaoDACJUsY/maxresdefault.jpg"
 	},
 
 	{
@@ -455,7 +455,7 @@ openings = [
 		"name" : "Dragon Ball Z 3 OP - Ore wa Tokoton Tomaranai",
 		"img" : "http://www.cbr.com/wp-content/uploads/2016/09/dragon-ball-z-logo-wallpaper-wallpaper-1.jpg"
 	},
-    
+
 	{
 		"link" : "https://www.dropbox.com/s/76nosrzt6lqczgs/Pray%20%28Gintama%20Opening%201%29.mp3?dl=1",
 		"name" : "Gintama OP1 - Pray",
@@ -479,7 +479,7 @@ openings = [
 		"name" : "Steins;Gate OP Single - Hacking to the Gate",
 		"img" : "https://images2.alphacoders.com/224/thumb-1920-224760.jpg"
 	},
-    
+
 	{
 		"link" : "https://www.dropbox.com/s/1kd02r9eh8fyabu/Tooi%20Nioi%20%28Gintama%20Opening%202%29.mp3?dl=1",
 		"name" : "Gintama OP2 - Tooi Nioi",
@@ -503,7 +503,7 @@ openings = [
 		"name" : "Gintama OP5 - Donten",
 		"img"  : "https://storge.pic2.me/cm/2560x1440/456/55fc5da7def08.jpg"
 	},
-	
+
 	{
 		"link" : "https://goo.gl/ph7Fhm",
 		"name" : "Attack On Titan - Guren No Yumiya",
@@ -521,7 +521,7 @@ openings = [
 		"name" : "Code Geass (Hangyaku no Lelouch) OP2 - Kaidoku Funou",
 		"img"  : "http://cdn.pcwallart.com/images/code-geass-lelouch-wallpaper-2.jpg"
 	},
-	
+
 	{
 		"link" : "http://67.159.62.2/anime_ost/clannad-original-soundtrack-disc-3/muvenwocfa/09-meg-mell-cockool-mix-full-ver.-.mp3",
 		"name" : "Clannad OP1 - Meg Mell",
@@ -533,19 +533,19 @@ openings = [
 		"name" : "Full Metal Panic OP - Tomorrow",
 		"img" : "http://www.wallpapers4u.org/wp-content/uploads/girl_full_metal_panic_nice_smile_gesture_24709_1920x1080.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dl.dropboxusercontent.com/s/g95vnwebcmb93nv/Re-Zero%20Kara%20Hajimeru%20Isekai%20Seikatsu%20Opening%20FULL.mp3?dl=1",
 		"name" : "Re:Zero OP1 - Kara Hajimeru Isekai Seikatsu",
 		"img" : "https://image.tmdb.org/t/p/original/n6YYb2jMN0UE1YNJcPSHnwX7vMq.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dl.dropboxusercontent.com/s/3l41690wfwq3vvo/real%20bleach%20opening%201%20orange%20range%20asterisk.m4a?dl=1",
 		"name" : "Bleach OST 1 - Asterisk - Orange Range",
 		"img" : "https://www.dropbox.com/s/jtr73u5qnrbzrgl/Bleach%20OP1%20img.jpg?dl=1"
 	},
-	
+
 	{
 		"link" : "https://www.dl.dropboxusercontent.com/s/27m8fylvfa42gsa/Inazuma%20Eleven%20Opening%20Theme%20Song.m4a?dl=1",
 		"name" : "Inazuma Eleven OP - Opening Theme Song",
@@ -557,7 +557,7 @@ openings = [
 		"name" : "One Punch Man OP - Hero",
 		"img" : "https://initiate.alphacoders.com/download/wallpaper/670899/images/jpg/1988977696"
 	},
-	
+
 	{
 		"link" : "http://67.159.62.2/anime_ost/sword-art-online-ii-op-single-ignite/zxifjhyesp/01%20-%20IGNITE.mp3",
 		"name" : "Sword Art Online II OP Single - IGNITE",
@@ -604,13 +604,79 @@ openings = [
 		"link" : "https://www.dropbox.com/s/3t0fnrfc8vnnavh/Amaama%20to%20Inazuma%20OP%20-%20Harebare%20Fanfare.mp3?dl=1",
 		"name" : "Amaama to Inazuma OP - Harebare Fanfare",
 		"img" : "https://www.dropbox.com/s/uqebz75mmgqy7ce/amaama-to-inazuma-kouhei-inuzuka-tsumugi-anime-1283.png?dl=1"
+	},
+
+	{
+		"link" : "https://cs1.mp3.pm/download/153391572/QzU4UnVIZTVSU01DQVc3eDRxeTlSYlphMHFxY21mZytJeDVLeDRZYUFYa0V6SEZubG9qOG42N1VKZktVbS8yQXo5RDVoeWZQN043cE5xcGN6Z1FLRnI3bStkOURqQmxwRnJ5em5zaUFva05WUkZBb281Vmx6ZjVaMHVFVHhKNWQ/JoJo_s_Bizarre_Adventure_-_Sono_Chi_no_Sadame_(mp3.pm).mp3",
+		"name" : "Jojo's Bizzarre Adventure : Phantom Blood OP - ~Sono Chi No Sadame~",
+		"img" : "https://i.pinimg.com/originals/bb/62/b4/bb62b4db89a10b84869a563abe8997f3.png"
+	},
+
+	{
+		"link" : "https://cs1.mp3.pm/download/82827374/QzU4UnVIZTVSU01DQVc3eDRxeTlSYlphMHFxY21mZytJeDVLeDRZYUFYbmc0T2hHdnp6aW1QbnBVU2M4TldIVGdnUnJpdUpTNGI0eHpaT1NOY0M2RjEvWVU0eDIzczhtRVVaa2xmQmRRc2VRT0dvckQ3MTc3RE1nSElleFZtQy8/JoJo_s_Bizarre_Adventure_OP2_-_Bloody_Stream_(mp3.pm).mp3",
+		"name" : "Jojo's Bizarre Adventure : Battle Tendency OP - BLOODY STREAM",
+		"img" : "https://i.ytimg.com/vi/RZhGITHIbns/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "https://cs1.mp3.pm/download/62867059/QzU4UnVIZTVSU01DQVc3eDRxeTlSYlphMHFxY21mZytJeDVLeDRZYUFYa3dtWHkwTW5zSFRjd04rbks4aGFxc1Z0dEt3QjlYUzRTZjQ3ZHVkektWMUh5KytWRTZOTnRBSjRMZ20xZktkNC81MTNvSkVzMVN3bWk0V2NvOEtRdXQ/JoJo_s_Bizarre_Adventure_Part_3_-_Stand_Proud_(mp3.pm).mp3",
+		"name" : "Jojo's Bizarre Adventure : Stardust Crusaders OP 1 - STAND PROUD",
+		"img" : "https://i.ytimg.com/vi/lviyLEF7lPE/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "https://cs1.mp3.pm/download/159731123/QzU4UnVIZTVSU01DQVc3eDRxeTlSYlphMHFxY21mZytJeDVLeDRZYUFYblFWbXMzTWUybm5SQlQ3VXpBa055ZDdzSkJKRUh0M3JqKzhzWDkwTW8xaGVnMUFpU01na3hObitnYjl2ZllycS9GUVBDYVpjVFhEdVcxTHphQ2NGeS8/JOSTARS_-_JoJo_Sono_Chi_no_Kioku_end_of_THE_WORLD_(mp3.pm).mp3",
+		"name" : "Jojo's Bizarre Adventure : Stardust Crusaders OP 2 - Sono Chi No Kioku ~end Of THE WORLD~",
+		"img" : "https://i.ytimg.com/vi/9xF5GfqJrhE/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "https://cs1.mp3.pm/download/87166424/QzU4UnVIZTVSU01DQVc3eDRxeTlSYlphMHFxY21mZytJeDVLeDRZYUFYazAyZUlpU1R4cUNwWktpb1A4WnFnWkcwMi81dE1VbzBzdmsxUE9LbUFBWSs1dkdERnhBZytzNXlKS1pvcjMwNm5aZ0lndzlwSkZZc1kyTjhEVG45bEk/THE_DU_-_Crazy_Noisy_Bizarre_Town_JoJo_s_Bizarre_Adventure_Opening_5_(mp3.pm).mp3",
+		"name" : "Jojo's Bizarre Adventure : Diamond Is Unbreakable OP 1 - Crazy Noisy Bizarre Town",
+		"img" : "https://i.ytimg.com/vi/Oz4TQ_ukGOM/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "https://cs1.mp3.pm/download/99218017/QzU4UnVIZTVSU01DQVc3eDRxeTlSYlphMHFxY21mZytJeDVLeDRZYUFYbml2VTRGSkc4N1RTOS9uTmlMd3lXdnBkZHlxT0c2SFFLYWVQOUk5WEE0bjF2UFE4TEtKL0h0N0RpT1pqQlEvUzJkYU8wWVZFWDJXLzdZbzVuSmVNajM/THE_DU_-_Crazy_Noisy_Bizarre_Town_EDM_Arrange_Ver._(mp3.pm).mp3",
+		"name" : "Jojo's Bizarre Adventure : Diamond Is Unbreakable OP 1.1 - Crazy Noisy Bizarre Town (EDM Version)",
+		"img" : "https://s2.dmcdn.net/v/Gg-bP1NdCNTSBL7sj/x1080"
+	},
+
+	{
+		"link" : "https://cs1.mp3.pm/download/87166423/QzU4UnVIZTVSU01DQVc3eDRxeTlSYlphMHFxY21mZytJeDVLeDRZYUFYazAyZUlpU1R4cUNwWktpb1A4WnFnWkZqTWlReU53L2ZLV0U3STBRQ1Y3MGRTTWZYN2IzK2JKcFRvSzZPSUVLdXNFazh1dVI3aDRtNkFVZHQyTDFuN3c/batta_-_chase_JoJo_s_Bizarre_Adventure_Opening_6_(mp3.pm).mp3",
+		"name" : "Jojo's Bizarre Adventure : Diamond Is Unbreakable OP 2 - chase",
+		"img" : "https://animekaizoku.com/wp-content/uploads/2019/03/Jojo_keyart.jpg"
+	},
+
+	{
+		"link" : "https://cs1.mp3.pm/download/82680515/QzU4UnVIZTVSU01DQVc3eDRxeTlSYlphMHFxY21mZytJeDVLeDRZYUFYbFk4WDFlbFljQTRDMVZSL09CRFFOK2lVQTdrZnJBaXdSUWxZczhKcWpqczVIZXVVOElXT2xLOHcvdFBwSlB5aksySHhJelNiVUNXMWg2UDltdGh5SFM/JoJo_no_Kimyou_na_Bouken_Diamond_wa_Kudakenai_OP_3_-_Great_Days_-_by_Karen_Aoki_Daisuke_Hasegawa_(mp3.pm).mp3",
+		"name" : "Jojo's Bizarre Adventure : Diamond Is Unbreakable OP 3 - Great Days",
+		"img" : "https://i.kinja-img.com/gawker-media/image/upload/s--6MYDfe2G--/c_fill,fl_progressive,g_center,h_900,q_80,w_1600/efynqvwzsjkeimh33zqc.png"
+	},
+
+	{
+		"link" : "https://cs1.mp3.pm/download/153060114/QzU4UnVIZTVSU01DQVc3eDRxeTlSWHptcnpDczBVNk50bmdPWndTSmlqZ1pxWlYwRGs5a1N6bU1CSlZqc2J0ZWpmYjJCSVF2SkJOaWtwUHpnNHJSK2Q4NkhJa0dUaS9DQ3oyM2VPMWFybVdXd2NidkVnZTRQT0Y2MTAwVzhlVVk/JO_UNITED_-_Great_Days_Units_Ver._(mp3.pm).mp3",
+		"name" : "Jojo's Bizarre Adventure : Diamond Is Unbreakable OP 3.1 - Great Days (UNITS Version)",
+		"img" : "https://i.imgur.com/k0fADbn.jpg"
+	},
+
+	{
+		"link" : "https://cs1.mp3.pm/download/123272007/QzU4UnVIZTVSU01DQVc3eDRxeTlSWHptcnpDczBVNk50bmdPWndTSmlqamRmcFJ3WWVWWWZLcEZIYXhmYVNDUWtDUWhKMUJqSG1iWk85eUVEdmRQOG1nNXVoYnIzNVlrclhYU2g2NUhhU0NvVk1EWkt5UWVmb3gydTNrRnU3Tkc/Coda_-_Fighting_Gold_(mp3.pm).mp3",
+		"name" : "Jojo's Bizarre Adventure : Golden Wind OP 1 - Fighting Gold",
+		"img" : "https://i.ytimg.com/vi/rGfAyOFUdEY/maxresdefault.jpg"
+	},
+
+	{
+		"link" : "https://cs1.mp3.pm/download/150971143/QzU4UnVIZTVSU01DQVc3eDRxeTlSWHptcnpDczBVNk50bmdPWndTSmlqaTBqKy9NcFVKS2o2Nk1lNzBCamY0ZHVHNFdTYzYzZ1R3a3EwcFJzQUFUR3Nxd3JFeHVtdXZwQ1NBbnEySmlsVmxqZFZabldzK1dwbDB0QUJ1S2k0clk/Daisuke_Hasegawa_-_Uragirimono_no_Requiem_(mp3.pm).mp3",
+		"name" : "Jojo's Bizarre Adventure : Golden Wind OP 2 - Uragirimono no Requiem",
+		"img" : "https://media.comicbook.com/2019/07/jojos-bizarre-adventure-golden-wind-1178820-1280x0.jpeg"
 	}
 
 ]
 
 
 endings = [
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/sfvp4finjib7h7f/Boku%20no%20Hero%20Academia%20Season%202%20Ending%201%20Full%E3%80%8ELittle%20Glee%20Monster%20-%20Dakara%2C%20Hitori%20ja%20nai%E3%80%8F%20%28256%20%20kbps%29.mp3?dl=1",
 		"name" : "Boku no Hero Academia S2 ED-1",
@@ -634,7 +700,7 @@ endings = [
 		"name" : "Ao No Exorcist - Take Off",
 		"img"  : "https://i.ytimg.com/vi/AB-i6RkEr58/maxresdefault.jpg"
 	},
-    
+
 	{
 		"link" : "https://www.dropbox.com/s/y5plo0yvpsc4qq7/Ao%20No%20Exorcist%20Ending%202%20-%20Wired%20Life.mp3?dl=1",
 		"name" : "Ao No Exorcist - Wired Life",
@@ -760,7 +826,7 @@ endings = [
 		"name" : "Code Geass (Hangyaku no Lelouch) ED2 - Mosaic Kakera",
 		"img"  : "http://animewallpaperstock.com/wallpaper/02ka/code-geass/code-geass0151.jpg"
 	},
-	
+
 	{
 		"link" : "http://67.159.62.2/anime_ost/fullmetal-alchemist-brotherhood-ed-single-uso/lbexbhjzxa/01%20-%20Uso.mp3",
 		"name" : "Fullmetal-Alchemist-Brotherhood ED1 - Uso",
@@ -796,7 +862,7 @@ endings = [
 		"name" : "Boku Dake Ga Inai Machi (Erased) ED - Sore wa Chiisana Hikari no Youna",
 		"img" : "https://images8.alphacoders.com/697/thumb-1920-697276.png"
 	},
-	
+
 	{
 		"link" : "http://67.159.62.2/anime_ost/sword-art-online-ed-single-yume-sekai/mgksxgdvtu/01%20-%20Yume%20Sekai.mp3",
 		"name" : "Sword Art Online ED Single - Yume Sekai",
@@ -826,7 +892,7 @@ endings = [
 		"name" : "One Piece ED1 - Memories",
 		"img" : "https://i.ytimg.com/vi/4fZvK_I-qEE/maxresdefault.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/fvutawwuqjfocov/Brian%20the%20Sun%20-%20Maybe.mp3?dl=1",
 		"name" : "Amaama to Inazuma ED - Maybe",
@@ -867,7 +933,7 @@ osts = [
 		"name" : "Ansatsu Kyoushitu - Koro-sensei Ai no Jugyou",
 		"img" : "http://wallpapercave.com/wp/wp1951519.png"
 	},
-	
+
 	{
 		"link" : "http://67.159.62.2/anime_ost/07-ghost-original-soundtrack/nytdjsvcls/101%20TEITO%20KLEIN.mp3",
 		"name" : " 07-Ghost Original Soundtrack - TEITO KLEIN",
@@ -915,7 +981,7 @@ osts = [
 		"name" : " Nisekoi 2 Original Soundtrack - Tooriame drop",
 		"img" : "https://4.bp.blogspot.com/-cqAZK1NBF_c/WUa7Alqff9I/AAAAAAAABs4/cKmZjdnxqIkrkDrO68XRidDO750-b9e5gCLcBGAs/s1600/1475.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/zwrar3nke64ejwc/Naruto%20OST%20-%2002%20I%20Said%20Im%20Naruto.mp3?dl=1",
 		"name" : "Naruto OST - I Said I'm Naruto ",
@@ -974,7 +1040,7 @@ osts = [
 		"link" : "https://www.dropbox.com/s/732rud2q9oj9n2y/Naruto%20OST%20-%2014%20Evening.mp3?dl=1",
 		"name" : "Naruto OST - Evening",
 		"img" : "http://www.wallpaperup.com/uploads/wallpapers/2015/05/31/706570/big_thumb_a885d9829a4035a8763a70d9915c99f1.jpg"
-	},								
+	},
 
 	{
 		"link" : "https://www.dropbox.com/s/v8xfonlwilziccb/Naruto%20OST%20-%2016%20Need%20To%20Be%20Strong.mp3?dl=1",
@@ -1010,7 +1076,7 @@ osts = [
 		"link" : "https://www.dropbox.com/s/e71rpyt445c4jy3/Naruto%20OST%20-%2021%20Naruto%20Main%20Theme.mp3?dl=1",
 		"name" : "Naruto Main Theme",
 		"img" : "http://www2.0zz0.com/2016/02/10/13/679655852.jpg"
-	},			
+	},
 
 	{
 		"link" : "https://www.dropbox.com/s/2ojyjtvhssc4lza/01.%20Itachi%20Uchiha.mp3?dl=1",
@@ -1022,20 +1088,20 @@ osts = [
 		"link" : "https://www.dropbox.com/s/i0tztjkwb1h69vg/02.%20Unleashing%20Nine-Tails.mp3?dl=1",
 		"name" : "Naruto Shippuden OST - Kyuubi Hatsudou",
 		"img" : "https://ih1.redbubble.net/image.316181055.9044/flat,800x800,075,f.jpg"
-	},	
+	},
 
 	{
 		"link" : "https://www.dropbox.com/s/02uenkmxipq4gg2/03.%20Fourth%20Hokage.mp3?dl=1",
 		"name" : "Naruto Shippuden OST - Yondaime Hokage",
 		"img" : "http://pm1.narvii.com/5859/5e9bef51997b17a398f420be85468ec0c5aa1bfe_hq.jpg"
-	},				
+	},
 
 	{
 		"link" : "https://www.dropbox.com/s/02uenkmxipq4gg2/03.%20Fourth%20Hokage.mp3?dl=1",
 		"name" : "Naruto Shippuden OST - Chichi to Haha",
 		"img" : "https://s26.postimg.org/mdba064bd/Kugutsu_ni_Yadoru_Tamashii.png"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/sfh1q1z4i268eo4/05.%20Gentle%20Hands.mp3?dl=1",
 		"name" : "Naruto Shippuden OST - yawarakana",
@@ -1148,19 +1214,19 @@ osts = [
 		"link" : "https://www.dropbox.com/s/xpqvxeu5dhxgdgf/25.%20NARUTO%20Main%20Theme%20%2716.mp3?dl=1",
 		"name" : "Naruto Shippuden OST - Naruto Main Theme",
 		"img" : "https://jnetworkonlinedotcom.files.wordpress.com/2015/06/naruto_exhib.png?w=1200"
-	},								
+	},
 
 	{
 		"link" : "https://www.dropbox.com/s/clfxiqht0wx6vbr/%5BNaruto%20Shippuuden%20Original%20Soundtrack%202%5D%2020%20-%20Girei.mp3?dl=1",
 		"name" : "Naruto Shippuden OST - Pain's Theme",
 		"img" : "https://images8.alphacoders.com/508/thumb-1920-508284.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/iua6das6dpb76ex/%5BNaruto%20Shippuuden%20Original%20Soundtrack%202%5D%2006%20-%20Hidan.mp3?dl=1",
 		"name" : "Naruto Shippuden OST - Hidan",
 		"img" : "https://static.zerochan.net/Hidan.full.838112.jpg"
-	},	
+	},
 
 	{
 		"link" : "https://www.dropbox.com/s/6ctz0hdx112gjrk/%5BNaruto%20Shippuuden%20Original%20Soundtrack%202%5D%2027%20-%20Narukami.mp3?dl=1",
@@ -1173,12 +1239,12 @@ osts = [
 		"name" : "Naruto Shippuden OST - Homecoming",
 		"img" : "https://s17.postimg.org/dvodqhkn3/homecoming.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/8ecmf1ufb8o7hok/02_Heaven-Shaking%20Event.mp3?dl=1",
 		"name" : "Naruto Shippuden OST - Heaven Shaking Event",
 		"img" : "http://4.bp.blogspot.com/-AKyq5HeMvHE/Vf9DK7kKcYI/AAAAAAAAEcQ/UFyrf_GDdZo/s1600/1975127-1366x768-%255BDesktopNexus.com%255D.jpg"
-	},				
+	},
 
 	{
 		"link" : "https://www.dropbox.com/s/znrvqwaquh7hrxf/04_Experienced%20Many%20Battles.mp3?dl=1",
@@ -1190,19 +1256,19 @@ osts = [
 		"link" : "https://www.dropbox.com/s/5aoihc7xwsctxwz/05_Lightning%20Speed.mp3?dl=1",
 		"name" : "Naruto Shippuden OST - Lightning Speed",
 		"img" : "https://wallpaperscraft.com/image/naruto_hatake_kakashi_solo_gloves_leaves_scar_hieroglyph_bandana_lightning_28880_3840x2400.jpg"
-	},		
+	},
 
 	{
 		"link" : "https://www.dropbox.com/s/7qj2ftgtvekl3io/07_%20Man%20of%20the%20World.mp3?dl=1",
 		"name" : "Naruto Shippuden OST - Man of the World",
 		"img" : "https://i.pinimg.com/originals/38/25/50/382550df53cc6cdd2bbfcca399178f74.jpg"
-	},	
+	},
 
 	{
 		"link" : "https://www.dropbox.com/s/y1e1cir5t5wbgel/08_Departure%20to%20the%20Front%20Lines.mp3?dl=1",
 		"name" : "Naruto Shippuden OST - Departure to the front lines",
 		"img" : "http://www.zupimages.net/up/16/51/6inw.png"
-	},	
+	},
 
 	{
 		"link" : "https://www.dropbox.com/s/10vl6e3f682oytb/09_%20Anger.mp3?dl=1",
@@ -1299,67 +1365,67 @@ osts = [
 		"name" : "Shigatsu wa Kimi no Uso Original Soundtrack - Watashi no Uso ",
 		"img"  : "https://s26.postimg.org/x5d4e75qx/Ep19.png"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/pruuc4hjirrx1ho/Fairy%20Tail%20OST%20-%20FAIRY%20TAIL%20Main%20Theme.mp3?dl=1",
 		"name" : "Fairy Tail OST - FAIRY TAIL Main Theme",
 		"img" : "https://i.pinimg.com/originals/9a/f5/33/9af533de167287e928fa90e98104b0a3.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/hyquzgobu2ve247/Fairy%20Tail%20OST%20-%20Erza%20no%20Theme.mp3?dl=1",
 		"name" : "Fairy Tail OST - Erza no Theme",
 		"img" : "https://s26.postimg.org/e9kzpwhjt/erza_scarlet_by_carl1tos-d5y6eqs.png"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/cjz2dnnx40v6ane/Fairy%20Tail%20OST%20-%20Mahou%20Hatsudou.mp3?dl=1",
 		"name" : "Fairy Tail OST - Mahou Hatsudou",
 		"img" : "https://s26.postimg.org/vt8z7ulzt/fairy-tail-5834552601706.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/xk3kibyt096x6ii/Fairy%20Tail%20OST%20-%20Dragonslayer.mp3?dl=1",
 		"name" : "Fairy Tail OST - Dragonslayer",
 		"img" : "https://s26.postimg.org/yrajfaj15/144a532890529559.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/i030egb4xb7qwmc/Fairy%20Tail%20OST%20-%20Rakuen%20no%20Tou.mp3?dl=1",
 		"name" : "Fairy Tail OST - Rakuen no Tou",
 		"img" : "https://s26.postimg.org/qzttgqevt/maxresdefault_7.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/1wcmryg3ldm8vhy/Fairy%20Tail%20OST%20-%20Lucy%20no%20Theme.mp3?dl=1",
 		"name" : "Fairy Tail OST - Lucy no Theme",
 		"img" : "https://s26.postimg.org/7lb5siztl/tumblr_nqhaplq_PFR1updw00o6_r1_1280.png"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/f9s0cgcfnwui3tz/Fairy%20Tail%20OST%20-%20Fairy%20Law.mp3?dl=1",
 		"name" : "Fairy Tail OST - Fairy Law",
 		"img" : "https://s26.postimg.org/escuoeaqh/big-4466555169.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/uf8q677gzxfv09z/Fairy%20Tail%20OST%20-%20Mahou%20Taisen.mp3?dl=1",
 		"name" : "Fairy Tail OST - Mahou Taisen",
 		"img"  : "https://s26.postimg.org/mngtlcxqx/thumb-1920-387046.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/xsezamzhmbp6wko/Fairy%20Tail%20OST%20-%20Mirajane%20no%20Theme.mp3?dl=1",
 		"name" : "Fairy Tail OST - Mirajane no Theme",
 		"img" : "https://s26.postimg.org/bem0kxl95/-_Raws_FAIRY_TAIL_-_96_CR_1280x720_x264_AAC.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/w6ekiwbt385krnv/Fairy%20Tail%20OST%20-%20Nigiyaka%20na%20Machi.mp3?dl=1",
 		"name" : "Fairy Tail OST - Nigiyaka na Machi",
 		"img" : "https://i.ytimg.com/vi/n8a4f3QSowk/maxresdefault.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/c00mw0preiy3ebk/Fairy%20Tail%20OST%20-%20Gray%20no%20Theme.mp3?dl=1",
 		"name" : "Fairy Tail OST - Gray no Theme",
@@ -1377,7 +1443,7 @@ osts = [
 		"name" : "Fairy Tail OST - Lucy Ganbaru",
 		"img" : "https://s25.postimg.org/46i8as1fz/Happy_pats_Chibi_Natsu.png"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/k3cac72hd3wyl8a/Fairy%20Tail%20OST%20-%20Kokyou.mp3?dl=1",
 		"name" : "Fairy Tail OST - Kokyou",
@@ -1395,7 +1461,7 @@ osts = [
 		"name" : "Fairy Tail OST - Nakama Tachi",
 		"img"  : "https://s25.postimg.org/6w9n8n11r/Drops_of_Time.png"
 	},
-	
+
 	{
 		"link" : "http://67.159.62.2/anime_ost/clannad-original-soundtrack-disc-1/fdrelxsesf/01-shio.mp3",
 		"name" : "Clannad OST - Shio",
@@ -1407,7 +1473,7 @@ osts = [
 		"name" : "Clannad OST - Illusions",
 		"img"  : "https://pbs.twimg.com/media/DEOSDQjUwAAkUr3.jpg"
 	},
-	
+
 	{
 		"link" : "http://67.159.62.2/anime_ost/clannad-original-soundtrack-disc-1/gpumkomlzv/05-nagisa.mp3",
 		"name" : "Clannad OST - Nagisa",
@@ -1425,7 +1491,7 @@ osts = [
 		"name" : "Clannad OST - Meaningful Ways to Pass the Time",
 		"img"  : "https://i.ytimg.com/vi/EEXxDszslTo/maxresdefault.jpg"
 	},
-	
+
 	{
 		"link" : "https://my.mixtape.moe/swjtom.mp3",
 		"name" : "Boku no Hero Academia S2 OST-2 Jet Set Run",
@@ -1443,7 +1509,7 @@ osts = [
 		"name" : "Kimi no na wa OST - Zen zen zense Radwimps",
 		"img" : "https://i.imgur.com/QIyA637.png"
 	},
-	
+
 	{
 		"link" : "https://www.dl.dropboxusercontent.com/s/9sqnxnojdtrcjnm/Detective%20Conan%20Soundtrack%201.m4a?dl=1",
 		"name" : "Detective Conan OST - Theme Song",
@@ -1455,7 +1521,7 @@ osts = [
 		"name" : "One Piece OST - Epic Battle Theme",
 		"img" : "https://i.imgur.com/7hdijZP.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dl.dropboxusercontent.com/s/r8olgisqrm0j7p3/Death%20note.m4a?dl=1",
 		"name" : "Death Note OST - Death Note",
@@ -1467,7 +1533,7 @@ osts = [
 		"name" : "One Punch Man OST - Seigi Shikkou",
 		"img" : "https://initiate.alphacoders.com/download/wallpaper/654247/images3/jpg/1422319762"
 	},
-	
+
 	{
 		"link" : "http://67.159.62.2/anime_ost/hunter-x-hunter-2011-original-soundtrack/zcukgvseyu/02%20-%20The%20World%20of%20Adventurers%20~%20Kanzenban.mp3",
 		"name" : "Hunter x Hunter 2011 OST - The World of Adventurers ~ Kanzenban",
@@ -1539,7 +1605,7 @@ osts = [
 		"name" : "Parasyte the Maxim OST - Next to You",
 		"img" : "https://i.ytimg.com/vi/MHQn3l4mS3M/maxresdefault.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dl.dropboxusercontent.com/s/mrw567lse6cl3r9/1-01%20Made%20in%20Abyss.m4a.m4a?dl=1",
 		"name" : "Made in Abyss OST - Made in Abyss",
@@ -1563,7 +1629,7 @@ osts = [
 		"name" : "Made in Abyss OST - Reg's Power",
 		"img" : "https://manga.tokyo/wp-content/uploads/2017/08/ABYSS05_0040.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/4mkmczh5ibh27ph/01%20-%20swordland.mp3?dl=1",
 		"name" : "Sword Art Online OST - Swordland",
@@ -1629,7 +1695,7 @@ osts = [
 		"name" : "Sword Art Online OST - Climbing Up The World Tree",
 		"img" : "https://s18.postimg.org/ck16nwbrd/Worldtree.png"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/2ck0dt2z4hiu7ni/19%20-%20luminous%20sword.mp3?dl=1",
 		"name" : "Sword Art Online OST - Luminous Sword",
@@ -1695,7 +1761,7 @@ osts = [
 		"name" : "Sword Art Online OST - At Nightfall",
 		"img" : "https://s18.postimg.org/cpiq29s7d/kirito-sword-art-online-anime-hd-wallpaper-1920x1080-26161.jpg"
 	},
-	
+
 	{
 		"link" : "https://www.dropbox.com/s/adhvu2r1646c2j0/Gohan%20ya-san%20Megumi.mp3?dl=1",
 		"name" : "Amaama to Inazuma OST - Gohan ya-san Megumi",
