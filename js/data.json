@@ -560,9 +560,9 @@ openings = [
 		"img": "https://media.comicbook.com/2019/07/jojos-bizarre-adventure-golden-wind-1178820-1280x0.jpeg"
 	},
     {
-		"link": "https://www.dropbox.com/s/uo9kqpcw2mz470t/Demon%20SlayerOPGurenge%20by%20LiSA%20HD.mp3?dl=0",
+		"link": "https://www.dropbox.com/s/uo9kqpcw2mz470t/Demon%20SlayerOPGurenge%20by%20LiSA%20HD.mp3?dl=1",
 		"name": "Kimetsu No Yaiba - OP: Gurenge",
-		"img": "https://www.dropbox.com/s/y1l01l9datj7n14/demon-slayer-kimetsu-yaiba-celebra-compleanno-dell-anime-v3-438185.jpg?dl=0"
+		"img": "https://www.dropbox.com/s/y1l01l9datj7n14/demon-slayer-kimetsu-yaiba-celebra-compleanno-dell-anime-v3-438185.jpg?dl=1"
 	}
 ]
 
@@ -754,14 +754,14 @@ endings = [
 		"img": "https://www.dropbox.com/s/nw2bwf87t8nudh1/111223.jpg?dl=1"
 	},
 	{
-		"link": "https://www.dropbox.com/s/l1q963ejmsf5bi0/Romaji%20Lyrics%5D.mp3?dl=0",
-		"name": "Kimetsu No Yaiba - ED - from the edge",
-		"img": "https://www.dropbox.com/s/drvo1xj8lrb1ynb/88eb5cc2fcebaeb2bd76987a4ca4ad2b.png?dl=0"
+		"link": "https://www.dropbox.com/s/l1q963ejmsf5bi0/Romaji%20Lyrics%5D.mp3?dl=1",
+		"name": "Kimetsu No Yaiba - ED: from the edge",
+		"img": "https://www.dropbox.com/s/drvo1xj8lrb1ynb/88eb5cc2fcebaeb2bd76987a4ca4ad2b.png?dl=1"
 	},
 	{
-		"link": "https://www.dropbox.com/s/dxc3bosu4h0pv4h/Demon%20Slayer%3A%20Kimetsu%20no%20Yaiba%20ED%20%28Ep19%29%20Full%20-%20Kamado%20Tanjirou%20no%20Uta%20%28Lyrics%29.mp3?dl=0",
-		"name": "Kimetsu No Yaiba - Ep-19 ED - Kamado Tanjirou no Uta",
-		"img": "https://www.dropbox.com/s/c5wx62rjxi57ud9/Demon-Slayer.jpg?dl=0"
+		"link": "https://www.dropbox.com/s/dxc3bosu4h0pv4h/Demon%20Slayer%3A%20Kimetsu%20no%20Yaiba%20ED%20%28Ep19%29%20Full%20-%20Kamado%20Tanjirou%20no%20Uta%20%28Lyrics%29.mp3?dl=1",
+		"name": "Kimetsu No Yaiba - Ep-19 ED: Kamado Tanjirou no Uta",
+		"img": "https://www.dropbox.com/s/c5wx62rjxi57ud9/Demon-Slayer.jpg?dl=1"
 	}
 ]
 
@@ -1488,8 +1488,8 @@ osts = [
 		"img": "https://www.dropbox.com/s/suvtvzcdm5rptxy/amaama%204.jpg?dl=1"
 	},
 	{
-		"link": "https://www.dropbox.com/s/obccd111g0a4ho3/28%20-%20Samidare.mp3?dl=0",
-		"name": "Naruto OST - Samidare",
-		"img": "https://www.dropbox.com/s/jzye4ujlq6zzufp/14bd324bd9ba9d2500d4f9bacd48e40d.jpg?dl=0"
+		"link": "https://www.dropbox.com/s/obccd111g0a4ho3/28%20-%20Samidare.mp3?dl=1",
+		"name": "Naruto OST: Samidare",
+		"img": "https://www.dropbox.com/s/jzye4ujlq6zzufp/14bd324bd9ba9d2500d4f9bacd48e40d.jpg?dl=1"
 	}
 ]
