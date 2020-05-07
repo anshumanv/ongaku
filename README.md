@@ -27,15 +27,15 @@
 
 | Key | Function |  
 |:--------------|:----------------:|
-| <img src="http://www.redbackstudios.com.au/enews/images/keyboard-button-Space-long.jpg" width="35"> | Pause / play |
-| <img src="http://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/letter-uppercase-N-icon.png" width="35"> | Play Next |
-| <img src="http://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/letter-uppercase-R-icon.png" width="35"> | Replay |
-| <img src="http://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/letter-uppercase-F-icon.png" width="35"> | Toggle Fullscreen |
-| <img src="http://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/letter-uppercase-L-icon.png" width="35"> | Play Previous |
-| <img src="http://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/arrow-up-icon.png" width="35"> | Volume +10% |
-| <img src="http://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/arrow-down-icon.png" width="35"> | Volume -10% |
-| <img src="http://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/arrow-left-icon.png" width="35"> | Seek Back 10s |
-| <img src="http://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/arrow-right-icon.png" width="35"> | Seek Ahead 10s |
+| <kbd>Space</kbd> | Pause / play |
+| <kbd>N</kbd> | Play Next |
+| <kbd>R</kbd> | Replay |
+| <kbd>F</kbd> | Toggle Fullscreen |
+| <kbd>L</kbd> | Play Previous |
+| <kbd>↑</kbd> | Volume +10% |
+| <kbd>↓</kbd> | Volume -10% |
+| <kbd>←</kbd> | Seek Back 10s |
+| <kbd>→</kbd> | Seek Ahead 10s |
 
 
 ### Some Pointers
