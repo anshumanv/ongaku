@@ -9,7 +9,7 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/anshumanv/ongaku.svg)](https://github.com/anshumanv/ongaku/graphs/contributors)
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/anime-ongaku/Lobby)
 [![Build Status](https://travis-ci.org/anshumanv/ongaku.svg?branch=master)](https://travis-ci.org/anshumanv/ongaku)
-[![HitCount](https://hitt.herokuapp.com/anshumanv/ongaku.svg)](https://github.com/anshumanv/ongaku)
+[![HitCount](http://hits.dwyl.com/anshumanv/ongaku.svg)](http://hits.dwyl.com/anshumanv/ongaku)
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
