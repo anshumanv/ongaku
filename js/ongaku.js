@@ -326,7 +326,22 @@
 	// function to play tracks
 	function play (order) {
 		music.src = order[0].link;
-		music.play();
+		music.crossOrigin = 'anonymous';
+		var playPromise = music.play();
+
+		// In browsers that don’t yet support this functionality,
+		// playPromise won’t be defined.
+		if (playPromise !== undefined) {
+			playPromise.then(function() {
+				// Automatic playback started!
+				console.log("playing");
+			}).catch(function(error) {
+				// Automatic playback failed.
+				// Show a UI element to let the user manually start playback.
+				console.log(error);
+			});
+		}
+		
 		displayTrackName();
 		displayStar();
 		document.body.style.backgroundImage = "url('" + order[0].img + "')";
@@ -366,7 +381,22 @@
 
 		//updating the player to play the selected track
 		music.src = found_title[0].link;
-		music.play();
+		//music.play();
+		music.crossOrigin = 'anonymous';
+		var playPromise = music.play();
+
+		// In browsers that don’t yet support this functionality,
+		// playPromise won’t be defined.
+		if (playPromise !== undefined) {
+			playPromise.then(function() {
+				// Automatic playback started!
+				console.log("playing");
+			}).catch(function(error) {
+				// Automatic playback failed.
+				// Show a UI element to let the user manually start playback.
+				console.log(error);
+			});
+		}
 
 		//displays status of Favourite
 		displayStar();
